@@ -1,5 +1,10 @@
+var rvaFirst = '08/17/2022 12:08';
+var rvaLast = '09/16/2022 16:18';
+var rvaCount = '31658';
 var rvaData = {"type":"FeatureCollection","features":[
 {"type":"Feature","id":"78_0","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.44811557],[-77.494690875,37.44811557],[-77.494690875,37.446553],[-77.49603875,37.446553],[-77.49603875,37.44811557]]]},"properties":{"name":"5200-BLK PINELAND CT","total":3,"Mental":3}}
+,
+{"type":"Feature","id":"83_0","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.44811557],[-77.48795150000001,37.44811557],[-77.48795150000001,37.446553],[-77.489299375,37.446553],[-77.489299375,37.44811557]]]},"properties":{"name":"2400-BLK RIDGEDALE","total":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"104_2","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.45124071],[-77.459646125,37.45124071],[-77.459646125,37.44967814],[-77.460994,37.44967814],[-77.460994,37.45124071]]]},"properties":{"name":"5100-BLK WHETSTONE RD","total":1,"Mental":1}}
 ,
@@ -13,7 +18,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"72_7","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.45905356],[-77.502778125,37.45905356],[-77.502778125,37.457490990000004],[-77.504126,37.457490990000004],[-77.504126,37.45905356]]]},"properties":{"name":"CHIPPENHAM PKWY/BELMONT RD CHES","total":4,"Traffic":4}}
 ,
-{"type":"Feature","id":"125_7","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.45905356],[-77.43134075,37.45905356],[-77.43134075,37.457490990000004],[-77.432688625,37.457490990000004],[-77.432688625,37.45905356]]]},"properties":{"name":"2000-BLK TRENTON AVE","total":2,"Traffic":2}}
+{"type":"Feature","id":"125_7","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.45905356],[-77.43134075,37.45905356],[-77.43134075,37.457490990000004],[-77.432688625,37.457490990000004],[-77.432688625,37.45905356]]]},"properties":{"name":"2000-BLK TRENTON AVE","total":4,"Traffic":2,"Crime":2}}
 ,
 {"type":"Feature","id":"66_8","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.46061613],[-77.51086537500001,37.46061613],[-77.51086537500001,37.45905356],[-77.51221325,37.45905356],[-77.51221325,37.46061613]]]},"properties":{"name":"4000-BLK LAURELWOOD RD","total":2,"Emergency":2}}
 ,
@@ -31,7 +36,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"116_9","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.4621787],[-77.443471625,37.4621787],[-77.443471625,37.46061613],[-77.44481950000001,37.46061613],[-77.44481950000001,37.4621787]]]},"properties":{"name":"2700-BLK SOUTHGATE ST","total":4,"Discretionary":2,"Crime":2}}
 ,
-{"type":"Feature","id":"117_9","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.4621787],[-77.44212375000001,37.4621787],[-77.44212375000001,37.46061613],[-77.443471625,37.46061613],[-77.443471625,37.4621787]]]},"properties":{"name":"WALMSLEY BLVD/RICHMOND HWY RICH: alias WALMSLEY BLVD/JEFF DAVIS HWY RICH; RICHMOND HWY/WALMSLEY BLVD RICH; WALMSLEY BLVD/RICHMOND HWY RICH","total":26,"Crime":21,"Emergency":5}}
+{"type":"Feature","id":"117_9","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.4621787],[-77.44212375000001,37.4621787],[-77.44212375000001,37.46061613],[-77.443471625,37.46061613],[-77.443471625,37.4621787]]]},"properties":{"name":"WALMSLEY BLVD/RICHMOND HWY RICH: alias WALMSLEY BLVD/JEFF DAVIS HWY RICH; RICHMOND HWY/WALMSLEY BLVD RICH; WALMSLEY BLVD/RICHMOND HWY RICH","total":30,"Crime":25,"Emergency":5}}
 ,
 {"type":"Feature","id":"118_9","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.4621787],[-77.440775875,37.4621787],[-77.440775875,37.46061613],[-77.44212375000001,37.46061613],[-77.44212375000001,37.4621787]]]},"properties":{"name":"LL(-77:26:31.0779,37:27:43.4163)","total":2,"Discretionary":2}}
 ,
@@ -45,11 +50,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"110_10","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.46374127],[-77.451558875,37.46374127],[-77.451558875,37.4621787],[-77.45290675,37.4621787],[-77.45290675,37.46374127]]]},"properties":{"name":"4400-BLK ATLANTIC AVE; 3000-BLK NAVARONE AVE; 3000-BLK DUPONT AVE","total":5,"Crime":4,"Mental":1}}
 ,
-{"type":"Feature","id":"114_10","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.46374127],[-77.446167375,37.46374127],[-77.446167375,37.4621787],[-77.44751525000001,37.4621787],[-77.44751525000001,37.46374127]]]},"properties":{"name":"4700-BLK CALDWELL AVE","total":4,"Traffic":2,"Crime":2}}
+{"type":"Feature","id":"114_10","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.46374127],[-77.446167375,37.46374127],[-77.446167375,37.4621787],[-77.44751525000001,37.4621787],[-77.44751525000001,37.46374127]]]},"properties":{"name":"4700-BLK CALDWELL AVE; 4700-BLK CASTLEWOOD RD","total":5,"Crime":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"116_10","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.46374127],[-77.443471625,37.46374127],[-77.443471625,37.4621787],[-77.44481950000001,37.4621787],[-77.44481950000001,37.46374127]]]},"properties":{"name":"2700-BLK WILLAMAR ST","total":4,"Emergency":2,"Crime":2}}
 ,
-{"type":"Feature","id":"117_10","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.46374127],[-77.44212375000001,37.46374127],[-77.44212375000001,37.4621787],[-77.443471625,37.4621787],[-77.443471625,37.46374127]]]},"properties":{"name":"4700-BLK RICHMOND HWY","total":33,"Crime":17,"Discretionary":16}}
+{"type":"Feature","id":"117_10","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.46374127],[-77.44212375000001,37.46374127],[-77.44212375000001,37.4621787],[-77.443471625,37.4621787],[-77.443471625,37.46374127]]]},"properties":{"name":"4700-BLK RICHMOND HWY","total":37,"Crime":19,"Discretionary":18}}
 ,
 {"type":"Feature","id":"85_11","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.465303840000004],[-77.48525575000001,37.465303840000004],[-77.48525575000001,37.46374127],[-77.486603625,37.46374127],[-77.486603625,37.465303840000004]]]},"properties":{"name":"3900-BLK REBECCA RD","total":4,"Crime":2,"Mental":2}}
 ,
@@ -61,21 +66,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"100_11","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.465303840000004],[-77.46503762500001,37.465303840000004],[-77.46503762500001,37.46374127],[-77.4663855,37.46374127],[-77.4663855,37.465303840000004]]]},"properties":{"name":"4300-BLK MARTHA LN","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"104_11","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.465303840000004],[-77.459646125,37.465303840000004],[-77.459646125,37.46374127],[-77.460994,37.46374127],[-77.460994,37.465303840000004]]]},"properties":{"name":"3400-BLK WALMSLEY BLVD","total":45,"Crime":26,"Mental":12,"Emergency":4,"Discretionary":2,"Traffic":1}}
+{"type":"Feature","id":"104_11","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.465303840000004],[-77.459646125,37.465303840000004],[-77.459646125,37.46374127],[-77.460994,37.46374127],[-77.460994,37.465303840000004]]]},"properties":{"name":"3400-BLK WALMSLEY BLVD","total":51,"Crime":27,"Mental":15,"Emergency":4,"Discretionary":4,"Traffic":1}}
 ,
 {"type":"Feature","id":"105_11","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.465303840000004],[-77.45829825,37.465303840000004],[-77.45829825,37.46374127],[-77.459646125,37.46374127],[-77.459646125,37.465303840000004]]]},"properties":{"name":"3300-BLK WALMSLEY BLVD; WALMSLEY BLVD/FALLING CREEK CIR CHES","total":5,"Traffic":3,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"108_11","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.465303840000004],[-77.454254625,37.465303840000004],[-77.454254625,37.46374127],[-77.4556025,37.46374127],[-77.4556025,37.465303840000004]]]},"properties":{"name":"3100-BLK NAVARONE AVE","total":4,"Crime":3,"Emergency":1}}
+{"type":"Feature","id":"108_11","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.465303840000004],[-77.454254625,37.465303840000004],[-77.454254625,37.46374127],[-77.4556025,37.46374127],[-77.4556025,37.465303840000004]]]},"properties":{"name":"3100-BLK NAVARONE AVE","total":6,"Crime":3,"Mental":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"113_11","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.465303840000004],[-77.44751525000001,37.465303840000004],[-77.44751525000001,37.46374127],[-77.448863125,37.46374127],[-77.448863125,37.465303840000004]]]},"properties":{"name":"4700-BLK CRONIN DR; 2900-BLK ERNEST RD","total":21,"Crime":17,"Emergency":4}}
+{"type":"Feature","id":"113_11","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.465303840000004],[-77.44751525000001,37.465303840000004],[-77.44751525000001,37.46374127],[-77.448863125,37.46374127],[-77.448863125,37.465303840000004]]]},"properties":{"name":"4700-BLK CRONIN DR; 2900-BLK ERNEST RD","total":23,"Crime":19,"Emergency":4}}
 ,
 {"type":"Feature","id":"114_11","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.465303840000004],[-77.446167375,37.465303840000004],[-77.446167375,37.46374127],[-77.44751525000001,37.46374127],[-77.44751525000001,37.465303840000004]]]},"properties":{"name":"CASTLEWOOD RD/DALE AVE RICH","total":3,"Crime":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"116_11","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.465303840000004],[-77.443471625,37.465303840000004],[-77.443471625,37.46374127],[-77.44481950000001,37.46374127],[-77.44481950000001,37.465303840000004]]]},"properties":{"name":"4600-BLK LINDLAW AVE; 2700-BLK BERRY RD","total":7,"Crime":6,"Emergency":1}}
 ,
-{"type":"Feature","id":"117_11","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.465303840000004],[-77.44212375000001,37.465303840000004],[-77.44212375000001,37.46374127],[-77.443471625,37.46374127],[-77.443471625,37.465303840000004]]]},"properties":{"name":"4600-BLK RICHMOND HWY; RICHMOND HWY/BERCLAIR AVE RICH; RICHMOND HWY/BERCLAIR AVE RICH: alias JEFF DAVIS HWY/BERCLAIR AVE RICH","total":47,"Crime":31,"Emergency":11,"Traffic":5}}
+{"type":"Feature","id":"117_11","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.465303840000004],[-77.44212375000001,37.465303840000004],[-77.44212375000001,37.46374127],[-77.443471625,37.46374127],[-77.443471625,37.465303840000004]]]},"properties":{"name":"4600-BLK RICHMOND HWY; RICHMOND HWY/BERCLAIR AVE RICH; RICHMOND HWY/BERCLAIR AVE RICH: alias JEFF DAVIS HWY/BERCLAIR AVE RICH","total":49,"Crime":33,"Emergency":11,"Traffic":5}}
 ,
-{"type":"Feature","id":"118_11","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.465303840000004],[-77.440775875,37.465303840000004],[-77.440775875,37.46374127],[-77.44212375000001,37.46374127],[-77.44212375000001,37.465303840000004]]]},"properties":{"name":"4600-BLK GLASGOW ST; 2500-BLK DALE AVE","total":11,"Crime":7,"Traffic":4}}
+{"type":"Feature","id":"118_11","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.465303840000004],[-77.440775875,37.465303840000004],[-77.440775875,37.46374127],[-77.44212375000001,37.46374127],[-77.44212375000001,37.465303840000004]]]},"properties":{"name":"4600-BLK GLASGOW ST; 2500-BLK DALE AVE; BERCLAIR AVE/GLASGOW ST RICH","total":12,"Crime":8,"Traffic":4}}
 ,
 {"type":"Feature","id":"119_11","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.465303840000004],[-77.439428,37.465303840000004],[-77.439428,37.46374127],[-77.440775875,37.46374127],[-77.440775875,37.465303840000004]]]},"properties":{"name":"2400-BLK DALE AVE","total":7,"Emergency":4,"Discretionary":2,"Crime":1}}
 ,
@@ -97,7 +102,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"93_12","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.46686641],[-77.47447275,37.46686641],[-77.47447275,37.465303840000004],[-77.475820625,37.465303840000004],[-77.475820625,37.46686641]]]},"properties":{"name":"3800-BLK ARCHWOOD RD","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"94_12","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.46686641],[-77.473124875,37.46686641],[-77.473124875,37.465303840000004],[-77.47447275,37.465303840000004],[-77.47447275,37.46686641]]]},"properties":{"name":"4200-BLK HOLCOMBE RD","total":1,"Crime":1}}
+{"type":"Feature","id":"94_12","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.46686641],[-77.473124875,37.46686641],[-77.473124875,37.465303840000004],[-77.47447275,37.465303840000004],[-77.47447275,37.46686641]]]},"properties":{"name":"4200-BLK HOLCOMBE RD","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"96_12","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.46686641],[-77.47042912500001,37.46686641],[-77.47042912500001,37.465303840000004],[-77.471777,37.465303840000004],[-77.471777,37.46686641]]]},"properties":{"name":"4100-BLK ARACOMA DR; 3600-BLK BRIDGETON RD","total":5,"Crime":3,"Emergency":2}}
 ,
@@ -119,11 +124,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"118_12","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.46686641],[-77.440775875,37.46686641],[-77.440775875,37.465303840000004],[-77.44212375000001,37.465303840000004],[-77.44212375000001,37.46686641]]]},"properties":{"name":"LYNHAVEN AVE/DALE AVE RICH; 2500-BLK LANCELOT AVE; GLASGOW ST/DALE AVE RICH","total":11,"Crime":6,"Mental":3,"Traffic":2}}
 ,
-{"type":"Feature","id":"128_12","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.46686641],[-77.42729712500001,37.46686641],[-77.42729712500001,37.465303840000004],[-77.428645,37.465303840000004],[-77.428645,37.46686641]]]},"properties":{"name":"4300-BLK COMMERCE RD; 4700-BLK COMMERCE RD; 900-BLK COMMERCE RD; 4000-BLK COMMERCE RD; 4900-BLK COMMERCE RD","total":89,"Crime":56,"Emergency":26,"Traffic":5,"Mental":2}}
+{"type":"Feature","id":"128_12","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.46686641],[-77.42729712500001,37.46686641],[-77.42729712500001,37.465303840000004],[-77.428645,37.465303840000004],[-77.428645,37.46686641]]]},"properties":{"name":"4300-BLK COMMERCE RD; 4700-BLK COMMERCE RD; 900-BLK COMMERCE RD; 4000-BLK COMMERCE RD; 4900-BLK COMMERCE RD","total":90,"Crime":57,"Emergency":26,"Traffic":5,"Mental":2}}
 ,
 {"type":"Feature","id":"77_13","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.46842898],[-77.49603875,37.46842898],[-77.49603875,37.46686641],[-77.497386625,37.46686641],[-77.497386625,37.46842898]]]},"properties":{"name":"3500-BLK BOWLAND RD; 3500-BLK SKIPPING ROCK PL; 3500-BLK S BELMONT RD","total":14,"Emergency":7,"Crime":6,"Traffic":1}}
 ,
-{"type":"Feature","id":"78_13","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.46842898],[-77.494690875,37.46842898],[-77.494690875,37.46686641],[-77.49603875,37.46686641],[-77.49603875,37.46842898]]]},"properties":{"name":"3500-BLK MURCHIES HILL RD; 3400-BLK SKIPPING ROCK CT; S BELMONT RD/W BELMONT RD RICH","total":7,"Crime":4,"Emergency":2,"Traffic":1}}
+{"type":"Feature","id":"78_13","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.46842898],[-77.494690875,37.46842898],[-77.494690875,37.46686641],[-77.49603875,37.46686641],[-77.49603875,37.46842898]]]},"properties":{"name":"3500-BLK MURCHIES HILL RD; 3400-BLK SKIPPING ROCK CT; S BELMONT RD/W BELMONT RD RICH; SKIPPING ROCK LN/S BELMONT RD RICH","total":8,"Crime":4,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"80_13","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.46842898],[-77.491995125,37.46842898],[-77.491995125,37.46686641],[-77.49334300000001,37.46686641],[-77.49334300000001,37.46842898]]]},"properties":{"name":"5100-BLK W BELMONT RD","total":3,"Traffic":3}}
 ,
@@ -151,7 +156,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"116_13","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.46842898],[-77.443471625,37.46842898],[-77.443471625,37.46686641],[-77.44481950000001,37.46686641],[-77.44481950000001,37.46842898]]]},"properties":{"name":"4300-BLK RIHCMOND HWY; 4200-BLK RICHMOND HWY","total":10,"Crime":10}}
 ,
-{"type":"Feature","id":"117_13","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.46842898],[-77.44212375000001,37.46842898],[-77.44212375000001,37.46686641],[-77.443471625,37.46686641],[-77.443471625,37.46842898]]]},"properties":{"name":"4300-BLK RICHMOND HWY; RICHMOND HWY/BUFORD AVE RICH","total":56,"Crime":22,"Mental":11,"Discretionary":10,"Traffic":9,"Emergency":4}}
+{"type":"Feature","id":"117_13","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.46842898],[-77.44212375000001,37.46842898],[-77.44212375000001,37.46686641],[-77.443471625,37.46686641],[-77.443471625,37.46842898]]]},"properties":{"name":"4300-BLK RICHMOND HWY; RICHMOND HWY/BUFORD AVE RICH","total":60,"Crime":26,"Mental":11,"Discretionary":10,"Traffic":9,"Emergency":4}}
 ,
 {"type":"Feature","id":"118_13","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.46842898],[-77.440775875,37.46842898],[-77.440775875,37.46686641],[-77.44212375000001,37.46686641],[-77.44212375000001,37.46842898]]]},"properties":{"name":"BUFORD AVE/LYNHAVEN AVE RICH","total":2,"Traffic":2}}
 ,
@@ -171,11 +176,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"100_14","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.46999155],[-77.46503762500001,37.46999155],[-77.46503762500001,37.46842898],[-77.4663855,37.46842898],[-77.4663855,37.46999155]]]},"properties":{"name":"3800-BLK RUSK AVE","total":4,"Mental":3,"Emergency":1}}
 ,
+{"type":"Feature","id":"101_14","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.46999155],[-77.46368975,37.46999155],[-77.46368975,37.46842898],[-77.46503762500001,37.46842898],[-77.46503762500001,37.46999155]]]},"properties":{"name":"3700-BLK GREER AVE","total":8,"Crime":7,"Emergency":1}}
+,
+{"type":"Feature","id":"102_14","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.46999155],[-77.462341875,37.46999155],[-77.462341875,37.46842898],[-77.46368975,37.46842898],[-77.46368975,37.46999155]]]},"properties":{"name":"4000-BLK VIAL RD","total":1,"Emergency":1}}
+,
 {"type":"Feature","id":"103_14","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.46999155],[-77.460994,37.46999155],[-77.460994,37.46842898],[-77.462341875,37.46842898],[-77.462341875,37.46999155]]]},"properties":{"name":"3500-BLK BONMARK DR","total":3,"Traffic":3}}
 ,
 {"type":"Feature","id":"104_14","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.46999155],[-77.459646125,37.46999155],[-77.459646125,37.46842898],[-77.460994,37.46842898],[-77.460994,37.46999155]]]},"properties":{"name":"4200-BLK SHACKLEFORD RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"111_14","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.46999155],[-77.450211,37.46999155],[-77.450211,37.46842898],[-77.451558875,37.46842898],[-77.451558875,37.46999155]]]},"properties":{"name":"2900-BLK TRANSPORT ST","total":10,"Emergency":7,"Crime":3}}
+{"type":"Feature","id":"106_14","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.46999155],[-77.456950375,37.46999155],[-77.456950375,37.46842898],[-77.45829825,37.46842898],[-77.45829825,37.46999155]]]},"properties":{"name":"4200-BLK ANGUS RD","total":4,"Crime":3,"Emergency":1}}
+,
+{"type":"Feature","id":"111_14","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.46999155],[-77.450211,37.46999155],[-77.450211,37.46842898],[-77.451558875,37.46842898],[-77.451558875,37.46999155]]]},"properties":{"name":"2900-BLK TRANSPORT ST","total":11,"Emergency":8,"Crime":3}}
 ,
 {"type":"Feature","id":"116_14","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.46999155],[-77.443471625,37.46999155],[-77.443471625,37.46842898],[-77.44481950000001,37.46842898],[-77.44481950000001,37.46999155]]]},"properties":{"name":"4100-BLK RICHMOND HWY","total":13,"Traffic":5,"Crime":5,"Emergency":3}}
 ,
@@ -183,19 +194,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"118_14","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.46999155],[-77.440775875,37.46999155],[-77.440775875,37.46842898],[-77.44212375000001,37.46842898],[-77.44212375000001,37.46999155]]]},"properties":{"name":"2500-BLK SISCO AVE; 2500-BLK COURTLAND ST; SISCO/GLENHAVEN","total":5,"Traffic":3,"Crime":2}}
 ,
-{"type":"Feature","id":"119_14","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.46999155],[-77.439428,37.46999155],[-77.439428,37.46842898],[-77.440775875,37.46842898],[-77.440775875,37.46999155]]]},"properties":{"name":"SISCO AVE/LYNHAVEN AVE RICH; 4200-BLK LYNHAVEN AVE","total":5,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"119_14","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.46999155],[-77.439428,37.46999155],[-77.439428,37.46842898],[-77.440775875,37.46842898],[-77.440775875,37.46999155]]]},"properties":{"name":"SISCO AVE/LYNHAVEN AVE RICH; 4200-BLK LYNHAVEN AVE","total":8,"Crime":3,"Traffic":2,"Emergency":2,"Mental":1}}
 ,
 {"type":"Feature","id":"73_15","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.47155412],[-77.50143025,37.47155412],[-77.50143025,37.46999155],[-77.502778125,37.46999155],[-77.502778125,37.47155412]]]},"properties":{"name":"HEY RD/WALMSLEY BLVD RICH; 5800-BLK WALMSLEY BLVD","total":6,"Crime":6}}
 ,
-{"type":"Feature","id":"82_15","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.47155412],[-77.489299375,37.47155412],[-77.489299375,37.46999155],[-77.49064725000001,37.46999155],[-77.49064725000001,37.47155412]]]},"properties":{"name":"BELMONT RD/MARK RD RICH; BELMONT RD/WALMSLEY BLVD RICH; 4900-BLK W BELMONT RD; WALMSLEY BLVD/BELMONT RD RICH","total":8,"Traffic":4,"Crime":2,"Discretionary":2}}
+{"type":"Feature","id":"82_15","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.47155412],[-77.489299375,37.47155412],[-77.489299375,37.46999155],[-77.49064725000001,37.46999155],[-77.49064725000001,37.47155412]]]},"properties":{"name":"BELMONT RD/MARK RD RICH; BELMONT RD/WALMSLEY BLVD RICH; 4900-BLK W BELMONT RD; WALMSLEY BLVD/BELMONT RD RICH","total":13,"Traffic":9,"Crime":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"83_15","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.47155412],[-77.48795150000001,37.47155412],[-77.48795150000001,37.46999155],[-77.489299375,37.46999155],[-77.489299375,37.47155412]]]},"properties":{"name":"5000-BLK WALMSLEY BLVD","total":3,"Traffic":3}}
 ,
-{"type":"Feature","id":"87_15","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.47155412],[-77.48256,37.47155412],[-77.48256,37.46999155],[-77.483907875,37.46999155],[-77.483907875,37.47155412]]]},"properties":{"name":"WALMSLEY BLVD/BROAD ROCK BLVD RICH; 4800-BLK WALMSLEY BLVD; BROAD ROCK BLVD/WALMSLEY BLVD RICH","total":11,"Traffic":8,"Crime":3}}
+{"type":"Feature","id":"87_15","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.47155412],[-77.48256,37.47155412],[-77.48256,37.46999155],[-77.483907875,37.46999155],[-77.483907875,37.47155412]]]},"properties":{"name":"WALMSLEY BLVD/BROAD ROCK BLVD RICH; 4800-BLK WALMSLEY BLVD; BROAD ROCK BLVD/WALMSLEY BLVD RICH","total":13,"Traffic":10,"Crime":3}}
 ,
-{"type":"Feature","id":"88_15","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.47155412],[-77.481212125,37.47155412],[-77.481212125,37.46999155],[-77.48256,37.46999155],[-77.48256,37.47155412]]]},"properties":{"name":"4700-BLK WALMSLEY BLVD","total":25,"Crime":18,"Discretionary":4,"Emergency":3}}
+{"type":"Feature","id":"88_15","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.47155412],[-77.481212125,37.47155412],[-77.481212125,37.46999155],[-77.48256,37.46999155],[-77.48256,37.47155412]]]},"properties":{"name":"4700-BLK WALMSLEY BLVD","total":27,"Crime":20,"Discretionary":4,"Emergency":3}}
 ,
-{"type":"Feature","id":"90_15","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.47155412],[-77.478516375,37.47155412],[-77.478516375,37.46999155],[-77.47986425,37.46999155],[-77.47986425,37.47155412]]]},"properties":{"name":"WALMSLEY BLVD/DORSET RD RICH; DORSET RD/WALMSLEY BLVD RICH","total":11,"Traffic":11}}
+{"type":"Feature","id":"90_15","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.47155412],[-77.478516375,37.47155412],[-77.478516375,37.46999155],[-77.47986425,37.46999155],[-77.47986425,37.47155412]]]},"properties":{"name":"WALMSLEY BLVD/DORSET RD RICH; DORSET RD/WALMSLEY BLVD RICH","total":12,"Traffic":11,"Mental":1}}
 ,
 {"type":"Feature","id":"93_15","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.47155412],[-77.47447275,37.47155412],[-77.47447275,37.46999155],[-77.475820625,37.46999155],[-77.475820625,37.47155412]]]},"properties":{"name":"OLIVE AVE/WALMSLEY BLVD RICH; 4200-BLK WALMSLEY BLVD","total":4,"Traffic":4}}
 ,
@@ -209,7 +220,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"116_15","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.47155412],[-77.443471625,37.47155412],[-77.443471625,37.46999155],[-77.44481950000001,37.46999155],[-77.44481950000001,37.47155412]]]},"properties":{"name":"4000-BLK RICHMOND HWY; RICHMOND HWY/COURTLAND ST RICH: alias JEFF DAVIS HWY/COURTLAND ST RICH; 4000-BLK TYRONE ST","total":20,"Crime":11,"Traffic":6,"Discretionary":2,"Mental":1}}
 ,
-{"type":"Feature","id":"118_15","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.47155412],[-77.440775875,37.47155412],[-77.440775875,37.46999155],[-77.44212375000001,37.46999155],[-77.44212375000001,37.47155412]]]},"properties":{"name":"2500-BLK COLES ST","total":3,"Crime":1,"Mental":1,"Emergency":1}}
+{"type":"Feature","id":"118_15","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.47155412],[-77.440775875,37.47155412],[-77.440775875,37.46999155],[-77.44212375000001,37.46999155],[-77.44212375000001,37.47155412]]]},"properties":{"name":"2500-BLK COLES ST","total":6,"Emergency":3,"Crime":2,"Mental":1}}
 ,
 {"type":"Feature","id":"119_15","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.47155412],[-77.439428,37.47155412],[-77.439428,37.46999155],[-77.440775875,37.46999155],[-77.440775875,37.47155412]]]},"properties":{"name":"3800-BLK MERIDIAN AVE; COLES ST/LYNHAVEN AVE RICH","total":2,"Crime":2}}
 ,
@@ -231,9 +242,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"91_16","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.47311669],[-77.4771685,37.47311669],[-77.4771685,37.47155412],[-77.478516375,37.47155412],[-77.478516375,37.47311669]]]},"properties":{"name":"3300-BLK CHESCO RD","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"95_16","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.47311669],[-77.471777,37.47311669],[-77.471777,37.47155412],[-77.473124875,37.47155412],[-77.473124875,37.47311669]]]},"properties":{"name":"3500-BLK CLYDEWOOD AVE","total":1,"Emergency":1}}
+{"type":"Feature","id":"95_16","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.47311669],[-77.471777,37.47311669],[-77.471777,37.47155412],[-77.473124875,37.47155412],[-77.473124875,37.47311669]]]},"properties":{"name":"3500-BLK CLYDEWOOD AVE","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"98_16","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.47311669],[-77.46773337500001,37.47311669],[-77.46773337500001,37.47155412],[-77.46908125,37.47155412],[-77.46908125,37.47311669]]]},"properties":{"name":"BELT/HOPKINS RD RICH; 3500-BLK HOPKINS RD","total":4,"Traffic":4}}
+{"type":"Feature","id":"98_16","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.47311669],[-77.46773337500001,37.47311669],[-77.46773337500001,37.47155412],[-77.46908125,37.47155412],[-77.46908125,37.47311669]]]},"properties":{"name":"BELT/HOPKINS RD RICH; 3500-BLK HOPKINS RD","total":6,"Traffic":5,"Crime":1}}
 ,
 {"type":"Feature","id":"101_16","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.47311669],[-77.46368975,37.47311669],[-77.46368975,37.47155412],[-77.46503762500001,37.47155412],[-77.46503762500001,37.47311669]]]},"properties":{"name":"3900-BLK TUTTI DR","total":1,"Crime":1}}
 ,
@@ -241,11 +252,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"111_16","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.47311669],[-77.450211,37.47311669],[-77.450211,37.47155412],[-77.451558875,37.47155412],[-77.451558875,37.47311669]]]},"properties":{"name":"2900-BLK BELLS RD","total":5,"Traffic":3,"Crime":2}}
 ,
-{"type":"Feature","id":"115_16","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.47311669],[-77.44481950000001,37.47311669],[-77.44481950000001,37.47155412],[-77.446167375,37.47155412],[-77.446167375,37.47311669]]]},"properties":{"name":"CASTLEWOOD RD/BELLS RD RICH; 3800-BLK CASTLEWOOD RD","total":3,"Crime":2,"Traffic":1}}
+{"type":"Feature","id":"112_16","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.47311669],[-77.448863125,37.47311669],[-77.448863125,37.47155412],[-77.450211,37.47155412],[-77.450211,37.47311669]]]},"properties":{"name":"2800-BLK BELLS RD","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"116_16","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.47311669],[-77.443471625,37.47311669],[-77.443471625,37.47155412],[-77.44481950000001,37.47155412],[-77.44481950000001,37.47311669]]]},"properties":{"name":"BELLS RD/RICHMOND HWY RICH; 3800-BLK RICHMOND HWY; RICHMOND HWY/BELLS RD RICH","total":9,"Traffic":5,"Crime":4}}
+{"type":"Feature","id":"113_16","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.47311669],[-77.44751525000001,37.47311669],[-77.44751525000001,37.47155412],[-77.448863125,37.47155412],[-77.448863125,37.47311669]]]},"properties":{"name":"2700-BLK BELLS RD","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_16","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.47311669],[-77.440775875,37.47311669],[-77.440775875,37.47155412],[-77.44212375000001,37.47155412],[-77.44212375000001,37.47311669]]]},"properties":{"name":"2500-BLK BELLS RD; RICH: @I95 SB BETWEEN EXIT 73 (MAURY ST) &amp; EXIT 69 (BELLS RD); 2500-BLK DANA ST; RICH: @EXIT 69 - I95 NB (BELLS RD)","total":15,"Emergency":7,"Traffic":5,"Crime":3}}
+{"type":"Feature","id":"115_16","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.47311669],[-77.44481950000001,37.47311669],[-77.44481950000001,37.47155412],[-77.446167375,37.47155412],[-77.446167375,37.47311669]]]},"properties":{"name":"CASTLEWOOD RD/BELLS RD RICH; 3800-BLK CASTLEWOOD RD; BELLS RD/CASTLEWOOD RD RICH","total":5,"Crime":2,"Emergency":2,"Traffic":1}}
+,
+{"type":"Feature","id":"116_16","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.47311669],[-77.443471625,37.47311669],[-77.443471625,37.47155412],[-77.44481950000001,37.47155412],[-77.44481950000001,37.47311669]]]},"properties":{"name":"BELLS RD/RICHMOND HWY RICH; 3800-BLK RICHMOND HWY; RICHMOND HWY/BELLS RD RICH","total":11,"Crime":6,"Traffic":5}}
+,
+{"type":"Feature","id":"118_16","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.47311669],[-77.440775875,37.47311669],[-77.440775875,37.47155412],[-77.44212375000001,37.47155412],[-77.44212375000001,37.47311669]]]},"properties":{"name":"2500-BLK BELLS RD; RICH: @I95 SB BETWEEN EXIT 73 (MAURY ST) &amp; EXIT 69 (BELLS RD); 2500-BLK DANA ST; RICH: @EXIT 69 - I95 NB (BELLS RD)","total":17,"Emergency":7,"Traffic":7,"Crime":3}}
 ,
 {"type":"Feature","id":"119_16","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.47311669],[-77.439428,37.47311669],[-77.439428,37.47155412],[-77.440775875,37.47155412],[-77.440775875,37.47311669]]]},"properties":{"name":"3900-BLK LYNHAVEN AVE; BELLS RD/MERIDIAN AVE RICH","total":5,"Traffic":3,"Crime":2}}
 ,
@@ -277,7 +292,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"98_17","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.47467926],[-77.46773337500001,37.47467926],[-77.46773337500001,37.47311669],[-77.46908125,37.47311669],[-77.46908125,37.47467926]]]},"properties":{"name":"HOPKINS RD/WARWICK RD RICH; 3400-BLK HOPKINS RD; WARWICK RD/HOPKINS RD RICH","total":19,"Traffic":8,"Emergency":8,"Crime":2,"Mental":1}}
 ,
-{"type":"Feature","id":"100_17","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.47467926],[-77.46503762500001,37.47467926],[-77.46503762500001,37.47311669],[-77.4663855,37.47311669],[-77.4663855,37.47467926]]]},"properties":{"name":"3800-BLK GUILDER LN","total":15,"Crime":9,"Emergency":6}}
+{"type":"Feature","id":"100_17","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.47467926],[-77.46503762500001,37.47467926],[-77.46503762500001,37.47311669],[-77.4663855,37.47311669],[-77.4663855,37.47467926]]]},"properties":{"name":"3800-BLK GUILDER LN","total":17,"Crime":9,"Emergency":6,"Traffic":2}}
 ,
 {"type":"Feature","id":"101_17","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.47467926],[-77.46368975,37.47467926],[-77.46368975,37.47311669],[-77.46503762500001,37.47311669],[-77.46503762500001,37.47467926]]]},"properties":{"name":"3200-BLK GLENAN DR; 3700-BLK GUILDER LN","total":12,"Crime":7,"Discretionary":4,"Emergency":1}}
 ,
@@ -287,15 +302,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"109_17","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.47467926],[-77.45290675,37.47467926],[-77.45290675,37.47311669],[-77.454254625,37.47311669],[-77.454254625,37.47467926]]]},"properties":{"name":"3000-BLK BELLS RD","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"65_18","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.47624183],[-77.51221325,37.47624183],[-77.51221325,37.47467926],[-77.51356112500001,37.47467926],[-77.51356112500001,37.47624183]]]},"properties":{"name":"2200-BLK MANDALAY RD","total":13,"Emergency":7,"Crime":6}}
+{"type":"Feature","id":"114_17","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.47467926],[-77.446167375,37.47467926],[-77.446167375,37.47311669],[-77.44751525000001,37.47311669],[-77.44751525000001,37.47467926]]]},"properties":{"name":"2700-BLK TOLEDO AVE","total":2,"Crime":2}}
+,
+{"type":"Feature","id":"65_18","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.47624183],[-77.51221325,37.47624183],[-77.51221325,37.47467926],[-77.51356112500001,37.47467926],[-77.51356112500001,37.47624183]]]},"properties":{"name":"2200-BLK MANDALAY RD","total":15,"Crime":8,"Emergency":7}}
 ,
 {"type":"Feature","id":"66_18","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.47624183],[-77.51086537500001,37.47624183],[-77.51086537500001,37.47467926],[-77.51221325,37.47467926],[-77.51221325,37.47624183]]]},"properties":{"name":"6400-BLK SHADYBROOK LN","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"75_18","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.47624183],[-77.4987345,37.47624183],[-77.4987345,37.47467926],[-77.500082375,37.47467926],[-77.500082375,37.47624183]]]},"properties":{"name":"2700-BLK CLEARFIELD ST","total":6,"Traffic":4,"Emergency":2}}
+{"type":"Feature","id":"75_18","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.47624183],[-77.4987345,37.47624183],[-77.4987345,37.47467926],[-77.500082375,37.47467926],[-77.500082375,37.47624183]]]},"properties":{"name":"2700-BLK CLEARFIELD ST; 5700-BLK KENDALL RD","total":7,"Traffic":4,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"77_18","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.47624183],[-77.49603875,37.47624183],[-77.49603875,37.47467926],[-77.497386625,37.47467926],[-77.497386625,37.47624183]]]},"properties":{"name":"2700-BLK BERTRAM RD","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"84_18","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.47624183],[-77.486603625,37.47624183],[-77.486603625,37.47467926],[-77.48795150000001,37.47467926],[-77.48795150000001,37.47624183]]]},"properties":{"name":"5100-BLK SNEAD RD","total":1,"Emergency":1}}
+{"type":"Feature","id":"84_18","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.47624183],[-77.486603625,37.47624183],[-77.486603625,37.47467926],[-77.48795150000001,37.47467926],[-77.48795150000001,37.47624183]]]},"properties":{"name":"5100-BLK SNEAD RD","total":3,"Traffic":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"87_18","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.47624183],[-77.48256,37.47624183],[-77.48256,37.47467926],[-77.483907875,37.47467926],[-77.483907875,37.47624183]]]},"properties":{"name":"4900-BLK SNEAD RD; 3100-BLK SNEAD CT; 3200-BLK SNEAD CT","total":12,"Crime":7,"Emergency":5}}
 ,
@@ -311,15 +328,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"96_18","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.47624183],[-77.47042912500001,37.47624183],[-77.47042912500001,37.47467926],[-77.471777,37.47467926],[-77.471777,37.47624183]]]},"properties":{"name":"4000-BLK PETTUS RD","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"98_18","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.47624183],[-77.46773337500001,37.47624183],[-77.46773337500001,37.47467926],[-77.46908125,37.47467926],[-77.46908125,37.47624183]]]},"properties":{"name":"HOPKINS RD/GUILDER LN RICH; 3200-BLK HOPKINS RD; GUILDER LN/HOPKINS RD RICH; 3900-BLK HOPKINS CT","total":7,"Mental":3,"Crime":2,"Traffic":2}}
+{"type":"Feature","id":"98_18","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.47624183],[-77.46773337500001,37.47624183],[-77.46773337500001,37.47467926],[-77.46908125,37.47467926],[-77.46908125,37.47624183]]]},"properties":{"name":"HOPKINS RD/GUILDER LN RICH; 3200-BLK HOPKINS RD; GUILDER LN/HOPKINS RD RICH; 3900-BLK HOPKINS CT","total":11,"Mental":5,"Crime":2,"Traffic":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"99_18","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.47624183],[-77.4663855,37.47624183],[-77.4663855,37.47467926],[-77.46773337500001,37.47467926],[-77.46773337500001,37.47624183]]]},"properties":{"name":"3200-BLK GUILDER; 371900-BLK GUILDER LN; 3900-BLK GUILDER LN","total":9,"Discretionary":6,"Crime":3}}
 ,
 {"type":"Feature","id":"101_18","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.47624183],[-77.46368975,37.47624183],[-77.46368975,37.47467926],[-77.46503762500001,37.47467926],[-77.46503762500001,37.47624183]]]},"properties":{"name":"3100-BLK KELRAE DR; 3800-BLK BARONET DR","total":14,"Emergency":10,"Crime":4}}
 ,
+{"type":"Feature","id":"113_18","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.47624183],[-77.44751525000001,37.47624183],[-77.44751525000001,37.47467926],[-77.448863125,37.47467926],[-77.448863125,37.47624183]]]},"properties":{"name":"2700-BLK LAMBERTS AVE","total":2,"Crime":2}}
+,
 {"type":"Feature","id":"115_18","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.47624183],[-77.44481950000001,37.47624183],[-77.44481950000001,37.47467926],[-77.446167375,37.47467926],[-77.446167375,37.47624183]]]},"properties":{"name":"2700-BLK ALEXANDER AVE","total":7,"Crime":5,"Emergency":2}}
 ,
-{"type":"Feature","id":"116_18","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.47624183],[-77.443471625,37.47624183],[-77.443471625,37.47467926],[-77.44481950000001,37.47467926],[-77.44481950000001,37.47624183]]]},"properties":{"name":"3600-BLK RICHMOND HWY; RICHMOND HWY/ALEXANDER AVE RICH; ALEXANDER AVE/RICHMOND HWY RICH; 3500-BLK RICHMOND HWY","total":26,"Crime":15,"Emergency":7,"Traffic":4}}
+{"type":"Feature","id":"116_18","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.47624183],[-77.443471625,37.47624183],[-77.443471625,37.47467926],[-77.44481950000001,37.47467926],[-77.44481950000001,37.47624183]]]},"properties":{"name":"3600-BLK RICHMOND HWY; RICHMOND HWY/ALEXANDER AVE RICH; ALEXANDER AVE/RICHMOND HWY RICH; 3500-BLK RICHMOND HWY","total":34,"Crime":21,"Emergency":9,"Traffic":4}}
 ,
 {"type":"Feature","id":"119_18","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.47624183],[-77.439428,37.47624183],[-77.439428,37.47467926],[-77.440775875,37.47467926],[-77.440775875,37.47624183]]]},"properties":{"name":"3700-BLK MERIDIAN AVE","total":4,"Crime":4}}
 ,
@@ -335,15 +354,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"70_19","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.477804400000004],[-77.505473875,37.477804400000004],[-77.505473875,37.47624183],[-77.50682175,37.47624183],[-77.50682175,37.477804400000004]]]},"properties":{"name":"2500-BLK SUSTEN LN","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"74_19","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.477804400000004],[-77.500082375,37.477804400000004],[-77.500082375,37.47624183],[-77.50143025,37.47624183],[-77.50143025,37.477804400000004]]]},"properties":{"name":"2500-BLK HUTH RD","total":2,"Traffic":2}}
+{"type":"Feature","id":"74_19","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.477804400000004],[-77.500082375,37.477804400000004],[-77.500082375,37.47624183],[-77.50143025,37.47624183],[-77.50143025,37.477804400000004]]]},"properties":{"name":"2500-BLK HUTH RD; 5800-BLK MAST DR","total":4,"Traffic":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"77_19","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.477804400000004],[-77.49603875,37.477804400000004],[-77.49603875,37.47624183],[-77.497386625,37.47624183],[-77.497386625,37.477804400000004]]]},"properties":{"name":"5500-BLK SNEAD RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"85_19","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.477804400000004],[-77.48525575000001,37.477804400000004],[-77.48525575000001,37.47624183],[-77.486603625,37.47624183],[-77.486603625,37.477804400000004]]]},"properties":{"name":"5000-BLK SNEAD RD","total":12,"Emergency":6,"Crime":5,"Mental":1}}
+{"type":"Feature","id":"85_19","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.477804400000004],[-77.48525575000001,37.477804400000004],[-77.48525575000001,37.47624183],[-77.486603625,37.47624183],[-77.486603625,37.477804400000004]]]},"properties":{"name":"5000-BLK SNEAD RD","total":13,"Emergency":7,"Crime":5,"Mental":1}}
 ,
-{"type":"Feature","id":"88_19","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.477804400000004],[-77.481212125,37.477804400000004],[-77.481212125,37.47624183],[-77.48256,37.47624183],[-77.48256,37.477804400000004]]]},"properties":{"name":"2900-BLK BROAD ROCK BLVD; 4800-BLK BURTWOOD LN","total":9,"Mental":3,"Crime":2,"Emergency":2,"Discretionary":2}}
+{"type":"Feature","id":"88_19","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.477804400000004],[-77.481212125,37.477804400000004],[-77.481212125,37.47624183],[-77.48256,37.47624183],[-77.48256,37.477804400000004]]]},"properties":{"name":"2900-BLK BROAD ROCK BLVD; 4800-BLK BURTWOOD LN","total":11,"Discretionary":4,"Mental":3,"Crime":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"91_19","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.477804400000004],[-77.4771685,37.477804400000004],[-77.4771685,37.47624183],[-77.478516375,37.47624183],[-77.478516375,37.477804400000004]]]},"properties":{"name":"4600-BLK FERGUSON LN; 2900-BLK DORSET RD","total":10,"Crime":6,"Traffic":4}}
+{"type":"Feature","id":"91_19","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.477804400000004],[-77.4771685,37.477804400000004],[-77.4771685,37.47624183],[-77.478516375,37.47624183],[-77.478516375,37.477804400000004]]]},"properties":{"name":"4600-BLK FERGUSON LN; 2900-BLK DORSET RD","total":11,"Crime":6,"Traffic":4,"Emergency":1}}
 ,
 {"type":"Feature","id":"95_19","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.477804400000004],[-77.471777,37.477804400000004],[-77.471777,37.47624183],[-77.473124875,37.47624183],[-77.473124875,37.477804400000004]]]},"properties":{"name":"4100-BLK BRITANNIA RD","total":1,"Mental":1}}
 ,
@@ -359,13 +378,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"113_19","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.477804400000004],[-77.44751525000001,37.477804400000004],[-77.44751525000001,37.47624183],[-77.448863125,37.47624183],[-77.448863125,37.477804400000004]]]},"properties":{"name":"3400-BLK RITTER ST","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"115_19","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.477804400000004],[-77.44481950000001,37.477804400000004],[-77.44481950000001,37.47624183],[-77.446167375,37.47624183],[-77.446167375,37.477804400000004]]]},"properties":{"name":"CASTLEWOOD RD/LAMBERTS AVE RICH; 2700-BLK HADEN AVE; LAMBERTS AVE/CASTLEWOOD RD RICH; 3400-BLK CASTLEWOOD RD","total":19,"Emergency":16,"Discretionary":2,"Traffic":1}}
+{"type":"Feature","id":"115_19","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.477804400000004],[-77.44481950000001,37.477804400000004],[-77.44481950000001,37.47624183],[-77.446167375,37.47624183],[-77.446167375,37.477804400000004]]]},"properties":{"name":"CASTLEWOOD RD/LAMBERTS AVE RICH; 2700-BLK HADEN AVE; LAMBERTS AVE/CASTLEWOOD RD RICH; 3400-BLK CASTLEWOOD RD","total":21,"Emergency":18,"Discretionary":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"116_19","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.477804400000004],[-77.443471625,37.477804400000004],[-77.443471625,37.47624183],[-77.44481950000001,37.47624183],[-77.44481950000001,37.477804400000004]]]},"properties":{"name":"2600-BLK LAMBERTS AVE; RICHMOND HWY/HADEN AVE RICH; LAMBERTS AVE/RICHMOND HWY RICH","total":9,"Traffic":9}}
 ,
 {"type":"Feature","id":"118_19","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.477804400000004],[-77.440775875,37.477804400000004],[-77.440775875,37.47624183],[-77.44212375000001,37.47624183],[-77.44212375000001,37.477804400000004]]]},"properties":{"name":"2500-BLK LAMBERTS AVE","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"120_19","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.477804400000004],[-77.438080125,37.477804400000004],[-77.438080125,37.47624183],[-77.439428,37.47624183],[-77.439428,37.477804400000004]]]},"properties":{"name":"2400-BLK LAMBERTS AVE","total":3,"Emergency":2,"Crime":1}}
+,
+{"type":"Feature","id":"124_19","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.477804400000004],[-77.432688625,37.477804400000004],[-77.432688625,37.47624183],[-77.4340365,37.47624183],[-77.4340365,37.477804400000004]]]},"properties":{"name":"3400-BLK FRANK RD","total":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"125_19","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.477804400000004],[-77.43134075,37.477804400000004],[-77.43134075,37.47624183],[-77.432688625,37.47624183],[-77.432688625,37.477804400000004]]]},"properties":{"name":"3400-BLK MIKE RD","total":3,"Emergency":3}}
 ,
@@ -389,7 +410,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"86_20","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.47936697],[-77.483907875,37.47936697],[-77.483907875,37.477804400000004],[-77.48525575000001,37.477804400000004],[-77.48525575000001,37.47936697]]]},"properties":{"name":"4900-BLK BURTWOOD LN","total":3,"Emergency":3}}
 ,
-{"type":"Feature","id":"89_20","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.47936697],[-77.47986425,37.47936697],[-77.47986425,37.477804400000004],[-77.481212125,37.477804400000004],[-77.481212125,37.47936697]]]},"properties":{"name":"ORCUTT LN/BROAD ROCK BLVD RICH","total":1,"Crime":1}}
+{"type":"Feature","id":"89_20","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.47936697],[-77.47986425,37.47936697],[-77.47986425,37.477804400000004],[-77.481212125,37.477804400000004],[-77.481212125,37.47936697]]]},"properties":{"name":"ORCUTT LN/BROAD ROCK BLVD RICH; BROAD ROCK BLVD/ORCUTT LN RICH","total":4,"Crime":4}}
 ,
 {"type":"Feature","id":"92_20","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.47936697],[-77.475820625,37.47936697],[-77.475820625,37.477804400000004],[-77.4771685,37.477804400000004],[-77.4771685,37.47936697]]]},"properties":{"name":"2800-BLK DORSET RD","total":2,"Traffic":2}}
 ,
@@ -407,11 +428,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"116_20","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.47936697],[-77.443471625,37.47936697],[-77.443471625,37.477804400000004],[-77.44481950000001,37.477804400000004],[-77.44481950000001,37.47936697]]]},"properties":{"name":"CASTLEWOOD RD/RICHMOND HWY RICH; RICHMOND HWY/CASTLEWOOD RD RICH; RICHMOND HWY/CASTLEWOOD RD RICH: alias JEFF/CASTL","total":10,"Crime":5,"Traffic":5}}
 ,
-{"type":"Feature","id":"119_20","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.47936697],[-77.439428,37.47936697],[-77.439428,37.477804400000004],[-77.440775875,37.477804400000004],[-77.440775875,37.47936697]]]},"properties":{"name":"2300-BLK RUFFIN RD; 3300-BLK LYNHAVEN AVE","total":7,"Crime":5,"Traffic":2}}
+{"type":"Feature","id":"119_20","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.47936697],[-77.439428,37.47936697],[-77.439428,37.477804400000004],[-77.440775875,37.477804400000004],[-77.440775875,37.47936697]]]},"properties":{"name":"2300-BLK RUFFIN RD; 3300-BLK LYNHAVEN AVE","total":9,"Crime":6,"Traffic":2,"Emergency":1}}
+,
+{"type":"Feature","id":"120_20","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.47936697],[-77.438080125,37.47936697],[-77.438080125,37.477804400000004],[-77.439428,37.477804400000004],[-77.439428,37.47936697]]]},"properties":{"name":"2200-BLK RUFIFN","total":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"121_20","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.47936697],[-77.43673225,37.47936697],[-77.43673225,37.477804400000004],[-77.438080125,37.477804400000004],[-77.438080125,37.47936697]]]},"properties":{"name":"3400-BLK KEIGHLY RD","total":23,"Mental":9,"Emergency":9,"Crime":5}}
 ,
-{"type":"Feature","id":"122_20","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.47936697],[-77.435384375,37.47936697],[-77.435384375,37.477804400000004],[-77.43673225,37.477804400000004],[-77.43673225,37.47936697]]]},"properties":{"name":"3300-BLK DAVEE RD; 3400-BLK RYBURN RD","total":5,"Emergency":3,"Discretionary":2}}
+{"type":"Feature","id":"122_20","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.47936697],[-77.435384375,37.47936697],[-77.435384375,37.477804400000004],[-77.43673225,37.477804400000004],[-77.43673225,37.47936697]]]},"properties":{"name":"3300-BLK DAVEE RD; 3400-BLK RYBURN RD","total":7,"Emergency":3,"Discretionary":2,"Crime":2}}
 ,
 {"type":"Feature","id":"123_20","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.47936697],[-77.4340365,37.47936697],[-77.4340365,37.477804400000004],[-77.435384375,37.477804400000004],[-77.435384375,37.47936697]]]},"properties":{"name":"3400-BLK DANBURY RD; 3400-BLK DEERWOOD RD","total":11,"Crime":4,"Emergency":3,"Mental":2,"Discretionary":2}}
 ,
@@ -433,15 +456,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"88_21","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.48092954],[-77.481212125,37.48092954],[-77.481212125,37.47936697],[-77.48256,37.47936697],[-77.48256,37.48092954]]]},"properties":{"name":"2500-BLK MANDY LN","total":8,"Crime":7,"Traffic":1}}
 ,
-{"type":"Feature","id":"89_21","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.48092954],[-77.47986425,37.48092954],[-77.47986425,37.47936697],[-77.481212125,37.47936697],[-77.481212125,37.48092954]]]},"properties":{"name":"2800-BLK BROAD ROCK BLVD","total":18,"Crime":12,"Emergency":5,"Traffic":1}}
+{"type":"Feature","id":"89_21","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.48092954],[-77.47986425,37.48092954],[-77.47986425,37.47936697],[-77.481212125,37.47936697],[-77.481212125,37.48092954]]]},"properties":{"name":"2800-BLK BROAD ROCK BLVD","total":19,"Crime":12,"Emergency":6,"Traffic":1}}
 ,
 {"type":"Feature","id":"92_21","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.48092954],[-77.475820625,37.48092954],[-77.475820625,37.47936697],[-77.4771685,37.47936697],[-77.4771685,37.48092954]]]},"properties":{"name":"4500-BLK BRITANNIA RD","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"93_21","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.48092954],[-77.47447275,37.48092954],[-77.47447275,37.47936697],[-77.475820625,37.47936697],[-77.475820625,37.48092954]]]},"properties":{"name":"4400-BLK BRITANNIA RD","total":6,"Crime":5,"Emergency":1}}
 ,
-{"type":"Feature","id":"96_21","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.48092954],[-77.47042912500001,37.48092954],[-77.47042912500001,37.47936697],[-77.471777,37.47936697],[-77.471777,37.48092954]]]},"properties":{"name":"4100-BLK NORBORNE RD; 2900-BLK LAURADALE LN","total":2,"Traffic":1,"Emergency":1}}
+{"type":"Feature","id":"96_21","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.48092954],[-77.47042912500001,37.48092954],[-77.47042912500001,37.47936697],[-77.471777,37.47936697],[-77.471777,37.48092954]]]},"properties":{"name":"4100-BLK NORBORNE RD; 2900-BLK LAURADALE LN","total":3,"Traffic":1,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"98_21","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.48092954],[-77.46773337500001,37.48092954],[-77.46773337500001,37.47936697],[-77.46908125,37.47936697],[-77.46908125,37.48092954]]]},"properties":{"name":"3900-BLK HOPKINS RD; 4700-BLK HOPKINS RD","total":5,"Crime":5}}
+{"type":"Feature","id":"98_21","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.48092954],[-77.46773337500001,37.48092954],[-77.46773337500001,37.47936697],[-77.46908125,37.47936697],[-77.46908125,37.48092954]]]},"properties":{"name":"3900-BLK HOPKINS RD; 4700-BLK HOPKINS RD","total":9,"Crime":5,"Emergency":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"99_21","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.48092954],[-77.4663855,37.48092954],[-77.4663855,37.47936697],[-77.46773337500001,37.47936697],[-77.46773337500001,37.48092954]]]},"properties":{"name":"3900-BLK LADBROKE CT; 3800-BLK SUNORA DR","total":5,"Emergency":5}}
 ,
@@ -459,19 +482,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"122_21","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.48092954],[-77.435384375,37.48092954],[-77.435384375,37.47936697],[-77.43673225,37.47936697],[-77.43673225,37.48092954]]]},"properties":{"name":"RUFFIN RD/DAVEE RD RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"124_21","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.48092954],[-77.432688625,37.48092954],[-77.432688625,37.47936697],[-77.4340365,37.47936697],[-77.4340365,37.48092954]]]},"properties":{"name":"RUFFIN RD/GUNN ST RICH; 3300-BLK FRANK RD","total":5,"Mental":3,"Crime":2}}
+{"type":"Feature","id":"124_21","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.48092954],[-77.432688625,37.48092954],[-77.432688625,37.47936697],[-77.4340365,37.47936697],[-77.4340365,37.48092954]]]},"properties":{"name":"RUFFIN RD/GUNN ST RICH; 3300-BLK FRANK RD","total":6,"Mental":3,"Crime":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"126_21","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.48092954],[-77.429992875,37.48092954],[-77.429992875,37.47936697],[-77.43134075,37.47936697],[-77.43134075,37.48092954]]]},"properties":{"name":"COMMERCE RD/RUFFIN RD RICH","total":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"127_21","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.48092954],[-77.428645,37.48092954],[-77.428645,37.47936697],[-77.429992875,37.47936697],[-77.429992875,37.48092954]]]},"properties":{"name":"DEEPWATER TERMINAL RD/COMMERCE RD RICH","total":4,"Crime":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"64_22","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.48249211],[-77.51356112500001,37.48249211],[-77.51356112500001,37.48092954],[-77.514909,37.48092954],[-77.514909,37.48249211]]]},"properties":{"name":"1300-BLK ARMFIELD RD; 1400-BLK ARMFIELD RD; 6500-BLK ARMFIELD RD","total":57,"Crime":43,"Discretionary":12,"Emergency":2}}
+{"type":"Feature","id":"64_22","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.48249211],[-77.51356112500001,37.48249211],[-77.51356112500001,37.48092954],[-77.514909,37.48092954],[-77.514909,37.48249211]]]},"properties":{"name":"1300-BLK ARMFIELD RD; 1400-BLK ARMFIELD RD; 6500-BLK ARMFIELD RD","total":59,"Crime":45,"Discretionary":12,"Emergency":2}}
 ,
 {"type":"Feature","id":"65_22","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.48249211],[-77.51221325,37.48249211],[-77.51221325,37.48092954],[-77.51356112500001,37.48092954],[-77.51356112500001,37.48249211]]]},"properties":{"name":"ELKHARDT RD/WHITEHEAD RD RICH","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"67_22","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.48249211],[-77.5095175,37.48249211],[-77.5095175,37.48092954],[-77.51086537500001,37.48092954],[-77.51086537500001,37.48249211]]]},"properties":{"name":"6300-BLK HULL STREET RD","total":17,"Crime":13,"Emergency":2,"Traffic":2}}
+{"type":"Feature","id":"67_22","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.48249211],[-77.5095175,37.48249211],[-77.5095175,37.48092954],[-77.51086537500001,37.48092954],[-77.51086537500001,37.48249211]]]},"properties":{"name":"6300-BLK HULL STREET RD","total":21,"Crime":17,"Emergency":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"71_22","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.48249211],[-77.504126,37.48249211],[-77.504126,37.48092954],[-77.505473875,37.48092954],[-77.505473875,37.48249211]]]},"properties":{"name":"6200-BLK HULL STREET RD","total":8,"Traffic":6,"Emergency":2}}
+{"type":"Feature","id":"71_22","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.48249211],[-77.504126,37.48249211],[-77.504126,37.48092954],[-77.505473875,37.48092954],[-77.505473875,37.48249211]]]},"properties":{"name":"6200-BLK HULL STREET RD; HULL STREET RD/HEY RD RICH","total":10,"Traffic":7,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"74_22","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.48249211],[-77.500082375,37.48249211],[-77.500082375,37.48092954],[-77.50143025,37.48092954],[-77.50143025,37.48249211]]]},"properties":{"name":"2200-BLK CHATEAU DR","total":23,"Crime":17,"Emergency":4,"Traffic":2}}
 ,
@@ -483,7 +506,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"82_22","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.48249211],[-77.489299375,37.48249211],[-77.489299375,37.48092954],[-77.49064725000001,37.48092954],[-77.49064725000001,37.48249211]]]},"properties":{"name":"5300-BLK ORCUTT LN; 5200-BLK LIMESTONE DR","total":9,"Traffic":6,"Emergency":2,"Crime":1}}
 ,
-{"type":"Feature","id":"85_22","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.48249211],[-77.48525575000001,37.48249211],[-77.48525575000001,37.48092954],[-77.486603625,37.48092954],[-77.486603625,37.48249211]]]},"properties":{"name":"5200-BLK GERMAIN RD; 2400-BLK TIGNOR RD","total":15,"Crime":15}}
+{"type":"Feature","id":"85_22","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.48249211],[-77.48525575000001,37.48249211],[-77.48525575000001,37.48092954],[-77.486603625,37.48092954],[-77.486603625,37.48249211]]]},"properties":{"name":"5200-BLK GERMAIN RD; 2400-BLK TIGNOR RD","total":20,"Crime":19,"Traffic":1}}
 ,
 {"type":"Feature","id":"86_22","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.48249211],[-77.483907875,37.48249211],[-77.483907875,37.48092954],[-77.48525575000001,37.48092954],[-77.48525575000001,37.48249211]]]},"properties":{"name":"2400-BLK RICHDALE RD","total":2,"Crime":2}}
 ,
@@ -491,7 +514,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"88_22","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.48249211],[-77.481212125,37.48249211],[-77.481212125,37.48092954],[-77.48256,37.48092954],[-77.48256,37.48249211]]]},"properties":{"name":"4900-BLK BRYCE LN","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"90_22","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.48249211],[-77.478516375,37.48249211],[-77.478516375,37.48092954],[-77.47986425,37.48092954],[-77.47986425,37.48249211]]]},"properties":{"name":"2600-BLK BROAD ROCK BLVD","total":7,"Crime":5,"Traffic":2}}
+{"type":"Feature","id":"90_22","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.48249211],[-77.478516375,37.48249211],[-77.478516375,37.48092954],[-77.47986425,37.48092954],[-77.47986425,37.48249211]]]},"properties":{"name":"2600-BLK BROAD ROCK BLVD","total":9,"Crime":5,"Traffic":4}}
 ,
 {"type":"Feature","id":"91_22","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.48249211],[-77.4771685,37.48249211],[-77.4771685,37.48092954],[-77.478516375,37.48092954],[-77.478516375,37.48249211]]]},"properties":{"name":"4600-BLK BRITANNIA RD","total":1,"Crime":1}}
 ,
@@ -501,13 +524,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"97_22","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.48249211],[-77.46908125,37.48249211],[-77.46908125,37.48092954],[-77.47042912500001,37.48092954],[-77.47042912500001,37.48249211]]]},"properties":{"name":"3900-BLK GREENBAY RD; 2700-BLK LAURADALE LN","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"99_22","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.48249211],[-77.4663855,37.48249211],[-77.4663855,37.48092954],[-77.46773337500001,37.48092954],[-77.46773337500001,37.48249211]]]},"properties":{"name":"2700-BLK HOPKINS RD; 3800-BLK GREENBAY RD","total":9,"Traffic":4,"Emergency":4,"Mental":1}}
+{"type":"Feature","id":"99_22","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.48249211],[-77.4663855,37.48249211],[-77.4663855,37.48092954],[-77.46773337500001,37.48092954],[-77.46773337500001,37.48249211]]]},"properties":{"name":"2700-BLK HOPKINS RD; 3800-BLK GREENBAY RD","total":13,"Traffic":4,"Emergency":4,"Crime":4,"Mental":1}}
 ,
 {"type":"Feature","id":"100_22","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.48249211],[-77.46503762500001,37.48249211],[-77.46503762500001,37.48092954],[-77.4663855,37.48092954],[-77.4663855,37.48249211]]]},"properties":{"name":"2700-BLK GLENAN DR","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"101_22","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.48249211],[-77.46368975,37.48249211],[-77.46368975,37.48092954],[-77.46503762500001,37.48092954],[-77.46503762500001,37.48249211]]]},"properties":{"name":"2600-BLK TERMINAL AVE; 4200-BLK TERMINAL AVE","total":3,"Crime":3}}
+{"type":"Feature","id":"101_22","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.48249211],[-77.46368975,37.48249211],[-77.46368975,37.48092954],[-77.46503762500001,37.48092954],[-77.46503762500001,37.48249211]]]},"properties":{"name":"2600-BLK TERMINAL AVE; 4200-BLK TERMINAL AVE","total":7,"Crime":7}}
 ,
-{"type":"Feature","id":"103_22","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.48249211],[-77.460994,37.48249211],[-77.460994,37.48092954],[-77.462341875,37.48092954],[-77.462341875,37.48249211]]]},"properties":{"name":"100-BLK BELT BLVD; 1700-BLK BELT BLVD; 1800-BLK BELT BLVD; 400-BLK BELT BLVD; 500-BLK BELT BLVD; 600-BLK BELT BLVD; 200-BLK BELT BLVD; 00-BLK BELT BLVD; 300-BLK BELT BLVD; 2200-BLK BELT BLVD; 0-BLK BELT BLVD; 1000-BLK BELT BLVD; 900-BLK BELT BLVD","total":192,"Crime":102,"Emergency":47,"Traffic":24,"Mental":11,"Discretionary":8}}
+{"type":"Feature","id":"103_22","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.48249211],[-77.460994,37.48249211],[-77.460994,37.48092954],[-77.462341875,37.48092954],[-77.462341875,37.48249211]]]},"properties":{"name":"100-BLK BELT BLVD; 1700-BLK BELT BLVD; 1800-BLK BELT BLVD; 400-BLK BELT BLVD; 500-BLK BELT BLVD; 600-BLK BELT BLVD; 200-BLK BELT BLVD; 00-BLK BELT BLVD; 300-BLK BELT BLVD; 2200-BLK BELT BLVD; 0-BLK BELT BLVD; 1000-BLK BELT BLVD; 900-BLK BELT BLVD; 4500-BLK BELT BLVD","total":211,"Crime":110,"Emergency":52,"Traffic":28,"Mental":11,"Discretionary":10}}
 ,
 {"type":"Feature","id":"104_22","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.48249211],[-77.459646125,37.48249211],[-77.459646125,37.48092954],[-77.460994,37.48092954],[-77.460994,37.48249211]]]},"properties":{"name":"3400-BLK IRVINGTON ST; LL(-77:27:38.6533,37:28:54.4043): EST 2878 BERRY ST RICH","total":11,"Crime":9,"Emergency":2}}
 ,
@@ -517,7 +540,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"107_22","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.48249211],[-77.4556025,37.48249211],[-77.4556025,37.48092954],[-77.456950375,37.48092954],[-77.456950375,37.48249211]]]},"properties":{"name":"3100-BLK IRVINGTON ST","total":4,"Emergency":2,"Crime":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"110_22","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.48249211],[-77.451558875,37.48249211],[-77.451558875,37.48092954],[-77.45290675,37.48092954],[-77.45290675,37.48249211]]]},"properties":{"name":"3100-BLK LANEWOOD DR; LANEWOOD DR/MONTECREST AVE RICH","total":6,"Crime":6}}
+{"type":"Feature","id":"110_22","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.48249211],[-77.451558875,37.48249211],[-77.451558875,37.48092954],[-77.45290675,37.48092954],[-77.45290675,37.48249211]]]},"properties":{"name":"3100-BLK LANEWOOD DR; LANEWOOD DR/MONTECREST AVE RICH; 3000-BLK MONTECREST AVE","total":7,"Crime":6,"Emergency":1}}
 ,
 {"type":"Feature","id":"112_22","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.48249211],[-77.448863125,37.48249211],[-77.448863125,37.48092954],[-77.450211,37.48092954],[-77.450211,37.48249211]]]},"properties":{"name":"2900-BLK SPRINGVIEW DR","total":11,"Crime":6,"Traffic":3,"Emergency":2}}
 ,
@@ -525,25 +548,29 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_22","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.48249211],[-77.44481950000001,37.48249211],[-77.44481950000001,37.48092954],[-77.446167375,37.48092954],[-77.446167375,37.48249211]]]},"properties":{"name":"2600-BLK LOCHAVEN BLVD","total":5,"Emergency":3,"Crime":2}}
 ,
-{"type":"Feature","id":"116_22","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.48249211],[-77.443471625,37.48249211],[-77.443471625,37.48092954],[-77.44481950000001,37.48092954],[-77.44481950000001,37.48249211]]]},"properties":{"name":"3300-BLK RICHMOND HWY; JEFFERSON DAVIS HWY/CHIPPENHAM RP CHES; RICHMOND HWY/LOCHAVEN BLVD RICH; SUMMER HILL AVE/RICHMOND HWY RICH; RICHMOND HWY/SUMMER HILL AVE RICH","total":18,"Traffic":11,"Crime":7}}
+{"type":"Feature","id":"116_22","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.48249211],[-77.443471625,37.48249211],[-77.443471625,37.48092954],[-77.44481950000001,37.48092954],[-77.44481950000001,37.48249211]]]},"properties":{"name":"3300-BLK RICHMOND HWY; JEFFERSON DAVIS HWY/CHIPPENHAM RP CHES; RICHMOND HWY/LOCHAVEN BLVD RICH; SUMMER HILL AVE/RICHMOND HWY RICH; RICHMOND HWY/SUMMER HILL AVE RICH","total":20,"Traffic":11,"Crime":9}}
 ,
 {"type":"Feature","id":"118_22","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.48249211],[-77.440775875,37.48249211],[-77.440775875,37.48092954],[-77.44212375000001,37.48092954],[-77.44212375000001,37.48249211]]]},"properties":{"name":"2300-BLK SUMMER HILL AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"62_23","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.48405468],[-77.516256875,37.48405468],[-77.516256875,37.48249211],[-77.51760475,37.48249211],[-77.51760475,37.48405468]]]},"properties":{"name":"1500-BLK ARMFIELD RD","total":25,"Discretionary":20,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"62_23","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.48405468],[-77.516256875,37.48405468],[-77.516256875,37.48249211],[-77.51760475,37.48249211],[-77.51760475,37.48405468]]]},"properties":{"name":"1500-BLK ARMFIELD RD","total":27,"Discretionary":22,"Crime":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"63_23","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.48405468],[-77.514909,37.48405468],[-77.514909,37.48249211],[-77.516256875,37.48249211],[-77.516256875,37.48405468]]]},"properties":{"name":"1500-BLK EDDYSTONE CT","total":10,"Crime":9,"Emergency":1}}
 ,
-{"type":"Feature","id":"64_23","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.48405468],[-77.51356112500001,37.48405468],[-77.51356112500001,37.48249211],[-77.514909,37.48249211],[-77.514909,37.48405468]]]},"properties":{"name":"ELMBRIDGE RD/GREENBANK RD RICH; 1500-BLK STOWMARKET CT; 6500-BLK ELMBRIDGE RD","total":6,"Crime":4,"Discretionary":2}}
+{"type":"Feature","id":"64_23","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.48405468],[-77.51356112500001,37.48405468],[-77.51356112500001,37.48249211],[-77.514909,37.48249211],[-77.514909,37.48405468]]]},"properties":{"name":"ELMBRIDGE RD/GREENBANK RD RICH; 1500-BLK STOWMARKET CT; 6500-BLK ELMBRIDGE RD","total":8,"Crime":4,"Discretionary":4}}
 ,
 {"type":"Feature","id":"65_23","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.48405468],[-77.51221325,37.48405468],[-77.51221325,37.48249211],[-77.51356112500001,37.48249211],[-77.51356112500001,37.48405468]]]},"properties":{"name":"1500-BLK IVYMOUNT RD","total":4,"Discretionary":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"73_23","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.48405468],[-77.50143025,37.48405468],[-77.50143025,37.48249211],[-77.502778125,37.48249211],[-77.502778125,37.48405468]]]},"properties":{"name":"ORCUTT LN/HULL STREET RD RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"75_23","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.48405468],[-77.4987345,37.48405468],[-77.4987345,37.48249211],[-77.500082375,37.48249211],[-77.500082375,37.48405468]]]},"properties":{"name":"5800-BLK ORCUTT LN; 2100-BLK KIMROD RD; CHATEAU DR/ORCUTT LN RICH","total":40,"Crime":17,"Discretionary":10,"Emergency":5,"Traffic":5,"Mental":3}}
+{"type":"Feature","id":"75_23","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.48405468],[-77.4987345,37.48405468],[-77.4987345,37.48249211],[-77.500082375,37.48249211],[-77.500082375,37.48405468]]]},"properties":{"name":"5800-BLK ORCUTT LN; 2100-BLK KIMROD RD; CHATEAU DR/ORCUTT LN RICH","total":42,"Crime":19,"Discretionary":10,"Emergency":5,"Traffic":5,"Mental":3}}
+,
+{"type":"Feature","id":"77_23","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.48405468],[-77.49603875,37.48405468],[-77.49603875,37.48249211],[-77.497386625,37.48249211],[-77.497386625,37.48405468]]]},"properties":{"name":"BERRYWOOD RD/HEYWOOD RD RICH","total":1,"Traffic":1}}
+,
+{"type":"Feature","id":"80_23","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.48405468],[-77.491995125,37.48405468],[-77.491995125,37.48249211],[-77.49334300000001,37.48249211],[-77.49334300000001,37.48405468]]]},"properties":{"name":"5500-BLK LIMESTONE DR","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"81_23","geometry":{"type":"Polygon","coordinates":[[[-77.491995125,37.48405468],[-77.49064725000001,37.48405468],[-77.49064725000001,37.48249211],[-77.491995125,37.48249211],[-77.491995125,37.48405468]]]},"properties":{"name":"5400-BLK LIMESTONE DR","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"82_23","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.48405468],[-77.489299375,37.48405468],[-77.489299375,37.48249211],[-77.49064725000001,37.48249211],[-77.49064725000001,37.48405468]]]},"properties":{"name":"5300-BLK LIMESTONE DR","total":1,"Crime":1}}
+{"type":"Feature","id":"82_23","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.48405468],[-77.489299375,37.48405468],[-77.489299375,37.48249211],[-77.49064725000001,37.48249211],[-77.49064725000001,37.48405468]]]},"properties":{"name":"5300-BLK LIMESTONE DR","total":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"83_23","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.48405468],[-77.48795150000001,37.48405468],[-77.48795150000001,37.48249211],[-77.489299375,37.48249211],[-77.489299375,37.48405468]]]},"properties":{"name":"5300-BLK GERMAIN RD; FERNBROOK DR/GERMAIN RD RICH; 2300-BLK FERNBROOK DR","total":15,"Crime":13,"Emergency":2}}
 ,
@@ -551,7 +578,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"86_23","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.48405468],[-77.483907875,37.48405468],[-77.483907875,37.48249211],[-77.48525575000001,37.48249211],[-77.48525575000001,37.48405468]]]},"properties":{"name":"BRYCE LN/RICHDALE RD RICH","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"90_23","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.48405468],[-77.478516375,37.48405468],[-77.478516375,37.48249211],[-77.47986425,37.48249211],[-77.47986425,37.48405468]]]},"properties":{"name":"4800-BLK OLD WARWICK RD","total":13,"Crime":8,"Emergency":5}}
+{"type":"Feature","id":"90_23","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.48405468],[-77.478516375,37.48405468],[-77.478516375,37.48249211],[-77.47986425,37.48249211],[-77.47986425,37.48405468]]]},"properties":{"name":"4800-BLK OLD WARWICK RD","total":18,"Crime":8,"Emergency":8,"Mental":2}}
 ,
 {"type":"Feature","id":"91_23","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.48405468],[-77.4771685,37.48405468],[-77.4771685,37.48249211],[-77.478516375,37.48249211],[-77.478516375,37.48405468]]]},"properties":{"name":"2400-BLK BROAD ROCK BLVD; RICH: @RR CROSSING - BROAD ROCK BLVD; WARWICK RD/BROAD ROCK BLVD RICH; BROAD ROCK BLVD/WARWICK RD RICH","total":14,"Traffic":8,"Crime":6}}
 ,
@@ -571,7 +598,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"114_23","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.48405468],[-77.446167375,37.48405468],[-77.446167375,37.48249211],[-77.44751525000001,37.48249211],[-77.44751525000001,37.48405468]]]},"properties":{"name":"TERMINAL AVE/GRAY ST RICH; 2600-BLK CHEATHAM ST; 2700-BLK CHEATHAM ST; 2700-BLK TERMINAL AVE","total":9,"Traffic":4,"Emergency":3,"Crime":2}}
 ,
-{"type":"Feature","id":"116_23","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.48405468],[-77.443471625,37.48405468],[-77.443471625,37.48249211],[-77.44481950000001,37.48249211],[-77.44481950000001,37.48405468]]]},"properties":{"name":"TERMINAL AVE/RICHMOND HWY RICH; RICHMOND HWY/TERMINAL AVE RICH; TERMINAL AVE/RICHMOND HWY RICH: alias TERMINAL AVE/JEFF DAVIS HWY RICH","total":16,"Traffic":9,"Crime":7}}
+{"type":"Feature","id":"116_23","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.48405468],[-77.443471625,37.48405468],[-77.443471625,37.48249211],[-77.44481950000001,37.48249211],[-77.44481950000001,37.48405468]]]},"properties":{"name":"TERMINAL AVE/RICHMOND HWY RICH; RICHMOND HWY/TERMINAL AVE RICH; TERMINAL AVE/RICHMOND HWY RICH: alias TERMINAL AVE/JEFF DAVIS HWY RICH","total":21,"Traffic":13,"Crime":7,"Emergency":1}}
 ,
 {"type":"Feature","id":"117_23","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.48405468],[-77.44212375000001,37.48405468],[-77.44212375000001,37.48249211],[-77.443471625,37.48249211],[-77.443471625,37.48405468]]]},"properties":{"name":"2400-BLK TERMINAL AVE; 3000-BLK COLUMBIA ST","total":4,"Crime":3,"Emergency":1}}
 ,
@@ -581,19 +608,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"125_23","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.48405468],[-77.43134075,37.48405468],[-77.43134075,37.48249211],[-77.432688625,37.48249211],[-77.432688625,37.48405468]]]},"properties":{"name":"3100-BLK COMMERCE RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"63_24","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.485617250000004],[-77.514909,37.485617250000004],[-77.514909,37.48405468],[-77.516256875,37.48405468],[-77.516256875,37.485617250000004]]]},"properties":{"name":"1400-BLK CARGREEN RD","total":5,"Crime":3,"Emergency":2}}
+{"type":"Feature","id":"63_24","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.485617250000004],[-77.514909,37.485617250000004],[-77.514909,37.48405468],[-77.516256875,37.48405468],[-77.516256875,37.485617250000004]]]},"properties":{"name":"1400-BLK CARGREEN RD","total":7,"Crime":3,"Emergency":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"64_24","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.485617250000004],[-77.51356112500001,37.485617250000004],[-77.51356112500001,37.48405468],[-77.514909,37.48405468],[-77.514909,37.485617250000004]]]},"properties":{"name":"1400-BLK GAVESTONE CT","total":16,"Emergency":8,"Crime":8}}
 ,
 {"type":"Feature","id":"65_24","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.485617250000004],[-77.51221325,37.485617250000004],[-77.51221325,37.48405468],[-77.51356112500001,37.48405468],[-77.51356112500001,37.485617250000004]]]},"properties":{"name":"6500-BLK GREENBANK RD; 1400-BLK BARRIEDALE RD; 1400-BLK IVYMOUNT RD","total":32,"Discretionary":16,"Crime":8,"Traffic":4,"Emergency":4}}
 ,
-{"type":"Feature","id":"66_24","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.485617250000004],[-77.51086537500001,37.485617250000004],[-77.51086537500001,37.48405468],[-77.51221325,37.48405468],[-77.51221325,37.485617250000004]]]},"properties":{"name":"1700-BLK WHITEHEAD RD","total":2,"Traffic":2}}
+{"type":"Feature","id":"66_24","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.485617250000004],[-77.51086537500001,37.485617250000004],[-77.51086537500001,37.48405468],[-77.51221325,37.48405468],[-77.51221325,37.485617250000004]]]},"properties":{"name":"1700-BLK WHITEHEAD RD; 1600-BLK WHITEHEAD RD","total":4,"Traffic":2,"Crime":2}}
 ,
 {"type":"Feature","id":"73_24","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.485617250000004],[-77.50143025,37.485617250000004],[-77.50143025,37.48405468],[-77.502778125,37.48405468],[-77.502778125,37.485617250000004]]]},"properties":{"name":"1700-BLK ROBERSON LN","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"74_24","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.485617250000004],[-77.500082375,37.485617250000004],[-77.500082375,37.48405468],[-77.50143025,37.48405468],[-77.50143025,37.485617250000004]]]},"properties":{"name":"HULL STREET RD/BERRYWOOD RD RICH","total":4,"Traffic":2,"Crime":2}}
+{"type":"Feature","id":"74_24","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.485617250000004],[-77.500082375,37.485617250000004],[-77.500082375,37.48405468],[-77.50143025,37.48405468],[-77.50143025,37.485617250000004]]]},"properties":{"name":"HULL STREET RD/BERRYWOOD RD RICH; 5800-BLK HULL STREET RD","total":7,"Crime":4,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"76_24","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.485617250000004],[-77.497386625,37.485617250000004],[-77.497386625,37.48405468],[-77.4987345,37.48405468],[-77.4987345,37.485617250000004]]]},"properties":{"name":"3700-BLK HULL STREET RD; 4800-BLK HULL STREET RD; 5600-BLK HULL STREET RD; 4200-BLK HULL STREET RD; 4900-BLK HULL STREET RD; 4500-BLK HULL STREET RD; 5100-BLK HULL STREET RD; 4600-BLK HULL STREET RD; 6100-BLK HULL STREET RD; 5900-BLK HULL STREET RD","total":53,"Traffic":22,"Crime":18,"Emergency":12,"Discretionary":1}}
+{"type":"Feature","id":"76_24","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.485617250000004],[-77.497386625,37.485617250000004],[-77.497386625,37.48405468],[-77.4987345,37.48405468],[-77.4987345,37.485617250000004]]]},"properties":{"name":"3700-BLK HULL STREET RD; 4800-BLK HULL STREET RD; 5600-BLK HULL STREET RD; 4200-BLK HULL STREET RD; 4900-BLK HULL STREET RD; 4500-BLK HULL STREET RD; 5100-BLK HULL STREET RD; 4600-BLK HULL STREET RD; 6100-BLK HULL STREET RD; 5900-BLK HULL STREET RD","total":56,"Traffic":22,"Crime":21,"Emergency":12,"Discretionary":1}}
 ,
 {"type":"Feature","id":"77_24","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.485617250000004],[-77.49603875,37.485617250000004],[-77.49603875,37.48405468],[-77.497386625,37.48405468],[-77.497386625,37.485617250000004]]]},"properties":{"name":"2000-BLK KIMROD RD","total":10,"Mental":8,"Traffic":2}}
 ,
@@ -605,7 +632,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"84_24","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.485617250000004],[-77.486603625,37.485617250000004],[-77.486603625,37.48405468],[-77.48795150000001,37.48405468],[-77.48795150000001,37.485617250000004]]]},"properties":{"name":"5300-BLK BRYCE LN; FERNBROOK DR/BRYCE LN RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"90_24","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.485617250000004],[-77.478516375,37.485617250000004],[-77.478516375,37.48405468],[-77.47986425,37.48405468],[-77.47986425,37.485617250000004]]]},"properties":{"name":"4900-BLK WARWICK RD","total":7,"Emergency":7}}
+{"type":"Feature","id":"90_24","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.485617250000004],[-77.478516375,37.485617250000004],[-77.478516375,37.48405468],[-77.47986425,37.48405468],[-77.47986425,37.485617250000004]]]},"properties":{"name":"4900-BLK WARWICK RD","total":9,"Emergency":7,"Mental":2}}
 ,
 {"type":"Feature","id":"91_24","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.485617250000004],[-77.4771685,37.485617250000004],[-77.4771685,37.48405468],[-77.478516375,37.48405468],[-77.478516375,37.485617250000004]]]},"properties":{"name":"2300-BLK BROAD ROCK BLVD","total":2,"Traffic":2}}
 ,
@@ -615,17 +642,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"117_24","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.485617250000004],[-77.44212375000001,37.485617250000004],[-77.44212375000001,37.48405468],[-77.443471625,37.48405468],[-77.443471625,37.485617250000004]]]},"properties":{"name":"2400-BLK CONCORD AVE","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_24","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.485617250000004],[-77.440775875,37.485617250000004],[-77.440775875,37.48405468],[-77.44212375000001,37.48405468],[-77.44212375000001,37.485617250000004]]]},"properties":{"name":"2900-BLK LYNHAVEN AVE; DRAKE ST/LYNHAVEN AVE RICH","total":5,"Crime":4,"Emergency":1}}
+{"type":"Feature","id":"118_24","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.485617250000004],[-77.440775875,37.485617250000004],[-77.440775875,37.48405468],[-77.44212375000001,37.48405468],[-77.44212375000001,37.485617250000004]]]},"properties":{"name":"2900-BLK LYNHAVEN AVE; DRAKE ST/LYNHAVEN AVE RICH; 2300-BLK CONCORD AVE","total":6,"Crime":4,"Emergency":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"119_24","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.485617250000004],[-77.439428,37.485617250000004],[-77.439428,37.48405468],[-77.440775875,37.48405468],[-77.440775875,37.485617250000004]]]},"properties":{"name":"2200-BLK LUMKIN AVE; 2200-BLK CONCORD AVE","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"126_24","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.485617250000004],[-77.429992875,37.485617250000004],[-77.429992875,37.48405468],[-77.43134075,37.48405468],[-77.43134075,37.485617250000004]]]},"properties":{"name":"2900-BLK DEEPWATER TERMINAL RD","total":2,"Crime":2}}
+{"type":"Feature","id":"126_24","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.485617250000004],[-77.429992875,37.485617250000004],[-77.429992875,37.48405468],[-77.43134075,37.48405468],[-77.43134075,37.485617250000004]]]},"properties":{"name":"2900-BLK DEEPWATER TERMINAL RD","total":4,"Crime":4}}
 ,
 {"type":"Feature","id":"62_25","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.48717982],[-77.516256875,37.48717982],[-77.516256875,37.485617250000004],[-77.51760475,37.485617250000004],[-77.51760475,37.48717982]]]},"properties":{"name":"1300-BLK CARGREEN RD","total":9,"Crime":6,"Emergency":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"68_25","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.48717982],[-77.50816962500001,37.48717982],[-77.50816962500001,37.485617250000004],[-77.5095175,37.485617250000004],[-77.5095175,37.48717982]]]},"properties":{"name":"6300-BLK DERWENT RD","total":4,"Emergency":4}}
 ,
-{"type":"Feature","id":"69_25","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.48717982],[-77.50682175,37.48717982],[-77.50682175,37.485617250000004],[-77.50816962500001,37.485617250000004],[-77.50816962500001,37.48717982]]]},"properties":{"name":"1600-BLK BOLTON RD","total":3,"Emergency":2,"Crime":1}}
+{"type":"Feature","id":"69_25","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.48717982],[-77.50682175,37.48717982],[-77.50682175,37.485617250000004],[-77.50816962500001,37.485617250000004],[-77.50816962500001,37.48717982]]]},"properties":{"name":"1600-BLK BOLTON RD; 1600-BLK BRAMWELL RD","total":4,"Crime":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"71_25","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.48717982],[-77.504126,37.48717982],[-77.504126,37.485617250000004],[-77.505473875,37.485617250000004],[-77.505473875,37.48717982]]]},"properties":{"name":"1600-BLK STANSBURY AVE; 6100-BLK DAYTONA DR","total":11,"Crime":9,"Traffic":2}}
 ,
@@ -633,7 +660,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"74_25","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.48717982],[-77.500082375,37.48717982],[-77.500082375,37.485617250000004],[-77.50143025,37.485617250000004],[-77.50143025,37.48717982]]]},"properties":{"name":"BRITTWOOD DR/SWEETWOOD DR RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"76_25","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.48717982],[-77.497386625,37.48717982],[-77.497386625,37.485617250000004],[-77.4987345,37.485617250000004],[-77.4987345,37.48717982]]]},"properties":{"name":"5700-BLK HULL STREET RD; SILVERWOOD DR/HULL STREET RD RICH; HULL STREET RD/SILVERWOOD DR RICH","total":57,"Crime":36,"Traffic":11,"Discretionary":6,"Emergency":4}}
+{"type":"Feature","id":"76_25","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.48717982],[-77.497386625,37.48717982],[-77.497386625,37.485617250000004],[-77.4987345,37.485617250000004],[-77.4987345,37.48717982]]]},"properties":{"name":"5700-BLK HULL STREET RD; SILVERWOOD DR/HULL STREET RD RICH; HULL STREET RD/SILVERWOOD DR RICH","total":62,"Crime":39,"Traffic":13,"Discretionary":6,"Emergency":4}}
 ,
 {"type":"Feature","id":"77_25","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.48717982],[-77.49603875,37.48717982],[-77.49603875,37.485617250000004],[-77.497386625,37.485617250000004],[-77.497386625,37.48717982]]]},"properties":{"name":"BRYCE LN/HULL STREET RD RICH","total":3,"Emergency":2,"Mental":1}}
 ,
@@ -659,7 +686,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"102_25","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.48717982],[-77.462341875,37.48717982],[-77.462341875,37.485617250000004],[-77.46368975,37.485617250000004],[-77.46368975,37.48717982]]]},"properties":{"name":"LL(-77:27:48.4669,37:29:09.2291): EST BELT RICH","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"115_25","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.48717982],[-77.44481950000001,37.48717982],[-77.44481950000001,37.485617250000004],[-77.446167375,37.485617250000004],[-77.446167375,37.48717982]]]},"properties":{"name":"RICHMOND HWY/YORKTOWN AVE RICH; YORKTOWN AVE/RICHMOND HWY RICH; 2700-BLK RICHMOND HWY; LL(-77:26:41.7237,37:29:08.2482): RICHMOND/YORKTOWN","total":8,"Traffic":8}}
+{"type":"Feature","id":"115_25","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.48717982],[-77.44481950000001,37.48717982],[-77.44481950000001,37.485617250000004],[-77.446167375,37.485617250000004],[-77.446167375,37.48717982]]]},"properties":{"name":"RICHMOND HWY/YORKTOWN AVE RICH; YORKTOWN AVE/RICHMOND HWY RICH; 2700-BLK RICHMOND HWY; LL(-77:26:41.7237,37:29:08.2482): RICHMOND/YORKTOWN","total":10,"Traffic":10}}
 ,
 {"type":"Feature","id":"116_25","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.48717982],[-77.443471625,37.48717982],[-77.443471625,37.485617250000004],[-77.44481950000001,37.485617250000004],[-77.44481950000001,37.48717982]]]},"properties":{"name":"2600-BLK COLUMBIA ST","total":7,"Crime":7}}
 ,
@@ -671,11 +698,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"126_25","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.48717982],[-77.429992875,37.48717982],[-77.429992875,37.485617250000004],[-77.43134075,37.485617250000004],[-77.43134075,37.48717982]]]},"properties":{"name":"2700-BLK DEEPWATER TERMINAL RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"127_25","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.48717982],[-77.428645,37.48717982],[-77.428645,37.485617250000004],[-77.429992875,37.485617250000004],[-77.429992875,37.48717982]]]},"properties":{"name":"2800-BLK DEEPWATER TERMINAL RD","total":3,"Traffic":2,"Crime":1}}
+{"type":"Feature","id":"127_25","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.48717982],[-77.428645,37.48717982],[-77.428645,37.485617250000004],[-77.429992875,37.485617250000004],[-77.429992875,37.48717982]]]},"properties":{"name":"2800-BLK DEEPWATER TERMINAL RD","total":5,"Traffic":2,"Discretionary":2,"Crime":1}}
 ,
 {"type":"Feature","id":"49_26","geometry":{"type":"Polygon","coordinates":[[[-77.535127125,37.48874239],[-77.53377925000001,37.48874239],[-77.53377925000001,37.48717982],[-77.535127125,37.48717982],[-77.535127125,37.48874239]]]},"properties":{"name":"1000-BLK TURNER RD","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"67_26","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.48874239],[-77.5095175,37.48874239],[-77.5095175,37.48717982],[-77.51086537500001,37.48717982],[-77.51086537500001,37.48874239]]]},"properties":{"name":"WHITEHEAD RD/DAYTONA DR RICH; 1400-BLK WHITEHEAD RD","total":3,"Crime":2,"Traffic":1}}
+{"type":"Feature","id":"67_26","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.48874239],[-77.5095175,37.48874239],[-77.5095175,37.48717982],[-77.51086537500001,37.48717982],[-77.51086537500001,37.48874239]]]},"properties":{"name":"WHITEHEAD RD/DAYTONA DR RICH; 1400-BLK WHITEHEAD RD","total":6,"Crime":2,"Emergency":2,"Traffic":1,"Mental":1}}
 ,
 {"type":"Feature","id":"71_26","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.48874239],[-77.504126,37.48874239],[-77.504126,37.48717982],[-77.505473875,37.48717982],[-77.505473875,37.48874239]]]},"properties":{"name":"6000-BLK ULLSWATER AVE; 1500-BLK TENNYSON AVE","total":5,"Crime":3,"Traffic":2}}
 ,
@@ -701,13 +728,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"100_26","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.48874239],[-77.46503762500001,37.48874239],[-77.46503762500001,37.48717982],[-77.4663855,37.48717982],[-77.4663855,37.48874239]]]},"properties":{"name":"2100-BLK HOPKINS RD","total":9,"Traffic":6,"Discretionary":2,"Crime":1}}
 ,
-{"type":"Feature","id":"101_26","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.48874239],[-77.46368975,37.48874239],[-77.46368975,37.48717982],[-77.46503762500001,37.48717982],[-77.46503762500001,37.48874239]]]},"properties":{"name":"SHAW LN/HOPKINS RD RICH","total":6,"Crime":3,"Traffic":2,"Emergency":1}}
+{"type":"Feature","id":"101_26","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.48874239],[-77.46368975,37.48874239],[-77.46368975,37.48717982],[-77.46503762500001,37.48717982],[-77.46503762500001,37.48874239]]]},"properties":{"name":"SHAW LN/HOPKINS RD RICH; HOPKINS RD/SHAW LN RICH","total":9,"Crime":5,"Traffic":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"114_26","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.48874239],[-77.446167375,37.48874239],[-77.446167375,37.48717982],[-77.44751525000001,37.48717982],[-77.44751525000001,37.48874239]]]},"properties":{"name":"2600-BLK RICHMOND HWY","total":11,"Crime":5,"Discretionary":4,"Traffic":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"115_26","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.48874239],[-77.44481950000001,37.48874239],[-77.44481950000001,37.48717982],[-77.446167375,37.48717982],[-77.446167375,37.48874239]]]},"properties":{"name":"LL(-77:26:42.4435,37:29:17.3263): ATWELL/COLU","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"118_26","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.48874239],[-77.440775875,37.48874239],[-77.440775875,37.48717982],[-77.44212375000001,37.48717982],[-77.44212375000001,37.48874239]]]},"properties":{"name":"2400-BLK DRAKE ST","total":5,"Discretionary":4,"Crime":1}}
+{"type":"Feature","id":"118_26","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.48874239],[-77.440775875,37.48874239],[-77.440775875,37.48717982],[-77.44212375000001,37.48717982],[-77.44212375000001,37.48874239]]]},"properties":{"name":"2400-BLK DRAKE ST","total":7,"Discretionary":4,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"63_27","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.49030496],[-77.514909,37.49030496],[-77.514909,37.48874239],[-77.516256875,37.48874239],[-77.516256875,37.49030496]]]},"properties":{"name":"6500-BLK BALSAM RD","total":1,"Crime":1}}
 ,
@@ -719,7 +746,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"71_27","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.49030496],[-77.504126,37.49030496],[-77.504126,37.48874239],[-77.505473875,37.48874239],[-77.505473875,37.49030496]]]},"properties":{"name":"1400-BLK STANSBURY AVE","total":4,"Mental":4}}
 ,
-{"type":"Feature","id":"77_27","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.49030496],[-77.49603875,37.49030496],[-77.49603875,37.48874239],[-77.497386625,37.48874239],[-77.497386625,37.49030496]]]},"properties":{"name":"5700-BLK SWANSON RD","total":4,"Mental":2,"Crime":2}}
+{"type":"Feature","id":"77_27","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.49030496],[-77.49603875,37.49030496],[-77.49603875,37.48874239],[-77.497386625,37.48874239],[-77.497386625,37.49030496]]]},"properties":{"name":"5700-BLK SWANSON RD","total":10,"Traffic":6,"Mental":2,"Crime":2}}
 ,
 {"type":"Feature","id":"78_27","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.49030496],[-77.494690875,37.49030496],[-77.494690875,37.48874239],[-77.49603875,37.48874239],[-77.49603875,37.49030496]]]},"properties":{"name":"5500-BLK PRINCESS ELLA LN","total":1,"Crime":1}}
 ,
@@ -761,7 +788,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"73_28","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.49186753],[-77.50143025,37.49186753],[-77.50143025,37.49030496],[-77.502778125,37.49030496],[-77.502778125,37.49186753]]]},"properties":{"name":"5900-BLK WORTHINGTON RD","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"81_28","geometry":{"type":"Polygon","coordinates":[[[-77.491995125,37.49186753],[-77.49064725000001,37.49186753],[-77.49064725000001,37.49030496],[-77.491995125,37.49030496],[-77.491995125,37.49186753]]]},"properties":{"name":"5300-BLK HULL STREET RD","total":35,"Crime":15,"Traffic":10,"Emergency":9,"Mental":1}}
+{"type":"Feature","id":"81_28","geometry":{"type":"Polygon","coordinates":[[[-77.491995125,37.49186753],[-77.49064725000001,37.49186753],[-77.49064725000001,37.49030496],[-77.491995125,37.49030496],[-77.491995125,37.49186753]]]},"properties":{"name":"5300-BLK HULL STREET RD","total":38,"Crime":15,"Traffic":13,"Emergency":9,"Mental":1}}
 ,
 {"type":"Feature","id":"85_28","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.49186753],[-77.48525575000001,37.49186753],[-77.48525575000001,37.49030496],[-77.486603625,37.49030496],[-77.486603625,37.49186753]]]},"properties":{"name":"LL(-77:29:10.1997,37:29:27.5765): HULL/WARWICK","total":2,"Traffic":2}}
 ,
@@ -779,13 +806,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"101_28","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.49186753],[-77.46368975,37.49186753],[-77.46368975,37.49030496],[-77.46503762500001,37.49030496],[-77.46503762500001,37.49186753]]]},"properties":{"name":"2000-BLK HOPKINS RD","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"102_28","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.49186753],[-77.462341875,37.49186753],[-77.462341875,37.49030496],[-77.46368975,37.49030496],[-77.46368975,37.49186753]]]},"properties":{"name":"1900-BLK HOPKINS RD","total":27,"Crime":21,"Traffic":4,"Emergency":2}}
+{"type":"Feature","id":"102_28","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.49186753],[-77.462341875,37.49186753],[-77.462341875,37.49030496],[-77.46368975,37.49030496],[-77.46368975,37.49186753]]]},"properties":{"name":"1900-BLK HOPKINS RD","total":32,"Crime":24,"Traffic":4,"Emergency":4}}
 ,
 {"type":"Feature","id":"116_28","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.49186753],[-77.443471625,37.49186753],[-77.443471625,37.49030496],[-77.44481950000001,37.49030496],[-77.44481950000001,37.49186753]]]},"properties":{"name":"COLUMBIA ST/BELLEMEADE RD RICH; 2500-BLK BRADY ST","total":6,"Crime":3,"Discretionary":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"118_28","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.49186753],[-77.440775875,37.49186753],[-77.440775875,37.49030496],[-77.44212375000001,37.49030496],[-77.44212375000001,37.49186753]]]},"properties":{"name":"2400-BLK BRADY ST; LYNHAVEN AVE/BELLEMEADE RD RICH","total":5,"Discretionary":2,"Traffic":2,"Crime":1}}
 ,
-{"type":"Feature","id":"64_29","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.4934301],[-77.51356112500001,37.4934301],[-77.51356112500001,37.49186753],[-77.514909,37.49186753],[-77.514909,37.4934301]]]},"properties":{"name":"6500-BLK HOLLIDAY RD","total":5,"Crime":3,"Emergency":1,"Mental":1}}
+{"type":"Feature","id":"64_29","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.4934301],[-77.51356112500001,37.4934301],[-77.51356112500001,37.49186753],[-77.514909,37.49186753],[-77.514909,37.4934301]]]},"properties":{"name":"6500-BLK HOLLIDAY RD","total":8,"Emergency":4,"Crime":3,"Mental":1}}
 ,
 {"type":"Feature","id":"66_29","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.4934301],[-77.51086537500001,37.4934301],[-77.51086537500001,37.49186753],[-77.51221325,37.49186753],[-77.51221325,37.4934301]]]},"properties":{"name":"6400-BLK HOLLIDAY RD","total":3,"Mental":2,"Crime":1}}
 ,
@@ -803,7 +830,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"89_29","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.4934301],[-77.47986425,37.4934301],[-77.47986425,37.49186753],[-77.481212125,37.49186753],[-77.481212125,37.4934301]]]},"properties":{"name":"1700-BLK CLARKSON RD","total":42,"Crime":28,"Emergency":7,"Traffic":5,"Discretionary":2}}
 ,
-{"type":"Feature","id":"90_29","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.4934301],[-77.478516375,37.4934301],[-77.478516375,37.49186753],[-77.47986425,37.49186753],[-77.47986425,37.4934301]]]},"properties":{"name":"4600-BLK SOUTHWOOD PKWY; SOUTHWOOD PKWY/CLARKSON RD RICH; CLARKSON RD/SOUTHWOOD PKWY RICH","total":71,"Crime":38,"Emergency":14,"Traffic":9,"Discretionary":8,"Mental":2}}
+{"type":"Feature","id":"90_29","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.4934301],[-77.478516375,37.4934301],[-77.478516375,37.49186753],[-77.47986425,37.49186753],[-77.47986425,37.4934301]]]},"properties":{"name":"4600-BLK SOUTHWOOD PKWY; SOUTHWOOD PKWY/CLARKSON RD RICH; CLARKSON RD/SOUTHWOOD PKWY RICH","total":76,"Crime":41,"Emergency":14,"Discretionary":10,"Traffic":9,"Mental":2}}
 ,
 {"type":"Feature","id":"92_29","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.4934301],[-77.475820625,37.4934301],[-77.475820625,37.49186753],[-77.4771685,37.49186753],[-77.4771685,37.4934301]]]},"properties":{"name":"KINSLEY; 1700-BLK CATALINA DR","total":5,"Crime":4,"Emergency":1}}
 ,
@@ -829,13 +856,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"118_29","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.4934301],[-77.440775875,37.4934301],[-77.440775875,37.49186753],[-77.44212375000001,37.49186753],[-77.44212375000001,37.4934301]]]},"properties":{"name":"LL(-77:26:29.2849,37:29:31.7903): EST 2206 LYNHAVEN AVE RICH; LYNHAVEN AVE/AFTON AVE RICH; AFTON AVE/LYNHAVEN AVE RICH","total":4,"Crime":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"119_29","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.4934301],[-77.439428,37.4934301],[-77.439428,37.49186753],[-77.440775875,37.49186753],[-77.440775875,37.4934301]]]},"properties":{"name":"2300-BLK AFTON AVE","total":23,"Discretionary":10,"Crime":9,"Emergency":4}}
+{"type":"Feature","id":"119_29","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.4934301],[-77.439428,37.4934301],[-77.439428,37.49186753],[-77.440775875,37.49186753],[-77.440775875,37.4934301]]]},"properties":{"name":"2300-BLK AFTON AVE","total":27,"Discretionary":12,"Crime":11,"Emergency":4}}
 ,
-{"type":"Feature","id":"120_29","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.4934301],[-77.438080125,37.4934301],[-77.438080125,37.49186753],[-77.439428,37.49186753],[-77.439428,37.4934301]]]},"properties":{"name":"2200-BLK AFTON AVE; 2200-BLK WARWICK AVE","total":12,"Discretionary":6,"Crime":4,"Emergency":2}}
+{"type":"Feature","id":"120_29","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.4934301],[-77.438080125,37.4934301],[-77.438080125,37.49186753],[-77.439428,37.49186753],[-77.439428,37.4934301]]]},"properties":{"name":"2200-BLK AFTON AVE; 2200-BLK WARWICK AVE","total":14,"Discretionary":8,"Crime":4,"Emergency":2}}
 ,
 {"type":"Feature","id":"121_29","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.4934301],[-77.43673225,37.4934301],[-77.43673225,37.49186753],[-77.438080125,37.49186753],[-77.438080125,37.4934301]]]},"properties":{"name":"2100-BLK AFTON AVE","total":7,"Emergency":4,"Crime":3}}
 ,
-{"type":"Feature","id":"122_29","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.4934301],[-77.435384375,37.4934301],[-77.435384375,37.49186753],[-77.43673225,37.49186753],[-77.43673225,37.4934301]]]},"properties":{"name":"2100-BLK BELLEMEADE RD","total":2,"Crime":2}}
+{"type":"Feature","id":"122_29","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.4934301],[-77.435384375,37.4934301],[-77.435384375,37.49186753],[-77.43673225,37.49186753],[-77.43673225,37.4934301]]]},"properties":{"name":"2100-BLK BELLEMEADE RD","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"64_30","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.49499267],[-77.51356112500001,37.49499267],[-77.51356112500001,37.4934301],[-77.514909,37.4934301],[-77.514909,37.49499267]]]},"properties":{"name":"900-BLK MCDOWELL RD","total":1,"Emergency":1}}
 ,
@@ -857,7 +884,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"85_30","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.49499267],[-77.48525575000001,37.49499267],[-77.48525575000001,37.4934301],[-77.486603625,37.4934301],[-77.486603625,37.49499267]]]},"properties":{"name":"CIRCLEWOOD DR/HULL STREET RD RICH","total":6,"Crime":4,"Emergency":2}}
 ,
-{"type":"Feature","id":"87_30","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.49499267],[-77.48256,37.49499267],[-77.48256,37.4934301],[-77.483907875,37.4934301],[-77.483907875,37.49499267]]]},"properties":{"name":"1200-BLK SOUTHWOOD PKWY; 1100-BLK SOUTHWOOD PKWY","total":64,"Discretionary":54,"Emergency":4,"Crime":4,"Traffic":2}}
+{"type":"Feature","id":"87_30","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.49499267],[-77.48256,37.49499267],[-77.48256,37.4934301],[-77.483907875,37.4934301],[-77.483907875,37.49499267]]]},"properties":{"name":"1200-BLK SOUTHWOOD PKWY; 1100-BLK SOUTHWOOD PKWY","total":69,"Discretionary":58,"Crime":5,"Emergency":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"88_30","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.49499267],[-77.481212125,37.49499267],[-77.481212125,37.4934301],[-77.48256,37.4934301],[-77.48256,37.49499267]]]},"properties":{"name":"2200-BLK SOUTHWOOD","total":2,"Discretionary":2}}
 ,
@@ -867,7 +894,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"93_30","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.49499267],[-77.47447275,37.49499267],[-77.47447275,37.4934301],[-77.475820625,37.4934301],[-77.475820625,37.49499267]]]},"properties":{"name":"1500-BLK CATALINA DR","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"96_30","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.49499267],[-77.47042912500001,37.49499267],[-77.47042912500001,37.4934301],[-77.471777,37.4934301],[-77.471777,37.49499267]]]},"properties":{"name":"1600-BLK BROAD ROCK BLVD","total":15,"Emergency":9,"Crime":6}}
+{"type":"Feature","id":"96_30","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.49499267],[-77.47042912500001,37.49499267],[-77.47042912500001,37.4934301],[-77.471777,37.4934301],[-77.471777,37.49499267]]]},"properties":{"name":"1600-BLK BROAD ROCK BLVD","total":16,"Emergency":10,"Crime":6}}
 ,
 {"type":"Feature","id":"102_30","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.49499267],[-77.462341875,37.49499267],[-77.462341875,37.4934301],[-77.46368975,37.4934301],[-77.46368975,37.49499267]]]},"properties":{"name":"1700-BLK HOPKINS RD","total":2,"Traffic":2}}
 ,
@@ -875,9 +902,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"105_30","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.49499267],[-77.45829825,37.49499267],[-77.45829825,37.4934301],[-77.459646125,37.4934301],[-77.459646125,37.49499267]]]},"properties":{"name":"3100-BLK MAURICE AVE","total":2,"Emergency":1,"Crime":1}}
 ,
+{"type":"Feature","id":"106_30","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.49499267],[-77.456950375,37.49499267],[-77.456950375,37.4934301],[-77.45829825,37.4934301],[-77.45829825,37.49499267]]]},"properties":{"name":"KENYON AVE/YALE AVE RICH","total":1,"Crime":1}}
+,
 {"type":"Feature","id":"111_30","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.49499267],[-77.450211,37.49499267],[-77.450211,37.4934301],[-77.451558875,37.4934301],[-77.451558875,37.49499267]]]},"properties":{"name":"2800-BLK COFER RD","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"115_30","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.49499267],[-77.44481950000001,37.49499267],[-77.44481950000001,37.4934301],[-77.446167375,37.4934301],[-77.446167375,37.49499267]]]},"properties":{"name":"2600-BLK COFER RD; RICHMOND HWY/COFER RD RICH","total":4,"Traffic":3,"Crime":1}}
+,
+{"type":"Feature","id":"118_30","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.49499267],[-77.440775875,37.49499267],[-77.440775875,37.4934301],[-77.44212375000001,37.4934301],[-77.44212375000001,37.49499267]]]},"properties":{"name":"2400-BLK WRIGHT AVE","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"119_30","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.49499267],[-77.439428,37.49499267],[-77.439428,37.4934301],[-77.440775875,37.4934301],[-77.440775875,37.49499267]]]},"properties":{"name":"2300-BLK WRIGHT AVE","total":4,"Crime":4}}
 ,
@@ -897,33 +928,33 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"77_31","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.49655524],[-77.49603875,37.49655524],[-77.49603875,37.49499267],[-77.497386625,37.49499267],[-77.497386625,37.49655524]]]},"properties":{"name":"WARWICK RD/QUEEN ANNE DR RICH","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"84_31","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.49655524],[-77.486603625,37.49655524],[-77.486603625,37.49499267],[-77.48795150000001,37.49499267],[-77.48795150000001,37.49655524]]]},"properties":{"name":"1000-BLK CIRCLEWOOD DR","total":14,"Crime":12,"Traffic":1,"Emergency":1}}
+{"type":"Feature","id":"84_31","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.49655524],[-77.486603625,37.49655524],[-77.486603625,37.49499267],[-77.48795150000001,37.49499267],[-77.48795150000001,37.49655524]]]},"properties":{"name":"1000-BLK CIRCLEWOOD DR","total":15,"Crime":13,"Traffic":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"87_31","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.49655524],[-77.48256,37.49655524],[-77.48256,37.49499267],[-77.483907875,37.49499267],[-77.483907875,37.49655524]]]},"properties":{"name":"HULL STREET RD/SOUTHWOOD PKWY RICH: alias HULL ST/SOUTHWOOD PKWY RICH; SOUTHWOOD PKWY/HULL STREET RD RICH","total":5,"Traffic":5}}
 ,
 {"type":"Feature","id":"88_31","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.49655524],[-77.481212125,37.49655524],[-77.481212125,37.49499267],[-77.48256,37.49499267],[-77.48256,37.49655524]]]},"properties":{"name":"1600-BLK TREEHAVEN DR; LL(-77:28:52.9682,37:29:45.6575): EST 1639 TIFTON CT RICH; 1700-BLK TIFTON CT","total":13,"Crime":9,"Discretionary":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"89_31","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.49655524],[-77.47986425,37.49655524],[-77.47986425,37.49499267],[-77.481212125,37.49499267],[-77.481212125,37.49655524]]]},"properties":{"name":"1500-BLK TREEHAVEN DR; 1400-BLK TREEHAVEN DR","total":37,"Crime":26,"Discretionary":8,"Traffic":2,"Emergency":1}}
+{"type":"Feature","id":"89_31","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.49655524],[-77.47986425,37.49655524],[-77.47986425,37.49499267],[-77.481212125,37.49499267],[-77.481212125,37.49655524]]]},"properties":{"name":"1500-BLK TREEHAVEN DR; 1400-BLK TREEHAVEN DR","total":41,"Crime":26,"Discretionary":12,"Traffic":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"90_31","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.49655524],[-77.478516375,37.49655524],[-77.478516375,37.49499267],[-77.47986425,37.49499267],[-77.47986425,37.49655524]]]},"properties":{"name":"1500-BLK CLARKSON RD","total":32,"Crime":16,"Emergency":11,"Traffic":3,"Discretionary":2}}
 ,
 {"type":"Feature","id":"91_31","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.49655524],[-77.4771685,37.49655524],[-77.4771685,37.49499267],[-77.478516375,37.49499267],[-77.478516375,37.49655524]]]},"properties":{"name":"CLARKSON CT/CLARKSON RD RICH","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"92_31","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.49655524],[-77.475820625,37.49655524],[-77.475820625,37.49499267],[-77.4771685,37.49499267],[-77.4771685,37.49655524]]]},"properties":{"name":"1400-BLK CLARKSON RD; 1400-BLK KINGSWOOD ST; 1400-BLK CLARKSON CT; 1400-BLK CLARKSON","total":75,"Crime":55,"Emergency":9,"Discretionary":8,"Traffic":3}}
+{"type":"Feature","id":"92_31","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.49655524],[-77.475820625,37.49655524],[-77.475820625,37.49499267],[-77.4771685,37.49499267],[-77.4771685,37.49655524]]]},"properties":{"name":"1400-BLK CLARKSON RD; 1400-BLK KINGSWOOD ST; 1400-BLK CLARKSON CT; 1400-BLK CLARKSON","total":81,"Crime":58,"Emergency":9,"Discretionary":8,"Traffic":3,"Mental":3}}
 ,
 {"type":"Feature","id":"93_31","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.49655524],[-77.47447275,37.49655524],[-77.47447275,37.49499267],[-77.475820625,37.49499267],[-77.475820625,37.49655524]]]},"properties":{"name":"1400-BLK SUNBURY RD","total":5,"Mental":4,"Crime":1}}
 ,
 {"type":"Feature","id":"95_31","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.49655524],[-77.471777,37.49655524],[-77.471777,37.49499267],[-77.473124875,37.49499267],[-77.473124875,37.49655524]]]},"properties":{"name":"1300-BLK EVERGREEN AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"96_31","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.49655524],[-77.47042912500001,37.49655524],[-77.47042912500001,37.49499267],[-77.471777,37.49499267],[-77.471777,37.49655524]]]},"properties":{"name":"1400-BLK BROAD ROCK BLVD","total":6,"Crime":4,"Traffic":2}}
+{"type":"Feature","id":"96_31","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.49655524],[-77.47042912500001,37.49655524],[-77.47042912500001,37.49499267],[-77.471777,37.49499267],[-77.471777,37.49655524]]]},"properties":{"name":"1400-BLK BROAD ROCK BLVD; 1400-BLK GREYSTONE AVE","total":8,"Crime":6,"Traffic":2}}
 ,
 {"type":"Feature","id":"98_31","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.49655524],[-77.46773337500001,37.49655524],[-77.46773337500001,37.49499267],[-77.46908125,37.49499267],[-77.46908125,37.49655524]]]},"properties":{"name":"LL(-77:28:04.5392,37:29:42.4615): @MCGUIRE HOSPITAL","total":3,"Traffic":3}}
 ,
-{"type":"Feature","id":"104_31","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.49655524],[-77.459646125,37.49655524],[-77.459646125,37.49499267],[-77.460994,37.49499267],[-77.460994,37.49655524]]]},"properties":{"name":"1600-BLK HOPKINS RD; HOPKINS RD/MCGUIRE DR RICH","total":5,"Traffic":4,"Crime":1}}
+{"type":"Feature","id":"104_31","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.49655524],[-77.459646125,37.49655524],[-77.459646125,37.49499267],[-77.460994,37.49499267],[-77.460994,37.49655524]]]},"properties":{"name":"1600-BLK HOPKINS RD; HOPKINS RD/MCGUIRE DR RICH","total":6,"Traffic":4,"Crime":2}}
 ,
 {"type":"Feature","id":"105_31","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.49655524],[-77.45829825,37.49655524],[-77.45829825,37.49499267],[-77.459646125,37.49499267],[-77.459646125,37.49655524]]]},"properties":{"name":"1500-BLK TALBERT DR","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"106_31","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.49655524],[-77.456950375,37.49655524],[-77.456950375,37.49499267],[-77.45829825,37.49499267],[-77.45829825,37.49655524]]]},"properties":{"name":"3100-BLK LOST LN; 1600-BLK YALE AVE; 1500-BLK YALE AVE; 3100-BLK KENYON AVE","total":18,"Crime":12,"Emergency":4,"Traffic":2}}
+{"type":"Feature","id":"106_31","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.49655524],[-77.456950375,37.49655524],[-77.456950375,37.49499267],[-77.45829825,37.49499267],[-77.45829825,37.49655524]]]},"properties":{"name":"3100-BLK LOST LN; 1600-BLK YALE AVE; 1500-BLK YALE AVE; 3100-BLK KENYON AVE","total":19,"Crime":13,"Emergency":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"108_31","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.49655524],[-77.454254625,37.49655524],[-77.454254625,37.49499267],[-77.4556025,37.49499267],[-77.4556025,37.49655524]]]},"properties":{"name":"1500-BLK BANGLE DR","total":1,"Emergency":1}}
 ,
@@ -931,13 +962,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"116_31","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.49655524],[-77.443471625,37.49655524],[-77.443471625,37.49499267],[-77.44481950000001,37.49499267],[-77.44481950000001,37.49655524]]]},"properties":{"name":"2500-BLK ROYALL AVE; 2500-BLK WEBBER AVE; COLUMBIA ST/WEBBER AVE RICH","total":9,"Crime":6,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"117_31","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.49655524],[-77.44212375000001,37.49655524],[-77.44212375000001,37.49499267],[-77.443471625,37.49499267],[-77.443471625,37.49655524]]]},"properties":{"name":"2400-BLK ROYALL AVE; 2400-BLK WEBBER AVE","total":10,"Crime":7,"Emergency":2,"Traffic":1}}
+{"type":"Feature","id":"117_31","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.49655524],[-77.44212375000001,37.49655524],[-77.44212375000001,37.49499267],[-77.443471625,37.49499267],[-77.443471625,37.49655524]]]},"properties":{"name":"2400-BLK ROYALL AVE; 2400-BLK WEBBER AVE","total":11,"Crime":8,"Emergency":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"118_31","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.49655524],[-77.440775875,37.49655524],[-77.440775875,37.49499267],[-77.44212375000001,37.49499267],[-77.44212375000001,37.49655524]]]},"properties":{"name":"1800-BLK LYNHAVEN AVE","total":1,"Crime":1}}
+{"type":"Feature","id":"118_31","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.49655524],[-77.440775875,37.49655524],[-77.440775875,37.49499267],[-77.44212375000001,37.49499267],[-77.44212375000001,37.49655524]]]},"properties":{"name":"1800-BLK LYNHAVEN AVE","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"119_31","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.49655524],[-77.439428,37.49655524],[-77.439428,37.49499267],[-77.440775875,37.49499267],[-77.440775875,37.49655524]]]},"properties":{"name":"2300-BLK ROYALL AVE","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"122_31","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.49655524],[-77.435384375,37.49655524],[-77.435384375,37.49499267],[-77.43673225,37.49499267],[-77.43673225,37.49655524]]]},"properties":{"name":"1500-BLK GUNN ST; 2100-BLK ROYALL AVE","total":15,"Crime":10,"Emergency":5}}
+{"type":"Feature","id":"122_31","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.49655524],[-77.435384375,37.49655524],[-77.435384375,37.49499267],[-77.43673225,37.49499267],[-77.43673225,37.49655524]]]},"properties":{"name":"1500-BLK GUNN ST; 2100-BLK ROYALL AVE; 2100-BLK ROYAL AV","total":18,"Crime":10,"Emergency":6,"Traffic":2}}
 ,
 {"type":"Feature","id":"124_31","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.49655524],[-77.432688625,37.49655524],[-77.432688625,37.49499267],[-77.4340365,37.49499267],[-77.4340365,37.49655524]]]},"properties":{"name":"2000-BLK ROYALL AVE; ROYALL AVE/COMMERCE RD RICH","total":4,"Crime":2,"Traffic":2}}
 ,
@@ -945,13 +976,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"69_32","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.498117810000004],[-77.50682175,37.498117810000004],[-77.50682175,37.49655524],[-77.50816962500001,37.49655524],[-77.50816962500001,37.498117810000004]]]},"properties":{"name":"600-BLK KAKI DR","total":3,"Crime":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"70_32","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.498117810000004],[-77.505473875,37.498117810000004],[-77.505473875,37.49655524],[-77.50682175,37.49655524],[-77.50682175,37.498117810000004]]]},"properties":{"name":"6000-BLK WARWICK RD; WHITEHEAD RD/WARWICK RD RICH","total":3,"Crime":3}}
+{"type":"Feature","id":"70_32","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.498117810000004],[-77.505473875,37.498117810000004],[-77.505473875,37.49655524],[-77.50682175,37.49655524],[-77.50682175,37.498117810000004]]]},"properties":{"name":"6000-BLK WARWICK RD; WHITEHEAD RD/WARWICK RD RICH; 700-BLK WHITEHEAD RD","total":6,"Crime":6}}
 ,
-{"type":"Feature","id":"71_32","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.498117810000004],[-77.504126,37.498117810000004],[-77.504126,37.49655524],[-77.505473875,37.49655524],[-77.505473875,37.498117810000004]]]},"properties":{"name":"5900-BLK WARWICK RD","total":5,"Crime":5}}
+{"type":"Feature","id":"71_32","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.498117810000004],[-77.504126,37.498117810000004],[-77.504126,37.49655524],[-77.505473875,37.49655524],[-77.505473875,37.498117810000004]]]},"properties":{"name":"5900-BLK WARWICK RD","total":7,"Crime":5,"Traffic":2}}
 ,
 {"type":"Feature","id":"73_32","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.498117810000004],[-77.50143025,37.498117810000004],[-77.50143025,37.49655524],[-77.502778125,37.49655524],[-77.502778125,37.498117810000004]]]},"properties":{"name":"BRAMWELL RD/WARWICK RD RICH; 5800-BLK WARWICK RD","total":14,"Crime":9,"Traffic":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"74_32","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.498117810000004],[-77.500082375,37.498117810000004],[-77.500082375,37.49655524],[-77.50143025,37.49655524],[-77.50143025,37.498117810000004]]]},"properties":{"name":"WARWICK RD/WARWICK VILLAGE DR RICH; 800-BLK GREEN RIDGE DR","total":6,"Crime":4,"Traffic":2}}
+{"type":"Feature","id":"74_32","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.498117810000004],[-77.500082375,37.498117810000004],[-77.500082375,37.49655524],[-77.50143025,37.49655524],[-77.50143025,37.498117810000004]]]},"properties":{"name":"WARWICK RD/WARWICK VILLAGE DR RICH; 800-BLK GREEN RIDGE DR; WARWICK RD/GREEN RIDGE DR RICH","total":8,"Crime":4,"Traffic":4}}
 ,
 {"type":"Feature","id":"76_32","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.498117810000004],[-77.497386625,37.498117810000004],[-77.497386625,37.49655524],[-77.4987345,37.49655524],[-77.4987345,37.498117810000004]]]},"properties":{"name":"5500-BLK WARWICK RD; 3100-BLK WARWICK RD; 5200-BLK WARWICK RD; 4800-BLK WARWICK RD","total":11,"Traffic":6,"Crime":3,"Discretionary":2}}
 ,
@@ -959,13 +990,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"78_32","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.498117810000004],[-77.494690875,37.498117810000004],[-77.494690875,37.49655524],[-77.49603875,37.49655524],[-77.49603875,37.498117810000004]]]},"properties":{"name":"5500-BLK JARVIS RD","total":5,"Emergency":4,"Crime":1}}
 ,
-{"type":"Feature","id":"79_32","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.498117810000004],[-77.49334300000001,37.498117810000004],[-77.49334300000001,37.49655524],[-77.494690875,37.49655524],[-77.494690875,37.498117810000004]]]},"properties":{"name":"5400-BLK JARVIS RD","total":3,"Mental":2,"Crime":1}}
+{"type":"Feature","id":"79_32","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.498117810000004],[-77.49334300000001,37.498117810000004],[-77.49334300000001,37.49655524],[-77.494690875,37.49655524],[-77.494690875,37.498117810000004]]]},"properties":{"name":"5400-BLK JARVIS RD","total":4,"Mental":2,"Crime":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"80_32","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.498117810000004],[-77.491995125,37.498117810000004],[-77.491995125,37.49655524],[-77.49334300000001,37.49655524],[-77.49334300000001,37.498117810000004]]]},"properties":{"name":"5300-BLK JARVIS RD; 1000-BLK WOODSTOCK RD","total":9,"Crime":5,"Emergency":4}}
 ,
 {"type":"Feature","id":"85_32","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.498117810000004],[-77.48525575000001,37.498117810000004],[-77.48525575000001,37.49655524],[-77.486603625,37.49655524],[-77.486603625,37.498117810000004]]]},"properties":{"name":"1000-BLK WOODHAVEN DR; 1000-BLK NEWKIRK DR","total":11,"Crime":9,"Emergency":1,"Mental":1}}
 ,
-{"type":"Feature","id":"89_32","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.498117810000004],[-77.47986425,37.498117810000004],[-77.47986425,37.49655524],[-77.481212125,37.49655524],[-77.481212125,37.498117810000004]]]},"properties":{"name":"1500-BLK TIFTON CT; 1600-BLK TIFTON CT","total":9,"Crime":5,"Discretionary":2,"Emergency":2}}
+{"type":"Feature","id":"89_32","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.498117810000004],[-77.47986425,37.498117810000004],[-77.47986425,37.49655524],[-77.481212125,37.49655524],[-77.481212125,37.498117810000004]]]},"properties":{"name":"1500-BLK TIFTON CT; 1600-BLK TIFTON CT","total":12,"Crime":6,"Discretionary":4,"Emergency":2}}
 ,
 {"type":"Feature","id":"90_32","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.498117810000004],[-77.478516375,37.498117810000004],[-77.478516375,37.49655524],[-77.47986425,37.49655524],[-77.47986425,37.498117810000004]]]},"properties":{"name":"1400-BLK TIFTON CT","total":11,"Crime":5,"Discretionary":4,"Emergency":2}}
 ,
@@ -987,7 +1018,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_32","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.498117810000004],[-77.44481950000001,37.498117810000004],[-77.44481950000001,37.49655524],[-77.446167375,37.49655524],[-77.446167375,37.498117810000004]]]},"properties":{"name":"2500-BLK OAKLAND AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"117_32","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.498117810000004],[-77.44212375000001,37.498117810000004],[-77.44212375000001,37.49655524],[-77.443471625,37.49655524],[-77.443471625,37.498117810000004]]]},"properties":{"name":"2400-BLK OAKLAND AVE","total":5,"Crime":4,"Emergency":1}}
+{"type":"Feature","id":"117_32","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.498117810000004],[-77.44212375000001,37.498117810000004],[-77.44212375000001,37.49655524],[-77.443471625,37.49655524],[-77.443471625,37.498117810000004]]]},"properties":{"name":"2400-BLK OAKLAND AVE","total":6,"Crime":5,"Emergency":1}}
 ,
 {"type":"Feature","id":"119_32","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.498117810000004],[-77.439428,37.498117810000004],[-77.439428,37.49655524],[-77.440775875,37.49655524],[-77.440775875,37.498117810000004]]]},"properties":{"name":"2300-BLK OAKLAND PL","total":3,"Traffic":2,"Crime":1}}
 ,
@@ -1025,7 +1056,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"95_33","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.49968038],[-77.471777,37.49968038],[-77.471777,37.498117810000004],[-77.473124875,37.498117810000004],[-77.473124875,37.49968038]]]},"properties":{"name":"LL(-77:28:21.2053,37:29:57.5159): EST 1014 WELTON AVE RICH","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"96_33","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.49968038],[-77.47042912500001,37.49968038],[-77.47042912500001,37.498117810000004],[-77.471777,37.498117810000004],[-77.471777,37.49968038]]]},"properties":{"name":"1200-BLK BROAD ROCK BLVD","total":7,"Emergency":5,"Traffic":1,"Mental":1}}
+{"type":"Feature","id":"96_33","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.49968038],[-77.47042912500001,37.49968038],[-77.47042912500001,37.498117810000004],[-77.471777,37.498117810000004],[-77.471777,37.49968038]]]},"properties":{"name":"1200-BLK BROAD ROCK BLVD","total":9,"Emergency":5,"Crime":2,"Traffic":1,"Mental":1}}
 ,
 {"type":"Feature","id":"97_33","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.49968038],[-77.46908125,37.49968038],[-77.46908125,37.498117810000004],[-77.47042912500001,37.498117810000004],[-77.47042912500001,37.49968038]]]},"properties":{"name":"00-BLK E BROAD ROCK RD; BROAD ROCK BLVD/DELOAK AVE RICH","total":6,"Crime":4,"Traffic":2}}
 ,
@@ -1039,7 +1070,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_33","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.49968038],[-77.44481950000001,37.49968038],[-77.44481950000001,37.498117810000004],[-77.446167375,37.498117810000004],[-77.446167375,37.49968038]]]},"properties":{"name":"1600-BLK COLUMBIA ST","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"119_33","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.49968038],[-77.439428,37.49968038],[-77.439428,37.498117810000004],[-77.440775875,37.498117810000004],[-77.440775875,37.49968038]]]},"properties":{"name":"1500-BLK WILLIS ST; 2300-BLK MIMOSA ST","total":4,"Crime":2,"Traffic":2}}
+{"type":"Feature","id":"117_33","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.49968038],[-77.44212375000001,37.49968038],[-77.44212375000001,37.498117810000004],[-77.443471625,37.498117810000004],[-77.443471625,37.49968038]]]},"properties":{"name":"1500-BLK LYNHAVEN AVE","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"119_33","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.49968038],[-77.439428,37.49968038],[-77.439428,37.498117810000004],[-77.440775875,37.498117810000004],[-77.440775875,37.49968038]]]},"properties":{"name":"1500-BLK WILLIS ST; 2300-BLK MIMOSA ST","total":5,"Crime":2,"Traffic":2,"Emergency":1}}
+,
+{"type":"Feature","id":"120_33","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.49968038],[-77.438080125,37.49968038],[-77.438080125,37.498117810000004],[-77.439428,37.498117810000004],[-77.439428,37.49968038]]]},"properties":{"name":"MIMOSA ST/MINEFEE ST RICH","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"121_33","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.49968038],[-77.43673225,37.49968038],[-77.43673225,37.498117810000004],[-77.438080125,37.498117810000004],[-77.438080125,37.49968038]]]},"properties":{"name":"1600-BLK MINEFEE ST","total":3,"Emergency":2,"Crime":1}}
 ,
@@ -1049,9 +1084,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"125_33","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.49968038],[-77.43134075,37.49968038],[-77.43134075,37.498117810000004],[-77.432688625,37.498117810000004],[-77.432688625,37.49968038]]]},"properties":{"name":"1800-BLK COMMERCE RD","total":8,"Traffic":8}}
 ,
-{"type":"Feature","id":"54_34","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.50124295],[-77.527039875,37.50124295],[-77.527039875,37.49968038],[-77.52838775000001,37.49968038],[-77.52838775000001,37.50124295]]]},"properties":{"name":"HULL ST/MIDLOTHIAN TPKE RICH; MIDLOTHIAN TPKE/HULL ST RICH","total":13,"Traffic":9,"Crime":4}}
+{"type":"Feature","id":"54_34","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.50124295],[-77.527039875,37.50124295],[-77.527039875,37.49968038],[-77.52838775000001,37.49968038],[-77.52838775000001,37.50124295]]]},"properties":{"name":"HULL ST/MIDLOTHIAN TPKE RICH; MIDLOTHIAN TPKE/HULL ST RICH; MIDLOTHIAN TPKE/CHIPPENHAM PKWY CHES","total":15,"Traffic":11,"Crime":4}}
 ,
-{"type":"Feature","id":"58_34","geometry":{"type":"Polygon","coordinates":[[[-77.52299625,37.50124295],[-77.521648375,37.50124295],[-77.521648375,37.49968038],[-77.52299625,37.49968038],[-77.52299625,37.50124295]]]},"properties":{"name":"100-BLK GRESHAMWOOD PL","total":40,"Crime":29,"Emergency":7,"Mental":4}}
+{"type":"Feature","id":"58_34","geometry":{"type":"Polygon","coordinates":[[[-77.52299625,37.50124295],[-77.521648375,37.50124295],[-77.521648375,37.49968038],[-77.52299625,37.49968038],[-77.52299625,37.50124295]]]},"properties":{"name":"100-BLK GRESHAMWOOD PL","total":44,"Crime":30,"Mental":7,"Emergency":7}}
 ,
 {"type":"Feature","id":"62_34","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.50124295],[-77.516256875,37.50124295],[-77.516256875,37.49968038],[-77.51760475,37.49968038],[-77.51760475,37.50124295]]]},"properties":{"name":"WARWICK RD/BROOKLINE ST RICH; 200-BLK CARNATION ST","total":6,"Traffic":4,"Crime":2}}
 ,
@@ -1063,11 +1098,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"73_34","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.50124295],[-77.50143025,37.50124295],[-77.50143025,37.49968038],[-77.502778125,37.49968038],[-77.502778125,37.50124295]]]},"properties":{"name":"GIANT DR/BIGGS RD RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"74_34","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.50124295],[-77.500082375,37.50124295],[-77.500082375,37.49968038],[-77.50143025,37.49968038],[-77.50143025,37.50124295]]]},"properties":{"name":"600-BLK WARWICK VILLAGE DR; 5600-BLK CHARLEVOIX CT","total":71,"Crime":42,"Emergency":11,"Traffic":6,"Mental":6,"Discretionary":6}}
+{"type":"Feature","id":"74_34","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.50124295],[-77.500082375,37.50124295],[-77.500082375,37.49968038],[-77.50143025,37.49968038],[-77.50143025,37.50124295]]]},"properties":{"name":"600-BLK WARWICK VILLAGE DR; 5600-BLK CHARLEVOIX CT","total":72,"Crime":42,"Emergency":12,"Traffic":6,"Mental":6,"Discretionary":6}}
 ,
 {"type":"Feature","id":"76_34","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.50124295],[-77.497386625,37.50124295],[-77.497386625,37.49968038],[-77.4987345,37.49968038],[-77.4987345,37.50124295]]]},"properties":{"name":"600-BLK EFFINGHAM DR","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"77_34","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.50124295],[-77.49603875,37.50124295],[-77.49603875,37.49968038],[-77.497386625,37.49968038],[-77.497386625,37.50124295]]]},"properties":{"name":"600-BLK QUEEN ANNE DR; 5500-BLK CALVERT DR","total":3,"Crime":3}}
+{"type":"Feature","id":"77_34","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.50124295],[-77.49603875,37.50124295],[-77.49603875,37.49968038],[-77.497386625,37.49968038],[-77.497386625,37.50124295]]]},"properties":{"name":"600-BLK QUEEN ANNE DR; 5500-BLK CALVERT DR","total":4,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"78_34","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.50124295],[-77.494690875,37.50124295],[-77.494690875,37.49968038],[-77.49603875,37.49968038],[-77.49603875,37.50124295]]]},"properties":{"name":"5400-BLK CALVERT DR; 600-BLK YORKSHIRE DR","total":3,"Emergency":2,"Crime":1}}
 ,
@@ -1075,13 +1110,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"86_34","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.50124295],[-77.483907875,37.50124295],[-77.483907875,37.49968038],[-77.48525575000001,37.49968038],[-77.48525575000001,37.50124295]]]},"properties":{"name":"800-BLK DIXON DR","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"91_34","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.50124295],[-77.4771685,37.50124295],[-77.4771685,37.49968038],[-77.478516375,37.49968038],[-77.478516375,37.50124295]]]},"properties":{"name":"600-BLK W SOUTHSIDE PLZ; 600-BLK W SOUTHSIDE PLZA","total":46,"Crime":28,"Discretionary":10,"Mental":5,"Emergency":3}}
+{"type":"Feature","id":"91_34","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.50124295],[-77.4771685,37.50124295],[-77.4771685,37.49968038],[-77.478516375,37.49968038],[-77.478516375,37.50124295]]]},"properties":{"name":"600-BLK W SOUTHSIDE PLZ; 600-BLK W SOUTHSIDE PLZA","total":47,"Crime":29,"Discretionary":10,"Mental":5,"Emergency":3}}
 ,
-{"type":"Feature","id":"93_34","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50124295],[-77.47447275,37.50124295],[-77.47447275,37.49968038],[-77.475820625,37.49968038],[-77.475820625,37.50124295]]]},"properties":{"name":"LL(-77:28:29.5542,37:30:03.2261): HULL/GREYSTONE; 800-BLK GREYSTONE AVE; HULL STREET RD/GREYSTONE AVE RICH; 800-BLK BEDROCK LN","total":5,"Crime":3,"Traffic":1,"Mental":1}}
+{"type":"Feature","id":"93_34","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50124295],[-77.47447275,37.50124295],[-77.47447275,37.49968038],[-77.475820625,37.49968038],[-77.475820625,37.50124295]]]},"properties":{"name":"LL(-77:28:29.5542,37:30:03.2261): HULL/GREYSTONE; 800-BLK GREYSTONE AVE; HULL STREET RD/GREYSTONE AVE RICH; 800-BLK BEDROCK LN","total":8,"Crime":6,"Traffic":1,"Mental":1}}
 ,
 {"type":"Feature","id":"97_34","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.50124295],[-77.46908125,37.50124295],[-77.46908125,37.49968038],[-77.47042912500001,37.49968038],[-77.47042912500001,37.50124295]]]},"properties":{"name":"3900-BLK E BROAD ROCK RD","total":3,"Crime":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"98_34","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.50124295],[-77.46773337500001,37.50124295],[-77.46773337500001,37.49968038],[-77.46908125,37.49968038],[-77.46908125,37.50124295]]]},"properties":{"name":"SPAINE ST/E BROAD ROCK RD RICH; 3700-BLK MCGUIRE DR","total":4,"Traffic":3,"Emergency":1}}
+{"type":"Feature","id":"98_34","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.50124295],[-77.46773337500001,37.50124295],[-77.46773337500001,37.49968038],[-77.46908125,37.49968038],[-77.46908125,37.50124295]]]},"properties":{"name":"SPAINE ST/E BROAD ROCK RD RICH; 3700-BLK MCGUIRE DR; 800-BLK MCGUIRE DR","total":10,"Traffic":7,"Emergency":3}}
 ,
 {"type":"Feature","id":"99_34","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.50124295],[-77.4663855,37.50124295],[-77.4663855,37.49968038],[-77.46773337500001,37.49968038],[-77.46773337500001,37.50124295]]]},"properties":{"name":"3700-BLK CHAPEL DR; 3800-BLK MCGUIRE DR","total":9,"Emergency":6,"Crime":2,"Mental":1}}
 ,
@@ -1093,7 +1128,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"104_34","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.50124295],[-77.459646125,37.50124295],[-77.459646125,37.49968038],[-77.460994,37.49968038],[-77.460994,37.50124295]]]},"properties":{"name":"3400-BLK CHAPEL DR","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"106_34","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.50124295],[-77.456950375,37.50124295],[-77.456950375,37.49968038],[-77.45829825,37.49968038],[-77.45829825,37.50124295]]]},"properties":{"name":"3700-BLK N HOPKINS RD; 3600-BLK N HOPKINS RD; HOLLY SPRING AVE/N HOPKINS RD RICH","total":5,"Traffic":5}}
+{"type":"Feature","id":"106_34","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.50124295],[-77.456950375,37.50124295],[-77.456950375,37.49968038],[-77.45829825,37.49968038],[-77.45829825,37.50124295]]]},"properties":{"name":"3700-BLK N HOPKINS RD; 3600-BLK N HOPKINS RD; HOLLY SPRING AVE/N HOPKINS RD RICH","total":9,"Traffic":9}}
 ,
 {"type":"Feature","id":"113_34","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.50124295],[-77.44751525000001,37.50124295],[-77.44751525000001,37.49968038],[-77.448863125,37.49968038],[-77.448863125,37.50124295]]]},"properties":{"name":"1500-BLK RICHMOND HWY","total":15,"Emergency":8,"Traffic":4,"Crime":3}}
 ,
@@ -1109,11 +1144,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"58_35","geometry":{"type":"Polygon","coordinates":[[[-77.52299625,37.50280552],[-77.521648375,37.50280552],[-77.521648375,37.50124295],[-77.52299625,37.50124295],[-77.52299625,37.50280552]]]},"properties":{"name":"MIDLOTHIAN TPKE/WYCK ST RICH; WYCK ST/MIDLOTHIAN TPKE RICH","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"60_35","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.50280552],[-77.518952625,37.50280552],[-77.518952625,37.50124295],[-77.5203005,37.50124295],[-77.5203005,37.50280552]]]},"properties":{"name":"LL(-77:31:12.3826,37:30:09.2877): SB MID/W; 6800-BLK MIDLOTHIAN TPKE; ARCADIA ST/MIDLOTHIAN TPKE RICH; MIDLOTHIAN TPKE/ARCADIA ST RICH","total":106,"Crime":51,"Traffic":36,"Emergency":19}}
+{"type":"Feature","id":"60_35","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.50280552],[-77.518952625,37.50280552],[-77.518952625,37.50124295],[-77.5203005,37.50124295],[-77.5203005,37.50280552]]]},"properties":{"name":"LL(-77:31:12.3826,37:30:09.2877): SB MID/W; 6800-BLK MIDLOTHIAN TPKE; ARCADIA ST/MIDLOTHIAN TPKE RICH; MIDLOTHIAN TPKE/ARCADIA ST RICH","total":116,"Crime":57,"Traffic":38,"Emergency":21}}
 ,
 {"type":"Feature","id":"61_35","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.50280552],[-77.51760475,37.50280552],[-77.51760475,37.50124295],[-77.518952625,37.50124295],[-77.518952625,37.50280552]]]},"properties":{"name":"HOST INN OST; LL(-77:31:06.7453,37:30:09.7156): MIDL/ARC","total":4,"Traffic":4}}
 ,
-{"type":"Feature","id":"62_35","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.50280552],[-77.516256875,37.50280552],[-77.516256875,37.50124295],[-77.51760475,37.50124295],[-77.51760475,37.50280552]]]},"properties":{"name":"MIDLOTHIAN TPKE/CARNATION ST RICH; CARNATION ST/MIDLOTHIAN TPKE RICH; MIDLOTHIAN INN; MIDLOTHIAN TPKE/W CARNATION ST RICH; 100-BLK CARNATION ST","total":31,"Crime":20,"Traffic":5,"Emergency":4,"Mental":2}}
+{"type":"Feature","id":"62_35","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.50280552],[-77.516256875,37.50280552],[-77.516256875,37.50124295],[-77.51760475,37.50124295],[-77.51760475,37.50280552]]]},"properties":{"name":"MIDLOTHIAN TPKE/CARNATION ST RICH; CARNATION ST/MIDLOTHIAN TPKE RICH; MIDLOTHIAN INN; MIDLOTHIAN TPKE/W CARNATION ST RICH; 100-BLK CARNATION ST","total":33,"Crime":20,"Traffic":7,"Emergency":4,"Mental":2}}
 ,
 {"type":"Feature","id":"72_35","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.50280552],[-77.502778125,37.50280552],[-77.502778125,37.50124295],[-77.504126,37.50124295],[-77.504126,37.50280552]]]},"properties":{"name":"CHIPP/MIDLO","total":2,"Traffic":2}}
 ,
@@ -1129,17 +1164,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"92_35","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.50280552],[-77.475820625,37.50280552],[-77.475820625,37.50124295],[-77.4771685,37.50124295],[-77.4771685,37.50280552]]]},"properties":{"name":"LL(-77:28:33.8089,37:30:04.8167): EST 4134 HULL STREET RD RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"93_35","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50280552],[-77.47447275,37.50280552],[-77.47447275,37.50124295],[-77.475820625,37.50124295],[-77.475820625,37.50280552]]]},"properties":{"name":"4100-BLK HULL STREET RD; 4000-BLK HULL STREET RD; 4000-BLK HULL DT RD","total":63,"Traffic":23,"Mental":22,"Crime":10,"Emergency":8}}
+{"type":"Feature","id":"93_35","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50280552],[-77.47447275,37.50280552],[-77.47447275,37.50124295],[-77.475820625,37.50124295],[-77.475820625,37.50280552]]]},"properties":{"name":"4100-BLK HULL STREET RD; 4000-BLK HULL STREET RD; 4000-BLK HULL DT RD; LL(-77:28:29.6365,37:30:06.3575): EST 4102 HULL STREET RD RICH","total":65,"Traffic":23,"Mental":22,"Crime":12,"Emergency":8}}
 ,
 {"type":"Feature","id":"94_35","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.50280552],[-77.473124875,37.50280552],[-77.473124875,37.50124295],[-77.47447275,37.50124295],[-77.47447275,37.50280552]]]},"properties":{"name":"800-BLK WELTON AVE; HULL STREET RD/BELT BLVD RICH; HULL STREET RD/BELT RICH: alias HULL ST/BELT RICH; HULL STREET RD/BELT RICH; BELT BLVD/HULL STREET RD RICH: alias BELT BLVD/HULL ST RICH; BELT BLVD/HULL STREET RD RICH: alias E BELT BLVD/HULL STREET RD RICH; BELT BLVD/HULL STREET RD RICH","total":31,"Traffic":24,"Emergency":5,"Crime":2}}
 ,
 {"type":"Feature","id":"96_35","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.50280552],[-77.47042912500001,37.50280552],[-77.47042912500001,37.50124295],[-77.471777,37.50124295],[-77.471777,37.50280552]]]},"properties":{"name":"2300-BLK DECATUR ST; 3900-BLK STOCKTON ST; 600-BLK DECATUR ST; 3900-BLK DECATUR ST","total":7,"Crime":4,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"98_35","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.50280552],[-77.46773337500001,37.50280552],[-77.46773337500001,37.50124295],[-77.46908125,37.50124295],[-77.46908125,37.50280552]]]},"properties":{"name":"3700-BLK E BROAD ROCK RD; E BROAD ROCK RD/MCGUIRE DR RICH; MAYHEW ST/STOCKTON ST RICH; 3700-BLK STOCKTON ST","total":20,"Crime":16,"Discretionary":4}}
+{"type":"Feature","id":"98_35","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.50280552],[-77.46773337500001,37.50280552],[-77.46773337500001,37.50124295],[-77.46908125,37.50124295],[-77.46908125,37.50280552]]]},"properties":{"name":"3700-BLK E BROAD ROCK RD; E BROAD ROCK RD/MCGUIRE DR RICH; MAYHEW ST/STOCKTON ST RICH; 3700-BLK STOCKTON ST","total":22,"Crime":17,"Discretionary":4,"Traffic":1}}
 ,
-{"type":"Feature","id":"99_35","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.50280552],[-77.4663855,37.50280552],[-77.4663855,37.50124295],[-77.46773337500001,37.50124295],[-77.46773337500001,37.50280552]]]},"properties":{"name":"800-BLK PRINCE HALL DR","total":1,"Emergency":1}}
+{"type":"Feature","id":"99_35","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.50280552],[-77.4663855,37.50280552],[-77.4663855,37.50124295],[-77.46773337500001,37.50124295],[-77.46773337500001,37.50280552]]]},"properties":{"name":"800-BLK PRINCE HALL DR","total":2,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"100_35","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.50280552],[-77.46503762500001,37.50280552],[-77.46503762500001,37.50124295],[-77.4663855,37.50124295],[-77.4663855,37.50280552]]]},"properties":{"name":"3600-BLK E BROAD ROCK RD","total":7,"Discretionary":6,"Crime":1}}
+{"type":"Feature","id":"100_35","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.50280552],[-77.46503762500001,37.50280552],[-77.46503762500001,37.50124295],[-77.4663855,37.50124295],[-77.4663855,37.50280552]]]},"properties":{"name":"3600-BLK E BROAD ROCK RD","total":9,"Discretionary":8,"Crime":1}}
 ,
 {"type":"Feature","id":"101_35","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.50280552],[-77.46368975,37.50280552],[-77.46368975,37.50124295],[-77.46503762500001,37.50124295],[-77.46503762500001,37.50280552]]]},"properties":{"name":"900-BLK E 36TH ST","total":2,"Crime":1,"Emergency":1}}
 ,
@@ -1149,19 +1184,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_35","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.50280552],[-77.44481950000001,37.50280552],[-77.44481950000001,37.50124295],[-77.446167375,37.50124295],[-77.446167375,37.50280552]]]},"properties":{"name":"CHESTERMAN AVE/COLUMBIA ST RICH","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"116_35","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.50280552],[-77.443471625,37.50280552],[-77.443471625,37.50124295],[-77.44481950000001,37.50124295],[-77.44481950000001,37.50280552]]]},"properties":{"name":"1400-BLK ENFIELD AVE","total":7,"Crime":7}}
+{"type":"Feature","id":"116_35","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.50280552],[-77.443471625,37.50280552],[-77.443471625,37.50124295],[-77.44481950000001,37.50124295],[-77.44481950000001,37.50280552]]]},"properties":{"name":"1400-BLK ENFIELD AVE","total":8,"Crime":7,"Emergency":1}}
 ,
 {"type":"Feature","id":"117_35","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.50280552],[-77.44212375000001,37.50280552],[-77.44212375000001,37.50124295],[-77.443471625,37.50124295],[-77.443471625,37.50280552]]]},"properties":{"name":"1400-BLK LYNHAVEN AVE","total":11,"Emergency":5,"Crime":5,"Traffic":1}}
 ,
 {"type":"Feature","id":"118_35","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.50280552],[-77.440775875,37.50280552],[-77.440775875,37.50124295],[-77.44212375000001,37.50124295],[-77.44212375000001,37.50280552]]]},"properties":{"name":"1400-BLK OVERLOOK ST","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"119_35","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.50280552],[-77.439428,37.50280552],[-77.439428,37.50124295],[-77.440775875,37.50124295],[-77.440775875,37.50280552]]]},"properties":{"name":"1400-BLK WILLIS ST","total":7,"Crime":4,"Traffic":3}}
+{"type":"Feature","id":"119_35","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.50280552],[-77.439428,37.50280552],[-77.439428,37.50124295],[-77.440775875,37.50124295],[-77.440775875,37.50280552]]]},"properties":{"name":"1400-BLK WILLIS ST","total":9,"Crime":4,"Traffic":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"120_35","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.50280552],[-77.438080125,37.50280552],[-77.438080125,37.50124295],[-77.439428,37.50124295],[-77.439428,37.50280552]]]},"properties":{"name":"1400-BLK CHAMBERS ST","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"121_35","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.50280552],[-77.43673225,37.50280552],[-77.43673225,37.50124295],[-77.438080125,37.50124295],[-77.438080125,37.50280552]]]},"properties":{"name":"1400-BLK DREWRY ST; 1400-BLK BOWEN ST; 1800-BLK STEGGE AVE","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"122_35","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.50280552],[-77.435384375,37.50280552],[-77.435384375,37.50124295],[-77.43673225,37.50124295],[-77.43673225,37.50280552]]]},"properties":{"name":"1400-BLK MINEFEE ST","total":15,"Crime":10,"Mental":3,"Emergency":2}}
+,
+{"type":"Feature","id":"124_35","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.50280552],[-77.432688625,37.50280552],[-77.432688625,37.50124295],[-77.4340365,37.50124295],[-77.4340365,37.50280552]]]},"properties":{"name":"1500-BLK CARTER CREEK RD","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"125_35","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.50280552],[-77.43134075,37.50280552],[-77.43134075,37.50124295],[-77.432688625,37.50124295],[-77.432688625,37.50280552]]]},"properties":{"name":"1300-BLK CARTER CREEK RD","total":2,"Crime":2}}
 ,
@@ -1171,17 +1208,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"58_36","geometry":{"type":"Polygon","coordinates":[[[-77.52299625,37.50436809],[-77.521648375,37.50436809],[-77.521648375,37.50280552],[-77.52299625,37.50280552],[-77.52299625,37.50436809]]]},"properties":{"name":"6900-BLK ATMORE DR","total":3,"Crime":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"59_36","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.50436809],[-77.5203005,37.50436809],[-77.5203005,37.50280552],[-77.521648375,37.50280552],[-77.521648375,37.50436809]]]},"properties":{"name":"6800-BLK EVERGLADES DR; ARCADIA ST/EVERGLADES DR RICH","total":37,"Crime":32,"Traffic":5}}
+{"type":"Feature","id":"59_36","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.50436809],[-77.5203005,37.50436809],[-77.5203005,37.50280552],[-77.521648375,37.50280552],[-77.521648375,37.50436809]]]},"properties":{"name":"6800-BLK EVERGLADES DR; ARCADIA ST/EVERGLADES DR RICH","total":44,"Crime":39,"Traffic":5}}
 ,
-{"type":"Feature","id":"61_36","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.50436809],[-77.51760475,37.50436809],[-77.51760475,37.50280552],[-77.518952625,37.50280552],[-77.518952625,37.50436809]]]},"properties":{"name":"6700-BLK MIDLOTHIAN TPKE; 6600-BLK MIDLOTHIAN TPKE","total":129,"Crime":97,"Traffic":16,"Emergency":13,"Mental":3}}
+{"type":"Feature","id":"61_36","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.50436809],[-77.51760475,37.50436809],[-77.51760475,37.50280552],[-77.518952625,37.50280552],[-77.518952625,37.50436809]]]},"properties":{"name":"6700-BLK MIDLOTHIAN TPKE; 6600-BLK MIDLOTHIAN TPKE","total":130,"Crime":98,"Traffic":16,"Emergency":13,"Mental":3}}
 ,
 {"type":"Feature","id":"62_36","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.50436809],[-77.516256875,37.50436809],[-77.516256875,37.50280552],[-77.51760475,37.50280552],[-77.51760475,37.50436809]]]},"properties":{"name":"W CARNATION ST/EVERGLADES DR RICH","total":2,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"63_36","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.50436809],[-77.514909,37.50436809],[-77.514909,37.50280552],[-77.516256875,37.50280552],[-77.516256875,37.50436809]]]},"properties":{"name":"6500-BLK MIDLOTHIAN TPKE; LL(-77:30:53.7229,37:30:11.3567): @RACEWAY; 6400-BLK MIDLOTHIAN TPKE; 6500-BLK EVERGLADES DR","total":129,"Crime":91,"Emergency":20,"Traffic":11,"Mental":7}}
+{"type":"Feature","id":"63_36","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.50436809],[-77.514909,37.50436809],[-77.514909,37.50280552],[-77.516256875,37.50280552],[-77.516256875,37.50436809]]]},"properties":{"name":"6500-BLK MIDLOTHIAN TPKE; LL(-77:30:53.7229,37:30:11.3567): @RACEWAY; 6400-BLK MIDLOTHIAN TPKE; 6500-BLK EVERGLADES DR","total":134,"Crime":93,"Emergency":22,"Traffic":11,"Mental":8}}
 ,
 {"type":"Feature","id":"64_36","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.50436809],[-77.51356112500001,37.50436809],[-77.51356112500001,37.50280552],[-77.514909,37.50280552],[-77.514909,37.50436809]]]},"properties":{"name":"OLD WARWICK RD/MIDLOTHIAN TPKE RICH; MIDLOTHIAN TPKE/OLD WARWICK RD RICH","total":7,"Traffic":3,"Mental":2,"Crime":2}}
 ,
-{"type":"Feature","id":"67_36","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.50436809],[-77.5095175,37.50436809],[-77.5095175,37.50280552],[-77.51086537500001,37.50280552],[-77.51086537500001,37.50436809]]]},"properties":{"name":"6200-BLK MIDLOTHIAN TPKE; BEAUFONT HILLS DR/MIDLOTHIAN TPKE RICH; OLD WARWICK RD/LABROOK CNCS RICH; MIDLOTHIAN TPKE/LABROOK DR RICH; MIDLOTHIAN TPKE/LABROOK CNCS RICH; MIDLOTHIAN TPKE/BEAUFONT HILLS DR RICH; LABROOK DR/MIDLOTHIAN TPKE RICH","total":24,"Traffic":15,"Crime":6,"Emergency":3}}
+{"type":"Feature","id":"67_36","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.50436809],[-77.5095175,37.50436809],[-77.5095175,37.50280552],[-77.51086537500001,37.50280552],[-77.51086537500001,37.50436809]]]},"properties":{"name":"6200-BLK MIDLOTHIAN TPKE; BEAUFONT HILLS DR/MIDLOTHIAN TPKE RICH; OLD WARWICK RD/LABROOK CNCS RICH; MIDLOTHIAN TPKE/LABROOK DR RICH; MIDLOTHIAN TPKE/LABROOK CNCS RICH; MIDLOTHIAN TPKE/BEAUFONT HILLS DR RICH; LABROOK DR/MIDLOTHIAN TPKE RICH","total":29,"Traffic":17,"Crime":8,"Emergency":4}}
 ,
 {"type":"Feature","id":"83_36","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.50436809],[-77.48795150000001,37.50436809],[-77.48795150000001,37.50280552],[-77.489299375,37.50280552],[-77.489299375,37.50436809]]]},"properties":{"name":"200-BLK BARTEE RD","total":3,"Crime":2,"Emergency":1}}
 ,
@@ -1189,15 +1226,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"89_36","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.50436809],[-77.47986425,37.50436809],[-77.47986425,37.50280552],[-77.481212125,37.50280552],[-77.481212125,37.50436809]]]},"properties":{"name":"400-BLK PLAZAVIEW RD; 4500-BLK MILLENBECK RD","total":10,"Crime":4,"Traffic":4,"Emergency":2}}
 ,
-{"type":"Feature","id":"92_36","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.50436809],[-77.475820625,37.50436809],[-77.475820625,37.50280552],[-77.4771685,37.50280552],[-77.4771685,37.50436809]]]},"properties":{"name":"4600-BLK N SOUTHSIDE PLZ; 4700-BLK N SOUTHSIDE PLZ","total":30,"Discretionary":16,"Crime":6,"Mental":5,"Emergency":3}}
+{"type":"Feature","id":"92_36","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.50436809],[-77.475820625,37.50436809],[-77.475820625,37.50280552],[-77.4771685,37.50280552],[-77.4771685,37.50436809]]]},"properties":{"name":"4600-BLK N SOUTHSIDE PLZ; 4700-BLK N SOUTHSIDE PLZ","total":36,"Discretionary":18,"Mental":9,"Crime":6,"Emergency":3}}
 ,
-{"type":"Feature","id":"93_36","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50436809],[-77.47447275,37.50436809],[-77.47447275,37.50280552],[-77.475820625,37.50280552],[-77.475820625,37.50436809]]]},"properties":{"name":"BELT BLVD/N SOUTHSIDE PLZ RICH; N SOUTHSIDE PLZ/BELT BLVD RICH","total":14,"Traffic":9,"Crime":3,"Mental":2}}
+{"type":"Feature","id":"93_36","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50436809],[-77.47447275,37.50436809],[-77.47447275,37.50280552],[-77.475820625,37.50280552],[-77.475820625,37.50436809]]]},"properties":{"name":"BELT BLVD/N SOUTHSIDE PLZ RICH; N SOUTHSIDE PLZ/BELT BLVD RICH","total":16,"Traffic":9,"Crime":4,"Mental":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"94_36","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.50436809],[-77.473124875,37.50436809],[-77.473124875,37.50280552],[-77.47447275,37.50280552],[-77.47447275,37.50436809]]]},"properties":{"name":"RICH: @CIRCLE SHOPPING CENTER; 3900-BLK HULL STREET RD","total":9,"Crime":5,"Traffic":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"95_36","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.50436809],[-77.471777,37.50436809],[-77.471777,37.50280552],[-77.473124875,37.50280552],[-77.473124875,37.50436809]]]},"properties":{"name":"LL(-77:28:19.9812,37:30:10.5300): EST 3915 HULL STREET RD RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"96_36","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.50436809],[-77.47042912500001,37.50436809],[-77.47042912500001,37.50280552],[-77.471777,37.50280552],[-77.471777,37.50436809]]]},"properties":{"name":"3800-BLK HULL STREET RD; HULL STREET RD/MCGUIRE DR RICH","total":16,"Emergency":9,"Traffic":4,"Crime":3}}
+{"type":"Feature","id":"96_36","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.50436809],[-77.47042912500001,37.50436809],[-77.47042912500001,37.50280552],[-77.471777,37.50280552],[-77.471777,37.50436809]]]},"properties":{"name":"3800-BLK HULL STREET RD; HULL STREET RD/MCGUIRE DR RICH; 800-BLK HULL ST","total":18,"Emergency":9,"Traffic":4,"Crime":3,"Discretionary":2}}
 ,
 {"type":"Feature","id":"97_36","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.50436809],[-77.46908125,37.50436809],[-77.46908125,37.50280552],[-77.47042912500001,37.50280552],[-77.47042912500001,37.50436809]]]},"properties":{"name":"3800-BLK DECATUR ST","total":2,"Traffic":2}}
 ,
@@ -1205,7 +1242,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"99_36","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.50436809],[-77.4663855,37.50436809],[-77.4663855,37.50280552],[-77.46773337500001,37.50280552],[-77.46773337500001,37.50436809]]]},"properties":{"name":"700-BLK E 36TH ST","total":6,"Crime":2,"Traffic":2,"Mental":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"100_36","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.50436809],[-77.46503762500001,37.50436809],[-77.46503762500001,37.50280552],[-77.4663855,37.50280552],[-77.4663855,37.50436809]]]},"properties":{"name":"800-BLK E 36TH ST; STOCKTON ST/E 35TH ST RICH; 3500-BLK STOCKTON ST","total":12,"Crime":12}}
+{"type":"Feature","id":"100_36","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.50436809],[-77.46503762500001,37.50436809],[-77.46503762500001,37.50280552],[-77.4663855,37.50280552],[-77.4663855,37.50436809]]]},"properties":{"name":"800-BLK E 36TH ST; STOCKTON ST/E 35TH ST RICH; 3500-BLK STOCKTON ST","total":19,"Crime":19}}
 ,
 {"type":"Feature","id":"101_36","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.50436809],[-77.46368975,37.50436809],[-77.46368975,37.50280552],[-77.46503762500001,37.50280552],[-77.46503762500001,37.50436809]]]},"properties":{"name":"3400-BLK LOGANDALE AVE; 3400-BLK E BROAD ROCK RD","total":17,"Emergency":7,"Crime":5,"Traffic":3,"Mental":2}}
 ,
@@ -1219,7 +1256,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"112_36","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.50436809],[-77.448863125,37.50436809],[-77.448863125,37.50280552],[-77.450211,37.50280552],[-77.450211,37.50436809]]]},"properties":{"name":"LL(-77:26:56.0386,37:30:12.9011): HOPKINS/RICHMOND","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"114_36","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.50436809],[-77.446167375,37.50436809],[-77.446167375,37.50280552],[-77.44751525000001,37.50280552],[-77.44751525000001,37.50436809]]]},"properties":{"name":"LL(-77:26:47.6701,37:30:10.6092): EST 1305 RICHMOND HWY RICH; N HOPKINS RD/RICHMOND HWY RICH; RICHMOND HWY/HALIFAX AVE RICH; HALIFAX AVE/RICHMOND HWY RICH; RICHMOND HWY/N HOPKINS RD RICH","total":19,"Traffic":10,"Crime":6,"Emergency":3}}
+{"type":"Feature","id":"114_36","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.50436809],[-77.446167375,37.50436809],[-77.446167375,37.50280552],[-77.44751525000001,37.50280552],[-77.44751525000001,37.50436809]]]},"properties":{"name":"LL(-77:26:47.6701,37:30:10.6092): EST 1305 RICHMOND HWY RICH; N HOPKINS RD/RICHMOND HWY RICH; RICHMOND HWY/HALIFAX AVE RICH; HALIFAX AVE/RICHMOND HWY RICH; RICHMOND HWY/N HOPKINS RD RICH; RICHMOND HWY/HARWOOD ST RICH; HARWOOD ST/RICHMOND HWY RICH","total":23,"Traffic":12,"Crime":8,"Emergency":3}}
 ,
 {"type":"Feature","id":"115_36","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.50436809],[-77.44481950000001,37.50436809],[-77.44481950000001,37.50280552],[-77.446167375,37.50280552],[-77.446167375,37.50436809]]]},"properties":{"name":"2400-BLK INGRAM AVE; 2500-BLK HARWOOD ST; HARWOOD ST/COLUMBIA ST RICH","total":10,"Crime":7,"Traffic":2,"Emergency":1}}
 ,
@@ -1227,7 +1264,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"117_36","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.50436809],[-77.44212375000001,37.50436809],[-77.44212375000001,37.50280552],[-77.443471625,37.50280552],[-77.443471625,37.50436809]]]},"properties":{"name":"2300-BLK HARWOOD ST; 1300-BLK LYNHAVEN AVE; JOPLIN AVE/MASON ST RICH; 2300-BLK JOPLIN AVE","total":16,"Crime":13,"Traffic":3}}
 ,
-{"type":"Feature","id":"118_36","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.50436809],[-77.440775875,37.50436809],[-77.440775875,37.50280552],[-77.44212375000001,37.50280552],[-77.44212375000001,37.50436809]]]},"properties":{"name":"1300-BLK OVERLOOK ST; 2200-BLK HARWOOD ST; 2200-BLK KESWICK AVE; 2100-BLK HARWOOD ST","total":23,"Crime":20,"Emergency":3}}
+{"type":"Feature","id":"118_36","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.50436809],[-77.440775875,37.50436809],[-77.440775875,37.50280552],[-77.44212375000001,37.50280552],[-77.44212375000001,37.50436809]]]},"properties":{"name":"1300-BLK OVERLOOK ST; 2200-BLK HARWOOD ST; 2200-BLK KESWICK AVE; 2100-BLK HARWOOD ST","total":31,"Crime":26,"Emergency":5}}
 ,
 {"type":"Feature","id":"119_36","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.50436809],[-77.439428,37.50436809],[-77.439428,37.50280552],[-77.440775875,37.50280552],[-77.440775875,37.50436809]]]},"properties":{"name":"2000-BLK HARWOOD ST; 1300-BLK WILLIS ST; HARWOOD ST/WILLIS ST RICH","total":11,"Emergency":3,"Crime":3,"Mental":3,"Traffic":2}}
 ,
@@ -1237,11 +1274,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"122_36","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.50436809],[-77.435384375,37.50436809],[-77.435384375,37.50280552],[-77.43673225,37.50280552],[-77.43673225,37.50436809]]]},"properties":{"name":"1300-BLK MINEFEE ST; 1700-BLK HARWOOD ST","total":12,"Crime":11,"Emergency":1}}
 ,
-{"type":"Feature","id":"123_36","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.50436809],[-77.4340365,37.50436809],[-77.4340365,37.50280552],[-77.435384375,37.50280552],[-77.435384375,37.50436809]]]},"properties":{"name":"1700-BLK SOUTHLAWN AVE; 1500-BLK HARWOOD ST; 1800-BLK SOUTHLAWN AVE; HARWOOD ST/SOUTHLAWN AVE RICH","total":38,"Crime":24,"Emergency":8,"Discretionary":3,"Mental":2,"Traffic":1}}
+{"type":"Feature","id":"123_36","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.50436809],[-77.4340365,37.50436809],[-77.4340365,37.50280552],[-77.435384375,37.50280552],[-77.435384375,37.50436809]]]},"properties":{"name":"1700-BLK SOUTHLAWN AVE; 1500-BLK HARWOOD ST; 1800-BLK SOUTHLAWN AVE; HARWOOD ST/SOUTHLAWN AVE RICH","total":45,"Crime":29,"Emergency":8,"Discretionary":5,"Mental":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"124_36","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.50436809],[-77.432688625,37.50436809],[-77.432688625,37.50280552],[-77.4340365,37.50280552],[-77.4340365,37.50436809]]]},"properties":{"name":"1400-BLK HARWOOD ST; BRUCE ST/ROSECREST AVE RICH; SOUTHLAWN AVE/ROSECREST AVE RICH; ROSECREST AVE/HARWOOD ST RICH; 1500-BLK ROSECREST AVE","total":22,"Crime":10,"Emergency":9,"Traffic":2,"Mental":1}}
+{"type":"Feature","id":"124_36","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.50436809],[-77.432688625,37.50436809],[-77.432688625,37.50280552],[-77.4340365,37.50280552],[-77.4340365,37.50436809]]]},"properties":{"name":"1400-BLK HARWOOD ST; BRUCE ST/ROSECREST AVE RICH; SOUTHLAWN AVE/ROSECREST AVE RICH; ROSECREST AVE/HARWOOD ST RICH; 1500-BLK ROSECREST AVE","total":27,"Crime":15,"Emergency":9,"Traffic":2,"Mental":1}}
 ,
-{"type":"Feature","id":"125_36","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.50436809],[-77.43134075,37.50436809],[-77.43134075,37.50280552],[-77.432688625,37.50280552],[-77.432688625,37.50436809]]]},"properties":{"name":"1700-BLK ROSECREST AVE","total":6,"Emergency":3,"Crime":2,"Mental":1}}
+{"type":"Feature","id":"125_36","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.50436809],[-77.43134075,37.50436809],[-77.43134075,37.50280552],[-77.432688625,37.50280552],[-77.432688625,37.50436809]]]},"properties":{"name":"1700-BLK ROSECREST AVE","total":8,"Crime":4,"Emergency":3,"Mental":1}}
 ,
 {"type":"Feature","id":"50_37","geometry":{"type":"Polygon","coordinates":[[[-77.53377925000001,37.50593066],[-77.532431375,37.50593066],[-77.532431375,37.50436809],[-77.53377925000001,37.50436809],[-77.53377925000001,37.50593066]]]},"properties":{"name":"800-BLK BOULDER SPRINGS DR","total":2,"Mental":2}}
 ,
@@ -1251,29 +1288,29 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"61_37","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.50593066],[-77.51760475,37.50593066],[-77.51760475,37.50436809],[-77.518952625,37.50436809],[-77.518952625,37.50593066]]]},"properties":{"name":"W CARNATION ST/ATMORE DR RICH; W CARNATION ST/OLD WARWICK RD RICH; ATMORE DR/W CARNATION ST RICH","total":8,"Crime":4,"Mental":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"62_37","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.50593066],[-77.516256875,37.50593066],[-77.516256875,37.50436809],[-77.51760475,37.50436809],[-77.51760475,37.50593066]]]},"properties":{"name":"LL(-77:31:03.1980,37:30:20.6531): EST 304 GREY BIRCH DR RICH; 300-BLK GREY BIRCH DR; 200-BLK LAUREL FORK DR; SUGAR MAPLE DR/GREY BIRCH DR RICH","total":17,"Crime":13,"Emergency":3,"Mental":1}}
+{"type":"Feature","id":"62_37","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.50593066],[-77.516256875,37.50593066],[-77.516256875,37.50436809],[-77.51760475,37.50436809],[-77.51760475,37.50593066]]]},"properties":{"name":"LL(-77:31:03.1980,37:30:20.6531): EST 304 GREY BIRCH DR RICH; 300-BLK GREY BIRCH DR; 200-BLK LAUREL FORK DR; SUGAR MAPLE DR/GREY BIRCH DR RICH","total":19,"Crime":15,"Emergency":3,"Mental":1}}
 ,
 {"type":"Feature","id":"63_37","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.50593066],[-77.514909,37.50593066],[-77.514909,37.50436809],[-77.516256875,37.50436809],[-77.516256875,37.50593066]]]},"properties":{"name":"200-BLK GREEN COVE DR; GREEN COVE DR/SUGAR MAPLE DR RICH; 6500-BLK OLD WARWICK RD; SUGAR MAPLE DR/GREEN COVE DR RICH","total":47,"Crime":27,"Emergency":14,"Mental":6}}
 ,
 {"type":"Feature","id":"64_37","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.50593066],[-77.51356112500001,37.50593066],[-77.51356112500001,37.50436809],[-77.514909,37.50436809],[-77.514909,37.50593066]]]},"properties":{"name":"LL(-77:30:52.2360,37:30:17.1755): EST 200 GREEN COVE DR RICH","total":1,"Mental":1}}
 ,
-{"type":"Feature","id":"66_37","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.50593066],[-77.51086537500001,37.50593066],[-77.51086537500001,37.50436809],[-77.51221325,37.50436809],[-77.51221325,37.50593066]]]},"properties":{"name":"6300-BLK MIDLOTHIAN TPKE; 200-BLK BEAUFONT HILLS DR","total":193,"Crime":128,"Emergency":33,"Traffic":21,"Mental":11}}
+{"type":"Feature","id":"66_37","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.50593066],[-77.51086537500001,37.50593066],[-77.51086537500001,37.50436809],[-77.51221325,37.50436809],[-77.51221325,37.50593066]]]},"properties":{"name":"6300-BLK MIDLOTHIAN TPKE; 200-BLK BEAUFONT HILLS DR","total":206,"Crime":139,"Emergency":33,"Traffic":21,"Mental":11,"Discretionary":2}}
 ,
 {"type":"Feature","id":"68_37","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.50593066],[-77.50816962500001,37.50593066],[-77.50816962500001,37.50436809],[-77.5095175,37.50436809],[-77.5095175,37.50593066]]]},"properties":{"name":"6100-BLK MIDLOTHIAN TPKE","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"70_37","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.50593066],[-77.505473875,37.50593066],[-77.505473875,37.50436809],[-77.50682175,37.50436809],[-77.50682175,37.50593066]]]},"properties":{"name":"6000-BLK MIDLOTHIAN TPKE","total":10,"Traffic":7,"Crime":3}}
 ,
-{"type":"Feature","id":"71_37","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.50593066],[-77.504126,37.50593066],[-77.504126,37.50436809],[-77.505473875,37.50436809],[-77.505473875,37.50593066]]]},"properties":{"name":"MIDLOTHIAN TPKE/GERMAN SCHOOL RD RICH; MIDLOTHIAN TPKE/OLD MIDLOTHIAN TPKE RICH; GERMAN SCHOOL RD/MIDLOTHIAN TPKE RICH; 5900-BLK MIDLOTHIAN TPKE","total":46,"Traffic":26,"Crime":19,"Mental":1}}
+{"type":"Feature","id":"71_37","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.50593066],[-77.504126,37.50593066],[-77.504126,37.50436809],[-77.505473875,37.50436809],[-77.505473875,37.50593066]]]},"properties":{"name":"MIDLOTHIAN TPKE/GERMAN SCHOOL RD RICH; MIDLOTHIAN TPKE/OLD MIDLOTHIAN TPKE RICH; GERMAN SCHOOL RD/MIDLOTHIAN TPKE RICH; 5900-BLK MIDLOTHIAN TPKE","total":48,"Traffic":28,"Crime":19,"Mental":1}}
 ,
-{"type":"Feature","id":"72_37","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.50593066],[-77.502778125,37.50593066],[-77.502778125,37.50436809],[-77.504126,37.50436809],[-77.504126,37.50593066]]]},"properties":{"name":"LL(-77:30:11.3095,37:30:19.9187): GERMAN SCHOOL/MIDLOTH; 5800-BLK MIDLOTHIAN TPKE","total":10,"Crime":6,"Traffic":4}}
+{"type":"Feature","id":"72_37","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.50593066],[-77.502778125,37.50593066],[-77.502778125,37.50436809],[-77.504126,37.50436809],[-77.504126,37.50593066]]]},"properties":{"name":"LL(-77:30:11.3095,37:30:19.9187): GERMAN SCHOOL/MIDLOTH; 5800-BLK MIDLOTHIAN TPKE","total":11,"Crime":6,"Traffic":4,"Emergency":1}}
 ,
 {"type":"Feature","id":"73_37","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.50593066],[-77.50143025,37.50593066],[-77.50143025,37.50436809],[-77.502778125,37.50436809],[-77.502778125,37.50593066]]]},"properties":{"name":"5700-BLK MIDLOTHIAN TPKE; 100-BLK GIANT DR","total":10,"Crime":8,"Traffic":2}}
 ,
 {"type":"Feature","id":"87_37","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.50593066],[-77.48256,37.50593066],[-77.48256,37.50436809],[-77.483907875,37.50436809],[-77.483907875,37.50593066]]]},"properties":{"name":"200-BLK PLAZAVIEW RD","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"93_37","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50593066],[-77.47447275,37.50593066],[-77.47447275,37.50436809],[-77.475820625,37.50436809],[-77.475820625,37.50593066]]]},"properties":{"name":"RICH: @SOUTHSIDE PLAZA; 600-BLK E SOUTHSIDE PLZ; LL(-77:28:28.4845,37:30:19.4579): EST 299 E ROANOKE ST RICH; 500-BLK E SOUTHSIDE PLZ; 600-BLK SOUTHSIDE PLZ","total":76,"Discretionary":30,"Crime":18,"Emergency":10,"Mental":9,"Traffic":9}}
+{"type":"Feature","id":"93_37","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50593066],[-77.47447275,37.50593066],[-77.47447275,37.50436809],[-77.475820625,37.50436809],[-77.475820625,37.50593066]]]},"properties":{"name":"RICH: @SOUTHSIDE PLAZA; 600-BLK E SOUTHSIDE PLZ; LL(-77:28:28.4845,37:30:19.4579): EST 299 E ROANOKE ST RICH; 500-BLK E SOUTHSIDE PLZ; 600-BLK SOUTHSIDE PLZ; 600-BLK N SOUTHSIDE PLZ","total":80,"Discretionary":34,"Crime":18,"Emergency":10,"Mental":9,"Traffic":9}}
 ,
-{"type":"Feature","id":"97_37","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.50593066],[-77.46908125,37.50593066],[-77.46908125,37.50436809],[-77.47042912500001,37.50436809],[-77.47042912500001,37.50593066]]]},"properties":{"name":"HULL ST/E 37TH ST RICH; E 37TH ST/HULL ST RICH","total":7,"Traffic":6,"Crime":1}}
+{"type":"Feature","id":"97_37","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.50593066],[-77.46908125,37.50593066],[-77.46908125,37.50436809],[-77.47042912500001,37.50436809],[-77.47042912500001,37.50593066]]]},"properties":{"name":"HULL ST/E 37TH ST RICH; E 37TH ST/HULL ST RICH","total":8,"Traffic":7,"Crime":1}}
 ,
 {"type":"Feature","id":"98_37","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.50593066],[-77.46773337500001,37.50593066],[-77.46773337500001,37.50436809],[-77.46908125,37.50436809],[-77.46908125,37.50593066]]]},"properties":{"name":"3600-BLK HULL ST; HULL ST/E 35TH ST RICH; E 35TH ST/HULL ST RICH; 0-BLK E 37TH ST","total":13,"Traffic":10,"Crime":3}}
 ,
@@ -1285,13 +1322,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"102_37","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.50593066],[-77.462341875,37.50593066],[-77.462341875,37.50436809],[-77.46368975,37.50436809],[-77.46368975,37.50593066]]]},"properties":{"name":"3200-BLK LOGANDALE AVE; E BROAD ROCK RD/STOCKTON ST RICH; HOLLY SPRING AVE/LOGANDALE AVE RICH; E BROAD ROCK RD/HOLLY SPRING AVE RICH; STOCKTON ST/E BROAD ROCK RD RICH; 3200-BLK E BROAD ROCK RD","total":35,"Crime":16,"Emergency":16,"Traffic":3}}
 ,
-{"type":"Feature","id":"113_37","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.50593066],[-77.44751525000001,37.50593066],[-77.44751525000001,37.50436809],[-77.448863125,37.50436809],[-77.448863125,37.50593066]]]},"properties":{"name":"1100-BLK RICHMOND HWY","total":28,"Crime":25,"Emergency":3}}
+{"type":"Feature","id":"113_37","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.50593066],[-77.44751525000001,37.50593066],[-77.44751525000001,37.50436809],[-77.448863125,37.50436809],[-77.448863125,37.50593066]]]},"properties":{"name":"1100-BLK RICHMOND HWY","total":30,"Crime":27,"Emergency":3}}
 ,
 {"type":"Feature","id":"114_37","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.50593066],[-77.446167375,37.50593066],[-77.446167375,37.50436809],[-77.44751525000001,37.50436809],[-77.44751525000001,37.50593066]]]},"properties":{"name":"RICHMOND HWY/GORDON AVE RICH","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"115_37","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.50593066],[-77.44481950000001,37.50593066],[-77.44481950000001,37.50436809],[-77.446167375,37.50436809],[-77.446167375,37.50593066]]]},"properties":{"name":"2400-BLK HALIFAX AVE","total":6,"Crime":5,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_37","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.50593066],[-77.440775875,37.50593066],[-77.440775875,37.50436809],[-77.44212375000001,37.50436809],[-77.44212375000001,37.50593066]]]},"properties":{"name":"2200-BLK INGRAM AVE; 2100-BLK JOPLIN AVE; 2200-BLK JOPLIN AVE","total":10,"Crime":9,"Emergency":1}}
+{"type":"Feature","id":"118_37","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.50593066],[-77.440775875,37.50593066],[-77.440775875,37.50436809],[-77.44212375000001,37.50436809],[-77.44212375000001,37.50593066]]]},"properties":{"name":"2200-BLK INGRAM AVE; 2100-BLK JOPLIN AVE; 2200-BLK JOPLIN AVE","total":12,"Crime":11,"Emergency":1}}
 ,
 {"type":"Feature","id":"119_37","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.50593066],[-77.439428,37.50593066],[-77.439428,37.50436809],[-77.440775875,37.50436809],[-77.440775875,37.50593066]]]},"properties":{"name":"2100-BLK KESWICK AVE; E 21ST ST/KESWICK AVE RICH","total":24,"Emergency":10,"Traffic":9,"Crime":5}}
 ,
@@ -1303,19 +1340,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"62_38","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.50749323],[-77.516256875,37.50749323],[-77.516256875,37.50593066],[-77.51760475,37.50593066],[-77.51760475,37.50749323]]]},"properties":{"name":"LL(-77:31:03.1153,37:30:23.7852): EST 359 GREY BIRCH DR RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"63_38","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.50749323],[-77.514909,37.50749323],[-77.514909,37.50593066],[-77.516256875,37.50593066],[-77.516256875,37.50749323]]]},"properties":{"name":"6500-BLK SUGAR MAPLE DR; 300-BLK RED ASH DR","total":15,"Crime":11,"Mental":3,"Emergency":1}}
+{"type":"Feature","id":"63_38","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.50749323],[-77.514909,37.50749323],[-77.514909,37.50593066],[-77.516256875,37.50593066],[-77.516256875,37.50749323]]]},"properties":{"name":"6500-BLK SUGAR MAPLE DR; 300-BLK RED ASH DR","total":16,"Crime":11,"Mental":3,"Emergency":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"69_38","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.50749323],[-77.50682175,37.50749323],[-77.50682175,37.50593066],[-77.50816962500001,37.50593066],[-77.50816962500001,37.50749323]]]},"properties":{"name":"6000-BLK LAMESA DR","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"71_38","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.50749323],[-77.504126,37.50749323],[-77.504126,37.50593066],[-77.505473875,37.50593066],[-77.505473875,37.50749323]]]},"properties":{"name":"1400-BLK GERMAN SCHOOL RD; 100-BLK GERMAN SCHOOL RD; 1300-BLK GERMAN SCHOOL RD; 1800-BLK GERMAN SCHOOL RD","total":18,"Crime":12,"Emergency":4,"Traffic":2}}
+{"type":"Feature","id":"71_38","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.50749323],[-77.504126,37.50749323],[-77.504126,37.50593066],[-77.505473875,37.50593066],[-77.505473875,37.50749323]]]},"properties":{"name":"1400-BLK GERMAN SCHOOL RD; 100-BLK GERMAN SCHOOL RD; 1300-BLK GERMAN SCHOOL RD; 1800-BLK GERMAN SCHOOL RD","total":20,"Crime":12,"Emergency":6,"Traffic":2}}
 ,
 {"type":"Feature","id":"74_38","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.50749323],[-77.500082375,37.50749323],[-77.500082375,37.50593066],[-77.50143025,37.50593066],[-77.50143025,37.50749323]]]},"properties":{"name":"5600-BLK MIDLOTHIAN TPKE","total":3,"Emergency":3}}
 ,
-{"type":"Feature","id":"75_38","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.50749323],[-77.4987345,37.50749323],[-77.4987345,37.50593066],[-77.500082375,37.50593066],[-77.500082375,37.50749323]]]},"properties":{"name":"5500-BLK MIDLOTHIAN TPKE; MIDLOTHIAN TPKE/ERICH RD RICH; LL(-77:29:55.5362,37:30:24.5915): EST 53 ERICH RD RICH; ERICH RD/MIDLOTHIAN TPKE RICH","total":19,"Crime":10,"Traffic":9}}
+{"type":"Feature","id":"75_38","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.50749323],[-77.4987345,37.50749323],[-77.4987345,37.50593066],[-77.500082375,37.50593066],[-77.500082375,37.50749323]]]},"properties":{"name":"5500-BLK MIDLOTHIAN TPKE; MIDLOTHIAN TPKE/ERICH RD RICH; LL(-77:29:55.5362,37:30:24.5915): EST 53 ERICH RD RICH; ERICH RD/MIDLOTHIAN TPKE RICH","total":20,"Crime":11,"Traffic":9}}
 ,
 {"type":"Feature","id":"77_38","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.50749323],[-77.49603875,37.50749323],[-77.49603875,37.50593066],[-77.497386625,37.50593066],[-77.497386625,37.50749323]]]},"properties":{"name":"5400-BLK MIDLOTHIAN TPKE; 5400-00-BLK MIDLOTHIAN TPKE","total":4,"Traffic":3,"Crime":1}}
 ,
-{"type":"Feature","id":"78_38","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.50749323],[-77.494690875,37.50749323],[-77.494690875,37.50593066],[-77.49603875,37.50593066],[-77.49603875,37.50749323]]]},"properties":{"name":"5300-BLK OLD MIDLOTHIAN TPKE; RODMAN RD/MIDLOTHIAN TPKE RICH; OLD MIDLOTHIAN TPKE/PEMBER LN RICH; MIDLOTHIAN TPKE/RODMAN RD RICH","total":20,"Crime":14,"Emergency":5,"Traffic":1}}
+{"type":"Feature","id":"78_38","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.50749323],[-77.494690875,37.50749323],[-77.494690875,37.50593066],[-77.49603875,37.50593066],[-77.49603875,37.50749323]]]},"properties":{"name":"5300-BLK OLD MIDLOTHIAN TPKE; RODMAN RD/MIDLOTHIAN TPKE RICH; OLD MIDLOTHIAN TPKE/PEMBER LN RICH; MIDLOTHIAN TPKE/RODMAN RD RICH","total":24,"Crime":14,"Emergency":9,"Traffic":1}}
 ,
 {"type":"Feature","id":"80_38","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.50749323],[-77.491995125,37.50749323],[-77.491995125,37.50593066],[-77.49334300000001,37.50593066],[-77.49334300000001,37.50749323]]]},"properties":{"name":"5200-BLK OLD MIDLOTHIAN TPKE","total":4,"Crime":2,"Traffic":2}}
 ,
@@ -1325,15 +1362,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"85_38","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.50749323],[-77.48525575000001,37.50749323],[-77.48525575000001,37.50593066],[-77.486603625,37.50593066],[-77.486603625,37.50749323]]]},"properties":{"name":"100-BLK BRANDON RD","total":2,"Crime":2}}
 ,
+{"type":"Feature","id":"88_38","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.50749323],[-77.481212125,37.50749323],[-77.481212125,37.50593066],[-77.48256,37.50593066],[-77.48256,37.50749323]]]},"properties":{"name":"LL(-77:28:53.7898,37:30:24.1517): @2ND PRNCT","total":2,"Crime":2}}
+,
 {"type":"Feature","id":"92_38","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.50749323],[-77.475820625,37.50749323],[-77.475820625,37.50593066],[-77.4771685,37.50593066],[-77.4771685,37.50749323]]]},"properties":{"name":"3900-BLK PEYTON AVE","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"93_38","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.50749323],[-77.47447275,37.50749323],[-77.47447275,37.50593066],[-77.475820625,37.50593066],[-77.475820625,37.50749323]]]},"properties":{"name":"0-BLK E ROANOKE ST; E ROANOKE ST/PEYTON AVE RICH","total":3,"Traffic":2,"Crime":1}}
 ,
-{"type":"Feature","id":"94_38","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.50749323],[-77.473124875,37.50749323],[-77.473124875,37.50593066],[-77.47447275,37.50593066],[-77.47447275,37.50749323]]]},"properties":{"name":"3400-BLK PEYTON AVE; 3700-BLK PEYTON AVE; 200-BLK LARNE AVE","total":14,"Crime":14}}
+{"type":"Feature","id":"94_38","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.50749323],[-77.473124875,37.50749323],[-77.473124875,37.50593066],[-77.47447275,37.50593066],[-77.47447275,37.50749323]]]},"properties":{"name":"3400-BLK PEYTON AVE; 3700-BLK PEYTON AVE; 200-BLK LARNE AVE; LL(-77:28:26.5452,37:30:22.4174): @RIVER CITY MIDDLE","total":16,"Crime":16}}
 ,
 {"type":"Feature","id":"95_38","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.50749323],[-77.471777,37.50749323],[-77.471777,37.50593066],[-77.473124875,37.50593066],[-77.473124875,37.50749323]]]},"properties":{"name":"200-BLK E 37TH ST; 200-BLK WINBER DR","total":5,"Mental":3,"Crime":2}}
 ,
-{"type":"Feature","id":"96_38","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.50749323],[-77.47042912500001,37.50749323],[-77.47042912500001,37.50593066],[-77.471777,37.50593066],[-77.471777,37.50749323]]]},"properties":{"name":"3700-BLK MCRAND ST","total":5,"Crime":5}}
+{"type":"Feature","id":"96_38","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.50749323],[-77.47042912500001,37.50749323],[-77.47042912500001,37.50593066],[-77.471777,37.50593066],[-77.471777,37.50749323]]]},"properties":{"name":"3700-BLK MCRAND ST","total":8,"Crime":5,"Emergency":3}}
 ,
 {"type":"Feature","id":"98_38","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.50749323],[-77.46773337500001,37.50749323],[-77.46773337500001,37.50593066],[-77.46908125,37.50593066],[-77.46908125,37.50749323]]]},"properties":{"name":"3500-BLK LAWSON ST; E 35TH ST/LAWSON ST RICH; LL(-77:28:05.3041,37:30:23.3531): EST 3408 LAWSON ST RICH","total":13,"Emergency":8,"Crime":3,"Discretionary":2}}
 ,
@@ -1341,23 +1380,23 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"100_38","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.50749323],[-77.46503762500001,37.50749323],[-77.46503762500001,37.50593066],[-77.4663855,37.50593066],[-77.4663855,37.50749323]]]},"properties":{"name":"3300-BLK HULL ST; 3200-BLK HULL ST; E 33RD ST/HULL ST RICH","total":6,"Crime":4,"Traffic":2}}
 ,
-{"type":"Feature","id":"101_38","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.50749323],[-77.46368975,37.50749323],[-77.46368975,37.50593066],[-77.46503762500001,37.50593066],[-77.46503762500001,37.50749323]]]},"properties":{"name":"00-BLK E 32ND ST; 3200-BLK DECATUR ST; 300-BLK E 32ND ST","total":13,"Crime":11,"Emergency":2}}
+{"type":"Feature","id":"101_38","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.50749323],[-77.46368975,37.50749323],[-77.46368975,37.50593066],[-77.46503762500001,37.50593066],[-77.46503762500001,37.50749323]]]},"properties":{"name":"00-BLK E 32ND ST; 3200-BLK DECATUR ST; 300-BLK E 32ND ST","total":15,"Crime":11,"Emergency":4}}
 ,
-{"type":"Feature","id":"102_38","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.50749323],[-77.462341875,37.50749323],[-77.462341875,37.50593066],[-77.46368975,37.50593066],[-77.46368975,37.50749323]]]},"properties":{"name":"400-BLK E BROAD ROCK RD; STOCKTON ST/E BLAKE LN RICH","total":10,"Emergency":5,"Crime":3,"Discretionary":2}}
+{"type":"Feature","id":"102_38","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.50749323],[-77.462341875,37.50749323],[-77.462341875,37.50593066],[-77.46368975,37.50593066],[-77.46368975,37.50749323]]]},"properties":{"name":"400-BLK E BROAD ROCK RD; STOCKTON ST/E BLAKE LN RICH; 3100-BLK DECATUR ST","total":14,"Emergency":5,"Crime":5,"Discretionary":4}}
 ,
-{"type":"Feature","id":"103_38","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.50749323],[-77.460994,37.50749323],[-77.460994,37.50593066],[-77.462341875,37.50593066],[-77.462341875,37.50749323]]]},"properties":{"name":"00-BLK E 31ST ST; 3100-BLK STOCKTON ST","total":14,"Crime":14}}
+{"type":"Feature","id":"103_38","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.50749323],[-77.460994,37.50749323],[-77.460994,37.50593066],[-77.462341875,37.50593066],[-77.462341875,37.50749323]]]},"properties":{"name":"00-BLK E 31ST ST; 3100-BLK STOCKTON ST","total":21,"Crime":18,"Mental":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"104_38","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.50749323],[-77.459646125,37.50749323],[-77.459646125,37.50593066],[-77.460994,37.50593066],[-77.460994,37.50749323]]]},"properties":{"name":"3000-BLK LOGANDALE AVE","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"106_38","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.50749323],[-77.456950375,37.50749323],[-77.456950375,37.50593066],[-77.45829825,37.50593066],[-77.45829825,37.50749323]]]},"properties":{"name":"MAURY ST/E 29TH ST RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"113_38","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.50749323],[-77.44751525000001,37.50749323],[-77.44751525000001,37.50593066],[-77.448863125,37.50593066],[-77.448863125,37.50749323]]]},"properties":{"name":"2600-BLK BRINSER ST; 00-BLK THURMAN ST","total":9,"Traffic":5,"Crime":4}}
+{"type":"Feature","id":"113_38","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.50749323],[-77.44751525000001,37.50749323],[-77.44751525000001,37.50593066],[-77.448863125,37.50593066],[-77.448863125,37.50749323]]]},"properties":{"name":"2600-BLK BRINSER ST; 00-BLK THURMAN ST; 900-BLK RICHMOND HWY","total":13,"Crime":8,"Traffic":5}}
 ,
 {"type":"Feature","id":"114_38","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.50749323],[-77.446167375,37.50749323],[-77.446167375,37.50593066],[-77.44751525000001,37.50593066],[-77.44751525000001,37.50749323]]]},"properties":{"name":"FAIRFAX AVE/RICHMOND HWY RICH; RICHMOND HWY/FAIRFAX AVE RICH","total":6,"Traffic":3,"Crime":3}}
 ,
-{"type":"Feature","id":"115_38","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.50749323],[-77.44481950000001,37.50749323],[-77.44481950000001,37.50593066],[-77.446167375,37.50593066],[-77.446167375,37.50749323]]]},"properties":{"name":"E 22ND ST/GORDON AVE RICH; 2300-BLK FAIRFAX AVE; 2300-BLK GORDON AVE","total":4,"Traffic":3,"Emergency":1}}
+{"type":"Feature","id":"115_38","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.50749323],[-77.44481950000001,37.50749323],[-77.44481950000001,37.50593066],[-77.446167375,37.50593066],[-77.446167375,37.50749323]]]},"properties":{"name":"E 22ND ST/GORDON AVE RICH; 2300-BLK FAIRFAX AVE; 2300-BLK GORDON AVE","total":9,"Crime":4,"Traffic":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"116_38","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.50749323],[-77.443471625,37.50749323],[-77.443471625,37.50593066],[-77.44481950000001,37.50593066],[-77.44481950000001,37.50749323]]]},"properties":{"name":"2200-BLK GORDON AVE","total":2,"Emergency":2}}
+{"type":"Feature","id":"116_38","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.50749323],[-77.443471625,37.50749323],[-77.443471625,37.50593066],[-77.44481950000001,37.50593066],[-77.44481950000001,37.50749323]]]},"properties":{"name":"2200-BLK GORDON AVE","total":5,"Crime":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"117_38","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.50749323],[-77.44212375000001,37.50749323],[-77.44212375000001,37.50593066],[-77.443471625,37.50593066],[-77.443471625,37.50749323]]]},"properties":{"name":"2100-BLK HALIFAX AVE","total":7,"Emergency":5,"Crime":2}}
 ,
@@ -1367,19 +1406,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"121_38","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.50749323],[-77.43673225,37.50749323],[-77.43673225,37.50593066],[-77.438080125,37.50593066],[-77.438080125,37.50749323]]]},"properties":{"name":"1400-BLK LENMORE ST; 1800-BLK KESWICK AVE","total":5,"Crime":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"122_38","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.50749323],[-77.435384375,37.50749323],[-77.435384375,37.50593066],[-77.43673225,37.50593066],[-77.43673225,37.50749323]]]},"properties":{"name":"1500-BLK LONE ST","total":5,"Crime":5}}
+{"type":"Feature","id":"122_38","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.50749323],[-77.435384375,37.50749323],[-77.435384375,37.50593066],[-77.43673225,37.50593066],[-77.43673225,37.50749323]]]},"properties":{"name":"1500-BLK LONE ST","total":10,"Crime":10}}
 ,
-{"type":"Feature","id":"123_38","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.50749323],[-77.4340365,37.50749323],[-77.4340365,37.50593066],[-77.435384375,37.50593066],[-77.435384375,37.50749323]]]},"properties":{"name":"1500-BLK BRUCE ST; 1600-BLK GLENFIELD AVE","total":44,"Crime":42,"Emergency":2}}
+{"type":"Feature","id":"123_38","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.50749323],[-77.4340365,37.50749323],[-77.4340365,37.50593066],[-77.435384375,37.50593066],[-77.435384375,37.50749323]]]},"properties":{"name":"1500-BLK BRUCE ST; 1600-BLK GLENFIELD AVE","total":50,"Crime":44,"Emergency":6}}
 ,
 {"type":"Feature","id":"124_38","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.50749323],[-77.432688625,37.50749323],[-77.432688625,37.50593066],[-77.4340365,37.50593066],[-77.4340365,37.50749323]]]},"properties":{"name":"1600-BLK ROSECREST AVE; 1400-BLK BRUCE ST","total":33,"Crime":16,"Emergency":9,"Mental":6,"Discretionary":2}}
 ,
-{"type":"Feature","id":"125_38","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.50749323],[-77.43134075,37.50749323],[-77.43134075,37.50593066],[-77.432688625,37.50593066],[-77.432688625,37.50749323]]]},"properties":{"name":"1600-BLK ELMDALE AVE","total":2,"Crime":2}}
+{"type":"Feature","id":"125_38","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.50749323],[-77.43134075,37.50749323],[-77.43134075,37.50593066],[-77.432688625,37.50593066],[-77.432688625,37.50749323]]]},"properties":{"name":"1600-BLK ELMDALE AVE; 1300-BLK BRUCE ST","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"126_38","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.50749323],[-77.429992875,37.50749323],[-77.429992875,37.50593066],[-77.43134075,37.50593066],[-77.43134075,37.50749323]]]},"properties":{"name":"1600-BLK COMMERCE RD; COMMERCE RD/BRUCE ST RICH","total":12,"Traffic":10,"Crime":2}}
+{"type":"Feature","id":"126_38","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.50749323],[-77.429992875,37.50749323],[-77.429992875,37.50593066],[-77.43134075,37.50593066],[-77.43134075,37.50749323]]]},"properties":{"name":"1600-BLK COMMERCE RD; COMMERCE RD/BRUCE ST RICH","total":24,"Traffic":22,"Crime":2}}
 ,
 {"type":"Feature","id":"54_39","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.5090558],[-77.527039875,37.5090558],[-77.527039875,37.50749323],[-77.52838775000001,37.50749323],[-77.52838775000001,37.5090558]]]},"properties":{"name":"RICH: @POWHITE PKWY SB BETWEEN FOREST HILL &amp; CHIPPENHAM SB; FOREST HILL/CHIPPENHAM PKWY RICH; 00-BLK CHIPPENHAM PKWY CHES; CHIPPENHAM PKWY/HULL CHES; LL(ERROR!): CHIPP/WILLEY; CHIPPENHAM PKWY/FOREST HILL RICH","total":15,"Traffic":15}}
 ,
-{"type":"Feature","id":"55_39","geometry":{"type":"Polygon","coordinates":[[[-77.527039875,37.5090558],[-77.525692,37.5090558],[-77.525692,37.50749323],[-77.527039875,37.50749323],[-77.527039875,37.5090558]]]},"properties":{"name":"300-BLK HIOAKS RD","total":6,"Emergency":6}}
+{"type":"Feature","id":"55_39","geometry":{"type":"Polygon","coordinates":[[[-77.527039875,37.5090558],[-77.525692,37.5090558],[-77.525692,37.50749323],[-77.527039875,37.50749323],[-77.527039875,37.5090558]]]},"properties":{"name":"300-BLK HIOAKS RD","total":7,"Emergency":6,"Crime":1}}
 ,
 {"type":"Feature","id":"60_39","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.5090558],[-77.518952625,37.5090558],[-77.518952625,37.50749323],[-77.5203005,37.50749323],[-77.5203005,37.5090558]]]},"properties":{"name":"6800-BLK W CARNATION ST","total":13,"Crime":6,"Traffic":4,"Emergency":3}}
 ,
@@ -1399,15 +1438,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"80_39","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.5090558],[-77.491995125,37.5090558],[-77.491995125,37.50749323],[-77.49334300000001,37.50749323],[-77.49334300000001,37.5090558]]]},"properties":{"name":"5100-BLK MIDLOTHIAN TPKE; COVINGTON RD/MIDLOTHIAN TPKE RICH; MIDLOTHIAN TPKE/COVINGTON RD RICH","total":18,"Traffic":11,"Crime":7}}
 ,
-{"type":"Feature","id":"82_39","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.5090558],[-77.489299375,37.5090558],[-77.489299375,37.50749323],[-77.49064725000001,37.50749323],[-77.49064725000001,37.5090558]]]},"properties":{"name":"5000-BLK OLD MIDLOTHIAN TPKE; 5000-BLK MIDLOTHIAN TPKE","total":19,"Crime":15,"Emergency":2,"Traffic":1,"Mental":1}}
+{"type":"Feature","id":"82_39","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.5090558],[-77.489299375,37.5090558],[-77.489299375,37.50749323],[-77.49064725000001,37.50749323],[-77.49064725000001,37.5090558]]]},"properties":{"name":"5000-BLK OLD MIDLOTHIAN TPKE; 5000-BLK MIDLOTHIAN TPKE","total":21,"Crime":15,"Emergency":4,"Traffic":1,"Mental":1}}
 ,
-{"type":"Feature","id":"85_39","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.5090558],[-77.48525575000001,37.5090558],[-77.48525575000001,37.50749323],[-77.486603625,37.50749323],[-77.486603625,37.5090558]]]},"properties":{"name":"7100-BLK MIDLOTHIAN TPKE; 400-BLK MIDLOTHIAN; 4500-BLK MIDLOTHIAN TPKE; 4300-BLK MIDLOTHIAN TPKE","total":22,"Crime":17,"Discretionary":4,"Traffic":1}}
+{"type":"Feature","id":"85_39","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.5090558],[-77.48525575000001,37.5090558],[-77.48525575000001,37.50749323],[-77.486603625,37.50749323],[-77.486603625,37.5090558]]]},"properties":{"name":"7100-BLK MIDLOTHIAN TPKE; 400-BLK MIDLOTHIAN; 4500-BLK MIDLOTHIAN TPKE; 4300-BLK MIDLOTHIAN TPKE; BRANDON RD/BELT BLVD RICH","total":23,"Crime":17,"Discretionary":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"86_39","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.5090558],[-77.483907875,37.5090558],[-77.483907875,37.50749323],[-77.48525575000001,37.50749323],[-77.48525575000001,37.5090558]]]},"properties":{"name":"OLD MIDLOTHIAN TPKE/DIVISION ST RICH; DIVISION RD PG","total":3,"Discretionary":2,"Crime":1}}
 ,
 {"type":"Feature","id":"87_39","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.5090558],[-77.48256,37.5090558],[-77.48256,37.50749323],[-77.483907875,37.50749323],[-77.483907875,37.5090558]]]},"properties":{"name":"4800-BLK OLD MIDLOTHIAN TPKE; LL(-77:28:57.9684,37:30:30.9256)","total":9,"Crime":5,"Discretionary":4}}
 ,
-{"type":"Feature","id":"90_39","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.5090558],[-77.478516375,37.5090558],[-77.478516375,37.50749323],[-77.47986425,37.50749323],[-77.47986425,37.5090558]]]},"properties":{"name":"4000-BLK MIDLOTHIAN TPKE; 4000-MIDLOTHIAN; 0-BLK WYTHEMAR ST; WYTHEMAR ST/LARCHMONT LN RICH; LARCHMONT LN/WYTHEMAR ST RICH","total":155,"Crime":69,"Discretionary":55,"Emergency":18,"Traffic":11,"Mental":2}}
+{"type":"Feature","id":"90_39","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.5090558],[-77.478516375,37.5090558],[-77.478516375,37.50749323],[-77.47986425,37.50749323],[-77.47986425,37.5090558]]]},"properties":{"name":"4000-BLK MIDLOTHIAN TPKE; 4000-MIDLOTHIAN; 0-BLK WYTHEMAR ST; WYTHEMAR ST/LARCHMONT LN RICH; LARCHMONT LN/WYTHEMAR ST RICH","total":175,"Crime":82,"Discretionary":59,"Emergency":21,"Traffic":11,"Mental":2}}
 ,
 {"type":"Feature","id":"92_39","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.5090558],[-77.475820625,37.5090558],[-77.475820625,37.50749323],[-77.4771685,37.50749323],[-77.4771685,37.5090558]]]},"properties":{"name":"3900-BLK LARCHMONT LN","total":2,"Traffic":2}}
 ,
@@ -1417,7 +1456,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"95_39","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.5090558],[-77.471777,37.5090558],[-77.471777,37.50749323],[-77.473124875,37.50749323],[-77.473124875,37.5090558]]]},"properties":{"name":"100-BLK E 36TH ST","total":5,"Emergency":3,"Crime":2}}
 ,
-{"type":"Feature","id":"96_39","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.5090558],[-77.47042912500001,37.5090558],[-77.47042912500001,37.50749323],[-77.471777,37.50749323],[-77.471777,37.5090558]]]},"properties":{"name":"200-BLK E 36TH ST","total":4,"Crime":4}}
+{"type":"Feature","id":"96_39","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.5090558],[-77.47042912500001,37.5090558],[-77.47042912500001,37.50749323],[-77.471777,37.50749323],[-77.471777,37.5090558]]]},"properties":{"name":"200-BLK E 36TH ST; 200-BLK E 35TH ST","total":7,"Crime":5,"Mental":2}}
 ,
 {"type":"Feature","id":"98_39","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.5090558],[-77.46773337500001,37.5090558],[-77.46773337500001,37.50749323],[-77.46908125,37.50749323],[-77.46908125,37.5090558]]]},"properties":{"name":"00-BLK E 33RD ST","total":3,"Emergency":3}}
 ,
@@ -1433,29 +1472,31 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"108_39","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.5090558],[-77.454254625,37.5090558],[-77.454254625,37.50749323],[-77.4556025,37.50749323],[-77.4556025,37.5090558]]]},"properties":{"name":"2600-BLK MAURY ST","total":10,"Crime":10}}
 ,
-{"type":"Feature","id":"113_39","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.5090558],[-77.44751525000001,37.5090558],[-77.44751525000001,37.50749323],[-77.448863125,37.50749323],[-77.448863125,37.5090558]]]},"properties":{"name":"800-BLK RICHMOND HWY","total":22,"Crime":17,"Emergency":5}}
+{"type":"Feature","id":"113_39","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.5090558],[-77.44751525000001,37.5090558],[-77.44751525000001,37.50749323],[-77.448863125,37.50749323],[-77.448863125,37.5090558]]]},"properties":{"name":"800-BLK RICHMOND HWY","total":25,"Crime":20,"Emergency":5}}
 ,
-{"type":"Feature","id":"115_39","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.5090558],[-77.44481950000001,37.5090558],[-77.44481950000001,37.50749323],[-77.446167375,37.50749323],[-77.446167375,37.5090558]]]},"properties":{"name":"2200-BLK EDWARDS AVE; E 22ND ST/FAIRFAX AVE RICH; 2200-BLK FAIRFAX AVE","total":38,"Emergency":21,"Crime":12,"Traffic":5}}
+{"type":"Feature","id":"114_39","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.5090558],[-77.446167375,37.5090558],[-77.446167375,37.50749323],[-77.44751525000001,37.50749323],[-77.44751525000001,37.5090558]]]},"properties":{"name":"RICHMOND HWY/EDWARDS AVE RICH","total":1,"Traffic":1}}
+,
+{"type":"Feature","id":"115_39","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.5090558],[-77.44481950000001,37.5090558],[-77.44481950000001,37.50749323],[-77.446167375,37.50749323],[-77.446167375,37.5090558]]]},"properties":{"name":"2200-BLK EDWARDS AVE; E 22ND ST/FAIRFAX AVE RICH; 2200-BLK FAIRFAX AVE","total":40,"Emergency":21,"Crime":14,"Traffic":5}}
 ,
 {"type":"Feature","id":"116_39","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.5090558],[-77.443471625,37.5090558],[-77.443471625,37.50749323],[-77.44481950000001,37.50749323],[-77.44481950000001,37.5090558]]]},"properties":{"name":"FAIRFAX AVE/E 21ST ST RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"117_39","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.5090558],[-77.44212375000001,37.5090558],[-77.44212375000001,37.50749323],[-77.443471625,37.50749323],[-77.443471625,37.5090558]]]},"properties":{"name":"2000-BLK GORDON AVE; 2100-BLK GORDON AVE","total":8,"Crime":5,"Emergency":3}}
+{"type":"Feature","id":"117_39","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.5090558],[-77.44212375000001,37.5090558],[-77.44212375000001,37.50749323],[-77.443471625,37.50749323],[-77.443471625,37.5090558]]]},"properties":{"name":"2000-BLK GORDON AVE; 2100-BLK GORDON AVE","total":13,"Crime":10,"Emergency":3}}
 ,
 {"type":"Feature","id":"118_39","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.5090558],[-77.440775875,37.5090558],[-77.440775875,37.50749323],[-77.44212375000001,37.50749323],[-77.44212375000001,37.5090558]]]},"properties":{"name":"2000-BLK HALIFAX AVE","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"119_39","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.5090558],[-77.439428,37.5090558],[-77.439428,37.50749323],[-77.440775875,37.50749323],[-77.440775875,37.5090558]]]},"properties":{"name":"1800-BLK HALIFAX AVE; 1800-BLK INGRAM AVE","total":12,"Mental":9,"Crime":2,"Emergency":1}}
+{"type":"Feature","id":"119_39","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.5090558],[-77.439428,37.5090558],[-77.439428,37.50749323],[-77.440775875,37.50749323],[-77.440775875,37.5090558]]]},"properties":{"name":"1800-BLK HALIFAX AVE; 1800-BLK INGRAM AVE","total":13,"Mental":9,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"120_39","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.5090558],[-77.438080125,37.5090558],[-77.438080125,37.50749323],[-77.439428,37.50749323],[-77.439428,37.5090558]]]},"properties":{"name":"1700-BLK HALIFAX AVE; 1700-BLK INGRAM AVE","total":21,"Mental":17,"Crime":4}}
 ,
 {"type":"Feature","id":"121_39","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.5090558],[-77.43673225,37.5090558],[-77.43673225,37.50749323],[-77.438080125,37.50749323],[-77.438080125,37.5090558]]]},"properties":{"name":"1600-BLK INGRAM AVE","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"127_39","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.5090558],[-77.428645,37.5090558],[-77.428645,37.50749323],[-77.429992875,37.50749323],[-77.429992875,37.5090558]]]},"properties":{"name":"1500-BLK COMMERCE RD","total":2,"Emergency":2}}
+{"type":"Feature","id":"127_39","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.5090558],[-77.428645,37.5090558],[-77.428645,37.50749323],[-77.429992875,37.50749323],[-77.429992875,37.5090558]]]},"properties":{"name":"1500-BLK COMMERCE RD","total":4,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"151_39","geometry":{"type":"Polygon","coordinates":[[[-77.397643875,37.5090558],[-77.396296,37.5090558],[-77.396296,37.50749323],[-77.397643875,37.50749323],[-77.397643875,37.5090558]]]},"properties":{"name":"5600-BLK CAMPBELL AVE","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"152_39","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.5090558],[-77.394948125,37.5090558],[-77.394948125,37.50749323],[-77.396296,37.50749323],[-77.396296,37.5090558]]]},"properties":{"name":"5500-BLK PARKER ST","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"43_40","geometry":{"type":"Polygon","coordinates":[[[-77.543214375,37.51061837],[-77.5418665,37.51061837],[-77.5418665,37.5090558],[-77.543214375,37.5090558],[-77.543214375,37.51061837]]]},"properties":{"name":"FOREST HILL/POWHITE PKWY RICH; RICH: @POWHITE PKWY SB - TOLL PLAZA; POWHITE PKWY/FOREST HILL RICH; RICH: @POWHITE PKWY BRIDGE NB; RICH: @POWHITE PKWY BRIDGE SB; RICH: @POWHITE PKWY NB - TOLL PLAZA; RICH: @EXIT - POWHITE PKWY SB (FOREST HILL AVE)","total":53,"Traffic":36,"Emergency":7,"Mental":6,"Crime":4}}
+{"type":"Feature","id":"43_40","geometry":{"type":"Polygon","coordinates":[[[-77.543214375,37.51061837],[-77.5418665,37.51061837],[-77.5418665,37.5090558],[-77.543214375,37.5090558],[-77.543214375,37.51061837]]]},"properties":{"name":"FOREST HILL/POWHITE PKWY RICH; RICH: @POWHITE PKWY SB - TOLL PLAZA; POWHITE PKWY/FOREST HILL RICH; RICH: @POWHITE PKWY BRIDGE NB; RICH: @POWHITE PKWY BRIDGE SB; RICH: @POWHITE PKWY NB - TOLL PLAZA; RICH: @EXIT - POWHITE PKWY SB (FOREST HILL AVE)","total":55,"Traffic":38,"Emergency":7,"Mental":6,"Crime":4}}
 ,
 {"type":"Feature","id":"56_40","geometry":{"type":"Polygon","coordinates":[[[-77.525692,37.51061837],[-77.524344125,37.51061837],[-77.524344125,37.5090558],[-77.525692,37.5090558],[-77.525692,37.51061837]]]},"properties":{"name":"W CARNATION ST/HIOAKS RD RICH","total":1,"Emergency":1}}
 ,
@@ -1463,7 +1504,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"60_40","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.51061837],[-77.518952625,37.51061837],[-77.518952625,37.5090558],[-77.5203005,37.5090558],[-77.5203005,37.51061837]]]},"properties":{"name":"500-BLK ROSSMORE RD","total":7,"Crime":6,"Traffic":1}}
 ,
-{"type":"Feature","id":"63_40","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.51061837],[-77.514909,37.51061837],[-77.514909,37.5090558],[-77.516256875,37.5090558],[-77.516256875,37.51061837]]]},"properties":{"name":"500-BLK REPUBLIC DR","total":1,"Emergency":1}}
+{"type":"Feature","id":"63_40","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.51061837],[-77.514909,37.51061837],[-77.514909,37.5090558],[-77.516256875,37.5090558],[-77.516256875,37.51061837]]]},"properties":{"name":"500-BLK REPUBLIC DR; 500-BLK W CRIEFF RD","total":6,"Emergency":6}}
 ,
 {"type":"Feature","id":"66_40","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.51061837],[-77.51086537500001,37.51061837],[-77.51086537500001,37.5090558],[-77.51221325,37.5090558],[-77.51221325,37.51061837]]]},"properties":{"name":"400-BLK LASALLE DR","total":3,"Emergency":2,"Crime":1}}
 ,
@@ -1473,21 +1514,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"70_40","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.51061837],[-77.505473875,37.51061837],[-77.505473875,37.5090558],[-77.50682175,37.5090558],[-77.50682175,37.51061837]]]},"properties":{"name":"400-BLK GERMAN SCHOOL RD; WESTOVER VILLAGE DR/GERMAN SCHOOL RD RICH","total":21,"Crime":11,"Traffic":9,"Emergency":1}}
 ,
-{"type":"Feature","id":"72_40","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.51061837],[-77.502778125,37.51061837],[-77.502778125,37.5090558],[-77.504126,37.5090558],[-77.504126,37.51061837]]]},"properties":{"name":"5800-BLK WESTOVER VILLAGE DR","total":5,"Crime":4,"Emergency":1}}
+{"type":"Feature","id":"72_40","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.51061837],[-77.502778125,37.51061837],[-77.502778125,37.5090558],[-77.504126,37.5090558],[-77.504126,37.51061837]]]},"properties":{"name":"5800-BLK WESTOVER VILLAGE DR; LL(-77:30:11.7391,37:30:36.5099): MELMARK/GLENWAY","total":7,"Crime":4,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"73_40","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.51061837],[-77.50143025,37.51061837],[-77.50143025,37.5090558],[-77.502778125,37.5090558],[-77.502778125,37.51061837]]]},"properties":{"name":"400-BLK MELMARK CT; 5600-BLK MELMARK RD; 300-BLK MELMARK CT","total":10,"Crime":8,"Emergency":2}}
+{"type":"Feature","id":"73_40","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.51061837],[-77.50143025,37.51061837],[-77.50143025,37.5090558],[-77.502778125,37.5090558],[-77.502778125,37.51061837]]]},"properties":{"name":"400-BLK MELMARK CT; 5600-BLK MELMARK RD; 300-BLK MELMARK CT","total":15,"Crime":13,"Emergency":2}}
 ,
 {"type":"Feature","id":"74_40","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.51061837],[-77.500082375,37.51061837],[-77.500082375,37.5090558],[-77.50143025,37.5090558],[-77.50143025,37.51061837]]]},"properties":{"name":"300-BLK ERICH RD; MELMARK RD/ERICH RD RICH","total":2,"Emergency":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"75_40","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.51061837],[-77.4987345,37.51061837],[-77.4987345,37.5090558],[-77.500082375,37.5090558],[-77.500082375,37.51061837]]]},"properties":{"name":"5400-BLK NUTMEG CT","total":2,"Mental":2}}
+{"type":"Feature","id":"75_40","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.51061837],[-77.4987345,37.51061837],[-77.4987345,37.5090558],[-77.500082375,37.5090558],[-77.500082375,37.51061837]]]},"properties":{"name":"5400-BLK NUTMEG CT","total":4,"Mental":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"79_40","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.51061837],[-77.49334300000001,37.51061837],[-77.49334300000001,37.5090558],[-77.494690875,37.5090558],[-77.494690875,37.51061837]]]},"properties":{"name":"5200-BLK MEDIA RD; 300-BLK COVINGTON RD","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"84_40","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.51061837],[-77.486603625,37.51061837],[-77.486603625,37.5090558],[-77.48795150000001,37.5090558],[-77.48795150000001,37.51061837]]]},"properties":{"name":"WESTOVER HILLS/MIDLOTHIAN TPKE RICH; BELT BLVD/MIDLOTHIAN RICH; BELT/MIDLOTHIAN RICH; WESTOVER HILLS BLVD/BELT BLVD RICH","total":7,"Traffic":3,"Crime":3,"Emergency":1}}
+{"type":"Feature","id":"84_40","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.51061837],[-77.486603625,37.51061837],[-77.486603625,37.5090558],[-77.48795150000001,37.5090558],[-77.48795150000001,37.51061837]]]},"properties":{"name":"WESTOVER HILLS/MIDLOTHIAN TPKE RICH; BELT BLVD/MIDLOTHIAN RICH; BELT/MIDLOTHIAN RICH; WESTOVER HILLS BLVD/BELT BLVD RICH","total":9,"Traffic":5,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"86_40","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.51061837],[-77.483907875,37.51061837],[-77.483907875,37.5090558],[-77.48525575000001,37.5090558],[-77.48525575000001,37.51061837]]]},"properties":{"name":"4800-BLK MIDLOTHIAN TPKE","total":17,"Crime":13,"Emergency":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"90_40","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.51061837],[-77.478516375,37.51061837],[-77.478516375,37.5090558],[-77.47986425,37.5090558],[-77.47986425,37.51061837]]]},"properties":{"name":"4100-BLK MIDLOTHIAN TPKE; LL(-77:28:44.9833,37:30:34.3275): @GEORGE WYTHE HIGH","total":4,"Traffic":4}}
+{"type":"Feature","id":"90_40","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.51061837],[-77.478516375,37.51061837],[-77.478516375,37.5090558],[-77.47986425,37.5090558],[-77.47986425,37.51061837]]]},"properties":{"name":"4100-BLK MIDLOTHIAN TPKE; LL(-77:28:44.9833,37:30:34.3275): @GEORGE WYTHE HIGH","total":6,"Traffic":4,"Discretionary":2}}
 ,
 {"type":"Feature","id":"91_40","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.51061837],[-77.4771685,37.51061837],[-77.4771685,37.5090558],[-77.478516375,37.5090558],[-77.478516375,37.51061837]]]},"properties":{"name":"WYTHEMAR ST/MIDLOTHIAN TPKE RICH; MIDLOTHIAN TPKE/WYTHEMAR ST RICH; MIDLOTHIAN TPKE/WEAVER CT RICH","total":10,"Traffic":10}}
 ,
@@ -1505,7 +1546,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"101_40","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.51061837],[-77.46368975,37.51061837],[-77.46368975,37.5090558],[-77.46503762500001,37.5090558],[-77.46503762500001,37.51061837]]]},"properties":{"name":"E 31ST ST/MCRAND ST RICH; 100-BLK E BROAD ROCK RD","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"103_40","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.51061837],[-77.460994,37.51061837],[-77.460994,37.5090558],[-77.462341875,37.5090558],[-77.462341875,37.51061837]]]},"properties":{"name":"3000-BLK HULL ST; E 30TH ST/HULL ST RICH; LL(-77:27:41.4361,37:30:35.0567): EST 3006 HULL ST RICH; HULL ST/PLAYN ST RICH; 3000-BLK LAWSON ST","total":51,"Crime":22,"Traffic":13,"Discretionary":10,"Emergency":6}}
+{"type":"Feature","id":"103_40","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.51061837],[-77.460994,37.51061837],[-77.460994,37.5090558],[-77.462341875,37.5090558],[-77.462341875,37.51061837]]]},"properties":{"name":"3000-BLK HULL ST; E 30TH ST/HULL ST RICH; LL(-77:27:41.4361,37:30:35.0567): EST 3006 HULL ST RICH; HULL ST/PLAYN ST RICH; 3000-BLK LAWSON ST","total":56,"Crime":26,"Traffic":13,"Discretionary":10,"Emergency":7}}
 ,
 {"type":"Feature","id":"104_40","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.51061837],[-77.459646125,37.51061837],[-77.459646125,37.5090558],[-77.460994,37.5090558],[-77.460994,37.51061837]]]},"properties":{"name":"E 29TH ST/HULL ST RICH; 2900-BLK HULL ST; HULL ST/E 29TH ST RICH","total":11,"Crime":5,"Traffic":4,"Emergency":2}}
 ,
@@ -1513,7 +1554,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"109_40","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.51061837],[-77.45290675,37.51061837],[-77.45290675,37.5090558],[-77.454254625,37.5090558],[-77.454254625,37.51061837]]]},"properties":{"name":"2700-BLK MAURY ST","total":5,"Crime":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"113_40","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51061837],[-77.44751525000001,37.51061837],[-77.44751525000001,37.5090558],[-77.448863125,37.5090558],[-77.448863125,37.51061837]]]},"properties":{"name":"CHICAGO AVE/RICHMOND HWY RICH; CHICAGO AVE/RICHMOND HWY RICH: alias CHICAGO AVE/JEFF DAVIS HWY RICH","total":6,"Crime":4,"Emergency":2}}
+{"type":"Feature","id":"113_40","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51061837],[-77.44751525000001,37.51061837],[-77.44751525000001,37.5090558],[-77.448863125,37.5090558],[-77.448863125,37.51061837]]]},"properties":{"name":"CHICAGO AVE/RICHMOND HWY RICH; CHICAGO AVE/RICHMOND HWY RICH: alias CHICAGO AVE/JEFF DAVIS HWY RICH","total":9,"Crime":7,"Emergency":2}}
 ,
 {"type":"Feature","id":"114_40","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.51061837],[-77.446167375,37.51061837],[-77.446167375,37.5090558],[-77.44751525000001,37.5090558],[-77.44751525000001,37.51061837]]]},"properties":{"name":"2200-BLK DINWIDDIE AVE","total":4,"Emergency":4}}
 ,
@@ -1525,9 +1566,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"119_40","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.51061837],[-77.439428,37.51061837],[-77.439428,37.5090558],[-77.440775875,37.5090558],[-77.440775875,37.51061837]]]},"properties":{"name":"1700-BLK GORDON AVE","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"120_40","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.51061837],[-77.438080125,37.51061837],[-77.438080125,37.5090558],[-77.439428,37.5090558],[-77.439428,37.51061837]]]},"properties":{"name":"1200-BLK E 17TH ST; 1100-BLK E 16TH ST","total":10,"Crime":6,"Emergency":4}}
+{"type":"Feature","id":"120_40","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.51061837],[-77.438080125,37.51061837],[-77.438080125,37.5090558],[-77.439428,37.5090558],[-77.439428,37.51061837]]]},"properties":{"name":"1200-BLK E 17TH ST; 1100-BLK E 16TH ST","total":13,"Crime":6,"Emergency":4,"Traffic":3}}
 ,
-{"type":"Feature","id":"126_40","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.51061837],[-77.429992875,37.51061837],[-77.429992875,37.5090558],[-77.43134075,37.5090558],[-77.43134075,37.51061837]]]},"properties":{"name":"1400-BLK COMMERCE RD","total":6,"Discretionary":4,"Traffic":2}}
+{"type":"Feature","id":"121_40","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.51061837],[-77.43673225,37.51061837],[-77.43673225,37.5090558],[-77.438080125,37.5090558],[-77.438080125,37.51061837]]]},"properties":{"name":"E 15TH ST/INGRAM AVE RICH","total":1,"Traffic":1}}
+,
+{"type":"Feature","id":"126_40","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.51061837],[-77.429992875,37.51061837],[-77.429992875,37.5090558],[-77.43134075,37.5090558],[-77.43134075,37.51061837]]]},"properties":{"name":"1400-BLK COMMERCE RD","total":8,"Traffic":4,"Discretionary":4}}
 ,
 {"type":"Feature","id":"148_40","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.51061837],[-77.400339625,37.51061837],[-77.400339625,37.5090558],[-77.40168750000001,37.5090558],[-77.40168750000001,37.51061837]]]},"properties":{"name":"1300-BLK VINTON ST; 5500-BLK EUCLID AVE","total":10,"Emergency":4,"Crime":4,"Mental":2}}
 ,
@@ -1541,7 +1584,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"2_41","geometry":{"type":"Polygon","coordinates":[[[-77.59847725,37.51218094],[-77.59712937500001,37.51218094],[-77.59712937500001,37.51061837],[-77.59847725,37.51061837],[-77.59847725,37.51218094]]]},"properties":{"name":"1400-BLK JOHNSTON WILLIS DR","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"56_41","geometry":{"type":"Polygon","coordinates":[[[-77.525692,37.51218094],[-77.524344125,37.51218094],[-77.524344125,37.51061837],[-77.525692,37.51061837],[-77.525692,37.51218094]]]},"properties":{"name":"600-BLK HIOAKS RD","total":5,"Emergency":3,"Mental":2}}
+{"type":"Feature","id":"56_41","geometry":{"type":"Polygon","coordinates":[[[-77.525692,37.51218094],[-77.524344125,37.51218094],[-77.524344125,37.51061837],[-77.525692,37.51061837],[-77.525692,37.51218094]]]},"properties":{"name":"600-BLK HIOAKS RD","total":8,"Emergency":6,"Mental":2}}
 ,
 {"type":"Feature","id":"59_41","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.51218094],[-77.5203005,37.51218094],[-77.5203005,37.51061837],[-77.521648375,37.51061837],[-77.521648375,37.51218094]]]},"properties":{"name":"700-BLK LUTON LN","total":2,"Emergency":2}}
 ,
@@ -1555,7 +1598,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"71_41","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.51218094],[-77.504126,37.51218094],[-77.504126,37.51061837],[-77.505473875,37.51061837],[-77.505473875,37.51218094]]]},"properties":{"name":"400-BLK GERMAN SCHOOL CRES","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"72_41","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.51218094],[-77.502778125,37.51218094],[-77.502778125,37.51061837],[-77.504126,37.51061837],[-77.504126,37.51218094]]]},"properties":{"name":"5700-BLK WESTOVER VILLAGE DR","total":6,"Emergency":4,"Crime":2}}
+{"type":"Feature","id":"72_41","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.51218094],[-77.502778125,37.51218094],[-77.502778125,37.51061837],[-77.504126,37.51061837],[-77.504126,37.51218094]]]},"properties":{"name":"5700-BLK WESTOVER VILLAGE DR","total":10,"Crime":6,"Emergency":4}}
 ,
 {"type":"Feature","id":"73_41","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.51218094],[-77.50143025,37.51218094],[-77.50143025,37.51061837],[-77.502778125,37.51061837],[-77.502778125,37.51218094]]]},"properties":{"name":"5600-BLK LIPTON RD","total":1,"Crime":1}}
 ,
@@ -1565,9 +1608,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"80_41","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.51218094],[-77.491995125,37.51218094],[-77.491995125,37.51061837],[-77.49334300000001,37.51061837],[-77.49334300000001,37.51218094]]]},"properties":{"name":"ROCKLAND RD/BOROUGHBRIDGE RD RICH","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"83_41","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.51218094],[-77.48795150000001,37.51218094],[-77.48795150000001,37.51061837],[-77.489299375,37.51061837],[-77.489299375,37.51218094]]]},"properties":{"name":"400-BLK WESTOVER HILLS BLVD","total":58,"Crime":43,"Emergency":9,"Traffic":6}}
+{"type":"Feature","id":"83_41","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.51218094],[-77.48795150000001,37.51218094],[-77.48795150000001,37.51061837],[-77.489299375,37.51061837],[-77.489299375,37.51218094]]]},"properties":{"name":"400-BLK WESTOVER HILLS BLVD","total":63,"Crime":48,"Emergency":9,"Traffic":6}}
 ,
-{"type":"Feature","id":"85_41","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.51218094],[-77.48525575000001,37.51218094],[-77.48525575000001,37.51061837],[-77.486603625,37.51061837],[-77.486603625,37.51218094]]]},"properties":{"name":"4300-BLK CRUTCHFIELD ST","total":34,"Crime":25,"Emergency":6,"Traffic":3}}
+{"type":"Feature","id":"85_41","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.51218094],[-77.48525575000001,37.51218094],[-77.48525575000001,37.51061837],[-77.486603625,37.51061837],[-77.486603625,37.51218094]]]},"properties":{"name":"4300-BLK CRUTCHFIELD ST","total":35,"Crime":26,"Emergency":6,"Traffic":3}}
 ,
 {"type":"Feature","id":"87_41","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.51218094],[-77.48256,37.51218094],[-77.48256,37.51061837],[-77.483907875,37.51061837],[-77.483907875,37.51218094]]]},"properties":{"name":"200-BLK NORCROFT TER","total":6,"Crime":5,"Emergency":1}}
 ,
@@ -1593,7 +1636,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"106_41","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.51218094],[-77.456950375,37.51218094],[-77.456950375,37.51061837],[-77.45829825,37.51061837],[-77.45829825,37.51218094]]]},"properties":{"name":"2800-BLK DECATUR ST; 2700-BLK HULL ST","total":18,"Emergency":8,"Crime":6,"Mental":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"108_41","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.51218094],[-77.454254625,37.51218094],[-77.454254625,37.51061837],[-77.4556025,37.51061837],[-77.4556025,37.51218094]]]},"properties":{"name":"2600-BLK DECATUR ST","total":4,"Traffic":2,"Emergency":2}}
+{"type":"Feature","id":"108_41","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.51218094],[-77.454254625,37.51218094],[-77.454254625,37.51061837],[-77.4556025,37.51061837],[-77.4556025,37.51218094]]]},"properties":{"name":"2600-BLK DECATUR ST","total":6,"Traffic":2,"Emergency":2,"Crime":2}}
 ,
 {"type":"Feature","id":"109_41","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.51218094],[-77.45290675,37.51218094],[-77.45290675,37.51061837],[-77.454254625,37.51061837],[-77.454254625,37.51218094]]]},"properties":{"name":"500-BLK E CLOPTON ST; 600-BLK E CLOPTON ST","total":4,"Emergency":2,"Crime":2}}
 ,
@@ -1609,9 +1652,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"117_41","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.51218094],[-77.44212375000001,37.51218094],[-77.44212375000001,37.51061837],[-77.443471625,37.51061837],[-77.443471625,37.51218094]]]},"properties":{"name":"1800-BLK EDWARDS AVE","total":3,"Crime":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_41","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.51218094],[-77.440775875,37.51218094],[-77.440775875,37.51061837],[-77.44212375000001,37.51061837],[-77.44212375000001,37.51218094]]]},"properties":{"name":"1700-BLK EDWARDS AVE","total":1,"Emergency":1}}
+{"type":"Feature","id":"118_41","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.51218094],[-77.440775875,37.51218094],[-77.440775875,37.51061837],[-77.44212375000001,37.51061837],[-77.44212375000001,37.51218094]]]},"properties":{"name":"1700-BLK EDWARDS AVE","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"119_41","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.51218094],[-77.439428,37.51218094],[-77.439428,37.51061837],[-77.440775875,37.51061837],[-77.440775875,37.51218094]]]},"properties":{"name":"1000-BLK E 16TH ST","total":8,"Emergency":8}}
+{"type":"Feature","id":"119_41","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.51218094],[-77.439428,37.51218094],[-77.439428,37.51061837],[-77.440775875,37.51061837],[-77.440775875,37.51218094]]]},"properties":{"name":"1000-BLK E 16TH ST","total":9,"Emergency":9}}
 ,
 {"type":"Feature","id":"120_41","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.51218094],[-77.438080125,37.51218094],[-77.438080125,37.51061837],[-77.439428,37.51061837],[-77.439428,37.51218094]]]},"properties":{"name":"1100-BLK E 15TH ST","total":2,"Discretionary":2}}
 ,
@@ -1631,11 +1674,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"61_42","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.51374351],[-77.51760475,37.51374351],[-77.51760475,37.51218094],[-77.518952625,37.51218094],[-77.518952625,37.51374351]]]},"properties":{"name":"600-BLK ELGIN TER; 800-BLK HOLBEIN PL","total":7,"Emergency":3,"Traffic":2,"Crime":2}}
 ,
-{"type":"Feature","id":"62_42","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.51374351],[-77.516256875,37.51374351],[-77.516256875,37.51218094],[-77.51760475,37.51218094],[-77.51760475,37.51374351]]]},"properties":{"name":"900-BLK LISSON CRES; 700-BLK HOLBEIN PL; 900-BLK ST JOHNS WOOD DR","total":6,"Crime":3,"Mental":2,"Traffic":1}}
+{"type":"Feature","id":"62_42","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.51374351],[-77.516256875,37.51374351],[-77.516256875,37.51218094],[-77.51760475,37.51218094],[-77.51760475,37.51374351]]]},"properties":{"name":"900-BLK LISSON CRES; 700-BLK HOLBEIN PL; 900-BLK ST JOHNS WOOD DR","total":10,"Crime":7,"Mental":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"65_42","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.51374351],[-77.51221325,37.51374351],[-77.51221325,37.51218094],[-77.51356112500001,37.51218094],[-77.51356112500001,37.51374351]]]},"properties":{"name":"700-BLK GOODWOOD CT","total":4,"Emergency":2,"Crime":2}}
 ,
-{"type":"Feature","id":"66_42","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.51374351],[-77.51086537500001,37.51374351],[-77.51086537500001,37.51218094],[-77.51221325,37.51218094],[-77.51221325,37.51374351]]]},"properties":{"name":"800-BLK DETER RD","total":6,"Crime":6}}
+{"type":"Feature","id":"66_42","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.51374351],[-77.51086537500001,37.51374351],[-77.51086537500001,37.51218094],[-77.51221325,37.51218094],[-77.51221325,37.51374351]]]},"properties":{"name":"800-BLK DETER RD","total":11,"Crime":11}}
 ,
 {"type":"Feature","id":"68_42","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.51374351],[-77.50816962500001,37.51374351],[-77.50816962500001,37.51218094],[-77.5095175,37.51218094],[-77.5095175,37.51374351]]]},"properties":{"name":"700-BLK GERMAN SCHOOL RD","total":3,"Traffic":2,"Crime":1}}
 ,
@@ -1649,7 +1692,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"82_42","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.51374351],[-77.489299375,37.51374351],[-77.489299375,37.51218094],[-77.49064725000001,37.51218094],[-77.49064725000001,37.51374351]]]},"properties":{"name":"500-BLK WESTOVER HILLS BLVD","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"87_42","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.51374351],[-77.48256,37.51374351],[-77.48256,37.51218094],[-77.483907875,37.51218094],[-77.483907875,37.51374351]]]},"properties":{"name":"300-BLK NORCROFT CIR; 400-BLK NORCROFT CIR","total":5,"Emergency":4,"Crime":1}}
+{"type":"Feature","id":"87_42","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.51374351],[-77.48256,37.51374351],[-77.48256,37.51218094],[-77.483907875,37.51218094],[-77.483907875,37.51374351]]]},"properties":{"name":"300-BLK NORCROFT CIR; 400-BLK NORCROFT CIR","total":6,"Emergency":5,"Crime":1}}
 ,
 {"type":"Feature","id":"93_42","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.51374351],[-77.47447275,37.51374351],[-77.47447275,37.51218094],[-77.475820625,37.51218094],[-77.475820625,37.51374351]]]},"properties":{"name":"200-BLK W ROANOKE ST","total":2,"Crime":2}}
 ,
@@ -1669,7 +1712,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"106_42","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.51374351],[-77.456950375,37.51374351],[-77.456950375,37.51218094],[-77.45829825,37.51218094],[-77.45829825,37.51374351]]]},"properties":{"name":"TOLER FURNITURE COMPANY ST/HULL ST RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"107_42","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.51374351],[-77.4556025,37.51374351],[-77.4556025,37.51218094],[-77.456950375,37.51218094],[-77.456950375,37.51374351]]]},"properties":{"name":"HULL ST/E CLOPTON ST RICH; 2600-BLK MIDLOTHIAN TPKE; 2600-BLK HULL ST; HULL ST/EVANS ST RICH; E CLOPTON ST/HULL ST RICH","total":70,"Crime":46,"Traffic":12,"Emergency":8,"Discretionary":4}}
+{"type":"Feature","id":"107_42","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.51374351],[-77.4556025,37.51374351],[-77.4556025,37.51218094],[-77.456950375,37.51218094],[-77.456950375,37.51374351]]]},"properties":{"name":"HULL ST/E CLOPTON ST RICH; 2600-BLK MIDLOTHIAN TPKE; 2600-BLK HULL ST; HULL ST/EVANS ST RICH; E CLOPTON ST/HULL ST RICH","total":76,"Crime":50,"Traffic":12,"Emergency":8,"Discretionary":6}}
 ,
 {"type":"Feature","id":"109_42","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.51374351],[-77.45290675,37.51374351],[-77.45290675,37.51218094],[-77.454254625,37.51218094],[-77.454254625,37.51374351]]]},"properties":{"name":"2500-BLK DECATUR ST; E 6TH ST/DECATUR ST RICH; E 5TH ST/DECATUR ST RICH; E 3RD ST/DECATUR ST RICH; E 10TH ST/DECATUR ST RICH","total":15,"Traffic":6,"Discretionary":4,"Crime":3,"Emergency":2}}
 ,
@@ -1677,19 +1720,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"112_42","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.51374351],[-77.448863125,37.51374351],[-77.448863125,37.51218094],[-77.450211,37.51218094],[-77.450211,37.51374351]]]},"properties":{"name":"E 22ND ST/EVERETT ST RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"113_42","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51374351],[-77.44751525000001,37.51374351],[-77.44751525000001,37.51218094],[-77.448863125,37.51218094],[-77.448863125,37.51374351]]]},"properties":{"name":"RICHMOND HWY/MAURY ST RICH; MAURY ST/RICHMOND HWY RICH; 300-BLK RICHMOND HWY","total":14,"Traffic":8,"Emergency":5,"Crime":1}}
+{"type":"Feature","id":"113_42","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51374351],[-77.44751525000001,37.51374351],[-77.44751525000001,37.51218094],[-77.448863125,37.51218094],[-77.448863125,37.51374351]]]},"properties":{"name":"RICHMOND HWY/MAURY ST RICH; MAURY ST/RICHMOND HWY RICH; 300-BLK RICHMOND HWY","total":20,"Traffic":12,"Emergency":7,"Crime":1}}
 ,
 {"type":"Feature","id":"114_42","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.51374351],[-77.446167375,37.51374351],[-77.446167375,37.51218094],[-77.44751525000001,37.51218094],[-77.44751525000001,37.51374351]]]},"properties":{"name":"2000-BLK MAURY ST; 2000-BLK ALBANY AVE; 00-BLK E 20TH ST","total":10,"Crime":7,"Traffic":3}}
 ,
-{"type":"Feature","id":"115_42","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.51374351],[-77.44481950000001,37.51374351],[-77.44481950000001,37.51218094],[-77.446167375,37.51218094],[-77.446167375,37.51374351]]]},"properties":{"name":"1800-BLK ALBANY AVE; 0-BLK E 19TH ST","total":4,"Crime":4}}
+{"type":"Feature","id":"115_42","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.51374351],[-77.44481950000001,37.51374351],[-77.44481950000001,37.51218094],[-77.446167375,37.51218094],[-77.446167375,37.51374351]]]},"properties":{"name":"1800-BLK ALBANY AVE; 0-BLK E 19TH ST; E 19TH ST/BOSTON AVE RICH","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"116_42","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.51374351],[-77.443471625,37.51374351],[-77.443471625,37.51218094],[-77.44481950000001,37.51218094],[-77.44481950000001,37.51374351]]]},"properties":{"name":"700-BLK E 18TH ST; 600-BLK E 18TH ST; E 18TH ST/CHICAGO AVE RICH; 1800-BLK CHICAGO AVE","total":21,"Crime":21}}
+{"type":"Feature","id":"116_42","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.51374351],[-77.443471625,37.51374351],[-77.443471625,37.51218094],[-77.44481950000001,37.51218094],[-77.44481950000001,37.51374351]]]},"properties":{"name":"700-BLK E 18TH ST; 600-BLK E 18TH ST; E 18TH ST/CHICAGO AVE RICH; 1800-BLK CHICAGO AVE; 1700-BLK BOSTON AVE","total":26,"Crime":26}}
 ,
 {"type":"Feature","id":"117_42","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.51374351],[-77.44212375000001,37.51374351],[-77.44212375000001,37.51218094],[-77.443471625,37.51218094],[-77.443471625,37.51374351]]]},"properties":{"name":"1700-BLK CHICAGO AVE","total":3,"Discretionary":2,"Crime":1}}
 ,
 {"type":"Feature","id":"119_42","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.51374351],[-77.439428,37.51374351],[-77.439428,37.51218094],[-77.440775875,37.51218094],[-77.440775875,37.51374351]]]},"properties":{"name":"900-BLK E 15TH ST","total":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"125_42","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.51374351],[-77.43134075,37.51374351],[-77.43134075,37.51218094],[-77.432688625,37.51218094],[-77.432688625,37.51374351]]]},"properties":{"name":"1200-BLK COMMERCE RD; 1300-BLK COMMERCE RD","total":4,"Traffic":4}}
+,
+{"type":"Feature","id":"144_42","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.51374351],[-77.405731125,37.51374351],[-77.405731125,37.51218094],[-77.40707900000001,37.51218094],[-77.40707900000001,37.51374351]]]},"properties":{"name":"5200-BLK NORTHAMPTON ST","total":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"146_42","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.51374351],[-77.403035375,37.51374351],[-77.403035375,37.51218094],[-77.40438325000001,37.51218094],[-77.40438325000001,37.51374351]]]},"properties":{"name":"1200-BLK NELSON ST","total":23,"Crime":19,"Mental":3,"Emergency":1}}
 ,
@@ -1725,19 +1770,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"81_43","geometry":{"type":"Polygon","coordinates":[[[-77.491995125,37.51530608],[-77.49064725000001,37.51530608],[-77.49064725000001,37.51374351],[-77.491995125,37.51374351],[-77.491995125,37.51530608]]]},"properties":{"name":"700-BLK HILL TOP DR; 700-BLK FOREST VIEW DR","total":10,"Traffic":3,"Emergency":3,"Mental":2,"Crime":2}}
 ,
-{"type":"Feature","id":"82_43","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.51530608],[-77.489299375,37.51530608],[-77.489299375,37.51374351],[-77.49064725000001,37.51374351],[-77.49064725000001,37.51530608]]]},"properties":{"name":"600-BLK WESTOVER HILLS BLVD","total":89,"Crime":55,"Emergency":14,"Traffic":11,"Mental":9}}
+{"type":"Feature","id":"82_43","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.51530608],[-77.489299375,37.51530608],[-77.489299375,37.51374351],[-77.49064725000001,37.51374351],[-77.49064725000001,37.51530608]]]},"properties":{"name":"600-BLK WESTOVER HILLS BLVD","total":94,"Crime":60,"Emergency":14,"Traffic":11,"Mental":9}}
 ,
 {"type":"Feature","id":"84_43","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.51530608],[-77.486603625,37.51530608],[-77.486603625,37.51374351],[-77.48795150000001,37.51374351],[-77.48795150000001,37.51530608]]]},"properties":{"name":"W 47TH ST/BASSETT AVE RICH; 800-BLK W 47TH ST; BASSETT AVE/W 47TH ST RICH","total":7,"Traffic":7}}
 ,
 {"type":"Feature","id":"85_43","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.51530608],[-77.48525575000001,37.51530608],[-77.48525575000001,37.51374351],[-77.486603625,37.51374351],[-77.486603625,37.51530608]]]},"properties":{"name":"4600-BLK BASSETT AVE","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"92_43","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.51530608],[-77.475820625,37.51530608],[-77.475820625,37.51374351],[-77.4771685,37.51374351],[-77.4771685,37.51530608]]]},"properties":{"name":"300-BLK W ROANOKE ST","total":7,"Crime":5,"Traffic":2}}
+{"type":"Feature","id":"92_43","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.51530608],[-77.475820625,37.51530608],[-77.475820625,37.51374351],[-77.4771685,37.51374351],[-77.4771685,37.51530608]]]},"properties":{"name":"300-BLK W ROANOKE ST","total":9,"Crime":7,"Traffic":2}}
 ,
 {"type":"Feature","id":"93_43","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.51530608],[-77.47447275,37.51530608],[-77.47447275,37.51374351],[-77.475820625,37.51374351],[-77.475820625,37.51530608]]]},"properties":{"name":"W ROANOKE ST/DUNSTON AVE RICH","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"96_43","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.51530608],[-77.47042912500001,37.51530608],[-77.47042912500001,37.51374351],[-77.471777,37.51374351],[-77.471777,37.51530608]]]},"properties":{"name":"647NQUE00-BLK ANN; 300-BLK DUNDEE AVE","total":6,"Crime":3,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"97_43","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.51530608],[-77.46908125,37.51530608],[-77.46908125,37.51374351],[-77.47042912500001,37.51374351],[-77.47042912500001,37.51530608]]]},"properties":{"name":"200-BLK W 34TH ST; 3400-BLK FOREST HILL AVE","total":2,"Traffic":1,"Crime":1}}
+{"type":"Feature","id":"97_43","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.51530608],[-77.46908125,37.51530608],[-77.46908125,37.51374351],[-77.47042912500001,37.51374351],[-77.47042912500001,37.51530608]]]},"properties":{"name":"200-BLK W 34TH ST; 3400-BLK FOREST HILL AVE","total":5,"Crime":4,"Traffic":1}}
 ,
 {"type":"Feature","id":"98_43","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.51530608],[-77.46773337500001,37.51530608],[-77.46773337500001,37.51374351],[-77.46908125,37.51374351],[-77.46908125,37.51530608]]]},"properties":{"name":"FOREST HILL AVE/W 33RD ST RICH","total":2,"Crime":2}}
 ,
@@ -1749,7 +1794,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"107_43","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.51530608],[-77.4556025,37.51530608],[-77.4556025,37.51374351],[-77.456950375,37.51374351],[-77.456950375,37.51530608]]]},"properties":{"name":"2600-BLK WISE ST; W CLOPTON ST/WISE ST RICH","total":2,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"108_43","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.51530608],[-77.454254625,37.51530608],[-77.454254625,37.51374351],[-77.4556025,37.51374351],[-77.4556025,37.51530608]]]},"properties":{"name":"2400-BLK HULL ST; E 7TH ST/HULL ST RICH; E 2ND ST/HULL ST RICH; E 25TH ST/HULL ST RICH; E 17TH ST/HULL ST RICH; HULL ST/E 25TH ST RICH; 23RD/HULL ST; E 9TH ST/HULL ST RICH; E 1ST ST/HULL ST RICH; E 5TH ST/HULL ST RICH","total":34,"Traffic":27,"Discretionary":4,"Crime":2,"Emergency":1}}
+{"type":"Feature","id":"108_43","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.51530608],[-77.454254625,37.51530608],[-77.454254625,37.51374351],[-77.4556025,37.51374351],[-77.4556025,37.51530608]]]},"properties":{"name":"2400-BLK HULL ST; E 7TH ST/HULL ST RICH; E 2ND ST/HULL ST RICH; E 25TH ST/HULL ST RICH; E 17TH ST/HULL ST RICH; HULL ST/E 25TH ST RICH; 23RD/HULL ST; E 9TH ST/HULL ST RICH; E 1ST ST/HULL ST RICH; E 5TH ST/HULL ST RICH","total":36,"Traffic":29,"Discretionary":4,"Crime":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"109_43","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.51530608],[-77.45290675,37.51530608],[-77.45290675,37.51374351],[-77.454254625,37.51374351],[-77.454254625,37.51530608]]]},"properties":{"name":"2200-BLK HULL ST; 2300-BLK HULL ST","total":13,"Crime":8,"Emergency":3,"Traffic":2}}
 ,
@@ -1759,13 +1804,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"112_43","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.51530608],[-77.448863125,37.51530608],[-77.448863125,37.51374351],[-77.450211,37.51374351],[-77.450211,37.51530608]]]},"properties":{"name":"E 21ST ST/STOCKTON ST RICH","total":5,"Traffic":5}}
 ,
-{"type":"Feature","id":"114_43","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.51530608],[-77.446167375,37.51530608],[-77.446167375,37.51374351],[-77.44751525000001,37.51374351],[-77.44751525000001,37.51530608]]]},"properties":{"name":"E 6TH ST/MAURY ST RICH; E 19TH ST/MAURY ST RICH; E 2ND ST/MAURY ST RICH; MAURY ST/E 19TH ST RICH; RICH: @EXIT 73 - I95 SB (MAURY ST); 300-BLK E 19TH ST; E 17TH ST/MAURY ST RICH","total":24,"Crime":15,"Traffic":7,"Emergency":2}}
+{"type":"Feature","id":"114_43","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.51530608],[-77.446167375,37.51530608],[-77.446167375,37.51374351],[-77.44751525000001,37.51374351],[-77.44751525000001,37.51530608]]]},"properties":{"name":"E 6TH ST/MAURY ST RICH; E 19TH ST/MAURY ST RICH; E 2ND ST/MAURY ST RICH; MAURY ST/E 19TH ST RICH; RICH: @EXIT 73 - I95 SB (MAURY ST); 300-BLK E 19TH ST; E 17TH ST/MAURY ST RICH; 1900-BLK MAURY ST","total":27,"Crime":16,"Traffic":9,"Emergency":2}}
 ,
 {"type":"Feature","id":"115_43","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.51530608],[-77.44481950000001,37.51530608],[-77.44481950000001,37.51374351],[-77.446167375,37.51374351],[-77.446167375,37.51530608]]]},"properties":{"name":"1700-BLK MAURY ST; LL(-77:26:44.3869,37:30:52.2611): EST MAURY ST/E 18TH ST RICH","total":9,"Crime":7,"Mental":2}}
 ,
 {"type":"Feature","id":"116_43","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.51530608],[-77.443471625,37.51530608],[-77.443471625,37.51374351],[-77.44481950000001,37.51374351],[-77.44481950000001,37.51530608]]]},"properties":{"name":"1600-BLK MAURY ST","total":4,"Crime":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"117_43","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.51530608],[-77.44212375000001,37.51530608],[-77.44212375000001,37.51374351],[-77.443471625,37.51374351],[-77.443471625,37.51530608]]]},"properties":{"name":"0-BLK E 16TH ST; 1600-BLK BOSTON AVE","total":48,"Discretionary":21,"Crime":19,"Traffic":4,"Mental":2,"Emergency":2}}
+{"type":"Feature","id":"117_43","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.51530608],[-77.44212375000001,37.51530608],[-77.44212375000001,37.51374351],[-77.443471625,37.51374351],[-77.443471625,37.51530608]]]},"properties":{"name":"0-BLK E 16TH ST; 1600-BLK BOSTON AVE","total":52,"Discretionary":25,"Crime":19,"Traffic":4,"Mental":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"118_43","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.51530608],[-77.440775875,37.51530608],[-77.440775875,37.51374351],[-77.44212375000001,37.51374351],[-77.44212375000001,37.51530608]]]},"properties":{"name":"600-BLK E 15TH ST","total":2,"Emergency":1,"Crime":1}}
 ,
@@ -1775,6 +1820,8 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"125_43","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.51530608],[-77.43134075,37.51530608],[-77.43134075,37.51374351],[-77.432688625,37.51374351],[-77.432688625,37.51530608]]]},"properties":{"name":"1400-BLK GORDON AVE","total":1,"Crime":1}}
 ,
+{"type":"Feature","id":"142_43","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.51530608],[-77.408426875,37.51530608],[-77.408426875,37.51374351],[-77.40977475,37.51374351],[-77.40977475,37.51530608]]]},"properties":{"name":"5100-BLK WILLIAMSBURG AVE","total":1,"Traffic":1}}
+,
 {"type":"Feature","id":"143_43","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.51530608],[-77.40707900000001,37.51530608],[-77.40707900000001,37.51374351],[-77.408426875,37.51374351],[-77.408426875,37.51530608]]]},"properties":{"name":"WILLIAMSBURG AVE/HATCHER ST RICH","total":5,"Traffic":5}}
 ,
 {"type":"Feature","id":"144_43","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.51530608],[-77.405731125,37.51530608],[-77.405731125,37.51374351],[-77.40707900000001,37.51374351],[-77.40707900000001,37.51530608]]]},"properties":{"name":"5200-BLK WILLIAMSBURG RD; 700-BLK WILLIAMSBURG RD","total":5,"Crime":3,"Discretionary":2}}
@@ -1783,21 +1830,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"146_43","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.51530608],[-77.403035375,37.51530608],[-77.403035375,37.51374351],[-77.40438325000001,37.51374351],[-77.40438325000001,37.51530608]]]},"properties":{"name":"1200-BLK GARBER ST; 1100-BLK WILLIAMSBURG RD","total":10,"Crime":8,"Mental":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"148_43","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.51530608],[-77.400339625,37.51530608],[-77.400339625,37.51374351],[-77.40168750000001,37.51374351],[-77.40168750000001,37.51530608]]]},"properties":{"name":"SCOTT ST/GARBER ST RICH; 1300-BLK GARBER ST","total":2,"Crime":2}}
+{"type":"Feature","id":"148_43","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.51530608],[-77.400339625,37.51530608],[-77.400339625,37.51374351],[-77.40168750000001,37.51374351],[-77.40168750000001,37.51530608]]]},"properties":{"name":"SCOTT ST/GARBER ST RICH; 1300-BLK GARBER ST; 1300-BLK WILLIAMSBURG RD","total":5,"Crime":3,"Mental":2}}
 ,
-{"type":"Feature","id":"149_43","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.51530608],[-77.39899175000001,37.51530608],[-77.39899175000001,37.51374351],[-77.400339625,37.51374351],[-77.400339625,37.51530608]]]},"properties":{"name":"1400-BLK WILLIAMSBURG RD; 1400-BLK GARBER ST","total":10,"Crime":6,"Traffic":4}}
+{"type":"Feature","id":"149_43","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.51530608],[-77.39899175000001,37.51530608],[-77.39899175000001,37.51374351],[-77.400339625,37.51374351],[-77.400339625,37.51530608]]]},"properties":{"name":"1400-BLK WILLIAMSBURG RD; 1400-BLK GARBER ST","total":11,"Crime":7,"Traffic":4}}
 ,
 {"type":"Feature","id":"150_43","geometry":{"type":"Polygon","coordinates":[[[-77.39899175000001,37.51530608],[-77.397643875,37.51530608],[-77.397643875,37.51374351],[-77.39899175000001,37.51374351],[-77.39899175000001,37.51530608]]]},"properties":{"name":"1500-BLK WILLIAMSBURG RD","total":7,"Crime":5,"Emergency":2}}
 ,
-{"type":"Feature","id":"151_43","geometry":{"type":"Polygon","coordinates":[[[-77.397643875,37.51530608],[-77.396296,37.51530608],[-77.396296,37.51374351],[-77.397643875,37.51374351],[-77.397643875,37.51530608]]]},"properties":{"name":"1600-BLK WILLIAMSBURG RD; 5100-BLK SALEM ST","total":3,"Crime":2,"Emergency":1}}
+{"type":"Feature","id":"151_43","geometry":{"type":"Polygon","coordinates":[[[-77.397643875,37.51530608],[-77.396296,37.51530608],[-77.396296,37.51374351],[-77.397643875,37.51374351],[-77.397643875,37.51530608]]]},"properties":{"name":"1600-BLK WILLIAMSBURG RD; 5100-BLK SALEM ST","total":6,"Crime":4,"Emergency":1,"Mental":1}}
 ,
 {"type":"Feature","id":"152_43","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.51530608],[-77.394948125,37.51530608],[-77.394948125,37.51374351],[-77.396296,37.51374351],[-77.396296,37.51530608]]]},"properties":{"name":"PARKER ST/WILLIAMSBURG RD RICH; WILLIAMSBURG RD/PARKER ST RICH","total":6,"Crime":4,"Traffic":2}}
 ,
-{"type":"Feature","id":"153_43","geometry":{"type":"Polygon","coordinates":[[[-77.394948125,37.51530608],[-77.39360025,37.51530608],[-77.39360025,37.51374351],[-77.394948125,37.51374351],[-77.394948125,37.51530608]]]},"properties":{"name":"1700-BLK WILLIAMSBURG RD; WILLIAMSBURG RD/GOVERNMENT RD RICH","total":6,"Crime":3,"Traffic":3}}
+{"type":"Feature","id":"153_43","geometry":{"type":"Polygon","coordinates":[[[-77.394948125,37.51530608],[-77.39360025,37.51530608],[-77.39360025,37.51374351],[-77.394948125,37.51374351],[-77.394948125,37.51530608]]]},"properties":{"name":"1700-BLK WILLIAMSBURG RD; WILLIAMSBURG RD/GOVERNMENT RD RICH","total":7,"Crime":4,"Traffic":3}}
 ,
 {"type":"Feature","id":"55_44","geometry":{"type":"Polygon","coordinates":[[[-77.527039875,37.51686865],[-77.525692,37.51686865],[-77.525692,37.51530608],[-77.527039875,37.51530608],[-77.527039875,37.51686865]]]},"properties":{"name":"71000-BLK JAHNKE RD; 1200-BLK BOULDER CREEK RD; 7200-BLK JAHNKE RD","total":11,"Mental":4,"Crime":4,"Discretionary":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"56_44","geometry":{"type":"Polygon","coordinates":[[[-77.525692,37.51686865],[-77.524344125,37.51686865],[-77.524344125,37.51530608],[-77.525692,37.51530608],[-77.525692,37.51686865]]]},"properties":{"name":"7100-BLK JAHNKE RD; JAHNKE RD/HIOAKS RD RICH; 1000-BLK HIOAKS RD; HIOAKS RD/MARLOWE RD RICH","total":300,"Mental":156,"Emergency":69,"Crime":62,"Traffic":13}}
+{"type":"Feature","id":"56_44","geometry":{"type":"Polygon","coordinates":[[[-77.525692,37.51686865],[-77.524344125,37.51686865],[-77.524344125,37.51530608],[-77.525692,37.51530608],[-77.525692,37.51686865]]]},"properties":{"name":"7100-BLK JAHNKE RD; JAHNKE RD/HIOAKS RD RICH; 1000-BLK HIOAKS RD; HIOAKS RD/MARLOWE RD RICH","total":327,"Mental":175,"Emergency":73,"Crime":64,"Traffic":15}}
 ,
 {"type":"Feature","id":"57_44","geometry":{"type":"Polygon","coordinates":[[[-77.524344125,37.51686865],[-77.52299625,37.51686865],[-77.52299625,37.51530608],[-77.524344125,37.51530608],[-77.524344125,37.51686865]]]},"properties":{"name":"6900-BLK MARLOWE RD; 7000-BLK JAHNKE RD","total":13,"Emergency":7,"Crime":5,"Traffic":1}}
 ,
@@ -1807,13 +1854,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"60_44","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.51686865],[-77.518952625,37.51686865],[-77.518952625,37.51530608],[-77.5203005,37.51530608],[-77.5203005,37.51686865]]]},"properties":{"name":"6700-BLK S GRAND BROOK CIR","total":4,"Crime":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"63_44","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.51686865],[-77.514909,37.51686865],[-77.514909,37.51530608],[-77.516256875,37.51530608],[-77.516256875,37.51686865]]]},"properties":{"name":"1000-BLK FINCHLEY PL","total":1,"Crime":1}}
+{"type":"Feature","id":"62_44","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.51686865],[-77.516256875,37.51686865],[-77.516256875,37.51530608],[-77.51760475,37.51530608],[-77.51760475,37.51686865]]]},"properties":{"name":"ST JOHNS WOODS","total":2,"Crime":2}}
+,
+{"type":"Feature","id":"63_44","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.51686865],[-77.514909,37.51686865],[-77.514909,37.51530608],[-77.516256875,37.51530608],[-77.516256875,37.51686865]]]},"properties":{"name":"1000-BLK FINCHLEY PL","total":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"64_44","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.51686865],[-77.51356112500001,37.51686865],[-77.51356112500001,37.51530608],[-77.514909,37.51530608],[-77.514909,37.51686865]]]},"properties":{"name":"6500-BLK PRIMROSE PL","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"66_44","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.51686865],[-77.51086537500001,37.51686865],[-77.51086537500001,37.51530608],[-77.51221325,37.51530608],[-77.51221325,37.51686865]]]},"properties":{"name":"1000-BLK GERMAN SCHOOL RD","total":100,"Crime":64,"Emergency":22,"Mental":13,"Traffic":1}}
+{"type":"Feature","id":"66_44","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.51686865],[-77.51086537500001,37.51686865],[-77.51086537500001,37.51530608],[-77.51221325,37.51530608],[-77.51221325,37.51686865]]]},"properties":{"name":"1000-BLK GERMAN SCHOOL RD","total":102,"Crime":64,"Emergency":22,"Mental":15,"Traffic":1}}
 ,
-{"type":"Feature","id":"68_44","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.51686865],[-77.50816962500001,37.51686865],[-77.50816962500001,37.51530608],[-77.5095175,37.51530608],[-77.5095175,37.51686865]]]},"properties":{"name":"6000-BLK GLENWAY CT; 800-BLK BLANDY AVE; 700-BLK BLANDY AVE","total":25,"Crime":20,"Traffic":5}}
+{"type":"Feature","id":"68_44","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.51686865],[-77.50816962500001,37.51686865],[-77.50816962500001,37.51530608],[-77.5095175,37.51530608],[-77.5095175,37.51686865]]]},"properties":{"name":"6000-BLK GLENWAY CT; 800-BLK BLANDY AVE; 700-BLK BLANDY AVE","total":27,"Crime":21,"Traffic":5,"Mental":1}}
+,
+{"type":"Feature","id":"70_44","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.51686865],[-77.505473875,37.51686865],[-77.505473875,37.51530608],[-77.50682175,37.51530608],[-77.50682175,37.51686865]]]},"properties":{"name":"900-BLK HALSEY LN","total":3,"Mental":3}}
 ,
 {"type":"Feature","id":"75_44","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.51686865],[-77.4987345,37.51686865],[-77.4987345,37.51530608],[-77.500082375,37.51530608],[-77.500082375,37.51686865]]]},"properties":{"name":"900-BLK FAYE ST","total":1,"Mental":1}}
 ,
@@ -1833,13 +1884,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"93_44","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.51686865],[-77.47447275,37.51686865],[-77.47447275,37.51530608],[-77.475820625,37.51530608],[-77.475820625,37.51686865]]]},"properties":{"name":"4000-BLK SHARON CT; 000-BLK W ROANOKE ST; 00-BLK W ROANOKE ST","total":8,"Traffic":4,"Crime":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"94_44","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.51686865],[-77.473124875,37.51686865],[-77.473124875,37.51530608],[-77.47447275,37.51530608],[-77.47447275,37.51686865]]]},"properties":{"name":"4000-BLK FOREST HILL AVE; FOREST HILL AVE/W ROANOKE ST RICH; 3900-BLK FOREST HILL AVE; W ROANOKE ST/FOREST HILL AVE RICH","total":29,"Crime":12,"Emergency":9,"Traffic":6,"Mental":2}}
+{"type":"Feature","id":"94_44","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.51686865],[-77.473124875,37.51686865],[-77.473124875,37.51530608],[-77.47447275,37.51530608],[-77.47447275,37.51686865]]]},"properties":{"name":"4000-BLK FOREST HILL AVE; FOREST HILL AVE/W ROANOKE ST RICH; 3900-BLK FOREST HILL AVE; W ROANOKE ST/FOREST HILL AVE RICH","total":32,"Crime":12,"Traffic":9,"Emergency":9,"Mental":2}}
 ,
 {"type":"Feature","id":"95_44","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.51686865],[-77.471777,37.51686865],[-77.471777,37.51530608],[-77.473124875,37.51530608],[-77.473124875,37.51686865]]]},"properties":{"name":"FOREST HILL AVE/BROOKSIDE RD RICH; 400-BLK BLAND ST; 3700-BLK BROOKSIDE RD","total":6,"Traffic":5,"Emergency":1}}
 ,
 {"type":"Feature","id":"96_44","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.51686865],[-77.47042912500001,37.51686865],[-77.47042912500001,37.51530608],[-77.471777,37.51530608],[-77.471777,37.51686865]]]},"properties":{"name":"8300-BLK FOREST HILL AVE; 6100-BLK FOREST HILL AVE","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"97_44","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.51686865],[-77.46908125,37.51686865],[-77.46908125,37.51530608],[-77.47042912500001,37.51530608],[-77.47042912500001,37.51686865]]]},"properties":{"name":"3400-BLK SEMMES AVE; W 34TH ST/SEMMES AVE RICH; SEMMES AVE/W 34TH ST RICH","total":23,"Emergency":9,"Crime":8,"Traffic":6}}
+{"type":"Feature","id":"97_44","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.51686865],[-77.46908125,37.51686865],[-77.46908125,37.51530608],[-77.47042912500001,37.51530608],[-77.47042912500001,37.51686865]]]},"properties":{"name":"3400-BLK SEMMES AVE; W 34TH ST/SEMMES AVE RICH; SEMMES AVE/W 34TH ST RICH","total":24,"Emergency":9,"Crime":8,"Traffic":7}}
 ,
 {"type":"Feature","id":"98_44","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.51686865],[-77.46773337500001,37.51686865],[-77.46773337500001,37.51530608],[-77.46908125,37.51530608],[-77.46908125,37.51686865]]]},"properties":{"name":"W 33RD ST/SEMMES AVE RICH","total":6,"Traffic":6}}
 ,
@@ -1847,11 +1898,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"101_44","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.51686865],[-77.46368975,37.51686865],[-77.46368975,37.51530608],[-77.46503762500001,37.51530608],[-77.46503762500001,37.51686865]]]},"properties":{"name":"300-BLK W 30TH ST","total":1,"Emergency":1}}
 ,
+{"type":"Feature","id":"102_44","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.51686865],[-77.462341875,37.51686865],[-77.462341875,37.51530608],[-77.46368975,37.51530608],[-77.46368975,37.51686865]]]},"properties":{"name":"300-BLK W 29TH ST","total":1,"Crime":1}}
+,
 {"type":"Feature","id":"104_44","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.51686865],[-77.459646125,37.51686865],[-77.459646125,37.51530608],[-77.460994,37.51530608],[-77.460994,37.51686865]]]},"properties":{"name":"LL(-77:27:37.4185,37:30:57.9995): EST CARTER JONES PARK PRIV RICH; CARTER JONES PARK PRIV RICH","total":6,"Crime":2,"Emergency":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"105_44","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.51686865],[-77.45829825,37.51686865],[-77.45829825,37.51530608],[-77.459646125,37.51530608],[-77.459646125,37.51686865]]]},"properties":{"name":"2700-BLK BAINBRIDGE ST","total":6,"Crime":5,"Emergency":1}}
 ,
-{"type":"Feature","id":"106_44","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.51686865],[-77.456950375,37.51686865],[-77.456950375,37.51530608],[-77.45829825,37.51530608],[-77.45829825,37.51686865]]]},"properties":{"name":"W CLOPTON ST/BAINBRIDGE ST RICH; 00-BLK W CLOPTON ST; 0-BLK W CLOPTON ST","total":15,"Emergency":8,"Crime":6,"Traffic":1}}
+{"type":"Feature","id":"106_44","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.51686865],[-77.456950375,37.51686865],[-77.456950375,37.51530608],[-77.45829825,37.51530608],[-77.45829825,37.51686865]]]},"properties":{"name":"W CLOPTON ST/BAINBRIDGE ST RICH; 00-BLK W CLOPTON ST; 0-BLK W CLOPTON ST; 2600-BLK BAINBRIDGE ST","total":20,"Crime":10,"Emergency":9,"Traffic":1}}
 ,
 {"type":"Feature","id":"107_44","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.51686865],[-77.4556025,37.51686865],[-77.4556025,37.51530608],[-77.456950375,37.51530608],[-77.456950375,37.51686865]]]},"properties":{"name":"2500-BLK BAINBRIDGE ST; W 25TH ST/BAINBRIDGE ST RICH","total":4,"Crime":3,"Traffic":1}}
 ,
@@ -1861,11 +1914,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"110_44","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.51686865],[-77.451558875,37.51686865],[-77.451558875,37.51530608],[-77.45290675,37.51530608],[-77.45290675,37.51686865]]]},"properties":{"name":"HULL ST/W 21ST ST RICH","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"111_44","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.51686865],[-77.450211,37.51686865],[-77.450211,37.51530608],[-77.451558875,37.51530608],[-77.451558875,37.51686865]]]},"properties":{"name":"2100-BLK HULL ST; E 21ST ST/HULL ST RICH; 2100-BLK DECATUR ST; LL(-77:27:05.4361,37:30:58.7339): EST 2103 HULL ST RICH; HULL ST/E 21ST ST RICH","total":19,"Crime":9,"Traffic":5,"Discretionary":2,"Mental":2,"Emergency":1}}
+{"type":"Feature","id":"111_44","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.51686865],[-77.450211,37.51686865],[-77.450211,37.51530608],[-77.451558875,37.51530608],[-77.451558875,37.51686865]]]},"properties":{"name":"2100-BLK HULL ST; E 21ST ST/HULL ST RICH; 2100-BLK DECATUR ST; LL(-77:27:05.4361,37:30:58.7339): EST 2103 HULL ST RICH; HULL ST/E 21ST ST RICH","total":21,"Crime":9,"Traffic":5,"Discretionary":4,"Mental":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"112_44","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.51686865],[-77.448863125,37.51686865],[-77.448863125,37.51530608],[-77.450211,37.51530608],[-77.450211,37.51686865]]]},"properties":{"name":"E 20TH ST/DECATUR ST RICH","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"113_44","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51686865],[-77.44751525000001,37.51686865],[-77.44751525000001,37.51530608],[-77.448863125,37.51530608],[-77.448863125,37.51686865]]]},"properties":{"name":"1300-BLK RICHMOND HWY; 2500-BLK RICHMOND HWY; 3900-BLK RICHMOND HWY; 700-BLK RICHMOND HWY; 3100-BLK RICHMOND HWY; 1900-BLK RICHMOND HWY; 1200-BLK RICHMOND HWY; 400-BLK RICHMOND HWY; 3400-BLK RICHMOND HWY; 100-BLK RICHMOND HWY; 4500-BLK RICHMOND HWY; 2200-BLK RICHMOND HWY; 600-BLK RICHMOND HWY; 3000-BLK RICHMOND HWY; 2400-BLK RICHMOND HWY; 00-BLK RICHMOND HWY; 1900-BLK DECATUR ST; 3200-BLK RICHMOND HWY; DECATUR ST/E 19TH ST RICH; RICHMOND HWY/STOCKTON ST RICH: alias JEFF DAVIS HWY/STOCKTON ST RICH; RICHMOND HWY/STOCKTON ST RICH; 200-BLK E 19TH ST; STOCKTON ST/RICHMOND HWY RICH","total":197,"Crime":110,"Emergency":41,"Discretionary":21,"Traffic":20,"Mental":5}}
+{"type":"Feature","id":"113_44","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51686865],[-77.44751525000001,37.51686865],[-77.44751525000001,37.51530608],[-77.448863125,37.51530608],[-77.448863125,37.51686865]]]},"properties":{"name":"1300-BLK RICHMOND HWY; 2500-BLK RICHMOND HWY; 3900-BLK RICHMOND HWY; 700-BLK RICHMOND HWY; 3100-BLK RICHMOND HWY; 1900-BLK RICHMOND HWY; 1200-BLK RICHMOND HWY; 400-BLK RICHMOND HWY; 3400-BLK RICHMOND HWY; 100-BLK RICHMOND HWY; 4500-BLK RICHMOND HWY; 2200-BLK RICHMOND HWY; 600-BLK RICHMOND HWY; 3000-BLK RICHMOND HWY; 2400-BLK RICHMOND HWY; 00-BLK RICHMOND HWY; 1900-BLK DECATUR ST; 3200-BLK RICHMOND HWY; DECATUR ST/E 19TH ST RICH; RICHMOND HWY/STOCKTON ST RICH: alias JEFF DAVIS HWY/STOCKTON ST RICH; RICHMOND HWY/STOCKTON ST RICH; 200-BLK E 19TH ST; STOCKTON ST/RICHMOND HWY RICH; DECATUR ST/RICHMOND HWY RICH","total":204,"Crime":113,"Emergency":41,"Traffic":24,"Discretionary":21,"Mental":5}}
 ,
 {"type":"Feature","id":"114_44","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.51686865],[-77.446167375,37.51686865],[-77.446167375,37.51530608],[-77.44751525000001,37.51530608],[-77.44751525000001,37.51686865]]]},"properties":{"name":"1800-BLK STOCKTON ST; 1700-BLK STOCKTON ST","total":4,"Crime":4}}
 ,
@@ -1881,13 +1934,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"144_44","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.51686865],[-77.405731125,37.51686865],[-77.405731125,37.51530608],[-77.40707900000001,37.51530608],[-77.40707900000001,37.51686865]]]},"properties":{"name":"4900-BLK GODDIN CT; 4900-BLK GODDIN CIR","total":9,"Crime":6,"Emergency":3}}
 ,
-{"type":"Feature","id":"145_44","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.51686865],[-77.40438325000001,37.51686865],[-77.40438325000001,37.51530608],[-77.405731125,37.51530608],[-77.405731125,37.51686865]]]},"properties":{"name":"900-BLK GODDIN ST; 5000-BLK NORTHAMPTON ST; GODDIN ST/NORTHAMPTON ST RICH","total":5,"Crime":4,"Traffic":1}}
+{"type":"Feature","id":"145_44","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.51686865],[-77.40438325000001,37.51686865],[-77.40438325000001,37.51530608],[-77.405731125,37.51530608],[-77.405731125,37.51686865]]]},"properties":{"name":"900-BLK GODDIN ST; 5000-BLK NORTHAMPTON ST; GODDIN ST/NORTHAMPTON ST RICH","total":8,"Crime":7,"Traffic":1}}
 ,
 {"type":"Feature","id":"146_44","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.51686865],[-77.403035375,37.51686865],[-77.403035375,37.51530608],[-77.40438325000001,37.51530608],[-77.40438325000001,37.51686865]]]},"properties":{"name":"1100-BLK GODDIN ST","total":2,"Crime":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"148_44","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.51686865],[-77.400339625,37.51686865],[-77.400339625,37.51530608],[-77.40168750000001,37.51530608],[-77.40168750000001,37.51686865]]]},"properties":{"name":"1300-BLK APPERSON ST","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"149_44","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.51686865],[-77.39899175000001,37.51686865],[-77.39899175000001,37.51530608],[-77.400339625,37.51530608],[-77.400339625,37.51686865]]]},"properties":{"name":"1400-BLK CARLISLE AVE; 4500-BLK WAVERLY AVE","total":3,"Emergency":2,"Crime":1}}
+{"type":"Feature","id":"149_44","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.51686865],[-77.39899175000001,37.51686865],[-77.39899175000001,37.51530608],[-77.400339625,37.51530608],[-77.400339625,37.51686865]]]},"properties":{"name":"1400-BLK CARLISLE AVE; 4500-BLK WAVERLY AVE; CARLISLE AVE/WAVERLY AVE RICH","total":4,"Emergency":2,"Crime":2}}
 ,
 {"type":"Feature","id":"150_44","geometry":{"type":"Polygon","coordinates":[[[-77.39899175000001,37.51686865],[-77.397643875,37.51686865],[-77.397643875,37.51530608],[-77.39899175000001,37.51530608],[-77.39899175000001,37.51686865]]]},"properties":{"name":"1500-BLK CARLISLE AVE","total":1,"Mental":1}}
 ,
@@ -1895,11 +1948,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"152_44","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.51686865],[-77.394948125,37.51686865],[-77.394948125,37.51530608],[-77.396296,37.51530608],[-77.396296,37.51686865]]]},"properties":{"name":"CARLISLE AVE/GOVERNMENT RD RICH; LL(-77:23:45.3662,37:31:00.5087): EST 4805 PARKER ST RICH; 1700-BLK CARLISLE AVE; 4900-BLK GOVERNMENT RD","total":6,"Crime":3,"Emergency":3}}
 ,
-{"type":"Feature","id":"153_44","geometry":{"type":"Polygon","coordinates":[[[-77.394948125,37.51686865],[-77.39360025,37.51686865],[-77.39360025,37.51530608],[-77.394948125,37.51530608],[-77.394948125,37.51686865]]]},"properties":{"name":"5000-BLK GOVERNMENT RD","total":1,"Crime":1}}
+{"type":"Feature","id":"153_44","geometry":{"type":"Polygon","coordinates":[[[-77.394948125,37.51686865],[-77.39360025,37.51686865],[-77.39360025,37.51530608],[-77.394948125,37.51530608],[-77.394948125,37.51686865]]]},"properties":{"name":"5000-BLK GOVERNMENT RD","total":8,"Crime":8}}
 ,
 {"type":"Feature","id":"154_44","geometry":{"type":"Polygon","coordinates":[[[-77.39360025,37.51686865],[-77.392252375,37.51686865],[-77.392252375,37.51530608],[-77.39360025,37.51530608],[-77.39360025,37.51686865]]]},"properties":{"name":"1800-BLK NATIONAL ST; WILLIAMSBURG RD/CREEDMORE ST RICH","total":5,"Crime":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"155_44","geometry":{"type":"Polygon","coordinates":[[[-77.392252375,37.51686865],[-77.3909045,37.51686865],[-77.3909045,37.51530608],[-77.392252375,37.51530608],[-77.392252375,37.51686865]]]},"properties":{"name":"1800-BLK WILLIAMSBURG RD","total":5,"Crime":5}}
+{"type":"Feature","id":"155_44","geometry":{"type":"Polygon","coordinates":[[[-77.392252375,37.51686865],[-77.3909045,37.51686865],[-77.3909045,37.51530608],[-77.392252375,37.51530608],[-77.392252375,37.51686865]]]},"properties":{"name":"1800-BLK WILLIAMSBURG RD","total":6,"Crime":5,"Traffic":1}}
 ,
 {"type":"Feature","id":"156_44","geometry":{"type":"Polygon","coordinates":[[[-77.3909045,37.51686865],[-77.389556625,37.51686865],[-77.389556625,37.51530608],[-77.3909045,37.51530608],[-77.3909045,37.51686865]]]},"properties":{"name":"2000-BLK WILLIAMSBURG RD","total":3,"Crime":3}}
 ,
@@ -1909,9 +1962,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"60_45","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.51843122],[-77.518952625,37.51843122],[-77.518952625,37.51686865],[-77.5203005,37.51686865],[-77.5203005,37.51843122]]]},"properties":{"name":"6700-BLK N GRAND BROOK CIR","total":4,"Crime":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"64_45","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.51843122],[-77.51356112500001,37.51843122],[-77.51356112500001,37.51686865],[-77.514909,37.51686865],[-77.514909,37.51843122]]]},"properties":{"name":"1100-BLK GERMAN SCHOOL RD","total":9,"Emergency":5,"Crime":3,"Mental":1}}
+{"type":"Feature","id":"64_45","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.51843122],[-77.51356112500001,37.51843122],[-77.51356112500001,37.51686865],[-77.514909,37.51686865],[-77.514909,37.51843122]]]},"properties":{"name":"1100-BLK GERMAN SCHOOL RD","total":12,"Emergency":8,"Crime":3,"Mental":1}}
 ,
-{"type":"Feature","id":"67_45","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.51843122],[-77.5095175,37.51843122],[-77.5095175,37.51686865],[-77.51086537500001,37.51686865],[-77.51086537500001,37.51843122]]]},"properties":{"name":"6100-BLK GLENWAY CT","total":9,"Crime":9}}
+{"type":"Feature","id":"66_45","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.51843122],[-77.51086537500001,37.51843122],[-77.51086537500001,37.51686865],[-77.51221325,37.51686865],[-77.51221325,37.51843122]]]},"properties":{"name":"GLENWAY/MELMARK","total":2,"Traffic":2}}
+,
+{"type":"Feature","id":"67_45","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.51843122],[-77.5095175,37.51843122],[-77.5095175,37.51686865],[-77.51086537500001,37.51686865],[-77.51086537500001,37.51843122]]]},"properties":{"name":"6100-BLK GLENWAY CT","total":11,"Crime":11}}
 ,
 {"type":"Feature","id":"71_45","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.51843122],[-77.504126,37.51843122],[-77.504126,37.51686865],[-77.505473875,37.51686865],[-77.505473875,37.51843122]]]},"properties":{"name":"1000-BLK HALSEY LN","total":10,"Crime":5,"Emergency":4,"Traffic":1}}
 ,
@@ -1943,7 +1998,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"104_45","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.51843122],[-77.459646125,37.51843122],[-77.459646125,37.51686865],[-77.460994,37.51686865],[-77.460994,37.51843122]]]},"properties":{"name":"300-BLK W 27TH ST; 400-BLK W 27TH ST","total":3,"Traffic":2,"Crime":1}}
 ,
-{"type":"Feature","id":"105_45","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.51843122],[-77.45829825,37.51843122],[-77.45829825,37.51686865],[-77.459646125,37.51686865],[-77.459646125,37.51843122]]]},"properties":{"name":"500-BLK PERRY ST; 300-BLK W 26TH ST","total":18,"Discretionary":12,"Traffic":3,"Crime":2,"Emergency":1}}
+{"type":"Feature","id":"105_45","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.51843122],[-77.45829825,37.51843122],[-77.45829825,37.51686865],[-77.459646125,37.51686865],[-77.459646125,37.51843122]]]},"properties":{"name":"500-BLK PERRY ST; 300-BLK W 26TH ST; HARGROVE ST/W 26TH ST RICH","total":25,"Discretionary":16,"Crime":5,"Traffic":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"106_45","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.51843122],[-77.456950375,37.51843122],[-77.456950375,37.51686865],[-77.45829825,37.51686865],[-77.45829825,37.51843122]]]},"properties":{"name":"2500-BLK PERRY ST; 300-BLK W 25TH ST; 2500-BLK HARGROVE ST","total":14,"Crime":9,"Emergency":3,"Mental":2}}
 ,
@@ -1955,7 +2010,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"110_45","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.51843122],[-77.451558875,37.51843122],[-77.451558875,37.51686865],[-77.45290675,37.51686865],[-77.45290675,37.51843122]]]},"properties":{"name":"2100-BLK BAINBRIDGE ST","total":8,"Crime":8}}
 ,
-{"type":"Feature","id":"112_45","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.51843122],[-77.448863125,37.51843122],[-77.448863125,37.51686865],[-77.450211,37.51686865],[-77.450211,37.51843122]]]},"properties":{"name":"1800-BLK HULL ST; E 19TH ST/HULL ST RICH","total":21,"Crime":9,"Traffic":6,"Emergency":4,"Discretionary":2}}
+{"type":"Feature","id":"112_45","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.51843122],[-77.448863125,37.51843122],[-77.448863125,37.51686865],[-77.450211,37.51686865],[-77.450211,37.51843122]]]},"properties":{"name":"1800-BLK HULL ST; E 19TH ST/HULL ST RICH","total":22,"Crime":9,"Traffic":6,"Emergency":5,"Discretionary":2}}
 ,
 {"type":"Feature","id":"113_45","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51843122],[-77.44751525000001,37.51843122],[-77.44751525000001,37.51686865],[-77.448863125,37.51686865],[-77.448863125,37.51843122]]]},"properties":{"name":"COWARDIN AVE/HULL ST RICH; RICHMOND HWY/HULL ST RICH; HULL ST/COWARDIN AVE RICH; HULL ST/RICHMOND HWY RICH; HULL ST/RICHMOND HWY RICH: alias HULL ST/JEFF DAVIS HWY RICH","total":17,"Traffic":13,"Crime":3,"Emergency":1}}
 ,
@@ -1963,11 +2018,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_45","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.51843122],[-77.44481950000001,37.51843122],[-77.44481950000001,37.51686865],[-77.446167375,37.51686865],[-77.446167375,37.51843122]]]},"properties":{"name":"1600-BLK STOCKTON ST; 200-BLK E 16TH ST; 1500-BLK DECATUR ST; 100-BLK E 15TH ST","total":7,"Emergency":4,"Crime":2,"Mental":1}}
 ,
-{"type":"Feature","id":"116_45","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.51843122],[-77.443471625,37.51843122],[-77.443471625,37.51686865],[-77.44481950000001,37.51686865],[-77.44481950000001,37.51843122]]]},"properties":{"name":"200-BLK E 14TH ST","total":7,"Discretionary":4,"Emergency":3}}
+{"type":"Feature","id":"116_45","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.51843122],[-77.443471625,37.51843122],[-77.443471625,37.51686865],[-77.44481950000001,37.51686865],[-77.44481950000001,37.51843122]]]},"properties":{"name":"200-BLK E 14TH ST","total":11,"Discretionary":8,"Emergency":3}}
 ,
 {"type":"Feature","id":"117_45","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.51843122],[-77.44212375000001,37.51843122],[-77.44212375000001,37.51686865],[-77.443471625,37.51686865],[-77.443471625,37.51843122]]]},"properties":{"name":"E 7TH ST/EVERETT ST RICH; E 6TH ST/EVERETT ST RICH; E 10TH ST/EVERETT ST RICH","total":15,"Discretionary":14,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_45","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.51843122],[-77.440775875,37.51843122],[-77.440775875,37.51686865],[-77.44212375000001,37.51686865],[-77.44212375000001,37.51843122]]]},"properties":{"name":"300-BLK E 12TH ST","total":7,"Emergency":7}}
+{"type":"Feature","id":"118_45","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.51843122],[-77.440775875,37.51843122],[-77.440775875,37.51686865],[-77.44212375000001,37.51686865],[-77.44212375000001,37.51843122]]]},"properties":{"name":"300-BLK E 12TH ST","total":11,"Emergency":7,"Crime":4}}
 ,
 {"type":"Feature","id":"121_45","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.51843122],[-77.43673225,37.51843122],[-77.43673225,37.51686865],[-77.438080125,37.51686865],[-77.438080125,37.51843122]]]},"properties":{"name":"600-BLK COMMERCE RD; 500-BLK COMMERCE RD","total":2,"Crime":2}}
 ,
@@ -1979,7 +2034,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"141_45","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.51843122],[-77.40977475,37.51843122],[-77.40977475,37.51686865],[-77.411122625,37.51686865],[-77.411122625,37.51843122]]]},"properties":{"name":"WILLIAMSBURG AVE/ORLEANS ST RICH; ORLEANS ST/WILLIAMSBURG AVE RICH","total":5,"Crime":3,"Traffic":2}}
 ,
-{"type":"Feature","id":"142_45","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.51843122],[-77.408426875,37.51843122],[-77.408426875,37.51686865],[-77.40977475,37.51686865],[-77.40977475,37.51843122]]]},"properties":{"name":"4700-BLK FULTON ST; 00-BLK ORLEANS ST","total":4,"Crime":4}}
+{"type":"Feature","id":"142_45","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.51843122],[-77.408426875,37.51843122],[-77.408426875,37.51686865],[-77.40977475,37.51686865],[-77.40977475,37.51843122]]]},"properties":{"name":"4700-BLK FULTON ST; 00-BLK ORLEANS ST","total":6,"Crime":4,"Mental":2}}
 ,
 {"type":"Feature","id":"145_45","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.51843122],[-77.40438325000001,37.51843122],[-77.40438325000001,37.51686865],[-77.405731125,37.51686865],[-77.405731125,37.51843122]]]},"properties":{"name":"1000-BLK CARLISLE AVE","total":15,"Crime":13,"Emergency":2}}
 ,
@@ -1999,9 +2054,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"58_46","geometry":{"type":"Polygon","coordinates":[[[-77.52299625,37.51999379],[-77.521648375,37.51999379],[-77.521648375,37.51843122],[-77.52299625,37.51843122],[-77.52299625,37.51999379]]]},"properties":{"name":"1400-BLK BRAESIDE DR; 1400-BLK SPRING GROVE DR","total":5,"Emergency":4,"Crime":1}}
 ,
-{"type":"Feature","id":"61_46","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.51999379],[-77.51760475,37.51999379],[-77.51760475,37.51843122],[-77.518952625,37.51843122],[-77.518952625,37.51999379]]]},"properties":{"name":"1300-BLK BLACKROCK DR; 1300-BLK GREENMOSS DR; 1400-BLK YELLOWPINE CIR; 6600-BLK JAHNKE RD; JAHNKE RD/ST JOHNS WOOD DR RICH","total":46,"Crime":33,"Emergency":6,"Mental":5,"Traffic":2}}
+{"type":"Feature","id":"61_46","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.51999379],[-77.51760475,37.51999379],[-77.51760475,37.51843122],[-77.518952625,37.51843122],[-77.518952625,37.51999379]]]},"properties":{"name":"1300-BLK BLACKROCK DR; 1300-BLK GREENMOSS DR; 1400-BLK YELLOWPINE CIR; 6600-BLK JAHNKE RD; JAHNKE RD/ST JOHNS WOOD DR RICH","total":52,"Crime":38,"Emergency":6,"Mental":5,"Traffic":3}}
 ,
-{"type":"Feature","id":"62_46","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.51999379],[-77.516256875,37.51999379],[-77.516256875,37.51843122],[-77.51760475,37.51843122],[-77.51760475,37.51999379]]]},"properties":{"name":"6500-BLK JAHNKE RD","total":4,"Emergency":4}}
+{"type":"Feature","id":"62_46","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.51999379],[-77.516256875,37.51999379],[-77.516256875,37.51843122],[-77.51760475,37.51843122],[-77.51760475,37.51999379]]]},"properties":{"name":"6500-BLK JAHNKE RD","total":8,"Emergency":4,"Mental":2,"Crime":2}}
 ,
 {"type":"Feature","id":"63_46","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.51999379],[-77.514909,37.51999379],[-77.514909,37.51843122],[-77.516256875,37.51843122],[-77.516256875,37.51999379]]]},"properties":{"name":"JAHNKE RD/GERMAN SCHOOL RD RICH; GERMAN SCHOOL RD/JAHNKE RD RICH","total":5,"Crime":4,"Traffic":1}}
 ,
@@ -2017,11 +2072,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"75_46","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.51999379],[-77.4987345,37.51999379],[-77.4987345,37.51843122],[-77.500082375,37.51843122],[-77.500082375,37.51999379]]]},"properties":{"name":"JAHNKE RD/IRBY DR RICH","total":2,"Traffic":2}}
 ,
+{"type":"Feature","id":"77_46","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.51999379],[-77.49603875,37.51999379],[-77.49603875,37.51843122],[-77.497386625,37.51843122],[-77.497386625,37.51999379]]]},"properties":{"name":"LEICESTER RD/JAHNKE RD RICH","total":2,"Traffic":2}}
+,
 {"type":"Feature","id":"79_46","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.51999379],[-77.49334300000001,37.51999379],[-77.49334300000001,37.51843122],[-77.494690875,37.51843122],[-77.494690875,37.51999379]]]},"properties":{"name":"1000-BLK HILL TOP DR","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"80_46","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.51999379],[-77.491995125,37.51999379],[-77.491995125,37.51843122],[-77.49334300000001,37.51843122],[-77.49334300000001,37.51999379]]]},"properties":{"name":"5100-BLK CLARENCE ST; 1000-BLK FOREST VIEW DR; 5200-BLK CLARENCE ST","total":15,"Crime":11,"Traffic":4}}
+{"type":"Feature","id":"80_46","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.51999379],[-77.491995125,37.51999379],[-77.491995125,37.51843122],[-77.49334300000001,37.51843122],[-77.49334300000001,37.51999379]]]},"properties":{"name":"5100-BLK CLARENCE ST; 1000-BLK FOREST VIEW DR; 5200-BLK CLARENCE ST","total":16,"Crime":11,"Traffic":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"82_46","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.51999379],[-77.489299375,37.51999379],[-77.489299375,37.51843122],[-77.49064725000001,37.51843122],[-77.49064725000001,37.51999379]]]},"properties":{"name":"1200-BLK WESTOVER HILLS BLVD","total":8,"Crime":6,"Traffic":1,"Emergency":1}}
+{"type":"Feature","id":"82_46","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.51999379],[-77.489299375,37.51999379],[-77.489299375,37.51843122],[-77.49064725000001,37.51843122],[-77.49064725000001,37.51999379]]]},"properties":{"name":"1200-BLK WESTOVER HILLS BLVD; 4900-BLK CLARENCE ST","total":10,"Crime":6,"Discretionary":2,"Traffic":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"83_46","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.51999379],[-77.48795150000001,37.51999379],[-77.48795150000001,37.51843122],[-77.489299375,37.51843122],[-77.489299375,37.51999379]]]},"properties":{"name":"WESTOVER HILLS BLVD/DUNSTON AVE RICH","total":3,"Traffic":2,"Crime":1}}
 ,
@@ -2029,7 +2086,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"85_46","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.51999379],[-77.48525575000001,37.51999379],[-77.48525575000001,37.51843122],[-77.486603625,37.51843122],[-77.486603625,37.51999379]]]},"properties":{"name":"DUNSTON AVE/W 47TH ST RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"88_46","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.51999379],[-77.481212125,37.51999379],[-77.481212125,37.51843122],[-77.48256,37.51843122],[-77.48256,37.51999379]]]},"properties":{"name":"4400-BLK FOREST HILL AVE; FOREST HILL AVE/TAYLOR AVE RICH","total":26,"Emergency":19,"Crime":6,"Traffic":1}}
+{"type":"Feature","id":"88_46","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.51999379],[-77.481212125,37.51999379],[-77.481212125,37.51843122],[-77.48256,37.51843122],[-77.48256,37.51999379]]]},"properties":{"name":"4400-BLK FOREST HILL AVE; FOREST HILL AVE/TAYLOR AVE RICH","total":27,"Emergency":19,"Crime":6,"Traffic":1,"Mental":1}}
 ,
 {"type":"Feature","id":"90_46","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.51999379],[-77.478516375,37.51999379],[-77.478516375,37.51843122],[-77.47986425,37.51843122],[-77.47986425,37.51999379]]]},"properties":{"name":"W 43RD ST/FOREST HILL AVE RICH","total":1,"Traffic":1}}
 ,
@@ -2047,7 +2104,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"105_46","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.51999379],[-77.45829825,37.51999379],[-77.45829825,37.51843122],[-77.459646125,37.51843122],[-77.459646125,37.51999379]]]},"properties":{"name":"2500-BLK SEMMES AVE","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"106_46","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.51999379],[-77.456950375,37.51999379],[-77.456950375,37.51843122],[-77.45829825,37.51843122],[-77.45829825,37.51999379]]]},"properties":{"name":"2400-BLK MCDONOUGH ST; 400-BLK W 24TH ST; MCDONOUGH ST/W 24TH ST RICH","total":10,"Traffic":6,"Crime":4}}
+{"type":"Feature","id":"106_46","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.51999379],[-77.456950375,37.51999379],[-77.456950375,37.51843122],[-77.45829825,37.51843122],[-77.45829825,37.51999379]]]},"properties":{"name":"2400-BLK MCDONOUGH ST; 400-BLK W 24TH ST; MCDONOUGH ST/W 24TH ST RICH","total":14,"Traffic":8,"Crime":6}}
 ,
 {"type":"Feature","id":"107_46","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.51999379],[-77.4556025,37.51999379],[-77.4556025,37.51843122],[-77.456950375,37.51843122],[-77.456950375,37.51999379]]]},"properties":{"name":"2400-BLK PERRY ST; 300-BLK W 24TH ST","total":4,"Emergency":3,"Crime":1}}
 ,
@@ -2057,7 +2114,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"111_46","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.51999379],[-77.450211,37.51999379],[-77.450211,37.51843122],[-77.451558875,37.51843122],[-77.451558875,37.51999379]]]},"properties":{"name":"1900-BLK PORTER ST; 1900-BLK BAINBRIDGE ST","total":6,"Crime":5,"Emergency":1}}
 ,
-{"type":"Feature","id":"112_46","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.51999379],[-77.448863125,37.51999379],[-77.448863125,37.51843122],[-77.450211,37.51843122],[-77.450211,37.51999379]]]},"properties":{"name":"100-BLK COWARDIN AVE; 200-BLK COWARDIN AVE; W 11TH ST/BAINBRIDGE ST RICH; W 4TH ST/BAINBRIDGE ST RICH; 1700-BLK PORTER; BAINBRIDGE ST/COWARDIN AVE RICH; 1700-BLK BAINBRIDGE ST; 1800-BLK BAINBRIDGE ST; COWARDIN AVE/BAINBRIDGE ST RICH","total":33,"Traffic":18,"Discretionary":8,"Mental":3,"Crime":3,"Emergency":1}}
+{"type":"Feature","id":"112_46","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.51999379],[-77.448863125,37.51999379],[-77.448863125,37.51843122],[-77.450211,37.51843122],[-77.450211,37.51999379]]]},"properties":{"name":"100-BLK COWARDIN AVE; 200-BLK COWARDIN AVE; W 11TH ST/BAINBRIDGE ST RICH; W 4TH ST/BAINBRIDGE ST RICH; 1700-BLK PORTER; BAINBRIDGE ST/COWARDIN AVE RICH; 1700-BLK BAINBRIDGE ST; 1800-BLK BAINBRIDGE ST; COWARDIN AVE/BAINBRIDGE ST RICH","total":37,"Traffic":22,"Discretionary":8,"Mental":3,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"113_46","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.51999379],[-77.44751525000001,37.51999379],[-77.44751525000001,37.51843122],[-77.448863125,37.51843122],[-77.448863125,37.51999379]]]},"properties":{"name":"E 16TH ST/HULL ST RICH; 1600-BLK HULL ST; 1500-BLK BAINBRIDGE ST","total":7,"Traffic":4,"Crime":3}}
 ,
@@ -2067,19 +2124,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"116_46","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.51999379],[-77.443471625,37.51999379],[-77.443471625,37.51843122],[-77.44481950000001,37.51843122],[-77.44481950000001,37.51999379]]]},"properties":{"name":"100-BLK E 13TH ST; 1400-BLK DECATUR ST; E 13TH ST/DECATUR ST RICH; 100-BLK E 14TH ST; 00-BLK E 14TH ST","total":10,"Crime":5,"Traffic":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"117_46","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.51999379],[-77.44212375000001,37.51999379],[-77.44212375000001,37.51843122],[-77.443471625,37.51843122],[-77.443471625,37.51999379]]]},"properties":{"name":"1200-BLK DECATUR ST","total":2,"Emergency":2}}
+{"type":"Feature","id":"117_46","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.51999379],[-77.44212375000001,37.51999379],[-77.44212375000001,37.51843122],[-77.443471625,37.51843122],[-77.443471625,37.51999379]]]},"properties":{"name":"1200-BLK DECATUR ST; E 12TH ST/STOCKTON ST RICH","total":4,"Emergency":2,"Crime":2}}
 ,
 {"type":"Feature","id":"119_46","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.51999379],[-77.439428,37.51999379],[-77.439428,37.51843122],[-77.440775875,37.51843122],[-77.440775875,37.51999379]]]},"properties":{"name":"300-BLK E 10TH ST; EVERETT ST/E 10TH ST RICH","total":2,"Crime":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"120_46","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.51999379],[-77.438080125,37.51999379],[-77.438080125,37.51843122],[-77.439428,37.51843122],[-77.439428,37.51999379]]]},"properties":{"name":"300-BLK E 9TH ST","total":11,"Crime":8,"Emergency":3}}
 ,
-{"type":"Feature","id":"121_46","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.51999379],[-77.43673225,37.51999379],[-77.43673225,37.51843122],[-77.438080125,37.51843122],[-77.438080125,37.51999379]]]},"properties":{"name":"MAURY ST/COMMERCE RD RICH","total":6,"Traffic":4,"Crime":2}}
+{"type":"Feature","id":"121_46","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.51999379],[-77.43673225,37.51999379],[-77.43673225,37.51843122],[-77.438080125,37.51843122],[-77.438080125,37.51999379]]]},"properties":{"name":"MAURY ST/COMMERCE RD RICH; COMMERCE RD/MAURY ST RICH","total":7,"Traffic":5,"Crime":2}}
 ,
 {"type":"Feature","id":"123_46","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.51999379],[-77.4340365,37.51999379],[-77.4340365,37.51843122],[-77.435384375,37.51843122],[-77.435384375,37.51999379]]]},"properties":{"name":"E 7TH ST/MARX ST RICH; E 5TH ST/MARX ST RICH","total":3,"Crime":2,"Mental":1}}
 ,
-{"type":"Feature","id":"124_46","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.51999379],[-77.432688625,37.51999379],[-77.432688625,37.51843122],[-77.4340365,37.51843122],[-77.4340365,37.51999379]]]},"properties":{"name":"700-BLK E 6TH ST; 400-BLK MARX ST; LL(-77:25:58.2313,37:31:08.9688): EST 407 DINWIDDIE AVE RICH","total":13,"Crime":11,"Mental":2}}
+{"type":"Feature","id":"124_46","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.51999379],[-77.432688625,37.51999379],[-77.432688625,37.51843122],[-77.4340365,37.51843122],[-77.4340365,37.51999379]]]},"properties":{"name":"700-BLK E 6TH ST; 400-BLK MARX ST; LL(-77:25:58.2313,37:31:08.9688): EST 407 DINWIDDIE AVE RICH","total":16,"Crime":11,"Emergency":3,"Mental":2}}
 ,
-{"type":"Feature","id":"125_46","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.51999379],[-77.43134075,37.51999379],[-77.43134075,37.51843122],[-77.432688625,37.51843122],[-77.432688625,37.51999379]]]},"properties":{"name":"700-BLK E 4TH ST; 00-BLK E 4TH ST","total":39,"Crime":23,"Traffic":9,"Emergency":7}}
+{"type":"Feature","id":"125_46","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.51999379],[-77.43134075,37.51999379],[-77.43134075,37.51843122],[-77.432688625,37.51843122],[-77.432688625,37.51999379]]]},"properties":{"name":"700-BLK E 4TH ST; 00-BLK E 4TH ST; 0-BLK E 4TH ST","total":43,"Crime":23,"Emergency":10,"Traffic":9,"Discretionary":1}}
 ,
 {"type":"Feature","id":"137_46","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.51999379],[-77.41516625,37.51999379],[-77.41516625,37.51843122],[-77.416514125,37.51843122],[-77.416514125,37.51999379]]]},"properties":{"name":"5000-BLK OLD MAIN ST","total":2,"Crime":2}}
 ,
@@ -2117,23 +2174,27 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"66_47","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.52155636],[-77.51086537500001,37.52155636],[-77.51086537500001,37.51999379],[-77.51221325,37.51999379],[-77.51221325,37.52155636]]]},"properties":{"name":"1300-BLK BLAKEMORE RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"67_47","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.52155636],[-77.5095175,37.52155636],[-77.5095175,37.51999379],[-77.51086537500001,37.51999379],[-77.51086537500001,37.52155636]]]},"properties":{"name":"6200-BLK JAHNKE RD","total":90,"Discretionary":76,"Crime":6,"Traffic":4,"Mental":2,"Emergency":2}}
+{"type":"Feature","id":"67_47","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.52155636],[-77.5095175,37.52155636],[-77.5095175,37.51999379],[-77.51086537500001,37.51999379],[-77.51086537500001,37.52155636]]]},"properties":{"name":"6200-BLK JAHNKE RD","total":101,"Discretionary":84,"Crime":9,"Traffic":4,"Mental":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"68_47","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.52155636],[-77.50816962500001,37.52155636],[-77.50816962500001,37.51999379],[-77.5095175,37.51999379],[-77.5095175,37.52155636]]]},"properties":{"name":"6100-BLK JAHNKE RD; JAHNKE RD/NEWELL RD RICH; NEWELL RD/JAHNKE RD RICH","total":17,"Traffic":10,"Crime":5,"Mental":2}}
+{"type":"Feature","id":"68_47","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.52155636],[-77.50816962500001,37.52155636],[-77.50816962500001,37.51999379],[-77.5095175,37.51999379],[-77.5095175,37.52155636]]]},"properties":{"name":"6100-BLK JAHNKE RD; JAHNKE RD/NEWELL RD RICH; NEWELL RD/JAHNKE RD RICH","total":19,"Traffic":12,"Crime":5,"Mental":2}}
 ,
 {"type":"Feature","id":"70_47","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.52155636],[-77.505473875,37.52155636],[-77.505473875,37.51999379],[-77.50682175,37.51999379],[-77.50682175,37.52155636]]]},"properties":{"name":"1300-BLK SPRUANCE RD","total":8,"Crime":8}}
 ,
 {"type":"Feature","id":"71_47","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.52155636],[-77.504126,37.52155636],[-77.504126,37.51999379],[-77.505473875,37.51999379],[-77.505473875,37.52155636]]]},"properties":{"name":"1500-BLK OAKHURST LN; OAKHURST LN/THORNDALE LN RICH","total":9,"Traffic":3,"Mental":2,"Emergency":2,"Crime":2}}
 ,
-{"type":"Feature","id":"74_47","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.52155636],[-77.500082375,37.52155636],[-77.500082375,37.51999379],[-77.50143025,37.51999379],[-77.50143025,37.52155636]]]},"properties":{"name":"5700-BLK THORNDALE LN","total":8,"Crime":7,"Emergency":1}}
+{"type":"Feature","id":"73_47","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.52155636],[-77.50143025,37.52155636],[-77.50143025,37.51999379],[-77.502778125,37.51999379],[-77.502778125,37.52155636]]]},"properties":{"name":"THORNDALE LN/ACORN LN RICH","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"74_47","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.52155636],[-77.500082375,37.52155636],[-77.500082375,37.51999379],[-77.50143025,37.51999379],[-77.50143025,37.52155636]]]},"properties":{"name":"5700-BLK THORNDALE LN","total":10,"Crime":9,"Emergency":1}}
+,
+{"type":"Feature","id":"76_47","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.52155636],[-77.497386625,37.52155636],[-77.497386625,37.51999379],[-77.4987345,37.51999379],[-77.4987345,37.52155636]]]},"properties":{"name":"1200-BLK LEICESTER RD","total":11,"Emergency":9,"Crime":2}}
 ,
 {"type":"Feature","id":"79_47","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.52155636],[-77.49334300000001,37.52155636],[-77.49334300000001,37.51999379],[-77.494690875,37.51999379],[-77.494690875,37.52155636]]]},"properties":{"name":"1200-BLK JAHNKE RD; 5100-BLK DORCHESTER RD","total":3,"Crime":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"82_47","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.52155636],[-77.489299375,37.52155636],[-77.489299375,37.51999379],[-77.49064725000001,37.51999379],[-77.49064725000001,37.52155636]]]},"properties":{"name":"4900-BLK FOREST HILL AVE","total":10,"Traffic":5,"Emergency":3,"Crime":2}}
+{"type":"Feature","id":"82_47","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.52155636],[-77.489299375,37.52155636],[-77.489299375,37.51999379],[-77.49064725000001,37.51999379],[-77.49064725000001,37.52155636]]]},"properties":{"name":"4900-BLK FOREST HILL AVE; LL(-77:29:23.6329,37:31:16.7339): EST 4970 FOREST HILL AVE RICH","total":11,"Traffic":5,"Emergency":4,"Crime":2}}
 ,
 {"type":"Feature","id":"83_47","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.52155636],[-77.48795150000001,37.52155636],[-77.48795150000001,37.51999379],[-77.489299375,37.51999379],[-77.489299375,37.52155636]]]},"properties":{"name":"1400-BLK WESTOVER HILLS BLVD; FOREST HILL AVE/WESTOVER HILLS BLVD RICH; WESTOVER HILLS BLVD/FOREST HILL AVE RICH","total":5,"Crime":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"84_47","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.52155636],[-77.486603625,37.52155636],[-77.486603625,37.51999379],[-77.48795150000001,37.51999379],[-77.48795150000001,37.52155636]]]},"properties":{"name":"4800-BLK FOREST HILL AVE","total":11,"Crime":8,"Mental":2,"Discretionary":1}}
+{"type":"Feature","id":"84_47","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.52155636],[-77.486603625,37.52155636],[-77.486603625,37.51999379],[-77.48795150000001,37.51999379],[-77.48795150000001,37.52155636]]]},"properties":{"name":"4800-BLK FOREST HILL AVE","total":14,"Crime":11,"Mental":2,"Discretionary":1}}
 ,
 {"type":"Feature","id":"85_47","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.52155636],[-77.48525575000001,37.52155636],[-77.48525575000001,37.51999379],[-77.486603625,37.51999379],[-77.486603625,37.52155636]]]},"properties":{"name":"4700-BLK DEVONSHIRE RD; 4700-BLK FOREST HILL AVE","total":8,"Emergency":6,"Crime":2}}
 ,
@@ -2161,7 +2222,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"110_47","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.52155636],[-77.451558875,37.52155636],[-77.451558875,37.51999379],[-77.45290675,37.51999379],[-77.45290675,37.52155636]]]},"properties":{"name":"W 11TH ST/PERRY ST RICH; 200-BLK N PERRY","total":4,"Traffic":4}}
 ,
-{"type":"Feature","id":"111_47","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.52155636],[-77.450211,37.52155636],[-77.450211,37.51999379],[-77.451558875,37.51999379],[-77.451558875,37.52155636]]]},"properties":{"name":"300-BLK COWARDIN AVE; 1700-BLK PERRY ST; 1700-BLK WALL ST; PERRY ST/COWARDIN AVE RICH; COWARDIN AVE/PERRY ST RICH","total":61,"Traffic":39,"Crime":12,"Discretionary":10}}
+{"type":"Feature","id":"111_47","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.52155636],[-77.450211,37.52155636],[-77.450211,37.51999379],[-77.451558875,37.51999379],[-77.451558875,37.52155636]]]},"properties":{"name":"300-BLK COWARDIN AVE; 1700-BLK PERRY ST; 1700-BLK WALL ST; PERRY ST/COWARDIN AVE RICH; COWARDIN AVE/PERRY ST RICH","total":65,"Traffic":39,"Discretionary":14,"Crime":12}}
 ,
 {"type":"Feature","id":"113_47","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.52155636],[-77.44751525000001,37.52155636],[-77.44751525000001,37.51999379],[-77.448863125,37.51999379],[-77.448863125,37.52155636]]]},"properties":{"name":"100-BLK W 15TH ST; W 15TH ST/BAINBRIDGE ST RICH; 200-BLK W 15TH ST","total":11,"Crime":4,"Emergency":3,"Discretionary":2,"Traffic":2}}
 ,
@@ -2171,15 +2232,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"116_47","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.52155636],[-77.443471625,37.52155636],[-77.443471625,37.51999379],[-77.44481950000001,37.51999379],[-77.44481950000001,37.52155636]]]},"properties":{"name":"1200-BLK HULL ST; E 12TH ST/HULL ST RICH; HULL ST/E 12TH ST RICH","total":18,"Crime":13,"Mental":3,"Emergency":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"117_47","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.52155636],[-77.44212375000001,37.52155636],[-77.44212375000001,37.51999379],[-77.443471625,37.51999379],[-77.443471625,37.52155636]]]},"properties":{"name":"1100-BLK HULL ST; 1100-BLK DECATUR ST; E 11TH ST/HULL ST RICH; 100-BLK E 12TH ST; E 11TH ST/DECATUR ST RICH","total":12,"Crime":9,"Traffic":2,"Emergency":1}}
+{"type":"Feature","id":"117_47","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.52155636],[-77.44212375000001,37.52155636],[-77.44212375000001,37.51999379],[-77.443471625,37.51999379],[-77.443471625,37.52155636]]]},"properties":{"name":"1100-BLK HULL ST; 1100-BLK DECATUR ST; E 11TH ST/HULL ST RICH; 100-BLK E 12TH ST; E 11TH ST/DECATUR ST RICH","total":14,"Crime":11,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_47","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.52155636],[-77.440775875,37.52155636],[-77.440775875,37.51999379],[-77.44212375000001,37.51999379],[-77.44212375000001,37.52155636]]]},"properties":{"name":"1000-BLK DECATUR ST","total":1,"Emergency":1}}
+{"type":"Feature","id":"118_47","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.52155636],[-77.440775875,37.52155636],[-77.440775875,37.51999379],[-77.44212375000001,37.51999379],[-77.44212375000001,37.52155636]]]},"properties":{"name":"1000-BLK DECATUR ST","total":3,"Crime":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"119_47","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.52155636],[-77.439428,37.52155636],[-77.439428,37.51999379],[-77.440775875,37.51999379],[-77.440775875,37.52155636]]]},"properties":{"name":"STOCKTON ST/E 9TH ST RICH; 00-BLK E 10TH ST; 200-BLK E 10TH ST","total":4,"Discretionary":2,"Crime":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"120_47","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.52155636],[-77.438080125,37.52155636],[-77.438080125,37.51999379],[-77.439428,37.51999379],[-77.439428,37.52155636]]]},"properties":{"name":"COMMERCE RD/STOCKTON ST RICH","total":5,"Traffic":5}}
 ,
-{"type":"Feature","id":"121_47","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.52155636],[-77.43673225,37.52155636],[-77.43673225,37.51999379],[-77.438080125,37.51999379],[-77.438080125,37.52155636]]]},"properties":{"name":"700-BLK EVERETT ST; 600-BLK EVERETT ST; 600-BLK EVERETTE; LL(-77:26:12.5648,37:31:17.1647): 5TH/BAINBRIDGE; 300-BLK E 7TH ST","total":25,"Discretionary":12,"Crime":8,"Emergency":4,"Traffic":1}}
+{"type":"Feature","id":"121_47","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.52155636],[-77.43673225,37.52155636],[-77.43673225,37.51999379],[-77.438080125,37.51999379],[-77.438080125,37.52155636]]]},"properties":{"name":"700-BLK EVERETT ST; 600-BLK EVERETT ST; 600-BLK EVERETTE; LL(-77:26:12.5648,37:31:17.1647): 5TH/BAINBRIDGE; 300-BLK E 7TH ST; EVERETT ST/E 7TH ST RICH","total":28,"Discretionary":14,"Crime":9,"Emergency":4,"Traffic":1}}
 ,
 {"type":"Feature","id":"122_47","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.52155636],[-77.435384375,37.52155636],[-77.435384375,37.51999379],[-77.43673225,37.51999379],[-77.43673225,37.52155636]]]},"properties":{"name":"0-BLK MAURY ST; 600-BLK MAURY ST","total":7,"Traffic":4,"Crime":3}}
 ,
@@ -2201,23 +2262,27 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"146_47","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.52155636],[-77.403035375,37.52155636],[-77.403035375,37.51999379],[-77.40438325000001,37.51999379],[-77.40438325000001,37.52155636]]]},"properties":{"name":"4400-BLK HOBBS LN","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"147_47","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.52155636],[-77.40168750000001,37.52155636],[-77.40168750000001,37.51999379],[-77.403035375,37.51999379],[-77.403035375,37.52155636]]]},"properties":{"name":"1200-BLK ADMIRAL GRAVELY BLVD; 1200-BLK ADMIRAL","total":42,"Discretionary":28,"Crime":9,"Emergency":5}}
+{"type":"Feature","id":"147_47","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.52155636],[-77.40168750000001,37.52155636],[-77.40168750000001,37.51999379],[-77.403035375,37.51999379],[-77.403035375,37.52155636]]]},"properties":{"name":"1200-BLK ADMIRAL GRAVELY BLVD; 1200-BLK ADMIRAL","total":47,"Discretionary":30,"Crime":12,"Emergency":5}}
 ,
 {"type":"Feature","id":"148_47","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.52155636],[-77.400339625,37.52155636],[-77.400339625,37.51999379],[-77.40168750000001,37.51999379],[-77.40168750000001,37.52155636]]]},"properties":{"name":"1300-BLK JENNIE SCHER RD; GOVERNMENT RD/JENNIE SCHER RD RICH; ADMIRAL GRAVELY BLVD/GOVERNMENT RD RICH; LL(-77:24:02.9773,37:31:12.9468): EST 1254 DENNY ST RICH; LL(-77:24:04.2913,37:31:12.5616): EST 1228 DENNY ST RICH","total":12,"Crime":8,"Emergency":2,"Mental":1,"Traffic":1}}
 ,
+{"type":"Feature","id":"152_47","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.52155636],[-77.394948125,37.52155636],[-77.394948125,37.51999379],[-77.396296,37.51999379],[-77.396296,37.52155636]]]},"properties":{"name":"1800-BLK NEWMAN RD","total":2,"Emergency":2}}
+,
 {"type":"Feature","id":"153_47","geometry":{"type":"Polygon","coordinates":[[[-77.394948125,37.52155636],[-77.39360025,37.52155636],[-77.39360025,37.51999379],[-77.394948125,37.51999379],[-77.394948125,37.52155636]]]},"properties":{"name":"1900-BLK NEWMAN RD; 1900-BLK RAWLINGS ST","total":5,"Traffic":3,"Crime":2}}
 ,
-{"type":"Feature","id":"62_48","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.52311893],[-77.516256875,37.52311893],[-77.516256875,37.52155636],[-77.51760475,37.52155636],[-77.51760475,37.52311893]]]},"properties":{"name":"1500-BLK GERMAN SCHOOL RD","total":7,"Crime":5,"Emergency":2}}
+{"type":"Feature","id":"62_48","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.52311893],[-77.516256875,37.52311893],[-77.516256875,37.52155636],[-77.51760475,37.52155636],[-77.51760475,37.52311893]]]},"properties":{"name":"1500-BLK GERMAN SCHOOL RD","total":11,"Crime":7,"Emergency":4}}
+,
+{"type":"Feature","id":"65_48","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.52311893],[-77.51221325,37.52311893],[-77.51221325,37.52155636],[-77.51356112500001,37.52155636],[-77.51356112500001,37.52311893]]]},"properties":{"name":"1400-BLK BLAKEMOORE","total":4,"Traffic":4}}
 ,
 {"type":"Feature","id":"67_48","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.52311893],[-77.5095175,37.52311893],[-77.5095175,37.52155636],[-77.51086537500001,37.52155636],[-77.51086537500001,37.52311893]]]},"properties":{"name":"6200-BLK WESTOWER DR","total":2,"Traffic":1,"Crime":1}}
 ,
 {"type":"Feature","id":"68_48","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.52311893],[-77.50816962500001,37.52311893],[-77.50816962500001,37.52155636],[-77.5095175,37.52155636],[-77.5095175,37.52311893]]]},"properties":{"name":"1400-BLK HUNTLAND RD","total":2,"Emergency":1,"Mental":1}}
 ,
-{"type":"Feature","id":"69_48","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.52311893],[-77.50682175,37.52311893],[-77.50682175,37.52155636],[-77.50816962500001,37.52155636],[-77.50816962500001,37.52311893]]]},"properties":{"name":"NEWELL RD/THORNDALE LN RICH; 1400-BLK NEWELL RD","total":31,"Emergency":19,"Mental":7,"Crime":5}}
+{"type":"Feature","id":"69_48","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.52311893],[-77.50682175,37.52311893],[-77.50682175,37.52155636],[-77.50816962500001,37.52155636],[-77.50816962500001,37.52311893]]]},"properties":{"name":"NEWELL RD/THORNDALE LN RICH; 1400-BLK NEWELL RD","total":34,"Emergency":20,"Mental":9,"Crime":5}}
 ,
-{"type":"Feature","id":"70_48","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.52311893],[-77.505473875,37.52311893],[-77.505473875,37.52155636],[-77.50682175,37.52155636],[-77.50682175,37.52311893]]]},"properties":{"name":"5900-BLK THORNDALE LN; 1500-BLK NEWELL RD; OAKHURST RD/NEWELL RD RICH","total":15,"Crime":8,"Traffic":4,"Mental":3}}
+{"type":"Feature","id":"70_48","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.52311893],[-77.505473875,37.52311893],[-77.505473875,37.52155636],[-77.50682175,37.52155636],[-77.50682175,37.52311893]]]},"properties":{"name":"5900-BLK THORNDALE LN; 1500-BLK NEWELL RD; OAKHURST RD/NEWELL RD RICH","total":16,"Crime":9,"Traffic":4,"Mental":3}}
 ,
-{"type":"Feature","id":"71_48","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.52311893],[-77.504126,37.52311893],[-77.504126,37.52155636],[-77.505473875,37.52155636],[-77.505473875,37.52311893]]]},"properties":{"name":"1400-BLK OAKHURST LN; 5800-BLK THORNDALE LN; LL(-77:30:15.7105,37:31:20.9819): EST 1502 OAKHURST LN RICH","total":22,"Crime":18,"Emergency":4}}
+{"type":"Feature","id":"71_48","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.52311893],[-77.504126,37.52311893],[-77.504126,37.52155636],[-77.505473875,37.52155636],[-77.505473875,37.52311893]]]},"properties":{"name":"1400-BLK OAKHURST LN; 5800-BLK THORNDALE LN; LL(-77:30:15.7105,37:31:20.9819): EST 1502 OAKHURST LN RICH","total":26,"Crime":18,"Emergency":8}}
 ,
 {"type":"Feature","id":"75_48","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.52311893],[-77.4987345,37.52311893],[-77.4987345,37.52155636],[-77.500082375,37.52155636],[-77.500082375,37.52311893]]]},"properties":{"name":"5400-BLK WESTWICK DR; 1400-BLK YEARDLEY DR","total":3,"Crime":2,"Emergency":1}}
 ,
@@ -2229,7 +2294,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"107_48","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.52311893],[-77.4556025,37.52311893],[-77.4556025,37.52155636],[-77.456950375,37.52155636],[-77.456950375,37.52311893]]]},"properties":{"name":"W 22ND ST/SPRINGHILL AVE RICH","total":4,"Traffic":4}}
 ,
-{"type":"Feature","id":"108_48","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.52311893],[-77.454254625,37.52311893],[-77.454254625,37.52155636],[-77.4556025,37.52155636],[-77.4556025,37.52311893]]]},"properties":{"name":"2100-BLK SEMMES AVE; 500-BLK W 21ST ST; SEMMES AVE/W 21ST ST RICH","total":46,"Discretionary":20,"Traffic":20,"Crime":5,"Emergency":1}}
+{"type":"Feature","id":"108_48","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.52311893],[-77.454254625,37.52311893],[-77.454254625,37.52155636],[-77.4556025,37.52155636],[-77.4556025,37.52311893]]]},"properties":{"name":"2100-BLK SEMMES AVE; 500-BLK W 21ST ST; SEMMES AVE/W 21ST ST RICH","total":48,"Discretionary":20,"Traffic":20,"Crime":5,"Emergency":3}}
 ,
 {"type":"Feature","id":"109_48","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.52311893],[-77.45290675,37.52311893],[-77.45290675,37.52155636],[-77.454254625,37.52155636],[-77.454254625,37.52311893]]]},"properties":{"name":"500-BLK W 19TH ST; 500-BLK W 20TH ST; 700-BLK W 20TH ST; 2000-BLK SEMMES AVE; W 20TH ST/SEMMES AVE RICH","total":15,"Traffic":14,"Emergency":1}}
 ,
@@ -2245,15 +2310,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_48","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.52311893],[-77.44481950000001,37.52311893],[-77.44481950000001,37.52155636],[-77.446167375,37.52155636],[-77.446167375,37.52311893]]]},"properties":{"name":"1100-BLK PORTER ST","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"116_48","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.52311893],[-77.443471625,37.52311893],[-77.443471625,37.52155636],[-77.44481950000001,37.52155636],[-77.44481950000001,37.52311893]]]},"properties":{"name":"1000-BLK BAINBRIDGE ST; 1100-BLK BAINBRIDGE ST","total":3,"Crime":2,"Emergency":1}}
+{"type":"Feature","id":"116_48","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.52311893],[-77.443471625,37.52311893],[-77.443471625,37.52155636],[-77.44481950000001,37.52155636],[-77.44481950000001,37.52311893]]]},"properties":{"name":"1000-BLK BAINBRIDGE ST; 1100-BLK BAINBRIDGE ST","total":5,"Crime":2,"Discretionary":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"117_48","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.52311893],[-77.44212375000001,37.52311893],[-77.44212375000001,37.52155636],[-77.443471625,37.52155636],[-77.443471625,37.52311893]]]},"properties":{"name":"1000-BLK HULL ST; HULL ST/E 10TH ST RICH; BAINBRIDGE ST/W 10TH ST RICH","total":14,"Crime":10,"Traffic":2,"Emergency":1,"Mental":1}}
 ,
-{"type":"Feature","id":"118_48","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.52311893],[-77.440775875,37.52311893],[-77.440775875,37.52155636],[-77.44212375000001,37.52155636],[-77.44212375000001,37.52311893]]]},"properties":{"name":"COMMERCE RD/HULL ST RICH; HULL ST/COMMERCE RD RICH; HULL ST/E 9TH ST RICH; 900-BLK HULL ST","total":38,"Traffic":32,"Discretionary":2,"Mental":2,"Crime":1,"Emergency":1}}
+{"type":"Feature","id":"118_48","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.52311893],[-77.440775875,37.52311893],[-77.440775875,37.52155636],[-77.44212375000001,37.52155636],[-77.44212375000001,37.52311893]]]},"properties":{"name":"COMMERCE RD/HULL ST RICH; HULL ST/COMMERCE RD RICH; HULL ST/E 9TH ST RICH; 900-BLK HULL ST","total":39,"Traffic":33,"Discretionary":2,"Mental":2,"Crime":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"119_48","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.52311893],[-77.439428,37.52311893],[-77.439428,37.52155636],[-77.440775875,37.52155636],[-77.440775875,37.52311893]]]},"properties":{"name":"100-BLK E 9TH ST; COMMERCE RD/DECATUR ST RICH; DECATUR ST/COMMERCE RD RICH","total":10,"Crime":5,"Traffic":5}}
 ,
-{"type":"Feature","id":"120_48","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.52311893],[-77.438080125,37.52311893],[-77.438080125,37.52155636],[-77.439428,37.52155636],[-77.439428,37.52311893]]]},"properties":{"name":"100-BLK E 7TH ST; 700-BLK STOCKTON ST; DECATUR ST/E 7TH ST RICH","total":44,"Crime":23,"Traffic":8,"Discretionary":8,"Mental":3,"Emergency":2}}
+{"type":"Feature","id":"120_48","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.52311893],[-77.438080125,37.52311893],[-77.438080125,37.52155636],[-77.439428,37.52155636],[-77.439428,37.52311893]]]},"properties":{"name":"100-BLK E 7TH ST; 700-BLK STOCKTON ST; DECATUR ST/E 7TH ST RICH","total":50,"Crime":25,"Traffic":8,"Discretionary":8,"Emergency":6,"Mental":3}}
 ,
 {"type":"Feature","id":"121_48","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.52311893],[-77.43673225,37.52311893],[-77.43673225,37.52155636],[-77.438080125,37.52155636],[-77.438080125,37.52311893]]]},"properties":{"name":"500-BLK STOCKTON ST","total":16,"Crime":13,"Traffic":2,"Mental":1}}
 ,
@@ -2267,7 +2332,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"140_48","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.52311893],[-77.411122625,37.52311893],[-77.411122625,37.52155636],[-77.4124705,37.52155636],[-77.4124705,37.52311893]]]},"properties":{"name":"1500-BLK STONY RUN RD","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"149_48","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.52311893],[-77.39899175000001,37.52311893],[-77.39899175000001,37.52155636],[-77.400339625,37.52155636],[-77.400339625,37.52311893]]]},"properties":{"name":"1400-BLK JENNIE SCHER RD","total":26,"Crime":10,"Discretionary":10,"Emergency":4,"Traffic":2}}
+{"type":"Feature","id":"149_48","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.52311893],[-77.39899175000001,37.52311893],[-77.39899175000001,37.52155636],[-77.400339625,37.52155636],[-77.400339625,37.52311893]]]},"properties":{"name":"1400-BLK JENNIE SCHER RD","total":32,"Crime":13,"Discretionary":10,"Emergency":6,"Traffic":2,"Mental":1}}
 ,
 {"type":"Feature","id":"153_48","geometry":{"type":"Polygon","coordinates":[[[-77.394948125,37.52311893],[-77.39360025,37.52311893],[-77.39360025,37.52155636],[-77.394948125,37.52155636],[-77.394948125,37.52311893]]]},"properties":{"name":"2000-BLK FENTON ST","total":2,"Crime":2}}
 ,
@@ -2285,9 +2350,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"69_49","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.5246815],[-77.50682175,37.5246815],[-77.50682175,37.52311893],[-77.50816962500001,37.52311893],[-77.50816962500001,37.5246815]]]},"properties":{"name":"1600-BLK SKILIFT CT","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"70_49","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.5246815],[-77.505473875,37.5246815],[-77.505473875,37.52311893],[-77.50682175,37.52311893],[-77.50682175,37.5246815]]]},"properties":{"name":"5900-BLK WESTOWER CT; 5900-BLK WESTOWER DR; WESTOWER DR/NEWELL RD RICH","total":12,"Crime":9,"Mental":3}}
+{"type":"Feature","id":"70_49","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.5246815],[-77.505473875,37.5246815],[-77.505473875,37.52311893],[-77.50682175,37.52311893],[-77.50682175,37.5246815]]]},"properties":{"name":"5900-BLK WESTOWER CT; 5900-BLK WESTOWER DR; WESTOWER DR/NEWELL RD RICH","total":27,"Mental":14,"Crime":13}}
 ,
-{"type":"Feature","id":"72_49","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.5246815],[-77.502778125,37.5246815],[-77.502778125,37.52311893],[-77.504126,37.52311893],[-77.504126,37.5246815]]]},"properties":{"name":"5800-BLK WESTOWER DR","total":24,"Crime":17,"Emergency":7}}
+{"type":"Feature","id":"72_49","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.5246815],[-77.502778125,37.5246815],[-77.502778125,37.52311893],[-77.504126,37.52311893],[-77.504126,37.5246815]]]},"properties":{"name":"5800-BLK WESTOWER DR","total":26,"Crime":17,"Emergency":7,"Traffic":2}}
+,
+{"type":"Feature","id":"73_49","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.5246815],[-77.50143025,37.5246815],[-77.50143025,37.52311893],[-77.502778125,37.52311893],[-77.502778125,37.5246815]]]},"properties":{"name":"5700-BLK WESTOWER DR","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"74_49","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.5246815],[-77.500082375,37.5246815],[-77.500082375,37.52311893],[-77.50143025,37.52311893],[-77.50143025,37.5246815]]]},"properties":{"name":"5600-BLK SOUTHERN PINE DR","total":1,"Crime":1}}
 ,
@@ -2295,13 +2362,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"78_49","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.5246815],[-77.494690875,37.5246815],[-77.494690875,37.52311893],[-77.49603875,37.52311893],[-77.49603875,37.5246815]]]},"properties":{"name":"5200-BLK FOREST HILL AVE","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"80_49","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.5246815],[-77.491995125,37.5246815],[-77.491995125,37.52311893],[-77.49334300000001,37.52311893],[-77.49334300000001,37.5246815]]]},"properties":{"name":"5200-BLK DEVONSHIRE RD","total":1,"Crime":1}}
+{"type":"Feature","id":"80_49","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.5246815],[-77.491995125,37.5246815],[-77.491995125,37.52311893],[-77.49334300000001,37.52311893],[-77.49334300000001,37.5246815]]]},"properties":{"name":"5200-BLK DEVONSHIRE RD","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"81_49","geometry":{"type":"Polygon","coordinates":[[[-77.491995125,37.5246815],[-77.49064725000001,37.5246815],[-77.49064725000001,37.52311893],[-77.491995125,37.52311893],[-77.491995125,37.5246815]]]},"properties":{"name":"5100-BLK DEVONSHIRE RD","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"82_49","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.5246815],[-77.489299375,37.5246815],[-77.489299375,37.52311893],[-77.49064725000001,37.52311893],[-77.49064725000001,37.5246815]]]},"properties":{"name":"PRINCE ARTHUR RD/SYLVAN RD RICH","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"84_49","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.5246815],[-77.486603625,37.5246815],[-77.486603625,37.52311893],[-77.48795150000001,37.52311893],[-77.48795150000001,37.5246815]]]},"properties":{"name":"WESTOVER HILLS BLVD/KING WILLIAM RD RICH; 1700-BLK WESTOVER HILLS BLVD","total":6,"Traffic":5,"Crime":1}}
+,
+{"type":"Feature","id":"86_49","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.5246815],[-77.483907875,37.5246815],[-77.483907875,37.52311893],[-77.48525575000001,37.52311893],[-77.48525575000001,37.5246815]]]},"properties":{"name":"PRINCE GEORGE RD/NEW KENT RD RICH","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"89_49","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.5246815],[-77.47986425,37.5246815],[-77.47986425,37.52311893],[-77.481212125,37.52311893],[-77.481212125,37.5246815]]]},"properties":{"name":"1800-BLK WOODBINE RD","total":3,"Emergency":3}}
 ,
@@ -2321,11 +2390,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"108_49","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.5246815],[-77.454254625,37.5246815],[-77.454254625,37.52311893],[-77.4556025,37.52311893],[-77.4556025,37.5246815]]]},"properties":{"name":"2000-BLK RIVERSIDE DR","total":19,"Crime":18,"Emergency":1}}
 ,
-{"type":"Feature","id":"109_49","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.5246815],[-77.45290675,37.5246815],[-77.45290675,37.52311893],[-77.454254625,37.52311893],[-77.454254625,37.5246815]]]},"properties":{"name":"1900-BLK STONEWALL AVE; 1800-BLK STONEWALL AVE","total":33,"Emergency":10,"Crime":10,"Traffic":8,"Mental":5}}
+{"type":"Feature","id":"109_49","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.5246815],[-77.45290675,37.5246815],[-77.45290675,37.52311893],[-77.454254625,37.52311893],[-77.454254625,37.5246815]]]},"properties":{"name":"1900-BLK STONEWALL AVE; 1800-BLK STONEWALL AVE","total":35,"Crime":12,"Emergency":10,"Traffic":8,"Mental":5}}
 ,
-{"type":"Feature","id":"110_49","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.5246815],[-77.451558875,37.5246815],[-77.451558875,37.52311893],[-77.45290675,37.52311893],[-77.45290675,37.5246815]]]},"properties":{"name":"SEMMES AVE/COWARDIN RICH; COWARDIN AVE/SEMMES AVE RICH; SEMMES AVE/COWARDIN AVE RICH; COWARDIN/SPRINGHILL AVE RICH; 600-BLK COWARDIN AVE; 1800-BLK SPRINGHILL AVE; 000-BLK COWARDIN AVE; LL(ERROR!): COWARDIN/SEMMES; COWARDIN/SEMMES AVE RICH; 00-BLK COWARDIN AVE; 500-BLK COWARDIN AVE","total":48,"Traffic":47,"Crime":1}}
+{"type":"Feature","id":"110_49","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.5246815],[-77.451558875,37.5246815],[-77.451558875,37.52311893],[-77.45290675,37.52311893],[-77.45290675,37.5246815]]]},"properties":{"name":"SEMMES AVE/COWARDIN RICH; COWARDIN AVE/SEMMES AVE RICH; SEMMES AVE/COWARDIN AVE RICH; COWARDIN/SPRINGHILL AVE RICH; 600-BLK COWARDIN AVE; 1800-BLK SPRINGHILL AVE; 000-BLK COWARDIN AVE; LL(ERROR!): COWARDIN/SEMMES; COWARDIN/SEMMES AVE RICH; 00-BLK COWARDIN AVE; 500-BLK COWARDIN AVE","total":52,"Traffic":51,"Crime":1}}
 ,
-{"type":"Feature","id":"112_49","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.5246815],[-77.448863125,37.5246815],[-77.448863125,37.52311893],[-77.450211,37.52311893],[-77.450211,37.5246815]]]},"properties":{"name":"500-BLK W 14TH ST; W 14TH ST/MCDONOUGH ST RICH; 400-BLK W 14TH ST; 1300-BLK SEMMES AVE; 1400-BLK MCDONOUGH ST; 1400-BLK SEMMES AVE","total":43,"Crime":20,"Emergency":11,"Traffic":10,"Mental":2}}
+{"type":"Feature","id":"112_49","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.5246815],[-77.448863125,37.5246815],[-77.448863125,37.52311893],[-77.450211,37.52311893],[-77.450211,37.5246815]]]},"properties":{"name":"500-BLK W 14TH ST; W 14TH ST/MCDONOUGH ST RICH; 400-BLK W 14TH ST; 1300-BLK SEMMES AVE; 1400-BLK MCDONOUGH ST; 1400-BLK SEMMES AVE","total":46,"Crime":23,"Emergency":11,"Traffic":10,"Mental":2}}
 ,
 {"type":"Feature","id":"113_49","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.5246815],[-77.44751525000001,37.5246815],[-77.44751525000001,37.52311893],[-77.448863125,37.52311893],[-77.448863125,37.5246815]]]},"properties":{"name":"1300-BLK MCDONOUGH ST","total":3,"Traffic":3}}
 ,
@@ -2333,15 +2402,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_49","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.5246815],[-77.44481950000001,37.5246815],[-77.44481950000001,37.52311893],[-77.446167375,37.52311893],[-77.446167375,37.5246815]]]},"properties":{"name":"PORTER ST/W 11TH ST RICH; 1100-BLK PERRY ST","total":6,"Traffic":6}}
 ,
-{"type":"Feature","id":"116_49","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.5246815],[-77.443471625,37.5246815],[-77.443471625,37.52311893],[-77.44481950000001,37.52311893],[-77.44481950000001,37.5246815]]]},"properties":{"name":"1000-BLK PORTER ST","total":17,"Crime":16,"Emergency":1}}
+{"type":"Feature","id":"116_49","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.5246815],[-77.443471625,37.5246815],[-77.443471625,37.52311893],[-77.44481950000001,37.52311893],[-77.44481950000001,37.5246815]]]},"properties":{"name":"1000-BLK PORTER ST","total":20,"Crime":19,"Emergency":1}}
 ,
 {"type":"Feature","id":"117_49","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.5246815],[-77.44212375000001,37.5246815],[-77.44212375000001,37.52311893],[-77.443471625,37.52311893],[-77.443471625,37.5246815]]]},"properties":{"name":"900-BLK PORTER ST","total":2,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"118_49","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.5246815],[-77.440775875,37.5246815],[-77.440775875,37.52311893],[-77.44212375000001,37.52311893],[-77.44212375000001,37.5246815]]]},"properties":{"name":"W 7TH ST/BAINBRIDGE ST RICH; 700-BLK BAINBRIDGE ST","total":5,"Discretionary":4,"Traffic":1}}
+{"type":"Feature","id":"118_49","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.5246815],[-77.440775875,37.5246815],[-77.440775875,37.52311893],[-77.44212375000001,37.52311893],[-77.44212375000001,37.5246815]]]},"properties":{"name":"W 7TH ST/BAINBRIDGE ST RICH; 700-BLK BAINBRIDGE ST; BAINBRIDGE ST/W 7TH ST RICH","total":7,"Discretionary":4,"Crime":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"119_49","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.5246815],[-77.439428,37.5246815],[-77.439428,37.52311893],[-77.440775875,37.52311893],[-77.440775875,37.5246815]]]},"properties":{"name":"700-BLK HULL ST; HULL ST/E 7TH ST RICH","total":25,"Crime":10,"Emergency":9,"Traffic":5,"Mental":1}}
+{"type":"Feature","id":"119_49","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.5246815],[-77.439428,37.5246815],[-77.439428,37.52311893],[-77.440775875,37.52311893],[-77.440775875,37.5246815]]]},"properties":{"name":"700-BLK HULL ST; HULL ST/E 7TH ST RICH","total":29,"Emergency":11,"Crime":10,"Traffic":5,"Discretionary":2,"Mental":1}}
 ,
-{"type":"Feature","id":"120_49","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.5246815],[-77.438080125,37.5246815],[-77.438080125,37.52311893],[-77.439428,37.52311893],[-77.439428,37.5246815]]]},"properties":{"name":"500-BLK HULL ST; 600-BLK HULL ST","total":48,"Crime":15,"Discretionary":14,"Traffic":10,"Emergency":9}}
+{"type":"Feature","id":"120_49","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.5246815],[-77.438080125,37.5246815],[-77.438080125,37.52311893],[-77.439428,37.52311893],[-77.439428,37.5246815]]]},"properties":{"name":"500-BLK HULL ST; 600-BLK HULL ST","total":55,"Discretionary":20,"Crime":16,"Traffic":10,"Emergency":9}}
 ,
 {"type":"Feature","id":"121_49","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.5246815],[-77.43673225,37.5246815],[-77.43673225,37.52311893],[-77.438080125,37.52311893],[-77.438080125,37.5246815]]]},"properties":{"name":"500-BLK DECATUR ST; DECATUR ST/E 5TH ST RICH; E 4TH ST/DECATUR ST RICH","total":5,"Crime":3,"Discretionary":2}}
 ,
@@ -2351,7 +2420,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"125_49","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.5246815],[-77.43134075,37.5246815],[-77.43134075,37.52311893],[-77.432688625,37.52311893],[-77.432688625,37.5246815]]]},"properties":{"name":"MAURY ST/E 1ST ST RICH","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"145_49","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.5246815],[-77.40438325000001,37.5246815],[-77.40438325000001,37.52311893],[-77.405731125,37.52311893],[-77.405731125,37.5246815]]]},"properties":{"name":"4000-BLK GOVERNMENT RD","total":3,"Emergency":2,"Crime":1}}
+{"type":"Feature","id":"145_49","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.5246815],[-77.40438325000001,37.5246815],[-77.40438325000001,37.52311893],[-77.405731125,37.52311893],[-77.405731125,37.5246815]]]},"properties":{"name":"4000-BLK GOVERNMENT RD","total":8,"Emergency":7,"Crime":1}}
 ,
 {"type":"Feature","id":"146_49","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.5246815],[-77.403035375,37.5246815],[-77.403035375,37.52311893],[-77.40438325000001,37.52311893],[-77.40438325000001,37.5246815]]]},"properties":{"name":"GOVERNMENT RD/CRESTVIEW RD RICH","total":2,"Traffic":2}}
 ,
@@ -2359,7 +2428,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"150_49","geometry":{"type":"Polygon","coordinates":[[[-77.39899175000001,37.5246815],[-77.397643875,37.5246815],[-77.397643875,37.52311893],[-77.39899175000001,37.52311893],[-77.39899175000001,37.5246815]]]},"properties":{"name":"1500-BLK JENNIE SCHER RD","total":32,"Crime":13,"Discretionary":10,"Emergency":7,"Traffic":2}}
 ,
-{"type":"Feature","id":"151_49","geometry":{"type":"Polygon","coordinates":[[[-77.397643875,37.5246815],[-77.396296,37.5246815],[-77.396296,37.52311893],[-77.397643875,37.52311893],[-77.397643875,37.5246815]]]},"properties":{"name":"1600-BLK JENNIE SCHER RD","total":4,"Traffic":4}}
+{"type":"Feature","id":"151_49","geometry":{"type":"Polygon","coordinates":[[[-77.397643875,37.5246815],[-77.396296,37.5246815],[-77.396296,37.52311893],[-77.397643875,37.52311893],[-77.397643875,37.5246815]]]},"properties":{"name":"1600-BLK JENNIE SCHER RD","total":8,"Traffic":4,"Discretionary":4}}
 ,
 {"type":"Feature","id":"59_50","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.52624407],[-77.5203005,37.52624407],[-77.5203005,37.5246815],[-77.521648375,37.5246815],[-77.521648375,37.52624407]]]},"properties":{"name":"1800-BLK GREENVALE CT","total":2,"Emergency":2}}
 ,
@@ -2367,9 +2436,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"63_50","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.52624407],[-77.514909,37.52624407],[-77.514909,37.5246815],[-77.516256875,37.5246815],[-77.516256875,37.52624407]]]},"properties":{"name":"6500-BLK HAGUEMAN DR","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"69_50","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.52624407],[-77.50682175,37.52624407],[-77.50682175,37.5246815],[-77.50816962500001,37.5246815],[-77.50816962500001,37.52624407]]]},"properties":{"name":"6000-BLK SUGARBUSH DR","total":5,"Crime":5}}
+{"type":"Feature","id":"69_50","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.52624407],[-77.50682175,37.52624407],[-77.50682175,37.5246815],[-77.50816962500001,37.5246815],[-77.50816962500001,37.52624407]]]},"properties":{"name":"6000-BLK SUGARBUSH DR; 5600-BLK OLD WILLOW CT","total":11,"Crime":7,"Emergency":2,"Mental":2}}
 ,
-{"type":"Feature","id":"70_50","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.52624407],[-77.505473875,37.52624407],[-77.505473875,37.5246815],[-77.50682175,37.5246815],[-77.50682175,37.52624407]]]},"properties":{"name":"1600-BLK SKILIFT LN; 5900-BLK SUGARBUSH DR","total":42,"Crime":33,"Discretionary":4,"Emergency":3,"Mental":2}}
+{"type":"Feature","id":"70_50","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.52624407],[-77.505473875,37.52624407],[-77.505473875,37.5246815],[-77.50682175,37.5246815],[-77.50682175,37.52624407]]]},"properties":{"name":"1600-BLK SKILIFT LN; 5900-BLK SUGARBUSH DR","total":46,"Crime":36,"Emergency":4,"Discretionary":4,"Mental":2}}
 ,
 {"type":"Feature","id":"73_50","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.52624407],[-77.50143025,37.52624407],[-77.50143025,37.5246815],[-77.502778125,37.5246815],[-77.502778125,37.52624407]]]},"properties":{"name":"5600-BLK KILDARE DR","total":1,"Emergency":1}}
 ,
@@ -2383,7 +2452,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"91_50","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.52624407],[-77.4771685,37.52624407],[-77.4771685,37.5246815],[-77.478516375,37.5246815],[-77.478516375,37.52624407]]]},"properties":{"name":"RICH: @POWHITE PKWY SB BETWEEN DOUGLASDALE &amp; FOREST HILL","total":8,"Traffic":8}}
 ,
-{"type":"Feature","id":"107_50","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.52624407],[-77.4556025,37.52624407],[-77.4556025,37.5246815],[-77.456950375,37.5246815],[-77.456950375,37.52624407]]]},"properties":{"name":"RICH: @14TH STREET BRIDGE","total":3,"Traffic":3}}
+{"type":"Feature","id":"107_50","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.52624407],[-77.4556025,37.52624407],[-77.4556025,37.5246815],[-77.456950375,37.5246815],[-77.456950375,37.52624407]]]},"properties":{"name":"RICH: @14TH STREET BRIDGE","total":6,"Traffic":6}}
 ,
 {"type":"Feature","id":"108_50","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.52624407],[-77.454254625,37.52624407],[-77.454254625,37.5246815],[-77.4556025,37.5246815],[-77.4556025,37.52624407]]]},"properties":{"name":"RIVERSIDE DR/W 20TH ST RICH","total":1,"Crime":1}}
 ,
@@ -2391,31 +2460,33 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"110_50","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.52624407],[-77.451558875,37.52624407],[-77.451558875,37.5246815],[-77.45290675,37.5246815],[-77.45290675,37.52624407]]]},"properties":{"name":"700-BLK COWARDIN AVE; STONEWALL AVE/COWARDIN AVE RICH; LL(-77:27:08.2237,37:31:34.4771): @LEE BRIDGE NB; COWARDIN AVE/STONEWALL AVE RICH","total":11,"Traffic":11}}
 ,
+{"type":"Feature","id":"113_50","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.52624407],[-77.44751525000001,37.52624407],[-77.44751525000001,37.5246815],[-77.448863125,37.5246815],[-77.448863125,37.52624407]]]},"properties":{"name":"1200-BLK SEMMES AVE","total":4,"Emergency":4}}
+,
 {"type":"Feature","id":"114_50","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.52624407],[-77.446167375,37.52624407],[-77.446167375,37.5246815],[-77.44751525000001,37.5246815],[-77.44751525000001,37.52624407]]]},"properties":{"name":"W 10TH ST/SEMMES AVE RICH; 1000-BLK SEMMES AVE; SEMMES AVE/W 10TH ST RICH","total":15,"Traffic":5,"Crime":5,"Emergency":5}}
 ,
-{"type":"Feature","id":"115_50","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.52624407],[-77.44481950000001,37.52624407],[-77.44481950000001,37.5246815],[-77.446167375,37.5246815],[-77.446167375,37.52624407]]]},"properties":{"name":"900-BLK MCDONOUGH ST","total":12,"Crime":12}}
+{"type":"Feature","id":"115_50","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.52624407],[-77.44481950000001,37.52624407],[-77.44481950000001,37.5246815],[-77.446167375,37.5246815],[-77.446167375,37.52624407]]]},"properties":{"name":"900-BLK MCDONOUGH ST","total":14,"Crime":14}}
 ,
-{"type":"Feature","id":"116_50","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.52624407],[-77.443471625,37.52624407],[-77.443471625,37.5246815],[-77.44481950000001,37.5246815],[-77.44481950000001,37.52624407]]]},"properties":{"name":"900-BLK PERRY ST; 800-BLK PERRY ST; 800-BLK MCDONOUGH ST","total":9,"Crime":9}}
+{"type":"Feature","id":"116_50","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.52624407],[-77.443471625,37.52624407],[-77.443471625,37.5246815],[-77.44481950000001,37.5246815],[-77.44481950000001,37.52624407]]]},"properties":{"name":"900-BLK PERRY ST; 800-BLK PERRY ST; 800-BLK MCDONOUGH ST","total":11,"Crime":11}}
 ,
 {"type":"Feature","id":"117_50","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.52624407],[-77.44212375000001,37.52624407],[-77.44212375000001,37.5246815],[-77.443471625,37.5246815],[-77.443471625,37.52624407]]]},"properties":{"name":"700-BLK PERRY ST; 600-BLK PERRY ST; 300-BLK W 7TH ST; W 7TH ST/PERRY ST RICH","total":7,"Discretionary":4,"Traffic":2,"Crime":1}}
 ,
 {"type":"Feature","id":"118_50","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.52624407],[-77.440775875,37.52624407],[-77.440775875,37.5246815],[-77.44212375000001,37.5246815],[-77.44212375000001,37.52624407]]]},"properties":{"name":"500-BLK PORTER ST; 200-BLK W 7TH ST; W 7TH ST/PORTER ST RICH","total":13,"Crime":5,"Traffic":3,"Emergency":3,"Discretionary":2}}
 ,
-{"type":"Feature","id":"119_50","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.52624407],[-77.439428,37.52624407],[-77.439428,37.5246815],[-77.440775875,37.5246815],[-77.440775875,37.52624407]]]},"properties":{"name":"600-BLK BAINBRIDGE ST","total":1,"Crime":1}}
+{"type":"Feature","id":"119_50","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.52624407],[-77.439428,37.52624407],[-77.439428,37.5246815],[-77.440775875,37.5246815],[-77.440775875,37.52624407]]]},"properties":{"name":"600-BLK BAINBRIDGE ST","total":2,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"120_50","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.52624407],[-77.438080125,37.52624407],[-77.438080125,37.5246815],[-77.439428,37.5246815],[-77.439428,37.52624407]]]},"properties":{"name":"400-BLK BAINBRIDGE ST; 500-BLK BAINBRIDGE ST; BAINBRIDGE ST/W 4TH ST RICH","total":52,"Discretionary":39,"Crime":13}}
+{"type":"Feature","id":"120_50","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.52624407],[-77.438080125,37.52624407],[-77.438080125,37.5246815],[-77.439428,37.5246815],[-77.439428,37.52624407]]]},"properties":{"name":"400-BLK BAINBRIDGE ST; 500-BLK BAINBRIDGE ST; BAINBRIDGE ST/W 4TH ST RICH","total":60,"Discretionary":45,"Crime":13,"Traffic":2}}
 ,
 {"type":"Feature","id":"121_50","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.52624407],[-77.43673225,37.52624407],[-77.43673225,37.5246815],[-77.438080125,37.5246815],[-77.438080125,37.52624407]]]},"properties":{"name":"400-BLK HULL ST; 300-BLK BAINBRIDGE ST; 300-BLK HULL ST; E 3RD ST/HULL ST RICH; HULL ST/E 4TH ST RICH; E 4TH ST/HULL ST RICH","total":12,"Crime":5,"Discretionary":4,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"122_50","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.52624407],[-77.435384375,37.52624407],[-77.435384375,37.5246815],[-77.43673225,37.5246815],[-77.43673225,37.52624407]]]},"properties":{"name":"HULL ST/BRANDER ST RICH; 100-BLK HULL ST; 200-BLK HULL ST; 1-BLK BRANDER ST; HULL ST/E 2ND ST RICH","total":34,"Crime":15,"Traffic":8,"Discretionary":6,"Mental":3,"Emergency":2}}
+{"type":"Feature","id":"122_50","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.52624407],[-77.435384375,37.52624407],[-77.435384375,37.5246815],[-77.43673225,37.5246815],[-77.43673225,37.52624407]]]},"properties":{"name":"HULL ST/BRANDER ST RICH; 100-BLK HULL ST; 200-BLK HULL ST; 1-BLK BRANDER ST; HULL ST/E 2ND ST RICH; BRANDER ST/HULL ST RICH","total":43,"Crime":17,"Traffic":11,"Discretionary":10,"Mental":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"123_50","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.52624407],[-77.4340365,37.52624407],[-77.4340365,37.5246815],[-77.435384375,37.5246815],[-77.435384375,37.52624407]]]},"properties":{"name":"200-BLK DECATUR ST","total":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"134_50","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.52624407],[-77.419209875,37.52624407],[-77.419209875,37.5246815],[-77.42055775,37.5246815],[-77.42055775,37.52624407]]]},"properties":{"name":"2800-BLK DOCK ST","total":8,"Emergency":6,"Discretionary":2}}
 ,
-{"type":"Feature","id":"142_50","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.52624407],[-77.408426875,37.52624407],[-77.408426875,37.5246815],[-77.40977475,37.5246815],[-77.40977475,37.52624407]]]},"properties":{"name":"3500-BLK E BROAD ST; 3800-BLK GOVERNMENT RD","total":4,"Traffic":2,"Crime":1,"Emergency":1}}
+{"type":"Feature","id":"142_50","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.52624407],[-77.408426875,37.52624407],[-77.408426875,37.5246815],[-77.40977475,37.5246815],[-77.40977475,37.52624407]]]},"properties":{"name":"3500-BLK E BROAD ST; 3800-BLK GOVERNMENT RD; 200-BLK N 36TH ST","total":6,"Crime":3,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"145_50","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.52624407],[-77.40438325000001,37.52624407],[-77.40438325000001,37.5246815],[-77.405731125,37.5246815],[-77.405731125,37.52624407]]]},"properties":{"name":"3800-BLK GLENWOOD AVE; 600-BLK N 39TH ST","total":66,"Crime":27,"Mental":16,"Emergency":11,"Discretionary":8,"Traffic":4}}
+{"type":"Feature","id":"145_50","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.52624407],[-77.40438325000001,37.52624407],[-77.40438325000001,37.5246815],[-77.405731125,37.5246815],[-77.405731125,37.52624407]]]},"properties":{"name":"3800-BLK GLENWOOD AVE; 600-BLK N 39TH ST","total":77,"Crime":28,"Mental":16,"Discretionary":16,"Emergency":11,"Traffic":6}}
 ,
 {"type":"Feature","id":"63_51","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.52780664],[-77.514909,37.52780664],[-77.514909,37.52624407],[-77.516256875,37.52624407],[-77.516256875,37.52780664]]]},"properties":{"name":"1900-BLK N JUNALUSKA DR","total":1,"Crime":1}}
 ,
@@ -2441,7 +2512,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"113_51","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.52780664],[-77.44751525000001,37.52780664],[-77.44751525000001,37.52624407],[-77.448863125,37.52624407],[-77.448863125,37.52780664]]]},"properties":{"name":"RIVERVIEW PKWY/W 10TH ST RICH; W 10TH ST/RIVERVIEW PKWY RICH","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"115_51","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.52780664],[-77.44481950000001,37.52780664],[-77.44481950000001,37.52624407],[-77.446167375,37.52624407],[-77.446167375,37.52780664]]]},"properties":{"name":"800-BLK SEMMES AVE; 100-BLK W COMMERCE RD","total":12,"Crime":9,"Emergency":3}}
+{"type":"Feature","id":"115_51","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.52780664],[-77.44481950000001,37.52780664],[-77.44481950000001,37.52624407],[-77.446167375,37.52624407],[-77.446167375,37.52780664]]]},"properties":{"name":"800-BLK SEMMES AVE; 100-BLK W COMMERCE RD","total":13,"Crime":10,"Emergency":3}}
 ,
 {"type":"Feature","id":"116_51","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.52780664],[-77.443471625,37.52780664],[-77.443471625,37.52624407],[-77.44481950000001,37.52624407],[-77.44481950000001,37.52780664]]]},"properties":{"name":"700-BLK SEMMES AVE","total":1,"Crime":1}}
 ,
@@ -2449,9 +2520,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"119_51","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.52780664],[-77.439428,37.52780664],[-77.439428,37.52624407],[-77.440775875,37.52624407],[-77.440775875,37.52780664]]]},"properties":{"name":"800-BLK PORTER ST","total":4,"Mental":3,"Crime":1}}
 ,
-{"type":"Feature","id":"124_51","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.52780664],[-77.432688625,37.52780664],[-77.432688625,37.52624407],[-77.4340365,37.52624407],[-77.4340365,37.52780664]]]},"properties":{"name":"100-BLK MANCHESTER RD","total":3,"Crime":3}}
+{"type":"Feature","id":"124_51","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.52780664],[-77.432688625,37.52780664],[-77.432688625,37.52624407],[-77.4340365,37.52624407],[-77.4340365,37.52780664]]]},"properties":{"name":"100-BLK MANCHESTER RD","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"127_51","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.52780664],[-77.428645,37.52780664],[-77.428645,37.52624407],[-77.429992875,37.52624407],[-77.429992875,37.52780664]]]},"properties":{"name":"RICH: @EXIT 187 - I64 EB (I95 SB); I-95 EX/CHAMBERLAYNE RD HENR; DOWNTOWN EXPY/I-95 RICH; RICH: @I64 WB BETWEEN EXIT 192 (MECH TPKE) &amp; EXIT 190 (I95); I-95/DOWNTOWN EXPY RICH","total":13,"Emergency":7,"Traffic":6}}
+{"type":"Feature","id":"127_51","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.52780664],[-77.428645,37.52780664],[-77.428645,37.52624407],[-77.429992875,37.52624407],[-77.429992875,37.52780664]]]},"properties":{"name":"RICH: @EXIT 187 - I64 EB (I95 SB); I-95 EX/CHAMBERLAYNE RD HENR; DOWNTOWN EXPY/I-95 RICH; RICH: @I64 WB BETWEEN EXIT 192 (MECH TPKE) &amp; EXIT 190 (I95); I-95/DOWNTOWN EXPY RICH","total":15,"Traffic":8,"Emergency":7}}
 ,
 {"type":"Feature","id":"133_51","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.52780664],[-77.42055775,37.52780664],[-77.42055775,37.52624407],[-77.42190562500001,37.52624407],[-77.42190562500001,37.52780664]]]},"properties":{"name":"2600-BLK E CARY ST","total":4,"Crime":4}}
 ,
@@ -2483,7 +2554,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"67_52","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.52936921],[-77.5095175,37.52936921],[-77.5095175,37.52780664],[-77.51086537500001,37.52780664],[-77.51086537500001,37.52936921]]]},"properties":{"name":"2000-BLK BRIARCLIFF RD","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"70_52","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.52936921],[-77.505473875,37.52936921],[-77.505473875,37.52780664],[-77.50682175,37.52780664],[-77.50682175,37.52936921]]]},"properties":{"name":"5900-BLK BLILEY RD; 5800-BLK WILLOW OAKS DR","total":21,"Crime":17,"Emergency":2,"Mental":2}}
+{"type":"Feature","id":"70_52","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.52936921],[-77.505473875,37.52936921],[-77.505473875,37.52780664],[-77.50682175,37.52780664],[-77.50682175,37.52936921]]]},"properties":{"name":"5900-BLK BLILEY RD; 5800-BLK WILLOW OAKS DR","total":24,"Crime":20,"Emergency":2,"Mental":2}}
 ,
 {"type":"Feature","id":"73_52","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.52936921],[-77.50143025,37.52936921],[-77.50143025,37.52780664],[-77.502778125,37.52780664],[-77.502778125,37.52936921]]]},"properties":{"name":"5600-BLK FOREST HILL AVE; 5700-BLK RIVERSIDE PL","total":3,"Crime":2,"Traffic":1}}
 ,
@@ -2493,15 +2564,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"85_52","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.52936921],[-77.48525575000001,37.52936921],[-77.48525575000001,37.52780664],[-77.486603625,37.52780664],[-77.486603625,37.52936921]]]},"properties":{"name":"0-BLK WESTOVER HILLS BLVD; 00-BLK WESTOVER HILLS BLVD","total":16,"Crime":12,"Emergency":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"110_52","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.52936921],[-77.451558875,37.52936921],[-77.451558875,37.52780664],[-77.45290675,37.52780664],[-77.45290675,37.52936921]]]},"properties":{"name":"0-BLK BELLE ISLE","total":21,"Discretionary":12,"Emergency":6,"Crime":3}}
+{"type":"Feature","id":"110_52","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.52936921],[-77.451558875,37.52936921],[-77.451558875,37.52780664],[-77.45290675,37.52780664],[-77.45290675,37.52936921]]]},"properties":{"name":"0-BLK BELLE ISLE","total":39,"Discretionary":16,"Crime":14,"Emergency":9}}
+,
+{"type":"Feature","id":"124_52","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.52936921],[-77.432688625,37.52936921],[-77.432688625,37.52780664],[-77.4340365,37.52780664],[-77.4340365,37.52936921]]]},"properties":{"name":"LL(-77:26:02.1733,37:31:45.4296): EST 507 S 14TH ST RICH","total":5,"Crime":4,"Emergency":1}}
 ,
 {"type":"Feature","id":"131_52","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.52936921],[-77.4232535,37.52936921],[-77.4232535,37.52780664],[-77.42460137500001,37.52780664],[-77.42460137500001,37.52936921]]]},"properties":{"name":"2300-BLK E CARY ST","total":22,"Discretionary":13,"Emergency":6,"Crime":3}}
 ,
 {"type":"Feature","id":"132_52","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.52936921],[-77.42190562500001,37.52936921],[-77.42190562500001,37.52780664],[-77.4232535,37.52780664],[-77.4232535,37.52936921]]]},"properties":{"name":"2400-BLK E CARY ST; S 24TH ST/E CARY ST RICH; 2400-BLK DOCK ST","total":16,"Discretionary":9,"Traffic":4,"Crime":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"133_52","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.52936921],[-77.42055775,37.52936921],[-77.42055775,37.52780664],[-77.42190562500001,37.52780664],[-77.42190562500001,37.52936921]]]},"properties":{"name":"2500-BLK E MAIN ST; 2500-BLK E CARY ST; N 25TH ST/E MAIN ST RICH; E MAIN ST/N 25TH ST RICH; 0-BLK S 25TH ST","total":57,"Crime":25,"Discretionary":14,"Traffic":7,"Emergency":6,"Mental":5}}
+{"type":"Feature","id":"133_52","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.52936921],[-77.42055775,37.52936921],[-77.42055775,37.52780664],[-77.42190562500001,37.52780664],[-77.42190562500001,37.52936921]]]},"properties":{"name":"2500-BLK E MAIN ST; 2500-BLK E CARY ST; N 25TH ST/E MAIN ST RICH; E MAIN ST/N 25TH ST RICH; 0-BLK S 25TH ST","total":62,"Crime":26,"Discretionary":18,"Traffic":7,"Emergency":6,"Mental":5}}
 ,
-{"type":"Feature","id":"134_52","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.52936921],[-77.419209875,37.52936921],[-77.419209875,37.52780664],[-77.42055775,37.52780664],[-77.42055775,37.52936921]]]},"properties":{"name":"E MAIN ST/N 26TH ST RICH; 2600-BLK E MAIN ST","total":16,"Traffic":7,"Crime":7,"Emergency":2}}
+{"type":"Feature","id":"134_52","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.52936921],[-77.419209875,37.52936921],[-77.419209875,37.52780664],[-77.42055775,37.52780664],[-77.42055775,37.52936921]]]},"properties":{"name":"E MAIN ST/N 26TH ST RICH; 2600-BLK E MAIN ST","total":18,"Crime":9,"Traffic":7,"Emergency":2}}
 ,
 {"type":"Feature","id":"135_52","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.52936921],[-77.417862,37.52936921],[-77.417862,37.52780664],[-77.419209875,37.52780664],[-77.419209875,37.52936921]]]},"properties":{"name":"2700-BLK E FRANKLIN ST","total":1,"Crime":1}}
 ,
@@ -2511,7 +2584,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"139_52","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.52936921],[-77.4124705,37.52936921],[-77.4124705,37.52780664],[-77.413818375,37.52780664],[-77.413818375,37.52936921]]]},"properties":{"name":"N 31ST ST/E MARSHALL ST RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"140_52","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.52936921],[-77.411122625,37.52936921],[-77.411122625,37.52780664],[-77.4124705,37.52780664],[-77.4124705,37.52936921]]]},"properties":{"name":"3200-BLK E BROAD ST; N 32ND ST/E MARSHALL ST RICH; 400-BLK N 32ND ST","total":3,"Emergency":2,"Crime":1}}
+{"type":"Feature","id":"140_52","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.52936921],[-77.411122625,37.52936921],[-77.411122625,37.52780664],[-77.4124705,37.52780664],[-77.4124705,37.52936921]]]},"properties":{"name":"3200-BLK E BROAD ST; N 32ND ST/E MARSHALL ST RICH; 400-BLK N 32ND ST; 3100-BLK E MARSHALL ST","total":4,"Crime":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"141_52","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.52936921],[-77.40977475,37.52936921],[-77.40977475,37.52780664],[-77.411122625,37.52780664],[-77.411122625,37.52936921]]]},"properties":{"name":"400-BLK N 33RD ST","total":1,"Crime":1}}
 ,
@@ -2531,7 +2604,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"69_53","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.53093178],[-77.50682175,37.53093178],[-77.50682175,37.52936921],[-77.50816962500001,37.52936921],[-77.50816962500001,37.53093178]]]},"properties":{"name":"6000-BLK WILLOW OAKS DR","total":4,"Crime":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"72_53","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.53093178],[-77.502778125,37.53093178],[-77.502778125,37.52936921],[-77.504126,37.52936921],[-77.504126,37.53093178]]]},"properties":{"name":"FOREST HILL AVE/N RIVERSIDE DR RICH","total":2,"Traffic":2}}
+{"type":"Feature","id":"72_53","geometry":{"type":"Polygon","coordinates":[[[-77.504126,37.53093178],[-77.502778125,37.53093178],[-77.502778125,37.52936921],[-77.504126,37.52936921],[-77.504126,37.53093178]]]},"properties":{"name":"FOREST HILL AVE/N RIVERSIDE DR RICH","total":4,"Traffic":4}}
 ,
 {"type":"Feature","id":"73_53","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.53093178],[-77.50143025,37.53093178],[-77.50143025,37.52936921],[-77.502778125,37.52936921],[-77.502778125,37.53093178]]]},"properties":{"name":"FOREST HILL AVE/BLILEY RD RICH; 5700-BLK FOREST HILL AVE","total":7,"Emergency":3,"Crime":2,"Traffic":2}}
 ,
@@ -2547,11 +2620,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"129_53","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53093178],[-77.42594925,37.53093178],[-77.42594925,37.52936921],[-77.42729712500001,37.52936921],[-77.42729712500001,37.53093178]]]},"properties":{"name":"DOCK ST/S 21ST ST RICH","total":2,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"130_53","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53093178],[-77.42460137500001,37.53093178],[-77.42460137500001,37.52936921],[-77.42594925,37.52936921],[-77.42594925,37.53093178]]]},"properties":{"name":"2200-BLK E CARY ST; S 22ND ST/DOCK ST RICH; S 21ST ST/E CARY ST RICH; 2100-BLK E CARY ST","total":13,"Traffic":7,"Crime":6}}
+{"type":"Feature","id":"130_53","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53093178],[-77.42460137500001,37.53093178],[-77.42460137500001,37.52936921],[-77.42594925,37.52936921],[-77.42594925,37.53093178]]]},"properties":{"name":"2200-BLK E CARY ST; S 22ND ST/DOCK ST RICH; S 21ST ST/E CARY ST RICH; 2100-BLK E CARY ST","total":25,"Traffic":11,"Crime":7,"Emergency":7}}
 ,
-{"type":"Feature","id":"131_53","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53093178],[-77.4232535,37.53093178],[-77.4232535,37.52936921],[-77.42460137500001,37.52936921],[-77.42460137500001,37.53093178]]]},"properties":{"name":"2200-BLK E MAIN ST","total":2,"Traffic":2}}
+{"type":"Feature","id":"131_53","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53093178],[-77.4232535,37.53093178],[-77.4232535,37.52936921],[-77.42460137500001,37.52936921],[-77.42460137500001,37.53093178]]]},"properties":{"name":"2200-BLK E MAIN ST; N 22ND ST/E MAIN ST RICH","total":7,"Traffic":7}}
 ,
-{"type":"Feature","id":"132_53","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.53093178],[-77.42190562500001,37.53093178],[-77.42190562500001,37.52936921],[-77.4232535,37.52936921],[-77.4232535,37.53093178]]]},"properties":{"name":"2400-BLK E MAIN ST; 2300-BLK E MAIN ST; N 23RD ST/E MAIN ST RICH; S 24TH ST/E MAIN ST RICH","total":54,"Crime":31,"Discretionary":16,"Traffic":5,"Mental":2}}
+{"type":"Feature","id":"132_53","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.53093178],[-77.42190562500001,37.53093178],[-77.42190562500001,37.52936921],[-77.4232535,37.52936921],[-77.4232535,37.53093178]]]},"properties":{"name":"2400-BLK E MAIN ST; 2300-BLK E MAIN ST; N 23RD ST/E MAIN ST RICH; S 24TH ST/E MAIN ST RICH","total":56,"Crime":31,"Discretionary":18,"Traffic":5,"Mental":2}}
 ,
 {"type":"Feature","id":"133_53","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.53093178],[-77.42055775,37.53093178],[-77.42055775,37.52936921],[-77.42190562500001,37.52936921],[-77.42190562500001,37.53093178]]]},"properties":{"name":"2400-BLK E FRANKLIN ST","total":5,"Crime":3,"Emergency":2}}
 ,
@@ -2563,7 +2636,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"138_53","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.53093178],[-77.413818375,37.53093178],[-77.413818375,37.52936921],[-77.41516625,37.52936921],[-77.41516625,37.53093178]]]},"properties":{"name":"2900-BLK E BROAD ST","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"139_53","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.53093178],[-77.4124705,37.53093178],[-77.4124705,37.52936921],[-77.413818375,37.52936921],[-77.413818375,37.53093178]]]},"properties":{"name":"3000-BLK E MARSHALL ST","total":7,"Crime":7}}
+{"type":"Feature","id":"139_53","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.53093178],[-77.4124705,37.53093178],[-77.4124705,37.52936921],[-77.413818375,37.52936921],[-77.413818375,37.53093178]]]},"properties":{"name":"3000-BLK E MARSHALL ST","total":9,"Crime":9}}
 ,
 {"type":"Feature","id":"140_53","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.53093178],[-77.411122625,37.53093178],[-77.411122625,37.52936921],[-77.4124705,37.52936921],[-77.4124705,37.53093178]]]},"properties":{"name":"500-BLK N 31ST ST; 17200-BLK N 31ST ST; 00-BLK N 31ST ST","total":12,"Crime":7,"Mental":4,"Emergency":1}}
 ,
@@ -2575,9 +2648,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"144_53","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.53093178],[-77.405731125,37.53093178],[-77.405731125,37.52936921],[-77.40707900000001,37.52936921],[-77.40707900000001,37.53093178]]]},"properties":{"name":"700-BLK N 35TH ST","total":8,"Emergency":8}}
 ,
-{"type":"Feature","id":"145_53","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.53093178],[-77.40438325000001,37.53093178],[-77.40438325000001,37.52936921],[-77.405731125,37.52936921],[-77.405731125,37.53093178]]]},"properties":{"name":"800-BLK N 35TH ST","total":5,"Crime":3,"Emergency":2}}
+{"type":"Feature","id":"145_53","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.53093178],[-77.40438325000001,37.53093178],[-77.40438325000001,37.52936921],[-77.405731125,37.52936921],[-77.405731125,37.53093178]]]},"properties":{"name":"800-BLK N 35TH ST","total":7,"Crime":4,"Emergency":3}}
 ,
 {"type":"Feature","id":"146_53","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.53093178],[-77.403035375,37.53093178],[-77.403035375,37.52936921],[-77.40438325000001,37.52936921],[-77.40438325000001,37.53093178]]]},"properties":{"name":"800-BLK N 37TH ST","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"147_53","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.53093178],[-77.40168750000001,37.53093178],[-77.40168750000001,37.52936921],[-77.403035375,37.52936921],[-77.403035375,37.53093178]]]},"properties":{"name":"900-BLK N 38TH ST","total":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"148_53","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.53093178],[-77.400339625,37.53093178],[-77.400339625,37.52936921],[-77.40168750000001,37.52936921],[-77.40168750000001,37.53093178]]]},"properties":{"name":"1200-BLK N 38TH ST; 2400-BLK P ST; 3900-BLK P ST","total":9,"Crime":6,"Emergency":2,"Mental":1}}
 ,
@@ -2597,7 +2672,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"70_54","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.53249435],[-77.505473875,37.53249435],[-77.505473875,37.53093178],[-77.50682175,37.53093178],[-77.50682175,37.53249435]]]},"properties":{"name":"POWHITE/FOREST HILL AVE RICH","total":10,"Traffic":8,"Emergency":2}}
 ,
-{"type":"Feature","id":"97_54","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.53249435],[-77.46908125,37.53249435],[-77.46908125,37.53093178],[-77.47042912500001,37.53093178],[-77.47042912500001,37.53249435]]]},"properties":{"name":"1900-BLK TEXAS AVE","total":11,"Discretionary":6,"Traffic":2,"Emergency":2,"Crime":1}}
+{"type":"Feature","id":"95_54","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.53249435],[-77.471777,37.53249435],[-77.471777,37.53093178],[-77.473124875,37.53093178],[-77.473124875,37.53249435]]]},"properties":{"name":"1800-BLK KANSAS AVE","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"97_54","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.53249435],[-77.46908125,37.53249435],[-77.46908125,37.53093178],[-77.47042912500001,37.53093178],[-77.47042912500001,37.53249435]]]},"properties":{"name":"1900-BLK TEXAS AVE; KANSAS AVE/TEXAS AVE RICH","total":14,"Discretionary":8,"Crime":2,"Traffic":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"117_54","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.53249435],[-77.44212375000001,37.53249435],[-77.44212375000001,37.53093178],[-77.443471625,37.53093178],[-77.443471625,37.53249435]]]},"properties":{"name":"RICH: @MANCHESTER BRIDGE - NB: @MANCHESTER BRIDGE - SB; RICH: @MANCHESTER BRIDGE - SB","total":5,"Emergency":4,"Mental":1}}
 ,
@@ -2607,9 +2684,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"128_54","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.53249435],[-77.42729712500001,37.53249435],[-77.42729712500001,37.53093178],[-77.428645,37.53093178],[-77.428645,37.53249435]]]},"properties":{"name":"00-BLK S 18TH ST; 1800-BLK E CARY ST; S 19TH ST/E CARY ST RICH; 1900-BLK DOCK ST","total":15,"Crime":10,"Emergency":3,"Traffic":2}}
 ,
-{"type":"Feature","id":"129_54","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53249435],[-77.42594925,37.53249435],[-77.42594925,37.53093178],[-77.42729712500001,37.53093178],[-77.42729712500001,37.53249435]]]},"properties":{"name":"E MAIN ST/DOCK ST RICH; 1900-BLK E MAIN ST; 00-BLK S 19TH ST; 0-BLK S 20TH ST; DOCK ST/E MAIN ST RICH; N 19TH ST/E MAIN ST RICH; 1900-BLK E CARY ST; N 3RD ST/E MAIN ST RICH; 00-BLK S 20TH ST; E MAIN ST/N 19TH ST RICH; E MAIN ST/PEACH ST RICH; 132100-BLK E MAIN ST","total":51,"Crime":32,"Traffic":13,"Emergency":4,"Discretionary":2}}
+{"type":"Feature","id":"129_54","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53249435],[-77.42594925,37.53249435],[-77.42594925,37.53093178],[-77.42729712500001,37.53093178],[-77.42729712500001,37.53249435]]]},"properties":{"name":"E MAIN ST/DOCK ST RICH; 1900-BLK E MAIN ST; 00-BLK S 19TH ST; 0-BLK S 20TH ST; DOCK ST/E MAIN ST RICH; N 19TH ST/E MAIN ST RICH; 1900-BLK E CARY ST; N 3RD ST/E MAIN ST RICH; 00-BLK S 20TH ST; E MAIN ST/N 19TH ST RICH; E MAIN ST/PEACH ST RICH; 132100-BLK E MAIN ST","total":53,"Crime":32,"Traffic":13,"Emergency":6,"Discretionary":2}}
 ,
-{"type":"Feature","id":"130_54","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53249435],[-77.42460137500001,37.53249435],[-77.42460137500001,37.53093178],[-77.42594925,37.53093178],[-77.42594925,37.53249435]]]},"properties":{"name":"2000-BLK E MAIN ST; 0-BLK E MAIN ST; 2100-BLK E MAIN ST; E MAIN ST/N 21ST ST RICH; N 20TH ST/E MAIN ST RICH; N 21ST ST/E MAIN ST RICH; 00-BLK E MAIN ST","total":36,"Crime":21,"Traffic":6,"Emergency":5,"Discretionary":4}}
+{"type":"Feature","id":"130_54","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53249435],[-77.42460137500001,37.53249435],[-77.42460137500001,37.53093178],[-77.42594925,37.53093178],[-77.42594925,37.53249435]]]},"properties":{"name":"2000-BLK E MAIN ST; 0-BLK E MAIN ST; 2100-BLK E MAIN ST; E MAIN ST/N 21ST ST RICH; N 20TH ST/E MAIN ST RICH; N 21ST ST/E MAIN ST RICH; 00-BLK E MAIN ST","total":39,"Crime":22,"Discretionary":6,"Traffic":6,"Emergency":5}}
 ,
 {"type":"Feature","id":"131_54","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53249435],[-77.4232535,37.53249435],[-77.4232535,37.53093178],[-77.42460137500001,37.53093178],[-77.42460137500001,37.53249435]]]},"properties":{"name":"2100-BLK E FRANKLIN ST; N 21ST ST/E FRANKLIN ST RICH; E FRANKLIN ST/N 21ST ST RICH","total":7,"Traffic":5,"Discretionary":2}}
 ,
@@ -2619,7 +2696,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"134_54","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.53249435],[-77.419209875,37.53249435],[-77.419209875,37.53093178],[-77.42055775,37.53093178],[-77.42055775,37.53249435]]]},"properties":{"name":"300-BLK N 24TH ST","total":2,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"135_54","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.53249435],[-77.417862,37.53249435],[-77.417862,37.53093178],[-77.419209875,37.53093178],[-77.419209875,37.53249435]]]},"properties":{"name":"300-BLK N 26TH ST; N 25TH ST/E BROAD ST RICH; 2500-BLK E BROAD ST","total":3,"Emergency":1,"Traffic":1,"Crime":1}}
+{"type":"Feature","id":"135_54","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.53249435],[-77.417862,37.53249435],[-77.417862,37.53093178],[-77.419209875,37.53093178],[-77.419209875,37.53249435]]]},"properties":{"name":"300-BLK N 26TH ST; N 25TH ST/E BROAD ST RICH; 2500-BLK E BROAD ST; E BROAD ST/N 25TH ST RICH","total":6,"Traffic":4,"Emergency":1,"Crime":1}}
 ,
 {"type":"Feature","id":"136_54","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.53249435],[-77.416514125,37.53249435],[-77.416514125,37.53093178],[-77.417862,37.53093178],[-77.417862,37.53249435]]]},"properties":{"name":"2600-BLK E BROAD ST","total":2,"Crime":1,"Traffic":1}}
 ,
@@ -2639,7 +2716,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"146_54","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.53249435],[-77.403035375,37.53249435],[-77.403035375,37.53093178],[-77.40438325000001,37.53093178],[-77.40438325000001,37.53249435]]]},"properties":{"name":"N 35TH ST/P ST RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"148_54","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.53249435],[-77.400339625,37.53249435],[-77.400339625,37.53093178],[-77.40168750000001,37.53093178],[-77.40168750000001,37.53249435]]]},"properties":{"name":"1200-BLK N 36TH ST","total":4,"Crime":4}}
+{"type":"Feature","id":"148_54","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.53249435],[-77.400339625,37.53249435],[-77.400339625,37.53093178],[-77.40168750000001,37.53093178],[-77.40168750000001,37.53249435]]]},"properties":{"name":"1200-BLK N 36TH ST","total":6,"Crime":4,"Emergency":2}}
 ,
 {"type":"Feature","id":"155_54","geometry":{"type":"Polygon","coordinates":[[[-77.392252375,37.53249435],[-77.3909045,37.53249435],[-77.3909045,37.53093178],[-77.392252375,37.53093178],[-77.392252375,37.53249435]]]},"properties":{"name":"EAST RICHMOND RD/STONY RUN PKWY RICH","total":2,"Traffic":2}}
 ,
@@ -2661,7 +2738,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"69_55","geometry":{"type":"Polygon","coordinates":[[[-77.50816962500001,37.53405692],[-77.50682175,37.53405692],[-77.50682175,37.53249435],[-77.50816962500001,37.53249435],[-77.50816962500001,37.53405692]]]},"properties":{"name":"LL(-77:30:27.2320,37:32:00.4195): @RR CROSSING - FOREST HILL - POWHITE; FAIRLEE RD/FOREST HILL AVE RICH; FOREST HILL AVE/FAIRLEE RD RICH; 6000-BLK FOREST HILL AVE","total":5,"Traffic":5}}
 ,
-{"type":"Feature","id":"94_55","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.53405692],[-77.473124875,37.53405692],[-77.473124875,37.53249435],[-77.47447275,37.53249435],[-77.47447275,37.53405692]]]},"properties":{"name":"1800-BLK S MEADOW ST","total":2,"Traffic":1,"Emergency":1}}
+{"type":"Feature","id":"94_55","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.53405692],[-77.473124875,37.53405692],[-77.473124875,37.53249435],[-77.47447275,37.53249435],[-77.47447275,37.53405692]]]},"properties":{"name":"1800-BLK S MEADOW ST","total":5,"Mental":2,"Traffic":1,"Emergency":1,"Crime":1}}
 ,
 {"type":"Feature","id":"96_55","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.53405692],[-77.47042912500001,37.53405692],[-77.47042912500001,37.53249435],[-77.471777,37.53249435],[-77.471777,37.53405692]]]},"properties":{"name":"1800-BLK GREENVILLE AVE","total":1,"Crime":1}}
 ,
@@ -2677,19 +2754,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"122_55","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.53405692],[-77.435384375,37.53405692],[-77.435384375,37.53249435],[-77.43673225,37.53249435],[-77.43673225,37.53405692]]]},"properties":{"name":"1200-BLK E BYRD ST","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"124_55","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.53405692],[-77.432688625,37.53405692],[-77.432688625,37.53249435],[-77.4340365,37.53249435],[-77.4340365,37.53405692]]]},"properties":{"name":"RICH: @CANAL WALK; 14TH/DOCK ST RICH; 100-BLK S 14TH ST; DOCK ST/14TH RICH; DOCK ST/S 14TH ST RICH; S 14TH ST/DOCK ST RICH","total":27,"Crime":13,"Traffic":10,"Mental":3,"Emergency":1}}
+{"type":"Feature","id":"124_55","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.53405692],[-77.432688625,37.53405692],[-77.432688625,37.53249435],[-77.4340365,37.53249435],[-77.4340365,37.53405692]]]},"properties":{"name":"RICH: @CANAL WALK; 14TH/DOCK ST RICH; 100-BLK S 14TH ST; DOCK ST/14TH RICH; DOCK ST/S 14TH ST RICH; S 14TH ST/DOCK ST RICH","total":28,"Crime":14,"Traffic":10,"Mental":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"125_55","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.53405692],[-77.43134075,37.53405692],[-77.43134075,37.53249435],[-77.432688625,37.53249435],[-77.432688625,37.53405692]]]},"properties":{"name":"1500-BLK DOCK ST; S 15TH ST/DOCK ST RICH; 1400-BLK DOCK ST; 0-BLK S 15TH ST; S 15TH ST/DAVENPORT LN RICH","total":14,"Crime":11,"Traffic":2,"Mental":1}}
+{"type":"Feature","id":"125_55","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.53405692],[-77.43134075,37.53405692],[-77.43134075,37.53249435],[-77.432688625,37.53249435],[-77.432688625,37.53405692]]]},"properties":{"name":"1500-BLK DOCK ST; S 15TH ST/DOCK ST RICH; 1400-BLK DOCK ST; 0-BLK S 15TH ST; S 15TH ST/DAVENPORT LN RICH","total":15,"Crime":11,"Traffic":2,"Mental":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"126_55","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.53405692],[-77.429992875,37.53405692],[-77.429992875,37.53249435],[-77.43134075,37.53249435],[-77.43134075,37.53405692]]]},"properties":{"name":"RICH: @CSX BRIDGE; S 15TH ST/E CARY ST RICH; 1500-BLK E CARY ST","total":9,"Crime":7,"Traffic":2}}
+{"type":"Feature","id":"126_55","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.53405692],[-77.429992875,37.53405692],[-77.429992875,37.53249435],[-77.43134075,37.53249435],[-77.43134075,37.53405692]]]},"properties":{"name":"RICH: @CSX BRIDGE; S 15TH ST/E CARY ST RICH; 1500-BLK E CARY ST","total":13,"Crime":10,"Traffic":2,"Mental":1}}
 ,
 {"type":"Feature","id":"127_55","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.53405692],[-77.428645,37.53405692],[-77.428645,37.53249435],[-77.429992875,37.53249435],[-77.429992875,37.53405692]]]},"properties":{"name":"0-BLK S 17TH ST; S 17TH ST/E CARY ST RICH; 00-BLK S 17TH ST","total":5,"Traffic":2,"Discretionary":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"128_55","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.53405692],[-77.42729712500001,37.53405692],[-77.42729712500001,37.53249435],[-77.428645,37.53249435],[-77.428645,37.53405692]]]},"properties":{"name":"N 18TH ST/E MAIN ST RICH; 1700-BLK E MAIN ST; E MAIN ST/N 17TH ST RICH; 1800-BLK E MAIN ST; N 17TH ST/E MAIN ST RICH; S 17TH ST/E MAIN ST RICH; E MAIN ST/S 18TH ST RICH; E MAIN ST/N 18TH ST RICH","total":42,"Crime":18,"Discretionary":12,"Traffic":8,"Emergency":4}}
+{"type":"Feature","id":"128_55","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.53405692],[-77.42729712500001,37.53405692],[-77.42729712500001,37.53249435],[-77.428645,37.53249435],[-77.428645,37.53405692]]]},"properties":{"name":"N 18TH ST/E MAIN ST RICH; 1700-BLK E MAIN ST; E MAIN ST/N 17TH ST RICH; 1800-BLK E MAIN ST; N 17TH ST/E MAIN ST RICH; S 17TH ST/E MAIN ST RICH; E MAIN ST/S 18TH ST RICH; E MAIN ST/N 18TH ST RICH; N 17TH ST/WALNUT ALY RICH","total":44,"Crime":18,"Discretionary":12,"Traffic":10,"Emergency":4}}
 ,
-{"type":"Feature","id":"129_55","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53405692],[-77.42594925,37.53405692],[-77.42594925,37.53249435],[-77.42729712500001,37.53249435],[-77.42729712500001,37.53405692]]]},"properties":{"name":"N 18TH ST/E FRANKLIN ST RICH; 100-BLK N 18TH ST; LL(-77:25:34.9789,37:31:59.4875): EST 1815 E FRANKLIN ST RICH; 1800-BLK FRANKL","total":45,"Crime":25,"Discretionary":16,"Emergency":2,"Mental":1,"Traffic":1}}
+{"type":"Feature","id":"129_55","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53405692],[-77.42594925,37.53405692],[-77.42594925,37.53249435],[-77.42729712500001,37.53249435],[-77.42729712500001,37.53405692]]]},"properties":{"name":"N 18TH ST/E FRANKLIN ST RICH; 100-BLK N 18TH ST; LL(-77:25:34.9789,37:31:59.4875): EST 1815 E FRANKLIN ST RICH; 1800-BLK FRANKL; 1800-BLK E FRANKLIN ST","total":50,"Crime":25,"Discretionary":16,"Emergency":5,"Traffic":3,"Mental":1}}
 ,
-{"type":"Feature","id":"130_55","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53405692],[-77.42460137500001,37.53405692],[-77.42460137500001,37.53249435],[-77.42594925,37.53249435],[-77.42594925,37.53405692]]]},"properties":{"name":"1900-BLK E FRANKLIN ST; 2000-BLK E FRANKLIN ST; 100-BLK N 20TH ST; N 20TH ST/E FRANKLIN ST RICH; N 19TH ST/E FRANKLIN ST RICH; LL(-77:25:29.2881,37:32:02.2422): BROAD/21ST","total":30,"Crime":13,"Emergency":9,"Discretionary":4,"Traffic":4}}
+{"type":"Feature","id":"130_55","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53405692],[-77.42460137500001,37.53405692],[-77.42460137500001,37.53249435],[-77.42594925,37.53249435],[-77.42594925,37.53405692]]]},"properties":{"name":"1900-BLK E FRANKLIN ST; 2000-BLK E FRANKLIN ST; 100-BLK N 20TH ST; N 20TH ST/E FRANKLIN ST RICH; N 19TH ST/E FRANKLIN ST RICH; LL(-77:25:29.2881,37:32:02.2422): BROAD/21ST","total":34,"Crime":17,"Emergency":9,"Discretionary":4,"Traffic":4}}
 ,
 {"type":"Feature","id":"131_55","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53405692],[-77.4232535,37.53405692],[-77.4232535,37.53249435],[-77.42460137500001,37.53249435],[-77.42460137500001,37.53405692]]]},"properties":{"name":"LL(-77:25:26.8789,37:31:58.5299): EST 115 N 20TH ST RICH; 2000-BLK E GRACE ST; 200-BLK N 20TH ST; E GRACE ST/N 20TH ST RICH; 172400-BLK N 20TH ST; R ST/N 20TH ST RICH","total":21,"Crime":16,"Traffic":5}}
 ,
@@ -2697,7 +2774,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"134_55","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.53405692],[-77.419209875,37.53405692],[-77.419209875,37.53249435],[-77.42055775,37.53249435],[-77.42055775,37.53405692]]]},"properties":{"name":"2300-BLK E MARSHALL ST; RICH: @SHOCKOE VALLEY BRIDGE WB; 400-BLK N 23RD ST","total":6,"Traffic":4,"Crime":2}}
 ,
-{"type":"Feature","id":"135_55","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.53405692],[-77.417862,37.53405692],[-77.417862,37.53249435],[-77.419209875,37.53249435],[-77.419209875,37.53405692]]]},"properties":{"name":"400-BLK N 25TH ST; N 25TH ST/E MARSHALL ST RICH; 400-BLK N 24TH ST","total":6,"Crime":4,"Emergency":1,"Traffic":1}}
+{"type":"Feature","id":"135_55","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.53405692],[-77.417862,37.53405692],[-77.417862,37.53249435],[-77.419209875,37.53249435],[-77.419209875,37.53405692]]]},"properties":{"name":"400-BLK N 25TH ST; N 25TH ST/E MARSHALL ST RICH; 400-BLK N 24TH ST","total":7,"Crime":5,"Emergency":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"136_55","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.53405692],[-77.416514125,37.53405692],[-77.416514125,37.53249435],[-77.417862,37.53249435],[-77.417862,37.53405692]]]},"properties":{"name":"E CLAY ST/N 25TH ST RICH; 2500-BLK E MARSHALL ST; 500-BLK N 25TH ST","total":4,"Crime":4}}
 ,
@@ -2711,7 +2788,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"142_55","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.53405692],[-77.408426875,37.53405692],[-77.408426875,37.53249435],[-77.40977475,37.53249435],[-77.40977475,37.53405692]]]},"properties":{"name":"800-BLK N 31ST ST; 3100-BLK N ST","total":7,"Crime":6,"Emergency":1}}
 ,
-{"type":"Feature","id":"143_55","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.53405692],[-77.40707900000001,37.53405692],[-77.40707900000001,37.53249435],[-77.408426875,37.53249435],[-77.408426875,37.53405692]]]},"properties":{"name":"3200-BLK O ST; 900-BLK N 31ST ST","total":14,"Crime":11,"Mental":3}}
+{"type":"Feature","id":"143_55","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.53405692],[-77.40707900000001,37.53405692],[-77.40707900000001,37.53249435],[-77.408426875,37.53249435],[-77.408426875,37.53405692]]]},"properties":{"name":"3200-BLK O ST; 900-BLK N 31ST ST","total":15,"Crime":12,"Mental":3}}
 ,
 {"type":"Feature","id":"144_55","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.53405692],[-77.405731125,37.53405692],[-77.405731125,37.53249435],[-77.40707900000001,37.53249435],[-77.40707900000001,37.53405692]]]},"properties":{"name":"P ST/N 33RD ST RICH; 1000-BLK N 32ND ST","total":2,"Traffic":1,"Crime":1}}
 ,
@@ -2733,11 +2810,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"16_56","geometry":{"type":"Polygon","coordinates":[[[-77.57960700000001,37.53561949],[-77.578259125,37.53561949],[-77.578259125,37.53405692],[-77.57960700000001,37.53405692],[-77.57960700000001,37.53561949]]]},"properties":{"name":"9900-BLK CHANNING CIR","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"45_56","geometry":{"type":"Polygon","coordinates":[[[-77.540518625,37.53561949],[-77.53917075,37.53561949],[-77.53917075,37.53405692],[-77.540518625,37.53405692],[-77.540518625,37.53561949]]]},"properties":{"name":"7800-BLK FOREST HILL AVE","total":15,"Traffic":8,"Crime":7}}
+{"type":"Feature","id":"45_56","geometry":{"type":"Polygon","coordinates":[[[-77.540518625,37.53561949],[-77.53917075,37.53561949],[-77.53917075,37.53405692],[-77.540518625,37.53405692],[-77.540518625,37.53561949]]]},"properties":{"name":"7800-BLK FOREST HILL AVE","total":16,"Traffic":8,"Crime":8}}
 ,
 {"type":"Feature","id":"46_56","geometry":{"type":"Polygon","coordinates":[[[-77.53917075,37.53561949],[-77.537822875,37.53561949],[-77.537822875,37.53405692],[-77.53917075,37.53405692],[-77.53917075,37.53561949]]]},"properties":{"name":"7800-BLK FORST HILL","total":4,"Traffic":4}}
 ,
-{"type":"Feature","id":"48_56","geometry":{"type":"Polygon","coordinates":[[[-77.536475,37.53561949],[-77.535127125,37.53561949],[-77.535127125,37.53405692],[-77.536475,37.53405692],[-77.536475,37.53561949]]]},"properties":{"name":"2500-BLK E TREMONT CT; 2500-BLK HARRODS LN","total":10,"Crime":6,"Traffic":4}}
+{"type":"Feature","id":"48_56","geometry":{"type":"Polygon","coordinates":[[[-77.536475,37.53561949],[-77.535127125,37.53561949],[-77.535127125,37.53405692],[-77.536475,37.53405692],[-77.536475,37.53561949]]]},"properties":{"name":"2500-BLK E TREMONT CT; 2500-BLK HARRODS LN","total":13,"Crime":9,"Traffic":4}}
 ,
 {"type":"Feature","id":"49_56","geometry":{"type":"Polygon","coordinates":[[[-77.535127125,37.53561949],[-77.53377925000001,37.53561949],[-77.53377925000001,37.53405692],[-77.535127125,37.53405692],[-77.535127125,37.53561949]]]},"properties":{"name":"7500-BLK CARNABY CT; 7500-BLK ANDER CT","total":3,"Emergency":2,"Crime":1}}
 ,
@@ -2765,7 +2842,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_56","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.53561949],[-77.44481950000001,37.53561949],[-77.44481950000001,37.53405692],[-77.446167375,37.53405692],[-77.446167375,37.53561949]]]},"properties":{"name":"500-BLK TREDEGAR ST","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"116_56","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.53561949],[-77.443471625,37.53561949],[-77.443471625,37.53405692],[-77.44481950000001,37.53405692],[-77.44481950000001,37.53561949]]]},"properties":{"name":"400-BLK TREDEGAR ST","total":1,"Emergency":1}}
+{"type":"Feature","id":"116_56","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.53561949],[-77.443471625,37.53561949],[-77.443471625,37.53405692],[-77.44481950000001,37.53405692],[-77.44481950000001,37.53561949]]]},"properties":{"name":"400-BLK TREDEGAR ST","total":3,"Crime":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"117_56","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.53561949],[-77.44212375000001,37.53561949],[-77.44212375000001,37.53405692],[-77.443471625,37.53405692],[-77.443471625,37.53561949]]]},"properties":{"name":"S 5TH ST/TREDEGAR ST RICH","total":7,"Crime":5,"Traffic":2}}
 ,
@@ -2775,43 +2852,43 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"123_56","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.53561949],[-77.4340365,37.53561949],[-77.4340365,37.53405692],[-77.435384375,37.53405692],[-77.435384375,37.53561949]]]},"properties":{"name":"200-BLK S 12TH ST; 0-BLK S 12TH ST","total":4,"Traffic":2,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"124_56","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.53561949],[-77.432688625,37.53561949],[-77.432688625,37.53405692],[-77.4340365,37.53405692],[-77.4340365,37.53561949]]]},"properties":{"name":"100-BLK VIRGINIA ST; 1300-BLK E CARY ST; VIRGINIA ST/E CARY ST RICH; VIRGINIA ST/E CANAL ST RICH; E CANAL ST/VIRGINIA ST RICH; 300-BLK VIRGINIA ST; POWHITE PKWY/I 195 / DOWNTOWN RICH","total":38,"Crime":26,"Traffic":10,"Emergency":2}}
+{"type":"Feature","id":"124_56","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.53561949],[-77.432688625,37.53561949],[-77.432688625,37.53405692],[-77.4340365,37.53405692],[-77.4340365,37.53561949]]]},"properties":{"name":"100-BLK VIRGINIA ST; 1300-BLK E CARY ST; VIRGINIA ST/E CARY ST RICH; VIRGINIA ST/E CANAL ST RICH; E CANAL ST/VIRGINIA ST RICH; 300-BLK VIRGINIA ST; POWHITE PKWY/I 195 / DOWNTOWN RICH; E CARY ST/VIRGINIA ST RICH","total":40,"Crime":26,"Traffic":12,"Emergency":2}}
 ,
-{"type":"Feature","id":"125_56","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.53561949],[-77.43134075,37.53561949],[-77.43134075,37.53405692],[-77.432688625,37.53405692],[-77.432688625,37.53561949]]]},"properties":{"name":"1400-BLK E CARY ST; N 14TH ST/E MAIN ST RICH; E CANAL ST/S 14TH ST RICH; S 9TH ST/E CARY ST RICH; S 6TH ST/E CARY ST RICH; S 8TH ST/E CARY ST RICH; 00-BLK S 14TH ST; E MAIN ST/N 14TH ST RICH; E CARY ST/S 14TH ST RICH","total":66,"Traffic":33,"Crime":22,"Emergency":11}}
+{"type":"Feature","id":"125_56","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.53561949],[-77.43134075,37.53561949],[-77.43134075,37.53405692],[-77.432688625,37.53405692],[-77.432688625,37.53561949]]]},"properties":{"name":"1400-BLK E CARY ST; N 14TH ST/E MAIN ST RICH; E CANAL ST/S 14TH ST RICH; S 9TH ST/E CARY ST RICH; S 6TH ST/E CARY ST RICH; S 8TH ST/E CARY ST RICH; 00-BLK S 14TH ST; E MAIN ST/N 14TH ST RICH; E CARY ST/S 14TH ST RICH; S 14TH ST/E CARY ST RICH","total":73,"Traffic":37,"Crime":23,"Emergency":13}}
 ,
-{"type":"Feature","id":"126_56","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.53561949],[-77.429992875,37.53561949],[-77.429992875,37.53405692],[-77.43134075,37.53405692],[-77.43134075,37.53561949]]]},"properties":{"name":"E MAIN ST/N 15TH ST RICH; N 15TH ST/E MAIN ST RICH","total":13,"Discretionary":7,"Traffic":4,"Crime":2}}
+{"type":"Feature","id":"126_56","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.53561949],[-77.429992875,37.53561949],[-77.429992875,37.53405692],[-77.43134075,37.53405692],[-77.43134075,37.53561949]]]},"properties":{"name":"E MAIN ST/N 15TH ST RICH; N 15TH ST/E MAIN ST RICH","total":15,"Discretionary":9,"Traffic":4,"Crime":2}}
 ,
-{"type":"Feature","id":"127_56","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.53561949],[-77.428645,37.53561949],[-77.428645,37.53405692],[-77.429992875,37.53405692],[-77.429992875,37.53561949]]]},"properties":{"name":"1500-BLK E MAIN ST; N 3RD ST/E FRANKLIN ST RICH; E FRANKLIN ST/I-95 RICH","total":28,"Crime":14,"Traffic":5,"Emergency":4,"Discretionary":4,"Mental":1}}
+{"type":"Feature","id":"127_56","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.53561949],[-77.428645,37.53561949],[-77.428645,37.53405692],[-77.429992875,37.53405692],[-77.429992875,37.53561949]]]},"properties":{"name":"1500-BLK E MAIN ST; N 3RD ST/E FRANKLIN ST RICH; E FRANKLIN ST/I-95 RICH","total":30,"Crime":14,"Traffic":7,"Emergency":4,"Discretionary":4,"Mental":1}}
 ,
-{"type":"Feature","id":"128_56","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.53561949],[-77.42729712500001,37.53561949],[-77.42729712500001,37.53405692],[-77.428645,37.53405692],[-77.428645,37.53561949]]]},"properties":{"name":"1600-BLK E FRANKLIN ST; 1700-BLK E FRANKLIN ST; N 17TH ST/E FRANKLIN ST RICH; 100-BLK N 17TH ST; E FRANKLIN ST/AMBLER ST RICH; 1600-BLK E GRACE ST; AMBLER ST/E FRANKLIN ST RICH; 100-BLK AMBLER ST","total":31,"Crime":14,"Discretionary":11,"Traffic":5,"Emergency":1}}
+{"type":"Feature","id":"128_56","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.53561949],[-77.42729712500001,37.53561949],[-77.42729712500001,37.53405692],[-77.428645,37.53405692],[-77.428645,37.53561949]]]},"properties":{"name":"1600-BLK E FRANKLIN ST; 1700-BLK E FRANKLIN ST; N 17TH ST/E FRANKLIN ST RICH; 100-BLK N 17TH ST; E FRANKLIN ST/AMBLER ST RICH; 1600-BLK E GRACE ST; AMBLER ST/E FRANKLIN ST RICH; 100-BLK AMBLER ST; E FRANKLIN ST/N 17TH ST RICH","total":37,"Crime":17,"Discretionary":13,"Traffic":6,"Emergency":1}}
 ,
-{"type":"Feature","id":"129_56","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53561949],[-77.42594925,37.53561949],[-77.42594925,37.53405692],[-77.42729712500001,37.53405692],[-77.42729712500001,37.53561949]]]},"properties":{"name":"N 18TH ST/E GRACE ST RICH; 1700-BLK E GRACE ST; 0-BLK E GRACE ST; N 17TH ST/E GRACE ST RICH; E GRACE ST/CRANE ST RICH; 00-BLK E GRACE ST; E GRACE ST/N 18TH ST RICH","total":52,"Discretionary":20,"Crime":13,"Traffic":9,"Emergency":9,"Mental":1}}
+{"type":"Feature","id":"129_56","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53561949],[-77.42594925,37.53561949],[-77.42594925,37.53405692],[-77.42729712500001,37.53405692],[-77.42729712500001,37.53561949]]]},"properties":{"name":"N 18TH ST/E GRACE ST RICH; 1700-BLK E GRACE ST; 0-BLK E GRACE ST; N 17TH ST/E GRACE ST RICH; E GRACE ST/CRANE ST RICH; 00-BLK E GRACE ST; E GRACE ST/N 18TH ST RICH","total":56,"Discretionary":24,"Crime":13,"Traffic":9,"Emergency":9,"Mental":1}}
 ,
-{"type":"Feature","id":"130_56","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53561949],[-77.42460137500001,37.53561949],[-77.42460137500001,37.53405692],[-77.42594925,37.53405692],[-77.42594925,37.53561949]]]},"properties":{"name":"1800-BLK E BROAD ST; COLLEGE ST/E BROAD ST RICH; E BROAD ST/N 18TH ST RICH; N 18TH ST/E BROAD ST RICH; 200-BLK N 19TH ST; 1800-BLK E GRACE ST","total":42,"Crime":18,"Traffic":15,"Emergency":7,"Discretionary":2}}
+{"type":"Feature","id":"130_56","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53561949],[-77.42460137500001,37.53561949],[-77.42460137500001,37.53405692],[-77.42594925,37.53405692],[-77.42594925,37.53561949]]]},"properties":{"name":"1800-BLK E BROAD ST; COLLEGE ST/E BROAD ST RICH; E BROAD ST/N 18TH ST RICH; N 18TH ST/E BROAD ST RICH; 200-BLK N 19TH ST; 1800-BLK E GRACE ST","total":43,"Crime":19,"Traffic":15,"Emergency":7,"Discretionary":2}}
 ,
-{"type":"Feature","id":"131_56","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53561949],[-77.4232535,37.53561949],[-77.4232535,37.53405692],[-77.42460137500001,37.53405692],[-77.42460137500001,37.53561949]]]},"properties":{"name":"300-BLK N 20TH ST; 1900-BLK E BROAD ST; E BROAD ST/N 20TH ST RICH; 00-BLK N 19TH ST; LL(-77:25:28.4161,37:32:02.8895): EST 1904 E GRACE ST RICH","total":22,"Traffic":14,"Crime":8}}
+{"type":"Feature","id":"131_56","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53561949],[-77.4232535,37.53561949],[-77.4232535,37.53405692],[-77.42460137500001,37.53405692],[-77.42460137500001,37.53561949]]]},"properties":{"name":"300-BLK N 20TH ST; 1900-BLK E BROAD ST; E BROAD ST/N 20TH ST RICH; 00-BLK N 19TH ST; LL(-77:25:28.4161,37:32:02.8895): EST 1904 E GRACE ST RICH","total":24,"Traffic":16,"Crime":8}}
 ,
 {"type":"Feature","id":"132_56","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.53561949],[-77.42190562500001,37.53561949],[-77.42190562500001,37.53405692],[-77.4232535,37.53405692],[-77.4232535,37.53561949]]]},"properties":{"name":"2000-BLK E BROAD ST; E MARSHALL ST/N 20TH ST RICH","total":12,"Crime":6,"Mental":4,"Emergency":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"133_56","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.53561949],[-77.42055775,37.53561949],[-77.42055775,37.53405692],[-77.42190562500001,37.53405692],[-77.42190562500001,37.53561949]]]},"properties":{"name":"2100-BLK JEFFERSON AVE; 1500-BLK N 22ND ST; 00-BLK N 22ND ST; 2100-BLK JEFFERSON","total":10,"Crime":8,"Traffic":2}}
 ,
-{"type":"Feature","id":"134_56","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.53561949],[-77.419209875,37.53561949],[-77.419209875,37.53405692],[-77.42055775,37.53405692],[-77.42055775,37.53561949]]]},"properties":{"name":"1500-BLK N 21ST ST; 2200-BLK JEFFERSON AVE; 900-BLK N 21ST ST","total":88,"Crime":45,"Mental":32,"Emergency":10,"Traffic":1}}
+{"type":"Feature","id":"134_56","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.53561949],[-77.419209875,37.53561949],[-77.419209875,37.53405692],[-77.42055775,37.53405692],[-77.42055775,37.53561949]]]},"properties":{"name":"1500-BLK N 21ST ST; 2200-BLK JEFFERSON AVE; 900-BLK N 21ST ST","total":93,"Crime":50,"Mental":32,"Emergency":10,"Traffic":1}}
 ,
 {"type":"Feature","id":"136_56","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.53561949],[-77.416514125,37.53561949],[-77.416514125,37.53405692],[-77.417862,37.53405692],[-77.417862,37.53561949]]]},"properties":{"name":"600-BLK N 24TH ST; 2400-BLK JEFFERSON AVE","total":3,"Traffic":2,"Crime":1}}
 ,
 {"type":"Feature","id":"137_56","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.53561949],[-77.41516625,37.53561949],[-77.41516625,37.53405692],[-77.416514125,37.53405692],[-77.416514125,37.53561949]]]},"properties":{"name":"700-BLK N 25TH ST; 600-BLK N 25TH ST; N 25TH ST/E LEIGH ST RICH","total":16,"Emergency":12,"Crime":4}}
 ,
-{"type":"Feature","id":"139_56","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.53561949],[-77.4124705,37.53561949],[-77.4124705,37.53405692],[-77.413818375,37.53405692],[-77.413818375,37.53561949]]]},"properties":{"name":"800-BLK N 27TH ST","total":2,"Crime":2}}
+{"type":"Feature","id":"139_56","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.53561949],[-77.4124705,37.53561949],[-77.4124705,37.53405692],[-77.413818375,37.53405692],[-77.413818375,37.53561949]]]},"properties":{"name":"800-BLK N 27TH ST; 700-BLK N 27TH ST","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"141_56","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.53561949],[-77.40977475,37.53561949],[-77.40977475,37.53405692],[-77.411122625,37.53405692],[-77.411122625,37.53561949]]]},"properties":{"name":"900-BLK N 29TH ST; N 28TH ST/O ST RICH","total":3,"Emergency":1,"Crime":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"142_56","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.53561949],[-77.408426875,37.53561949],[-77.408426875,37.53405692],[-77.40977475,37.53405692],[-77.40977475,37.53561949]]]},"properties":{"name":"1000-BLK N 30TH ST; 900-BLK N 30TH ST; N 30TH ST/P ST RICH","total":14,"Traffic":7,"Discretionary":5,"Crime":2}}
+{"type":"Feature","id":"142_56","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.53561949],[-77.408426875,37.53561949],[-77.408426875,37.53405692],[-77.40977475,37.53405692],[-77.40977475,37.53561949]]]},"properties":{"name":"1000-BLK N 30TH ST; 900-BLK N 30TH ST; N 30TH ST/P ST RICH; 3000-BLK O ST","total":16,"Traffic":7,"Discretionary":5,"Crime":4}}
 ,
 {"type":"Feature","id":"143_56","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.53561949],[-77.40707900000001,37.53561949],[-77.40707900000001,37.53405692],[-77.408426875,37.53405692],[-77.408426875,37.53561949]]]},"properties":{"name":"3100-BLK P ST; N 31ST ST/P ST RICH; 3000-BLK P ST; 160000-BLK N 31ST ST","total":6,"Crime":3,"Discretionary":3}}
 ,
 {"type":"Feature","id":"144_56","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.53561949],[-77.405731125,37.53561949],[-77.405731125,37.53405692],[-77.40707900000001,37.53405692],[-77.40707900000001,37.53561949]]]},"properties":{"name":"1100-BLK N 31ST ST; N 32ND ST/Q ST RICH; 1100-BLK N 32ND ST; 3100-BLK Q ST; Q ST/N 31ST ST RICH","total":16,"Crime":7,"Traffic":6,"Emergency":3}}
 ,
-{"type":"Feature","id":"145_56","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.53561949],[-77.40438325000001,37.53561949],[-77.40438325000001,37.53405692],[-77.405731125,37.53405692],[-77.405731125,37.53561949]]]},"properties":{"name":"1100-BLK N 33RD ST","total":9,"Crime":9}}
+{"type":"Feature","id":"145_56","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.53561949],[-77.40438325000001,37.53561949],[-77.40438325000001,37.53405692],[-77.405731125,37.53405692],[-77.405731125,37.53561949]]]},"properties":{"name":"1100-BLK N 33RD ST; N 33RD ST/Q ST RICH","total":18,"Crime":18}}
 ,
 {"type":"Feature","id":"147_56","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.53561949],[-77.40168750000001,37.53561949],[-77.40168750000001,37.53405692],[-77.403035375,37.53405692],[-77.403035375,37.53561949]]]},"properties":{"name":"3400-BLK S ST; 1300-BLK N 34TH ST","total":18,"Crime":12,"Emergency":4,"Mental":2}}
 ,
@@ -2819,17 +2896,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"150_56","geometry":{"type":"Polygon","coordinates":[[[-77.39899175000001,37.53561949],[-77.397643875,37.53561949],[-77.397643875,37.53405692],[-77.39899175000001,37.53405692],[-77.39899175000001,37.53561949]]]},"properties":{"name":"1600-BLK OAKWOOD AVE","total":4,"Crime":2,"Discretionary":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"152_56","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.53561949],[-77.394948125,37.53561949],[-77.394948125,37.53405692],[-77.396296,37.53405692],[-77.396296,37.53561949]]]},"properties":{"name":"3500-BLK EAST RICHMOND RD","total":29,"Crime":20,"Emergency":5,"Traffic":4}}
+{"type":"Feature","id":"152_56","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.53561949],[-77.394948125,37.53561949],[-77.394948125,37.53405692],[-77.396296,37.53405692],[-77.396296,37.53561949]]]},"properties":{"name":"3500-BLK EAST RICHMOND RD","total":30,"Crime":21,"Emergency":5,"Traffic":4}}
 ,
 {"type":"Feature","id":"13_57","geometry":{"type":"Polygon","coordinates":[[[-77.583650625,37.53718206],[-77.58230275,37.53718206],[-77.58230275,37.53561949],[-77.583650625,37.53561949],[-77.583650625,37.53718206]]]},"properties":{"name":"10200-BLK MERRIGAN RD; 10200-BLK MAPLESTED LN","total":7,"Emergency":4,"Crime":3}}
 ,
 {"type":"Feature","id":"23_57","geometry":{"type":"Polygon","coordinates":[[[-77.570171875,37.53718206],[-77.568824,37.53718206],[-77.568824,37.53561949],[-77.570171875,37.53561949],[-77.570171875,37.53718206]]]},"properties":{"name":"3000-BLK STONY LAKE DR","total":10,"Crime":6,"Emergency":2,"Mental":2}}
 ,
+{"type":"Feature","id":"46_57","geometry":{"type":"Polygon","coordinates":[[[-77.53917075,37.53718206],[-77.537822875,37.53718206],[-77.537822875,37.53561949],[-77.53917075,37.53561949],[-77.53917075,37.53718206]]]},"properties":{"name":"7700-BLK ARDENDALE RD","total":1,"Crime":1}}
+,
 {"type":"Feature","id":"48_57","geometry":{"type":"Polygon","coordinates":[[[-77.536475,37.53718206],[-77.535127125,37.53718206],[-77.535127125,37.53561949],[-77.536475,37.53561949],[-77.536475,37.53718206]]]},"properties":{"name":"7600-BLK FOREST HILL AVE","total":14,"Emergency":12,"Traffic":2}}
 ,
-{"type":"Feature","id":"50_57","geometry":{"type":"Polygon","coordinates":[[[-77.53377925000001,37.53718206],[-77.532431375,37.53718206],[-77.532431375,37.53561949],[-77.53377925000001,37.53561949],[-77.53377925000001,37.53718206]]]},"properties":{"name":"2400-BLK SHEILA LN; 2500-BLK SHEILA LN; SHEILA LN/FOREST HILL AVE RICH; FOREST HILL AVE/SHEILA LN RICH","total":129,"Discretionary":100,"Crime":23,"Emergency":3,"Traffic":2,"Mental":1}}
+{"type":"Feature","id":"50_57","geometry":{"type":"Polygon","coordinates":[[[-77.53377925000001,37.53718206],[-77.532431375,37.53718206],[-77.532431375,37.53561949],[-77.53377925000001,37.53561949],[-77.53377925000001,37.53718206]]]},"properties":{"name":"2400-BLK SHEILA LN; 2500-BLK SHEILA LN; SHEILA LN/FOREST HILL AVE RICH; FOREST HILL AVE/SHEILA LN RICH","total":141,"Discretionary":110,"Crime":25,"Emergency":3,"Traffic":2,"Mental":1}}
 ,
-{"type":"Feature","id":"59_57","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.53718206],[-77.5203005,37.53718206],[-77.5203005,37.53561949],[-77.521648375,37.53561949],[-77.521648375,37.53718206]]]},"properties":{"name":"2600-BLK GRANITE HILL CIR","total":27,"Crime":23,"Emergency":4}}
+{"type":"Feature","id":"59_57","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.53718206],[-77.5203005,37.53718206],[-77.5203005,37.53561949],[-77.521648375,37.53561949],[-77.521648375,37.53718206]]]},"properties":{"name":"2600-BLK GRANITE HILL CIR","total":29,"Crime":23,"Emergency":5,"Mental":1}}
 ,
 {"type":"Feature","id":"63_57","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.53718206],[-77.514909,37.53718206],[-77.514909,37.53561949],[-77.516256875,37.53561949],[-77.516256875,37.53718206]]]},"properties":{"name":"2800-BLK WINDSORVIEW DR; 6700-BLK FOREST HILL AVE","total":11,"Crime":8,"Traffic":2,"Emergency":1}}
 ,
@@ -2855,19 +2934,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"120_57","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.53718206],[-77.438080125,37.53718206],[-77.438080125,37.53561949],[-77.439428,37.53561949],[-77.439428,37.53718206]]]},"properties":{"name":"900-BLK E BYRD ST; E BYRD ST/S 9TH ST RICH","total":13,"Emergency":9,"Traffic":3,"Crime":1}}
 ,
-{"type":"Feature","id":"121_57","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.53718206],[-77.43673225,37.53718206],[-77.43673225,37.53561949],[-77.438080125,37.53561949],[-77.438080125,37.53718206]]]},"properties":{"name":"200-BLK S 10TH ST; S 9TH ST/E CANAL ST RICH","total":8,"Emergency":4,"Crime":3,"Mental":1}}
+{"type":"Feature","id":"121_57","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.53718206],[-77.43673225,37.53718206],[-77.43673225,37.53561949],[-77.438080125,37.53561949],[-77.438080125,37.53718206]]]},"properties":{"name":"200-BLK S 10TH ST; S 9TH ST/E CANAL ST RICH; S 10TH ST/E CANAL ST RICH","total":10,"Emergency":4,"Crime":3,"Traffic":2,"Mental":1}}
 ,
-{"type":"Feature","id":"122_57","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.53718206],[-77.435384375,37.53718206],[-77.435384375,37.53561949],[-77.43673225,37.53561949],[-77.43673225,37.53718206]]]},"properties":{"name":"E CARY ST/S 10TH ST RICH; 00-BLK E CARY ST; S 10TH ST/E CARY ST RICH","total":6,"Crime":5,"Emergency":1}}
+{"type":"Feature","id":"122_57","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.53718206],[-77.435384375,37.53718206],[-77.435384375,37.53561949],[-77.43673225,37.53561949],[-77.43673225,37.53718206]]]},"properties":{"name":"E CARY ST/S 10TH ST RICH; 00-BLK E CARY ST; S 10TH ST/E CARY ST RICH; 1000-BLK E CARY ST; 0-BLK E CARY ST","total":12,"Crime":8,"Emergency":2,"Mental":2}}
 ,
-{"type":"Feature","id":"123_57","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.53718206],[-77.4340365,37.53718206],[-77.4340365,37.53561949],[-77.435384375,37.53561949],[-77.435384375,37.53718206]]]},"properties":{"name":"100-BLK S 12TH ST; 1200-BLK E CARY ST; E CARY ST/S 12TH ST RICH; S 12TH ST/E CARY ST RICH","total":21,"Crime":16,"Emergency":3,"Discretionary":2}}
+{"type":"Feature","id":"123_57","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.53718206],[-77.4340365,37.53718206],[-77.4340365,37.53561949],[-77.435384375,37.53561949],[-77.435384375,37.53718206]]]},"properties":{"name":"100-BLK S 12TH ST; 1200-BLK E CARY ST; E CARY ST/S 12TH ST RICH; S 12TH ST/E CARY ST RICH","total":24,"Crime":16,"Emergency":6,"Discretionary":2}}
 ,
-{"type":"Feature","id":"124_57","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.53718206],[-77.432688625,37.53718206],[-77.432688625,37.53561949],[-77.4340365,37.53561949],[-77.4340365,37.53718206]]]},"properties":{"name":"1300-BLK E MAIN ST; 1200-BLK E MAIN ST; S 13TH ST/E MAIN ST RICH; 00-BLK S 13TH ST","total":17,"Crime":6,"Traffic":6,"Emergency":4,"Mental":1}}
+{"type":"Feature","id":"124_57","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.53718206],[-77.432688625,37.53718206],[-77.432688625,37.53561949],[-77.4340365,37.53561949],[-77.4340365,37.53718206]]]},"properties":{"name":"1300-BLK E MAIN ST; 1200-BLK E MAIN ST; S 13TH ST/E MAIN ST RICH; 00-BLK S 13TH ST","total":20,"Traffic":8,"Crime":7,"Emergency":4,"Mental":1}}
 ,
-{"type":"Feature","id":"126_57","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.53718206],[-77.429992875,37.53718206],[-77.429992875,37.53561949],[-77.43134075,37.53561949],[-77.43134075,37.53718206]]]},"properties":{"name":"N 14TH ST/BANK ST RICH; N 14TH ST/E FRANKLIN ST RICH; 0-BLK E FRANKLIN ST","total":7,"Traffic":5,"Mental":2}}
+{"type":"Feature","id":"126_57","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.53718206],[-77.429992875,37.53718206],[-77.429992875,37.53561949],[-77.43134075,37.53561949],[-77.43134075,37.53718206]]]},"properties":{"name":"N 14TH ST/BANK ST RICH; N 14TH ST/E FRANKLIN ST RICH; 0-BLK E FRANKLIN ST; 00-BLK E FRANKLIN ST","total":9,"Traffic":5,"Mental":2,"Emergency":1,"Crime":1}}
 ,
 {"type":"Feature","id":"128_57","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.53718206],[-77.42729712500001,37.53718206],[-77.42729712500001,37.53561949],[-77.428645,37.53561949],[-77.428645,37.53718206]]]},"properties":{"name":"LL(-77:25:41.4067,37:32:12.7325): @SHOCKOE BOTTOM; E GRACE ST/AMBLER ST RICH; AMBLER ST/E GRACE ST RICH","total":6,"Discretionary":6}}
 ,
-{"type":"Feature","id":"129_57","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53718206],[-77.42594925,37.53718206],[-77.42594925,37.53561949],[-77.42729712500001,37.53561949],[-77.42729712500001,37.53718206]]]},"properties":{"name":"00-BLK N 17TH ST; 0-BLK N 17TH ST; N 17TH ST/E BROAD ST RICH; E BROAD ST/OLIVER HILL WAY RICH; E BROAD ST/N 17TH ST RICH; 1600-BLK E BROAD ST; 17-100-BLK N 17TH ST","total":32,"Crime":14,"Traffic":11,"Discretionary":4,"Emergency":3}}
+{"type":"Feature","id":"129_57","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53718206],[-77.42594925,37.53718206],[-77.42594925,37.53561949],[-77.42729712500001,37.53561949],[-77.42729712500001,37.53718206]]]},"properties":{"name":"00-BLK N 17TH ST; 0-BLK N 17TH ST; N 17TH ST/E BROAD ST RICH; E BROAD ST/OLIVER HILL WAY RICH; E BROAD ST/N 17TH ST RICH; 1600-BLK E BROAD ST; 17-100-BLK N 17TH ST; E BROAD ST/CRANE ST RICH","total":36,"Crime":15,"Traffic":11,"Discretionary":4,"Emergency":3,"Mental":3}}
 ,
 {"type":"Feature","id":"130_57","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.53718206],[-77.42460137500001,37.53718206],[-77.42460137500001,37.53561949],[-77.42594925,37.53561949],[-77.42594925,37.53718206]]]},"properties":{"name":"1700-BLK E BROAD ST; E MARSHALL ST/OLIVER HILL WAY RICH; 300-BLK N 18TH ST","total":37,"Crime":19,"Emergency":6,"Traffic":6,"Mental":4,"Discretionary":2}}
 ,
@@ -2893,11 +2972,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"143_57","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.53718206],[-77.40707900000001,37.53718206],[-77.40707900000001,37.53561949],[-77.408426875,37.53561949],[-77.408426875,37.53718206]]]},"properties":{"name":"1100-BLK N 30TH ST; N 29TH ST/R ST RICH","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"144_57","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.53718206],[-77.405731125,37.53718206],[-77.405731125,37.53561949],[-77.40707900000001,37.53561949],[-77.40707900000001,37.53718206]]]},"properties":{"name":"1200-BLK N 30TH ST; 1200-BLK N 31ST ST; N 30TH ST/R ST RICH; 3000-BLK R ST; N 31ST ST/R ST RICH","total":8,"Crime":5,"Emergency":3}}
+{"type":"Feature","id":"144_57","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.53718206],[-77.405731125,37.53718206],[-77.405731125,37.53561949],[-77.40707900000001,37.53561949],[-77.40707900000001,37.53718206]]]},"properties":{"name":"1200-BLK N 30TH ST; 1200-BLK N 31ST ST; N 30TH ST/R ST RICH; 3000-BLK R ST; N 31ST ST/R ST RICH","total":10,"Crime":6,"Emergency":4}}
 ,
 {"type":"Feature","id":"145_57","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.53718206],[-77.40438325000001,37.53718206],[-77.40438325000001,37.53561949],[-77.405731125,37.53561949],[-77.405731125,37.53718206]]]},"properties":{"name":"1200-BLK N 32ND ST; 1300-BLK N 31ST ST","total":14,"Crime":7,"Emergency":5,"Discretionary":2}}
 ,
-{"type":"Feature","id":"146_57","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.53718206],[-77.403035375,37.53718206],[-77.403035375,37.53561949],[-77.40438325000001,37.53561949],[-77.40438325000001,37.53718206]]]},"properties":{"name":"S ST/N 32ND ST RICH; 1300-BLK N 33RD ST","total":10,"Crime":7,"Mental":3}}
+{"type":"Feature","id":"146_57","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.53718206],[-77.403035375,37.53718206],[-77.403035375,37.53561949],[-77.40438325000001,37.53561949],[-77.40438325000001,37.53718206]]]},"properties":{"name":"S ST/N 32ND ST RICH; 1300-BLK N 33RD ST; S ST/N 33RD ST RICH","total":11,"Crime":8,"Mental":3}}
 ,
 {"type":"Feature","id":"147_57","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.53718206],[-77.40168750000001,37.53718206],[-77.40168750000001,37.53561949],[-77.403035375,37.53561949],[-77.403035375,37.53718206]]]},"properties":{"name":"N 33RD ST/T ST RICH","total":1,"Emergency":1}}
 ,
@@ -2913,7 +2992,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"24_58","geometry":{"type":"Polygon","coordinates":[[[-77.568824,37.53874463],[-77.567476125,37.53874463],[-77.567476125,37.53718206],[-77.568824,37.53718206],[-77.568824,37.53874463]]]},"properties":{"name":"3000-BLK STONY LAKE CT","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"27_58","geometry":{"type":"Polygon","coordinates":[[[-77.564780375,37.53874463],[-77.5634325,37.53874463],[-77.5634325,37.53718206],[-77.564780375,37.53718206],[-77.564780375,37.53874463]]]},"properties":{"name":"3000-BLK STONY POINT RD","total":16,"Crime":6,"Emergency":6,"Traffic":4}}
+{"type":"Feature","id":"27_58","geometry":{"type":"Polygon","coordinates":[[[-77.564780375,37.53874463],[-77.5634325,37.53874463],[-77.5634325,37.53718206],[-77.564780375,37.53718206],[-77.564780375,37.53874463]]]},"properties":{"name":"3000-BLK STONY POINT RD","total":22,"Emergency":10,"Crime":8,"Traffic":4}}
 ,
 {"type":"Feature","id":"28_58","geometry":{"type":"Polygon","coordinates":[[[-77.5634325,37.53874463],[-77.562084625,37.53874463],[-77.562084625,37.53718206],[-77.5634325,37.53718206],[-77.5634325,37.53874463]]]},"properties":{"name":"9000-BLK W HUGUENOT RD","total":1,"Mental":1}}
 ,
@@ -2925,51 +3004,53 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"51_58","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.53874463],[-77.53108350000001,37.53874463],[-77.53108350000001,37.53718206],[-77.532431375,37.53718206],[-77.532431375,37.53874463]]]},"properties":{"name":"LL(-77:31:54.7249,37:32:18.1103): EST 7403 LANEVIEW DR RICH","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"52_58","geometry":{"type":"Polygon","coordinates":[[[-77.53108350000001,37.53874463],[-77.529735625,37.53874463],[-77.529735625,37.53718206],[-77.53108350000001,37.53718206],[-77.53108350000001,37.53874463]]]},"properties":{"name":"7300-BLK FOREST HILL AVE; 7200-BLK FOREST HILL AVE","total":39,"Crime":19,"Traffic":12,"Emergency":7,"Mental":1}}
+{"type":"Feature","id":"52_58","geometry":{"type":"Polygon","coordinates":[[[-77.53108350000001,37.53874463],[-77.529735625,37.53874463],[-77.529735625,37.53718206],[-77.53108350000001,37.53718206],[-77.53108350000001,37.53874463]]]},"properties":{"name":"7300-BLK FOREST HILL AVE; 7200-BLK FOREST HILL AVE","total":49,"Crime":25,"Traffic":13,"Emergency":10,"Mental":1}}
 ,
 {"type":"Feature","id":"55_58","geometry":{"type":"Polygon","coordinates":[[[-77.527039875,37.53874463],[-77.525692,37.53874463],[-77.525692,37.53718206],[-77.527039875,37.53718206],[-77.527039875,37.53874463]]]},"properties":{"name":"7100-BLK FOREST HILL AVE","total":21,"Crime":10,"Emergency":9,"Traffic":2}}
 ,
-{"type":"Feature","id":"57_58","geometry":{"type":"Polygon","coordinates":[[[-77.524344125,37.53874463],[-77.52299625,37.53874463],[-77.52299625,37.53718206],[-77.524344125,37.53718206],[-77.524344125,37.53874463]]]},"properties":{"name":"CHEROKEE RD/FOREST HILL AVE RICH; 7000-BLK FOREST HILL AVE","total":34,"Discretionary":18,"Crime":9,"Traffic":6,"Emergency":1}}
+{"type":"Feature","id":"57_58","geometry":{"type":"Polygon","coordinates":[[[-77.524344125,37.53874463],[-77.52299625,37.53874463],[-77.52299625,37.53718206],[-77.524344125,37.53718206],[-77.524344125,37.53874463]]]},"properties":{"name":"CHEROKEE RD/FOREST HILL AVE RICH; 7000-BLK FOREST HILL AVE","total":36,"Discretionary":20,"Crime":9,"Traffic":6,"Emergency":1}}
 ,
 {"type":"Feature","id":"59_58","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.53874463],[-77.5203005,37.53874463],[-77.5203005,37.53718206],[-77.521648375,37.53718206],[-77.521648375,37.53874463]]]},"properties":{"name":"6900-BLK FOREST HILL AVE","total":3,"Crime":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"60_58","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.53874463],[-77.518952625,37.53874463],[-77.518952625,37.53718206],[-77.5203005,37.53718206],[-77.5203005,37.53874463]]]},"properties":{"name":"6800-BLK FOREST HILL AVE; HATHAWAY RD/FOREST HILL AVE RICH","total":17,"Crime":11,"Emergency":3,"Traffic":2,"Mental":1}}
+{"type":"Feature","id":"60_58","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.53874463],[-77.518952625,37.53874463],[-77.518952625,37.53718206],[-77.5203005,37.53718206],[-77.5203005,37.53874463]]]},"properties":{"name":"6800-BLK FOREST HILL AVE; HATHAWAY RD/FOREST HILL AVE RICH; FOREST HILL AVE/HATHAWAY RD RICH","total":19,"Crime":13,"Emergency":3,"Traffic":2,"Mental":1}}
 ,
 {"type":"Feature","id":"96_58","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.53874463],[-77.47042912500001,37.53874463],[-77.47042912500001,37.53718206],[-77.471777,37.53718206],[-77.471777,37.53874463]]]},"properties":{"name":"1700-BLK COLORADO AVE; 1400-BLK GREENVILLE AVE","total":22,"Emergency":19,"Crime":3}}
 ,
-{"type":"Feature","id":"99_58","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.53874463],[-77.4663855,37.53874463],[-77.4663855,37.53718206],[-77.46773337500001,37.53718206],[-77.46773337500001,37.53874463]]]},"properties":{"name":"1100-BLK SUMPTER ST","total":6,"Crime":6}}
+{"type":"Feature","id":"98_58","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.53874463],[-77.46773337500001,37.53874463],[-77.46773337500001,37.53718206],[-77.46908125,37.53718206],[-77.46908125,37.53874463]]]},"properties":{"name":"1800-BLK AMELIA ST","total":2,"Crime":2}}
+,
+{"type":"Feature","id":"99_58","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.53874463],[-77.4663855,37.53874463],[-77.4663855,37.53718206],[-77.46773337500001,37.53718206],[-77.46773337500001,37.53874463]]]},"properties":{"name":"1100-BLK SUMPTER ST","total":8,"Crime":7,"Emergency":1}}
 ,
 {"type":"Feature","id":"100_58","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.53874463],[-77.46503762500001,37.53874463],[-77.46503762500001,37.53718206],[-77.4663855,37.53718206],[-77.4663855,37.53874463]]]},"properties":{"name":"COLORADO AVE/EGGLESTON ST RICH","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"102_58","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.53874463],[-77.462341875,37.53874463],[-77.462341875,37.53718206],[-77.46368975,37.53718206],[-77.46368975,37.53874463]]]},"properties":{"name":"300-BLK RANDOLPH ST; 500-BLK RANDOLPH ST; 00-BLK RANDOLPH ST; 1100-BLK RANDOLPH ST","total":22,"Mental":8,"Emergency":6,"Crime":5,"Traffic":3}}
+{"type":"Feature","id":"102_58","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.53874463],[-77.462341875,37.53874463],[-77.462341875,37.53718206],[-77.46368975,37.53718206],[-77.46368975,37.53874463]]]},"properties":{"name":"300-BLK RANDOLPH ST; 500-BLK RANDOLPH ST; 00-BLK RANDOLPH ST; 1100-BLK RANDOLPH ST","total":23,"Mental":8,"Emergency":7,"Crime":5,"Traffic":3}}
 ,
 {"type":"Feature","id":"110_58","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.53874463],[-77.451558875,37.53874463],[-77.451558875,37.53718206],[-77.45290675,37.53718206],[-77.45290675,37.53874463]]]},"properties":{"name":"600-BLK S LAUREL ST","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"111_58","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.53874463],[-77.450211,37.53874463],[-77.450211,37.53718206],[-77.451558875,37.53718206],[-77.451558875,37.53874463]]]},"properties":{"name":"600-BLK S PINE ST","total":11,"Emergency":6,"Crime":5}}
 ,
-{"type":"Feature","id":"112_58","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.53874463],[-77.448863125,37.53874463],[-77.448863125,37.53718206],[-77.450211,37.53718206],[-77.450211,37.53874463]]]},"properties":{"name":"600-BLK CHINA ST; 600-BLK S BELVIDERE ST","total":2,"Crime":2}}
+{"type":"Feature","id":"112_58","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.53874463],[-77.448863125,37.53874463],[-77.448863125,37.53718206],[-77.450211,37.53718206],[-77.450211,37.53874463]]]},"properties":{"name":"600-BLK CHINA ST; 600-BLK S BELVIDERE ST","total":9,"Crime":8,"Emergency":1}}
 ,
 {"type":"Feature","id":"114_58","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.53874463],[-77.446167375,37.53874463],[-77.446167375,37.53718206],[-77.44751525000001,37.53718206],[-77.44751525000001,37.53874463]]]},"properties":{"name":"00-BLK S 1ST ST","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"117_58","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.53874463],[-77.44212375000001,37.53874463],[-77.44212375000001,37.53718206],[-77.443471625,37.53718206],[-77.443471625,37.53874463]]]},"properties":{"name":"500-BLK S 5TH ST; 9TH/E BYRD ST RICH; 400-BLK S 5TH ST; E BYRD ST/S 5TH ST RICH; 300-BLK S 5TH ST; VIRGINIA ST/E BYRD ST RICH; 00-BLK S 5TH ST","total":23,"Traffic":11,"Emergency":9,"Crime":3}}
 ,
-{"type":"Feature","id":"118_58","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.53874463],[-77.440775875,37.53874463],[-77.440775875,37.53718206],[-77.44212375000001,37.53718206],[-77.44212375000001,37.53874463]]]},"properties":{"name":"500-BLK E CANAL ST","total":15,"Crime":15}}
+{"type":"Feature","id":"118_58","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.53874463],[-77.440775875,37.53874463],[-77.440775875,37.53718206],[-77.44212375000001,37.53718206],[-77.44212375000001,37.53874463]]]},"properties":{"name":"500-BLK E CANAL ST","total":17,"Crime":15,"Mental":2}}
 ,
 {"type":"Feature","id":"119_58","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.53874463],[-77.439428,37.53874463],[-77.439428,37.53718206],[-77.440775875,37.53718206],[-77.440775875,37.53874463]]]},"properties":{"name":"RICH: @DOWNTOWN EXPY EB BETWEEN BELVIDERE ST &amp; 7TH ST / 9TH ST; 00-BLK S 6TH ST; S 4TH ST/E CANAL ST RICH","total":6,"Emergency":4,"Traffic":1,"Crime":1}}
 ,
 {"type":"Feature","id":"120_58","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.53874463],[-77.438080125,37.53874463],[-77.438080125,37.53718206],[-77.439428,37.53718206],[-77.439428,37.53874463]]]},"properties":{"name":"S 7TH ST/E CARY ST RICH; DOWNTOWN EXPY/CANAL / 7TH RICH; E CARY ST/S 7TH ST RICH; 700-BLK E CARY ST","total":15,"Traffic":14,"Crime":1}}
 ,
-{"type":"Feature","id":"121_58","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.53874463],[-77.43673225,37.53874463],[-77.43673225,37.53718206],[-77.438080125,37.53718206],[-77.438080125,37.53874463]]]},"properties":{"name":"800-BLK E MAIN ST; 800-BLK E CANAL ST; 900-BLK E CARY ST","total":9,"Crime":5,"Emergency":4}}
+{"type":"Feature","id":"121_58","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.53874463],[-77.43673225,37.53874463],[-77.43673225,37.53718206],[-77.438080125,37.53718206],[-77.438080125,37.53874463]]]},"properties":{"name":"800-BLK E MAIN ST; 800-BLK E CANAL ST; 900-BLK E CARY ST","total":11,"Crime":7,"Emergency":4}}
 ,
-{"type":"Feature","id":"122_58","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.53874463],[-77.435384375,37.53874463],[-77.435384375,37.53718206],[-77.43673225,37.53718206],[-77.43673225,37.53874463]]]},"properties":{"name":"900-BLK E MAIN ST; 900-BLK BANK ST; N 10TH ST/E MAIN ST RICH; N 9TH ST/E MAIN ST RICH; N 9TH ST/BANK ST RICH; 900-BLK","total":24,"Crime":18,"Traffic":3,"Emergency":3}}
+{"type":"Feature","id":"122_58","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.53874463],[-77.435384375,37.53874463],[-77.435384375,37.53718206],[-77.43673225,37.53718206],[-77.43673225,37.53874463]]]},"properties":{"name":"900-BLK E MAIN ST; 900-BLK BANK ST; N 10TH ST/E MAIN ST RICH; N 9TH ST/E MAIN ST RICH; N 9TH ST/BANK ST RICH; 900-BLK","total":27,"Crime":18,"Emergency":6,"Traffic":3}}
 ,
-{"type":"Feature","id":"123_58","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.53874463],[-77.4340365,37.53874463],[-77.4340365,37.53718206],[-77.435384375,37.53718206],[-77.435384375,37.53874463]]]},"properties":{"name":"1000-BLK E MAIN ST; 1100-BLK E MAIN ST","total":28,"Crime":19,"Emergency":5,"Discretionary":2,"Traffic":2}}
+{"type":"Feature","id":"123_58","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.53874463],[-77.4340365,37.53874463],[-77.4340365,37.53718206],[-77.435384375,37.53718206],[-77.435384375,37.53874463]]]},"properties":{"name":"1000-BLK E MAIN ST; 1100-BLK E MAIN ST","total":30,"Crime":21,"Emergency":5,"Discretionary":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"127_58","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.53874463],[-77.428645,37.53874463],[-77.428645,37.53718206],[-77.429992875,37.53718206],[-77.429992875,37.53874463]]]},"properties":{"name":"00-BLK E BROAD ST; E BROAD ST/N 14TH ST RICH; N 14TH ST/E BROAD ST RICH; E BROAD ST/N OLD 14TH ST RICH; RICH: @EXIT 74C - I95 NB (BROAD ST / 17TH ST); RICH: @EXIT 74C - I95 SB (BROAD ST); 1400-BLK E BROAD ST; 100-BLK N 14TH ST","total":27,"Crime":12,"Traffic":11,"Mental":2,"Emergency":2}}
+{"type":"Feature","id":"127_58","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.53874463],[-77.428645,37.53874463],[-77.428645,37.53718206],[-77.429992875,37.53718206],[-77.429992875,37.53874463]]]},"properties":{"name":"00-BLK E BROAD ST; E BROAD ST/N 14TH ST RICH; N 14TH ST/E BROAD ST RICH; E BROAD ST/N OLD 14TH ST RICH; RICH: @EXIT 74C - I95 NB (BROAD ST / 17TH ST); RICH: @EXIT 74C - I95 SB (BROAD ST); 1400-BLK E BROAD ST; 100-BLK N 14TH ST","total":28,"Crime":13,"Traffic":11,"Mental":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"129_58","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.53874463],[-77.42594925,37.53874463],[-77.42594925,37.53718206],[-77.42729712500001,37.53718206],[-77.42729712500001,37.53874463]]]},"properties":{"name":"1600-BLK E MARSHALL ST","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"131_58","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53874463],[-77.4232535,37.53874463],[-77.4232535,37.53718206],[-77.42460137500001,37.53718206],[-77.42460137500001,37.53874463]]]},"properties":{"name":"900-BLK OLIVER HILL WAY; 500-BLK N 18TH ST; 800-BLK OLIVER HILL WAY; 1100-BLK OLIVER HILL WAY; OLIVER HILL WAY/E CLAY ST RICH; 1700-BLK E CLAY ST; 1000-BLK OLIVER HILL WAY; 1300-BLK OLIVER HILL WAY; N 3RD ST/E CLAY ST RICH; 300-BLK OLIVER HILL WAY; 500-BLK OLIVER HILL WAY","total":62,"Crime":27,"Traffic":14,"Emergency":11,"Mental":10}}
+{"type":"Feature","id":"131_58","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.53874463],[-77.4232535,37.53874463],[-77.4232535,37.53718206],[-77.42460137500001,37.53718206],[-77.42460137500001,37.53874463]]]},"properties":{"name":"900-BLK OLIVER HILL WAY; 500-BLK N 18TH ST; 800-BLK OLIVER HILL WAY; 1100-BLK OLIVER HILL WAY; OLIVER HILL WAY/E CLAY ST RICH; 1700-BLK E CLAY ST; 1000-BLK OLIVER HILL WAY; 1300-BLK OLIVER HILL WAY; N 3RD ST/E CLAY ST RICH; 300-BLK OLIVER HILL WAY; 500-BLK OLIVER HILL WAY","total":66,"Crime":27,"Traffic":15,"Emergency":14,"Mental":10}}
 ,
 {"type":"Feature","id":"132_58","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.53874463],[-77.42190562500001,37.53874463],[-77.42190562500001,37.53718206],[-77.4232535,37.53718206],[-77.4232535,37.53874463]]]},"properties":{"name":"VENABLE ST/N 18TH ST RICH; 1900-BLK CEDAR ST; 2500-BLK VENABLE; N 18TH ST/VENABLE ST RICH","total":19,"Crime":9,"Emergency":7,"Traffic":2,"Mental":1}}
 ,
@@ -2983,11 +3064,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"137_58","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.53874463],[-77.41516625,37.53874463],[-77.41516625,37.53718206],[-77.416514125,37.53718206],[-77.416514125,37.53874463]]]},"properties":{"name":"2300-BLK O ST; 2300-BLK BURTON ST; LL(-77:24:58.4089,37:32:18.1169): TIFTON/VENABLE","total":12,"Traffic":5,"Discretionary":4,"Crime":3}}
 ,
-{"type":"Feature","id":"138_58","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.53874463],[-77.413818375,37.53874463],[-77.413818375,37.53718206],[-77.41516625,37.53718206],[-77.41516625,37.53874463]]]},"properties":{"name":"2400-BLK VENABLE ST; 2400-BLK BURTON ST; 900-BLK N 24TH ST; 900-BLK PINK ST","total":290,"Discretionary":249,"Emergency":23,"Crime":14,"Mental":4}}
+{"type":"Feature","id":"138_58","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.53874463],[-77.413818375,37.53874463],[-77.413818375,37.53718206],[-77.41516625,37.53718206],[-77.41516625,37.53874463]]]},"properties":{"name":"2400-BLK VENABLE ST; 2400-BLK BURTON ST; 900-BLK N 24TH ST; 900-BLK PINK ST","total":293,"Discretionary":251,"Emergency":23,"Crime":15,"Mental":4}}
 ,
-{"type":"Feature","id":"139_58","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.53874463],[-77.4124705,37.53874463],[-77.4124705,37.53718206],[-77.413818375,37.53718206],[-77.413818375,37.53874463]]]},"properties":{"name":"N 25TH ST/P ST RICH; 1000-BLK N 25TH ST; 2500-BLK P ST","total":27,"Discretionary":18,"Crime":8,"Emergency":1}}
+{"type":"Feature","id":"139_58","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.53874463],[-77.4124705,37.53874463],[-77.4124705,37.53718206],[-77.413818375,37.53718206],[-77.413818375,37.53874463]]]},"properties":{"name":"N 25TH ST/P ST RICH; 1000-BLK N 25TH ST; 2500-BLK P ST","total":29,"Discretionary":20,"Crime":8,"Emergency":1}}
 ,
-{"type":"Feature","id":"140_58","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.53874463],[-77.411122625,37.53874463],[-77.411122625,37.53718206],[-77.4124705,37.53718206],[-77.4124705,37.53874463]]]},"properties":{"name":"1100-BLK N 25TH ST; 2500-BLK Q ST; VENABLE ST/N 25TH ST RICH; 2600-BLK Q ST; LL(-77:24:43.4619,37:32:17.2177): @SHIPLOCK PARK; N 25TH ST/Q ST RICH; N 25TH ST/VENABLE ST RICH; LL(-77:24:44.0149,37:32:17.1960): @64EB; 1100-BLK N 26TH ST; 1100-BLK N25TH ST; Q ST/N 25TH ST RICH; LL(-77:24:43.8293,37:32:18.7749): VENABLE/WEST; LL(-77:24:44.0149,37:32:17.1960): OUT W/1; 2500-BLK Q","total":242,"Discretionary":161,"Crime":52,"Emergency":18,"Mental":6,"Traffic":5}}
+{"type":"Feature","id":"140_58","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.53874463],[-77.411122625,37.53874463],[-77.411122625,37.53718206],[-77.4124705,37.53718206],[-77.4124705,37.53874463]]]},"properties":{"name":"1100-BLK N 25TH ST; 2500-BLK Q ST; VENABLE ST/N 25TH ST RICH; 2600-BLK Q ST; LL(-77:24:43.4619,37:32:17.2177): @SHIPLOCK PARK; N 25TH ST/Q ST RICH; N 25TH ST/VENABLE ST RICH; LL(-77:24:44.0149,37:32:17.1960): @64EB; 1100-BLK N 26TH ST; 1100-BLK N25TH ST; Q ST/N 25TH ST RICH; LL(-77:24:43.8293,37:32:18.7749): VENABLE/WEST; LL(-77:24:44.0149,37:32:17.1960): OUT W/1; 2500-BLK Q","total":260,"Discretionary":167,"Crime":62,"Emergency":20,"Mental":6,"Traffic":5}}
 ,
 {"type":"Feature","id":"141_58","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.53874463],[-77.40977475,37.53874463],[-77.40977475,37.53718206],[-77.411122625,37.53718206],[-77.411122625,37.53874463]]]},"properties":{"name":"1100-BLK N 27TH ST; 2700-BLK Q ST","total":11,"Crime":11}}
 ,
@@ -2995,11 +3076,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"143_58","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.53874463],[-77.40707900000001,37.53874463],[-77.40707900000001,37.53718206],[-77.408426875,37.53718206],[-77.408426875,37.53874463]]]},"properties":{"name":"1300-BLK N 29TH ST; N 28TH ST/S ST RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"144_58","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.53874463],[-77.405731125,37.53874463],[-77.405731125,37.53718206],[-77.40707900000001,37.53718206],[-77.40707900000001,37.53874463]]]},"properties":{"name":"1300-BLK N 30TH ST; N 29TH ST/S ST RICH; 3000-BLK S ST","total":10,"Crime":8,"Emergency":2}}
+{"type":"Feature","id":"144_58","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.53874463],[-77.405731125,37.53874463],[-77.405731125,37.53718206],[-77.40707900000001,37.53718206],[-77.40707900000001,37.53874463]]]},"properties":{"name":"1300-BLK N 30TH ST; N 29TH ST/S ST RICH; 3000-BLK S ST","total":11,"Crime":8,"Emergency":3}}
 ,
 {"type":"Feature","id":"145_58","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.53874463],[-77.40438325000001,37.53874463],[-77.40438325000001,37.53718206],[-77.405731125,37.53718206],[-77.405731125,37.53874463]]]},"properties":{"name":"1400-BLK N 31ST ST","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"146_58","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.53874463],[-77.403035375,37.53874463],[-77.403035375,37.53718206],[-77.40438325000001,37.53718206],[-77.40438325000001,37.53874463]]]},"properties":{"name":"T ST/N 32ND ST RICH; 1400-BLK N 32ND ST; 3100-BLK KUHN ST","total":4,"Emergency":3,"Crime":1}}
+,
+{"type":"Feature","id":"147_58","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.53874463],[-77.40168750000001,37.53874463],[-77.40168750000001,37.53718206],[-77.403035375,37.53718206],[-77.403035375,37.53874463]]]},"properties":{"name":"N 33RD ST/KUHN ST RICH","total":1,"Mental":1}}
 ,
 {"type":"Feature","id":"12_59","geometry":{"type":"Polygon","coordinates":[[[-77.5849985,37.5403072],[-77.583650625,37.5403072],[-77.583650625,37.53874463],[-77.5849985,37.53874463],[-77.5849985,37.5403072]]]},"properties":{"name":"3100-BLK DURYEA CT","total":2,"Emergency":2}}
 ,
@@ -3009,7 +3092,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"46_59","geometry":{"type":"Polygon","coordinates":[[[-77.53917075,37.5403072],[-77.537822875,37.5403072],[-77.537822875,37.53874463],[-77.53917075,37.53874463],[-77.53917075,37.5403072]]]},"properties":{"name":"COTTINGHAM RD/KENMORE RD RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"48_59","geometry":{"type":"Polygon","coordinates":[[[-77.536475,37.5403072],[-77.535127125,37.5403072],[-77.535127125,37.53874463],[-77.536475,37.53874463],[-77.536475,37.5403072]]]},"properties":{"name":"2700-BLK GRANTWOOD CT","total":8,"Crime":7,"Mental":1}}
+{"type":"Feature","id":"48_59","geometry":{"type":"Polygon","coordinates":[[[-77.536475,37.5403072],[-77.535127125,37.5403072],[-77.535127125,37.53874463],[-77.536475,37.53874463],[-77.536475,37.5403072]]]},"properties":{"name":"2700-BLK GRANTWOOD CT","total":10,"Crime":9,"Mental":1}}
 ,
 {"type":"Feature","id":"59_59","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.5403072],[-77.5203005,37.5403072],[-77.5203005,37.53874463],[-77.521648375,37.53874463],[-77.521648375,37.5403072]]]},"properties":{"name":"6900-BLK STRATFORD TOWNES WAY","total":2,"Crime":2}}
 ,
@@ -3017,11 +3100,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"78_59","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.5403072],[-77.494690875,37.5403072],[-77.494690875,37.53874463],[-77.49603875,37.53874463],[-77.49603875,37.5403072]]]},"properties":{"name":"LL(-77:29:42.8532,37:32:23.0915): @JAMES RIVER BRIDGE","total":2,"Emergency":2}}
 ,
+{"type":"Feature","id":"87_59","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.5403072],[-77.48256,37.5403072],[-77.48256,37.53874463],[-77.483907875,37.53874463],[-77.483907875,37.5403072]]]},"properties":{"name":"LL(-77:29:00.8842,37:32:24.7691): @CAROLION","total":3,"Crime":3}}
+,
 {"type":"Feature","id":"95_59","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.5403072],[-77.471777,37.5403072],[-77.471777,37.53874463],[-77.473124875,37.53874463],[-77.473124875,37.5403072]]]},"properties":{"name":"1100-BLK HAMPTON ST; 1400-BLK HAMPTON ST","total":18,"Emergency":10,"Crime":7,"Traffic":1}}
 ,
 {"type":"Feature","id":"96_59","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.5403072],[-77.47042912500001,37.5403072],[-77.47042912500001,37.53874463],[-77.471777,37.53874463],[-77.471777,37.5403072]]]},"properties":{"name":"S MEADOW ST/AMELIA ST RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"98_59","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.5403072],[-77.46773337500001,37.5403072],[-77.46773337500001,37.53874463],[-77.46908125,37.53874463],[-77.46908125,37.5403072]]]},"properties":{"name":"1800-BLK POWHATAN ST; 1200-BLK S ALLEN AVE","total":3,"Crime":3}}
+{"type":"Feature","id":"98_59","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.5403072],[-77.46773337500001,37.5403072],[-77.46773337500001,37.53874463],[-77.46908125,37.53874463],[-77.46908125,37.5403072]]]},"properties":{"name":"1800-BLK POWHATAN ST; 1200-BLK S ALLEN AVE","total":5,"Crime":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"99_59","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.5403072],[-77.4663855,37.5403072],[-77.4663855,37.53874463],[-77.46773337500001,37.53874463],[-77.46773337500001,37.5403072]]]},"properties":{"name":"S ALLEN AVE/WINDER ST RICH","total":2,"Crime":2}}
 ,
@@ -3043,7 +3128,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_59","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.5403072],[-77.44481950000001,37.5403072],[-77.44481950000001,37.53874463],[-77.446167375,37.53874463],[-77.446167375,37.5403072]]]},"properties":{"name":"S 2ND ST/E BYRD ST RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"118_59","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.5403072],[-77.440775875,37.5403072],[-77.440775875,37.53874463],[-77.44212375000001,37.53874463],[-77.44212375000001,37.5403072]]]},"properties":{"name":"100-BLK S 5TH ST; 400-BLK E CARY ST","total":33,"Mental":27,"Emergency":3,"Crime":3}}
+{"type":"Feature","id":"118_59","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.5403072],[-77.440775875,37.5403072],[-77.440775875,37.53874463],[-77.44212375000001,37.53874463],[-77.44212375000001,37.5403072]]]},"properties":{"name":"100-BLK S 5TH ST; 400-BLK E CARY ST; LL(-77:26:27.1301,37:32:23.1120): @CHIPPENHAM","total":36,"Mental":28,"Crime":5,"Emergency":3}}
 ,
 {"type":"Feature","id":"119_59","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.5403072],[-77.439428,37.5403072],[-77.439428,37.53874463],[-77.440775875,37.53874463],[-77.440775875,37.5403072]]]},"properties":{"name":"600-BLK E CARY ST","total":2,"Traffic":2}}
 ,
@@ -3051,27 +3136,27 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"121_59","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.5403072],[-77.43673225,37.5403072],[-77.43673225,37.53874463],[-77.438080125,37.53874463],[-77.438080125,37.5403072]]]},"properties":{"name":"700-BLK E FRANKLIN ST; 700-BLK E MAIN ST; 100-BLK N 7TH ST; N 7TH ST/E FRANKLIN ST RICH; N 8TH ST/E MAIN ST RICH","total":27,"Crime":15,"Emergency":7,"Mental":3,"Traffic":2}}
 ,
-{"type":"Feature","id":"122_59","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.5403072],[-77.435384375,37.5403072],[-77.435384375,37.53874463],[-77.43673225,37.53874463],[-77.43673225,37.5403072]]]},"properties":{"name":"N 8TH ST/E FRANKLIN ST RICH; E FRANKLIN ST/N 8TH ST RICH","total":2,"Traffic":2}}
+{"type":"Feature","id":"122_59","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.5403072],[-77.435384375,37.5403072],[-77.435384375,37.53874463],[-77.43673225,37.53874463],[-77.43673225,37.5403072]]]},"properties":{"name":"N 8TH ST/E FRANKLIN ST RICH; E FRANKLIN ST/N 8TH ST RICH","total":3,"Traffic":3}}
 ,
 {"type":"Feature","id":"124_59","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.5403072],[-77.432688625,37.5403072],[-77.432688625,37.53874463],[-77.4340365,37.53874463],[-77.4340365,37.5403072]]]},"properties":{"name":"N 10TH ST/E BROAD ST RICH","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"126_59","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.5403072],[-77.429992875,37.5403072],[-77.429992875,37.53874463],[-77.43134075,37.53874463],[-77.43134075,37.5403072]]]},"properties":{"name":"400-BLK N 12TH ST; 1200-BLK E BROAD ST; E BROAD ST/GOVERNOR ST RICH; 1200-BLK E MARSHALL ST; N 12TH ST/GOVERNOR ST RICH","total":46,"Crime":26,"Emergency":8,"Mental":8,"Traffic":4}}
 ,
-{"type":"Feature","id":"127_59","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.5403072],[-77.428645,37.5403072],[-77.428645,37.53874463],[-77.429992875,37.53874463],[-77.429992875,37.5403072]]]},"properties":{"name":"1300-BLK E MARSHALL ST; 400-BLK COLLEGE ST","total":11,"Mental":8,"Emergency":3}}
+{"type":"Feature","id":"127_59","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.5403072],[-77.428645,37.5403072],[-77.428645,37.53874463],[-77.429992875,37.53874463],[-77.429992875,37.5403072]]]},"properties":{"name":"1300-BLK E MARSHALL ST; 400-BLK COLLEGE ST","total":16,"Mental":8,"Emergency":8}}
 ,
-{"type":"Feature","id":"133_59","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.5403072],[-77.42055775,37.5403072],[-77.42055775,37.53874463],[-77.42190562500001,37.53874463],[-77.42190562500001,37.5403072]]]},"properties":{"name":"700-BLK MOSBY ST","total":30,"Crime":15,"Emergency":8,"Mental":7}}
+{"type":"Feature","id":"133_59","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.5403072],[-77.42055775,37.5403072],[-77.42055775,37.53874463],[-77.42190562500001,37.53874463],[-77.42190562500001,37.5403072]]]},"properties":{"name":"700-BLK MOSBY ST","total":32,"Crime":15,"Mental":9,"Emergency":8}}
 ,
-{"type":"Feature","id":"134_59","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.5403072],[-77.419209875,37.5403072],[-77.419209875,37.53874463],[-77.42055775,37.53874463],[-77.42055775,37.5403072]]]},"properties":{"name":"900-BLK MOSBY ST","total":1,"Emergency":1}}
+{"type":"Feature","id":"134_59","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.5403072],[-77.419209875,37.5403072],[-77.419209875,37.53874463],[-77.42055775,37.53874463],[-77.42055775,37.5403072]]]},"properties":{"name":"900-BLK MOSBY ST; 1900-BLK CARRINGTON ST","total":4,"Emergency":4}}
 ,
 {"type":"Feature","id":"135_59","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.5403072],[-77.417862,37.5403072],[-77.417862,37.53874463],[-77.419209875,37.53874463],[-77.419209875,37.5403072]]]},"properties":{"name":"900-BLK N 20TH ST","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"136_59","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.5403072],[-77.416514125,37.5403072],[-77.416514125,37.53874463],[-77.417862,37.53874463],[-77.417862,37.5403072]]]},"properties":{"name":"2100-BLK CARRINGTON ST; 1000-BLK N 21ST ST","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"138_59","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.5403072],[-77.413818375,37.5403072],[-77.413818375,37.53874463],[-77.41516625,37.53874463],[-77.41516625,37.5403072]]]},"properties":{"name":"2300-BLK CARRINGTON ST; LL(-77:24:50.6154,37:32:21.9683): 25TH/VENABLE: EST 2306 CARRINGTON ST RICH; 1100-BLK N 23RD ST; N 23RD ST/Q ST RICH; N 23RD ST/CARRINGTON ST RICH","total":13,"Crime":7,"Traffic":4,"Discretionary":2}}
+{"type":"Feature","id":"138_59","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.5403072],[-77.413818375,37.5403072],[-77.413818375,37.53874463],[-77.41516625,37.53874463],[-77.41516625,37.5403072]]]},"properties":{"name":"2300-BLK CARRINGTON ST; LL(-77:24:50.6154,37:32:21.9683): 25TH/VENABLE: EST 2306 CARRINGTON ST RICH; 1100-BLK N 23RD ST; N 23RD ST/Q ST RICH; N 23RD ST/CARRINGTON ST RICH","total":15,"Crime":9,"Traffic":4,"Discretionary":2}}
 ,
 {"type":"Feature","id":"139_59","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.5403072],[-77.4124705,37.5403072],[-77.4124705,37.53874463],[-77.413818375,37.53874463],[-77.413818375,37.5403072]]]},"properties":{"name":"2400-BLK CARRINGTON ST; 1100-BLK N 24TH ST","total":3,"Discretionary":2,"Crime":1}}
 ,
-{"type":"Feature","id":"140_59","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.5403072],[-77.411122625,37.5403072],[-77.411122625,37.53874463],[-77.4124705,37.53874463],[-77.4124705,37.5403072]]]},"properties":{"name":"1200-BLK N 25TH ST; CARRINGTON ST/N 25TH ST RICH; N 25TH ST/R ST RICH; N 25TH ST/NINE MILE RD RICH; N 25TH ST/CARRINGTON ST RICH; 1200-BLK N 24TH ST; NINE MILE RD/N 25TH ST RICH; R ST/N 25TH ST RICH; N 24TH ST/R ST RICH","total":50,"Crime":26,"Emergency":11,"Discretionary":11,"Traffic":1,"Mental":1}}
+{"type":"Feature","id":"140_59","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.5403072],[-77.411122625,37.5403072],[-77.411122625,37.53874463],[-77.4124705,37.53874463],[-77.4124705,37.5403072]]]},"properties":{"name":"1200-BLK N 25TH ST; CARRINGTON ST/N 25TH ST RICH; N 25TH ST/R ST RICH; N 25TH ST/NINE MILE RD RICH; N 25TH ST/CARRINGTON ST RICH; 1200-BLK N 24TH ST; NINE MILE RD/N 25TH ST RICH; R ST/N 25TH ST RICH; N 24TH ST/R ST RICH; 110000-BLK N 25TH ST; N 25TH ST/M ST RICH","total":62,"Crime":33,"Discretionary":13,"Emergency":11,"Traffic":4,"Mental":1}}
 ,
 {"type":"Feature","id":"141_59","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.5403072],[-77.40977475,37.5403072],[-77.40977475,37.53874463],[-77.411122625,37.53874463],[-77.411122625,37.5403072]]]},"properties":{"name":"N 26TH ST/R ST RICH; 1200-BLK N 26TH ST","total":2,"Emergency":1,"Crime":1}}
 ,
@@ -3079,13 +3164,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"143_59","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.5403072],[-77.40707900000001,37.5403072],[-77.40707900000001,37.53874463],[-77.408426875,37.53874463],[-77.408426875,37.5403072]]]},"properties":{"name":"1300-BLK N 28TH ST","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"144_59","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.5403072],[-77.405731125,37.5403072],[-77.405731125,37.53874463],[-77.40707900000001,37.53874463],[-77.40707900000001,37.5403072]]]},"properties":{"name":"1500-BLK N 28TH ST; N 28TH ST/T ST RICH; 1400-BLK N 28TH ST","total":90,"Mental":52,"Crime":30,"Traffic":5,"Emergency":3}}
+{"type":"Feature","id":"144_59","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.5403072],[-77.405731125,37.5403072],[-77.405731125,37.53874463],[-77.40707900000001,37.53874463],[-77.40707900000001,37.5403072]]]},"properties":{"name":"1500-BLK N 28TH ST; N 28TH ST/T ST RICH; 1400-BLK N 28TH ST","total":94,"Mental":55,"Crime":31,"Traffic":5,"Emergency":3}}
 ,
 {"type":"Feature","id":"145_59","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.5403072],[-77.40438325000001,37.5403072],[-77.40438325000001,37.53874463],[-77.405731125,37.53874463],[-77.405731125,37.5403072]]]},"properties":{"name":"1500-BLK N 30TH ST","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"147_59","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.5403072],[-77.40168750000001,37.5403072],[-77.40168750000001,37.53874463],[-77.403035375,37.53874463],[-77.403035375,37.5403072]]]},"properties":{"name":"1600-BLK N 31ST ST","total":5,"Crime":3,"Discretionary":2}}
 ,
-{"type":"Feature","id":"148_59","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.5403072],[-77.400339625,37.5403072],[-77.400339625,37.53874463],[-77.40168750000001,37.53874463],[-77.40168750000001,37.5403072]]]},"properties":{"name":"1600-BLK OLD ARMSTRONG WAY; 3200-BLK NORTH RABZA BLVD; 1600-BLK PETERSON DR; 1700-BLK OLD ARMSTRONG WAY; 1500-BLK PETERSON DR; 1500-BLK OLD ARMSTRONG WAY","total":64,"Crime":25,"Mental":21,"Emergency":16,"Traffic":2}}
+{"type":"Feature","id":"148_59","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.5403072],[-77.400339625,37.5403072],[-77.400339625,37.53874463],[-77.40168750000001,37.53874463],[-77.40168750000001,37.5403072]]]},"properties":{"name":"1600-BLK OLD ARMSTRONG WAY; 3200-BLK NORTH RABZA BLVD; 1600-BLK PETERSON DR; 1700-BLK OLD ARMSTRONG WAY; 1500-BLK PETERSON DR; 1500-BLK OLD ARMSTRONG WAY; NORTH RABZA BLVD/OLD ARMSTRONG WAY RICH","total":70,"Crime":27,"Mental":25,"Emergency":16,"Traffic":2}}
 ,
 {"type":"Feature","id":"22_60","geometry":{"type":"Polygon","coordinates":[[[-77.57151975000001,37.54186977],[-77.570171875,37.54186977],[-77.570171875,37.5403072],[-77.57151975000001,37.5403072],[-77.57151975000001,37.54186977]]]},"properties":{"name":"3200-BLK ASHDOWN RD","total":2,"Crime":2}}
 ,
@@ -3117,17 +3202,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"96_60","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.54186977],[-77.47042912500001,37.54186977],[-77.47042912500001,37.5403072],[-77.471777,37.5403072],[-77.471777,37.54186977]]]},"properties":{"name":"WALKER ST/S MEADOW ST RICH; 1100-BLK S MEADOW ST","total":5,"Emergency":3,"Traffic":2}}
 ,
-{"type":"Feature","id":"97_60","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.54186977],[-77.46908125,37.54186977],[-77.46908125,37.5403072],[-77.47042912500001,37.5403072],[-77.47042912500001,37.54186977]]]},"properties":{"name":"1900-BLK POWHATAN ST; S MEADOW ST/WALKER ST RICH","total":4,"Crime":2,"Emergency":2}}
+{"type":"Feature","id":"97_60","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.54186977],[-77.46908125,37.54186977],[-77.46908125,37.5403072],[-77.47042912500001,37.5403072],[-77.47042912500001,37.54186977]]]},"properties":{"name":"1900-BLK POWHATAN ST; S MEADOW ST/WALKER ST RICH","total":6,"Crime":2,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"99_60","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54186977],[-77.4663855,37.54186977],[-77.4663855,37.5403072],[-77.46773337500001,37.5403072],[-77.46773337500001,37.54186977]]]},"properties":{"name":"1800-BLK BLAIR ST; BLAIR ST/S ALLEN AVE RICH","total":4,"Traffic":4}}
 ,
 {"type":"Feature","id":"100_60","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.54186977],[-77.46503762500001,37.54186977],[-77.46503762500001,37.5403072],[-77.4663855,37.5403072],[-77.4663855,37.54186977]]]},"properties":{"name":"1700-BLK CLAIBORNE ST; 1700-BLK BLAIR ST; BLAIR ST/SUMPTER ST RICH","total":7,"Traffic":3,"Crime":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"101_60","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.54186977],[-77.46368975,37.54186977],[-77.46368975,37.5403072],[-77.46503762500001,37.5403072],[-77.46503762500001,37.54186977]]]},"properties":{"name":"700-BLK S LOMBARDY ST; 1600-BLK LAKEVIEW AVE","total":7,"Crime":5,"Emergency":2}}
+{"type":"Feature","id":"101_60","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.54186977],[-77.46368975,37.54186977],[-77.46368975,37.5403072],[-77.46503762500001,37.5403072],[-77.46503762500001,37.54186977]]]},"properties":{"name":"700-BLK S LOMBARDY ST; 1600-BLK LAKEVIEW AVE","total":9,"Crime":5,"Emergency":4}}
 ,
 {"type":"Feature","id":"102_60","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.54186977],[-77.462341875,37.54186977],[-77.462341875,37.5403072],[-77.46368975,37.5403072],[-77.46368975,37.54186977]]]},"properties":{"name":"1500-BLK LAKEVIEW AVE","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"103_60","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.54186977],[-77.460994,37.54186977],[-77.460994,37.5403072],[-77.462341875,37.5403072],[-77.462341875,37.54186977]]]},"properties":{"name":"1400-BLK KEMPER ST; 1500-BLK KEMPER ST; LL(-77:27:39.6505,37:32:28.4927): EST 1403 KEMPER ST RICH; 1400-BLK LAKEVIEW AVE; LADY ST/KEMPER ST RICH","total":8,"Crime":6,"Traffic":2}}
+{"type":"Feature","id":"103_60","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.54186977],[-77.460994,37.54186977],[-77.460994,37.5403072],[-77.462341875,37.5403072],[-77.462341875,37.54186977]]]},"properties":{"name":"1400-BLK KEMPER ST; 1500-BLK KEMPER ST; LL(-77:27:39.6505,37:32:28.4927): EST 1403 KEMPER ST RICH; 1400-BLK LAKEVIEW AVE; LADY ST/KEMPER ST RICH","total":9,"Crime":6,"Traffic":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"105_60","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.54186977],[-77.45829825,37.54186977],[-77.45829825,37.5403072],[-77.459646125,37.5403072],[-77.459646125,37.54186977]]]},"properties":{"name":"1200-BLK LAKEVIEW AVE; 600-BLK S HARRISON ST; 1200-BLK DANCE ST; 1300-BLK DANCE ST","total":6,"Crime":4,"Traffic":2}}
 ,
@@ -3135,7 +3220,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"109_60","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.54186977],[-77.45290675,37.54186977],[-77.45290675,37.5403072],[-77.454254625,37.5403072],[-77.454254625,37.54186977]]]},"properties":{"name":"300-BLK S CHERRY ST; 400-BLK S CHERRY ST","total":3,"Crime":2,"Mental":1}}
 ,
-{"type":"Feature","id":"110_60","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.54186977],[-77.451558875,37.54186977],[-77.451558875,37.5403072],[-77.45290675,37.5403072],[-77.45290675,37.54186977]]]},"properties":{"name":"300-BLK S LAUREL ST; 400-BLK S LAUREL ST; SPRING ST/S CHERRY ST RICH; S CHERRY ST/IDLEWOOD AVE RICH; IDLEWOOD AVE/S LAUREL ST RICH; IDLEWOOD AVE/S PINE ST RICH; S PINE ST/IDLEWOOD AVE RICH; ALBEMARLE ST/S LAUREL ST RICH","total":27,"Crime":17,"Traffic":6,"Emergency":3,"Mental":1}}
+{"type":"Feature","id":"110_60","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.54186977],[-77.451558875,37.54186977],[-77.451558875,37.5403072],[-77.45290675,37.5403072],[-77.45290675,37.54186977]]]},"properties":{"name":"300-BLK S LAUREL ST; 400-BLK S LAUREL ST; SPRING ST/S CHERRY ST RICH; S CHERRY ST/IDLEWOOD AVE RICH; IDLEWOOD AVE/S LAUREL ST RICH; IDLEWOOD AVE/S PINE ST RICH; S PINE ST/IDLEWOOD AVE RICH; ALBEMARLE ST/S LAUREL ST RICH","total":29,"Crime":17,"Traffic":8,"Emergency":3,"Mental":1}}
 ,
 {"type":"Feature","id":"111_60","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.54186977],[-77.450211,37.54186977],[-77.450211,37.5403072],[-77.451558875,37.5403072],[-77.451558875,37.54186977]]]},"properties":{"name":"300-BLK S PINE ST; 400-BLK S PINE ST","total":13,"Crime":8,"Traffic":5}}
 ,
@@ -3151,19 +3236,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"119_60","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.54186977],[-77.439428,37.54186977],[-77.439428,37.5403072],[-77.440775875,37.5403072],[-77.440775875,37.54186977]]]},"properties":{"name":"N 5TH ST/E MAIN ST RICH; 500-BLK E MAIN ST; E MAIN ST/N 5TH ST RICH; 500-BLK E MAIN","total":31,"Emergency":16,"Crime":12,"Discretionary":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"120_60","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54186977],[-77.438080125,37.54186977],[-77.438080125,37.5403072],[-77.439428,37.5403072],[-77.439428,37.54186977]]]},"properties":{"name":"E FRANKLIN ST/N 5TH ST RICH; 500-BLK E FRANKLIN ST; 100-BLK N 5TH ST; LL(-77:26:17.9338,37:32:29.0106): 6TH/MAIN; N 6TH ST/E FRANKLIN ST RICH; N 5TH ST/E FRANKLIN ST RICH","total":18,"Crime":8,"Emergency":5,"Traffic":5}}
+{"type":"Feature","id":"120_60","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54186977],[-77.438080125,37.54186977],[-77.438080125,37.5403072],[-77.439428,37.5403072],[-77.439428,37.54186977]]]},"properties":{"name":"E FRANKLIN ST/N 5TH ST RICH; 500-BLK E FRANKLIN ST; 100-BLK N 5TH ST; LL(-77:26:17.9338,37:32:29.0106): 6TH/MAIN; N 6TH ST/E FRANKLIN ST RICH; N 5TH ST/E FRANKLIN ST RICH","total":22,"Crime":11,"Emergency":5,"Traffic":5,"Mental":1}}
 ,
-{"type":"Feature","id":"122_60","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.54186977],[-77.435384375,37.54186977],[-77.435384375,37.5403072],[-77.43673225,37.5403072],[-77.43673225,37.54186977]]]},"properties":{"name":"E CRAWFORD ST/BARTON AVE RICH; RICH: @DOWNTOWN EXPY EB BETWEEN 7TH ST / 9TH ST &amp; I95; E 7TH ST/DECATUR ST RICH; S 3RD ST/E CANAL ST RICH; LL(ERROR!): 19TH/SEMMES; 2200-BLK VEN; 4TH AVE/SPRUCE ST RICH; 3900-BLK CIRC; 2200-BLK DEFOREST; 1700-BLK CLAR; N 8TH ST/E GRACE ST RICH; N 7TH ST/E GRACE ST RICH; LL(ERROR!): CHIPP/HULL; 2400-BLK VEN; 2100-BLK SEM; N 3RD ST/E BROAD ST RICH; CHIPP/BELMONT; 1500-BLK AR; 100-BLK UNNAMED RT 673 SSX; 600-BLK E GRACE ST; 3RD AVE/MYRTLE ST RICH; 5TH AVE/JUNIPER ST RICH; CLEVELAND ST/PARK AVE RICH; 2900-BLK CHA; @LOWES; 4TH AVE/JUNIPER ST RICH","total":73,"Crime":29,"Traffic":25,"Discretionary":13,"Emergency":6}}
+{"type":"Feature","id":"122_60","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.54186977],[-77.435384375,37.54186977],[-77.435384375,37.5403072],[-77.43673225,37.5403072],[-77.43673225,37.54186977]]]},"properties":{"name":"E CRAWFORD ST/BARTON AVE RICH; RICH: @DOWNTOWN EXPY EB BETWEEN 7TH ST / 9TH ST &amp; I95; E 7TH ST/DECATUR ST RICH; S 3RD ST/E CANAL ST RICH; LL(ERROR!): 19TH/SEMMES; 2200-BLK VEN; 4TH AVE/SPRUCE ST RICH; 3900-BLK CIRC; 2200-BLK DEFOREST; 1700-BLK CLAR; N 8TH ST/E GRACE ST RICH; N 7TH ST/E GRACE ST RICH; LL(ERROR!): CHIPP/HULL; 2400-BLK VEN; 2100-BLK SEM; N 3RD ST/E BROAD ST RICH; CHIPP/BELMONT; 1500-BLK AR; 100-BLK UNNAMED RT 673 SSX; 600-BLK E GRACE ST; 3RD AVE/MYRTLE ST RICH; 5TH AVE/JUNIPER ST RICH; CLEVELAND ST/PARK AVE RICH; 2900-BLK CHA; @LOWES; 4TH AVE/JUNIPER ST RICH; 00-BLK ER; E GRACE ST/N 8TH ST RICH","total":81,"Crime":31,"Traffic":29,"Discretionary":15,"Emergency":6}}
 ,
 {"type":"Feature","id":"123_60","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.54186977],[-77.4340365,37.54186977],[-77.4340365,37.5403072],[-77.435384375,37.5403072],[-77.435384375,37.54186977]]]},"properties":{"name":"0-BLK N 8TH ST; 800-BLK E GRACE ST; 300-BLK N 8TH ST; 600-BLK N 8TH ST; N 8TH ST/E BROAD ST RICH; E BROAD ST/N 8TH ST RICH","total":27,"Crime":22,"Emergency":3,"Traffic":2}}
 ,
-{"type":"Feature","id":"124_60","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.54186977],[-77.432688625,37.54186977],[-77.432688625,37.5403072],[-77.4340365,37.5403072],[-77.4340365,37.54186977]]]},"properties":{"name":"900-BLK E BROAD ST; 300-BLK N 9TH ST; E BROAD ST/N 9TH ST RICH; 400-BLK N 9TH ST; N 9TH ST/E MARSHALL ST RICH; 900-BLK E MARSHALL ST; RICH: @9TH ST BRIDGE - SB","total":43,"Emergency":19,"Crime":13,"Traffic":8,"Mental":3}}
+{"type":"Feature","id":"124_60","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.54186977],[-77.432688625,37.54186977],[-77.432688625,37.5403072],[-77.4340365,37.5403072],[-77.4340365,37.54186977]]]},"properties":{"name":"900-BLK E BROAD ST; 300-BLK N 9TH ST; E BROAD ST/N 9TH ST RICH; 400-BLK N 9TH ST; N 9TH ST/E MARSHALL ST RICH; 900-BLK E MARSHALL ST; RICH: @9TH ST BRIDGE - SB; RICH: @9TH ST BRIDGE - NB","total":50,"Emergency":23,"Crime":14,"Traffic":8,"Mental":5}}
 ,
-{"type":"Feature","id":"125_60","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.54186977],[-77.43134075,37.54186977],[-77.43134075,37.5403072],[-77.432688625,37.5403072],[-77.432688625,37.54186977]]]},"properties":{"name":"1000-BLK E BROAD ST; LEIGH/N 10TH ST RICH","total":7,"Emergency":5,"Crime":2}}
+{"type":"Feature","id":"125_60","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.54186977],[-77.43134075,37.54186977],[-77.43134075,37.5403072],[-77.432688625,37.5403072],[-77.432688625,37.54186977]]]},"properties":{"name":"1000-BLK E BROAD ST; LEIGH/N 10TH ST RICH; N 10TH ST/E MARSHALL ST RICH","total":8,"Emergency":5,"Crime":3}}
 ,
-{"type":"Feature","id":"126_60","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.54186977],[-77.429992875,37.54186977],[-77.429992875,37.5403072],[-77.43134075,37.5403072],[-77.43134075,37.54186977]]]},"properties":{"name":"400-BLK N 11TH ST; N 11TH ST/E MARSHALL ST RICH; N 11TH ST/E CLAY ST RICH; 500-BLK N 11TH ST","total":10,"Emergency":4,"Crime":4,"Traffic":2}}
+{"type":"Feature","id":"126_60","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.54186977],[-77.429992875,37.54186977],[-77.429992875,37.5403072],[-77.43134075,37.5403072],[-77.43134075,37.54186977]]]},"properties":{"name":"400-BLK N 11TH ST; N 11TH ST/E MARSHALL ST RICH; N 11TH ST/E CLAY ST RICH; 500-BLK N 11TH ST","total":12,"Emergency":4,"Crime":4,"Traffic":2,"Mental":2}}
 ,
-{"type":"Feature","id":"127_60","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.54186977],[-77.428645,37.54186977],[-77.428645,37.5403072],[-77.429992875,37.5403072],[-77.429992875,37.54186977]]]},"properties":{"name":"1200-BLK E CLAY ST; 500-BLK N 12TH ST","total":6,"Emergency":4,"Mental":2}}
+{"type":"Feature","id":"127_60","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.54186977],[-77.428645,37.54186977],[-77.428645,37.5403072],[-77.429992875,37.5403072],[-77.429992875,37.54186977]]]},"properties":{"name":"1200-BLK E CLAY ST; 500-BLK N 12TH ST; 400-BLK N 13TH ST","total":10,"Emergency":6,"Mental":2,"Crime":2}}
 ,
 {"type":"Feature","id":"130_60","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.54186977],[-77.42460137500001,37.54186977],[-77.42460137500001,37.5403072],[-77.42594925,37.5403072],[-77.42594925,37.54186977]]]},"properties":{"name":"RICH: @MLK BRIDGE - WB","total":1,"Crime":1}}
 ,
@@ -3171,19 +3256,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"135_60","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54186977],[-77.417862,37.54186977],[-77.417862,37.5403072],[-77.419209875,37.5403072],[-77.419209875,37.54186977]]]},"properties":{"name":"1900-BLK O ST; 1800-BLK P ST","total":5,"Crime":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"136_60","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54186977],[-77.416514125,37.54186977],[-77.416514125,37.5403072],[-77.417862,37.5403072],[-77.417862,37.54186977]]]},"properties":{"name":"1000-BLK N 20TH ST; 1100-BLK N 20TH ST","total":5,"Crime":3,"Emergency":2}}
+{"type":"Feature","id":"136_60","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54186977],[-77.416514125,37.54186977],[-77.416514125,37.5403072],[-77.417862,37.5403072],[-77.417862,37.54186977]]]},"properties":{"name":"1000-BLK N 20TH ST; 1100-BLK N 20TH ST","total":7,"Crime":4,"Emergency":3}}
 ,
-{"type":"Feature","id":"137_60","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54186977],[-77.41516625,37.54186977],[-77.41516625,37.5403072],[-77.416514125,37.5403072],[-77.416514125,37.54186977]]]},"properties":{"name":"2100-BLK Q ST; 1100-BLK N 21ST ST; Q ST/N 21ST ST RICH","total":6,"Crime":2,"Emergency":2,"Discretionary":2}}
+{"type":"Feature","id":"137_60","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54186977],[-77.41516625,37.54186977],[-77.41516625,37.5403072],[-77.416514125,37.5403072],[-77.416514125,37.54186977]]]},"properties":{"name":"2100-BLK Q ST; 1100-BLK N 21ST ST; Q ST/N 21ST ST RICH","total":8,"Emergency":4,"Crime":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"138_60","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.54186977],[-77.413818375,37.54186977],[-77.413818375,37.5403072],[-77.41516625,37.5403072],[-77.41516625,37.54186977]]]},"properties":{"name":"1100-BLK N 22ND ST; 1200-BLK N 22ND ST","total":11,"Crime":6,"Mental":5}}
 ,
 {"type":"Feature","id":"139_60","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.54186977],[-77.4124705,37.54186977],[-77.4124705,37.5403072],[-77.413818375,37.5403072],[-77.413818375,37.54186977]]]},"properties":{"name":"N 23RD ST/R ST RICH; 1200-BLK N 23RD ST","total":3,"Crime":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"140_60","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.54186977],[-77.411122625,37.54186977],[-77.411122625,37.5403072],[-77.4124705,37.5403072],[-77.4124705,37.54186977]]]},"properties":{"name":"2400-BLK FAIRMOUNT AVE; N 23RD ST/FAIRMOUNT AVE RICH; 1300-BLK N 23RD ST; FAIRMOUNT AVE/N 23RD ST RICH; 2300-BLK FAIRMOUNT AVE; LL(-77:24:40.7387,37:32:26.8857): 25TH/FAIRMOUNT","total":17,"Traffic":8,"Crime":7,"Emergency":2}}
+{"type":"Feature","id":"140_60","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.54186977],[-77.411122625,37.54186977],[-77.411122625,37.5403072],[-77.4124705,37.5403072],[-77.4124705,37.54186977]]]},"properties":{"name":"2400-BLK FAIRMOUNT AVE; N 23RD ST/FAIRMOUNT AVE RICH; 1300-BLK N 23RD ST; FAIRMOUNT AVE/N 23RD ST RICH; 2300-BLK FAIRMOUNT AVE; LL(-77:24:40.7387,37:32:26.8857): 25TH/FAIRMOUNT","total":18,"Crime":8,"Traffic":8,"Emergency":2}}
 ,
-{"type":"Feature","id":"141_60","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.54186977],[-77.40977475,37.54186977],[-77.40977475,37.5403072],[-77.411122625,37.5403072],[-77.411122625,37.54186977]]]},"properties":{"name":"1300-BLK N 25TH ST; 2500-BLK NINE MILE RD","total":32,"Discretionary":20,"Crime":8,"Emergency":3,"Traffic":1}}
+{"type":"Feature","id":"141_60","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.54186977],[-77.40977475,37.54186977],[-77.40977475,37.5403072],[-77.411122625,37.5403072],[-77.411122625,37.54186977]]]},"properties":{"name":"1300-BLK N 25TH ST; 2500-BLK NINE MILE RD; 2400-BLK T ST","total":34,"Discretionary":22,"Crime":8,"Emergency":3,"Traffic":1}}
 ,
-{"type":"Feature","id":"142_60","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.54186977],[-77.408426875,37.54186977],[-77.408426875,37.5403072],[-77.40977475,37.5403072],[-77.40977475,37.54186977]]]},"properties":{"name":"2200-BLK T ST; T ST/N 25TH ST RICH; 1400-BLK N 26TH ST; T ST/N 26TH ST RICH; 2100-BLK T ST","total":13,"Discretionary":8,"Traffic":3,"Emergency":1,"Crime":1}}
+{"type":"Feature","id":"142_60","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.54186977],[-77.408426875,37.54186977],[-77.408426875,37.5403072],[-77.40977475,37.5403072],[-77.40977475,37.54186977]]]},"properties":{"name":"2200-BLK T ST; T ST/N 25TH ST RICH; 1400-BLK N 26TH ST; T ST/N 26TH ST RICH; 2100-BLK T ST","total":15,"Discretionary":10,"Traffic":3,"Emergency":1,"Crime":1}}
 ,
 {"type":"Feature","id":"143_60","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.54186977],[-77.40707900000001,37.54186977],[-77.40707900000001,37.5403072],[-77.408426875,37.5403072],[-77.408426875,37.54186977]]]},"properties":{"name":"2600-BLK NINE MILE RD; 1500-BLK N 26TH ST","total":6,"Crime":5,"Emergency":1}}
 ,
@@ -3221,9 +3306,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"83_61","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.54343234],[-77.48795150000001,37.54343234],[-77.48795150000001,37.54186977],[-77.489299375,37.54186977],[-77.489299375,37.54343234]]]},"properties":{"name":"3200-BLK SUNSET AVE; SUNSET LN/BUTE LN RICH; BUTE LN/SUNSET LN RICH","total":6,"Crime":4,"Emergency":2}}
 ,
+{"type":"Feature","id":"85_61","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.54343234],[-77.48525575000001,37.54343234],[-77.48525575000001,37.54186977],[-77.486603625,37.54186977],[-77.486603625,37.54343234]]]},"properties":{"name":"3100-BLK SUNSET AVE","total":4,"Emergency":4}}
+,
 {"type":"Feature","id":"86_61","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.54343234],[-77.483907875,37.54343234],[-77.483907875,37.54186977],[-77.48525575000001,37.54186977],[-77.48525575000001,37.54343234]]]},"properties":{"name":"3000-BLK RUGBY RD","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"87_61","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.54343234],[-77.48256,37.54343234],[-77.48256,37.54186977],[-77.483907875,37.54186977],[-77.483907875,37.54343234]]]},"properties":{"name":"2900-BLK RUGBY RD","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"88_61","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.54343234],[-77.481212125,37.54343234],[-77.481212125,37.54186977],[-77.48256,37.54186977],[-77.48256,37.54343234]]]},"properties":{"name":"BLANTON AVE/PARK DR RICH","total":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"92_61","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.54343234],[-77.475820625,37.54343234],[-77.475820625,37.54186977],[-77.4771685,37.54186977],[-77.4771685,37.54343234]]]},"properties":{"name":"2100-BLK SHIELDS LAKE DR","total":1,"Crime":1}}
 ,
@@ -3231,9 +3320,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"96_61","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.54343234],[-77.47042912500001,37.54343234],[-77.47042912500001,37.54186977],[-77.471777,37.54186977],[-77.471777,37.54343234]]]},"properties":{"name":"2000-BLK WALKER ST; LAKE RD/WALKER ST RICH","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"97_61","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.54343234],[-77.46908125,37.54343234],[-77.46908125,37.54186977],[-77.47042912500001,37.54186977],[-77.47042912500001,37.54343234]]]},"properties":{"name":"800-BLK S MEADOW ST; S MEADOW ST/CLAIBORNE ST RICH","total":11,"Traffic":8,"Crime":3}}
+{"type":"Feature","id":"97_61","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.54343234],[-77.46908125,37.54343234],[-77.46908125,37.54186977],[-77.47042912500001,37.54186977],[-77.47042912500001,37.54343234]]]},"properties":{"name":"800-BLK S MEADOW ST; S MEADOW ST/CLAIBORNE ST RICH; 2000-BLK GILBERT ST","total":13,"Traffic":8,"Crime":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"98_61","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.54343234],[-77.46773337500001,37.54343234],[-77.46773337500001,37.54186977],[-77.46908125,37.54186977],[-77.46908125,37.54343234]]]},"properties":{"name":"1900-BLK CLAIBORNE ST","total":10,"Traffic":5,"Crime":5}}
+{"type":"Feature","id":"98_61","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.54343234],[-77.46773337500001,37.54343234],[-77.46773337500001,37.54186977],[-77.46908125,37.54186977],[-77.46908125,37.54343234]]]},"properties":{"name":"1900-BLK CLAIBORNE ST","total":20,"Crime":15,"Traffic":5}}
 ,
 {"type":"Feature","id":"99_61","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54343234],[-77.4663855,37.54343234],[-77.4663855,37.54186977],[-77.46773337500001,37.54186977],[-77.46773337500001,37.54343234]]]},"properties":{"name":"1800-BLK LAKEVIEW AVE; 1900-BLK LAKEVIEW AVE","total":7,"Crime":6,"Mental":1}}
 ,
@@ -3251,33 +3340,33 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"108_61","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.54343234],[-77.454254625,37.54343234],[-77.454254625,37.54186977],[-77.4556025,37.54186977],[-77.4556025,37.54343234]]]},"properties":{"name":"LL(-77:27:19.8029,37:32:34.1672): @DOWNTOWN EXPY EB BETWEEN TOLL PLAZA &amp; BELVIDERE ST; 1100-BLK IDLEWOOD AVE","total":4,"Traffic":4}}
 ,
-{"type":"Feature","id":"109_61","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.54343234],[-77.45290675,37.54343234],[-77.45290675,37.54186977],[-77.454254625,37.54186977],[-77.454254625,37.54343234]]]},"properties":{"name":"1000-BLK IDLEWOOD AVE","total":3,"Crime":2,"Traffic":1}}
+{"type":"Feature","id":"109_61","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.54343234],[-77.45290675,37.54343234],[-77.45290675,37.54186977],[-77.454254625,37.54186977],[-77.454254625,37.54343234]]]},"properties":{"name":"1000-BLK IDLEWOOD AVE; 200-BLK S LINDEN ST","total":4,"Crime":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"110_61","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.54343234],[-77.451558875,37.54343234],[-77.451558875,37.54186977],[-77.45290675,37.54186977],[-77.45290675,37.54343234]]]},"properties":{"name":"CUMBERLAND ST/S LAUREL ST RICH; 800-BLK CUMBERLAND ST; 800-BLK CUMBERLAND; 700-BLK S LAUREL ST; CUMBERLAND ST/S HARRISON ST RICH; S LAUREL ST/CUMBERLAND ST RICH; 200-BLK S LAUREL ST","total":24,"Crime":10,"Traffic":9,"Emergency":5}}
 ,
 {"type":"Feature","id":"111_61","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.54343234],[-77.450211,37.54343234],[-77.450211,37.54186977],[-77.451558875,37.54186977],[-77.451558875,37.54343234]]]},"properties":{"name":"CUMBERLAND ST/S PINE ST RICH; 200-BLK S PINE ST; S PINE ST/CUMBERLAND ST RICH","total":6,"Crime":3,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"112_61","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54343234],[-77.448863125,37.54343234],[-77.448863125,37.54186977],[-77.450211,37.54186977],[-77.450211,37.54343234]]]},"properties":{"name":"600-BLK IDLEWOOD AVE; S BELVIDERE ST/CUMBERLAND ST RICH; CUMBERLAND ST/S BELVIDERE ST RICH; 700-BLK S BELVIDERE ST; 300-BLK S BELVIDERE ST; 400-BLK S BELVIDERE ST; 600-BLK CUMBERLAND ST","total":37,"Traffic":25,"Crime":10,"Emergency":2}}
+{"type":"Feature","id":"112_61","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54343234],[-77.448863125,37.54343234],[-77.448863125,37.54186977],[-77.450211,37.54186977],[-77.450211,37.54343234]]]},"properties":{"name":"600-BLK IDLEWOOD AVE; S BELVIDERE ST/CUMBERLAND ST RICH; CUMBERLAND ST/S BELVIDERE ST RICH; 700-BLK S BELVIDERE ST; 300-BLK S BELVIDERE ST; 400-BLK S BELVIDERE ST; 600-BLK CUMBERLAND ST; W CANAL ST/S BELVIDERE ST RICH; S BELVIDERE ST/W CANAL ST RICH","total":42,"Traffic":28,"Crime":12,"Emergency":2}}
 ,
-{"type":"Feature","id":"114_61","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54343234],[-77.446167375,37.54343234],[-77.446167375,37.54186977],[-77.44751525000001,37.54186977],[-77.44751525000001,37.54343234]]]},"properties":{"name":"200-BLK W CARY ST","total":3,"Traffic":3}}
+{"type":"Feature","id":"114_61","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54343234],[-77.446167375,37.54343234],[-77.446167375,37.54186977],[-77.44751525000001,37.54186977],[-77.44751525000001,37.54343234]]]},"properties":{"name":"200-BLK W CARY ST; 100-BLK S JEFFERSON ST","total":4,"Traffic":3,"Crime":1}}
 ,
-{"type":"Feature","id":"115_61","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.54343234],[-77.44481950000001,37.54343234],[-77.44481950000001,37.54186977],[-77.446167375,37.54186977],[-77.446167375,37.54343234]]]},"properties":{"name":"100-BLK W CARY ST","total":2,"Traffic":2}}
+{"type":"Feature","id":"115_61","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.54343234],[-77.44481950000001,37.54343234],[-77.44481950000001,37.54186977],[-77.446167375,37.54186977],[-77.446167375,37.54343234]]]},"properties":{"name":"100-BLK W CARY ST; CANAL/S ADAMS ST RICH; W CARY ST/S ADAMS ST RICH","total":5,"Traffic":5}}
 ,
 {"type":"Feature","id":"116_61","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54343234],[-77.443471625,37.54343234],[-77.443471625,37.54186977],[-77.44481950000001,37.54186977],[-77.44481950000001,37.54343234]]]},"properties":{"name":"E MAIN ST/N 1ST ST RICH; N 1ST ST/E MAIN ST RICH","total":3,"Crime":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"117_61","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.54343234],[-77.44212375000001,37.54343234],[-77.44212375000001,37.54186977],[-77.443471625,37.54186977],[-77.443471625,37.54343234]]]},"properties":{"name":"N 1ST ST/E FRANKLIN ST RICH; 100-BLK E FRANKLIN ST; 200-BLK E MAIN; N 2ND ST/E MAIN ST RICH; 100-BLK E MAIN ST; E MAIN ST/N 2ND ST RICH; 100-BLK FRANKLIN","total":24,"Crime":15,"Traffic":8,"Mental":1}}
 ,
-{"type":"Feature","id":"118_61","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.54343234],[-77.440775875,37.54343234],[-77.440775875,37.54186977],[-77.44212375000001,37.54186977],[-77.44212375000001,37.54343234]]]},"properties":{"name":"200-BLK E FRANKLIN ST; 100-BLK N 2ND ST; N 2ND ST/E FRANKLIN ST RICH; E FRANKLIN ST/N 3RD ST RICH; 100-BLK N 3RD ST","total":20,"Crime":12,"Traffic":3,"Emergency":2,"Discretionary":2,"Other":1}}
+{"type":"Feature","id":"118_61","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.54343234],[-77.440775875,37.54343234],[-77.440775875,37.54186977],[-77.44212375000001,37.54186977],[-77.44212375000001,37.54343234]]]},"properties":{"name":"200-BLK E FRANKLIN ST; 100-BLK N 2ND ST; N 2ND ST/E FRANKLIN ST RICH; E FRANKLIN ST/N 3RD ST RICH; 100-BLK N 3RD ST","total":23,"Crime":12,"Traffic":6,"Emergency":2,"Discretionary":2,"Other":1}}
 ,
 {"type":"Feature","id":"119_61","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.54343234],[-77.439428,37.54343234],[-77.439428,37.54186977],[-77.440775875,37.54186977],[-77.440775875,37.54343234]]]},"properties":{"name":"300-BLK E GRACE ST; 200-BLK N 3RD ST","total":4,"Crime":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"120_61","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54343234],[-77.438080125,37.54343234],[-77.438080125,37.54186977],[-77.439428,37.54186977],[-77.439428,37.54343234]]]},"properties":{"name":"400-BLK E GRACE ST; N 4TH ST/E GRACE ST RICH; 200-BLK N 4TH ST; E GRACE ST/N 4TH ST RICH; N 5TH ST/E GRACE ST RICH; 500-BLK E GRACE ST; LL(-77:26:20.6466,37:32:33.6156): 4/BRO","total":38,"Crime":18,"Emergency":12,"Discretionary":6,"Mental":2}}
+{"type":"Feature","id":"120_61","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54343234],[-77.438080125,37.54343234],[-77.438080125,37.54186977],[-77.439428,37.54186977],[-77.439428,37.54343234]]]},"properties":{"name":"400-BLK E GRACE ST; N 4TH ST/E GRACE ST RICH; 200-BLK N 4TH ST; E GRACE ST/N 4TH ST RICH; N 5TH ST/E GRACE ST RICH; 500-BLK E GRACE ST; LL(-77:26:20.6466,37:32:33.6156): 4/BRO","total":40,"Crime":20,"Emergency":12,"Discretionary":6,"Mental":2}}
 ,
 {"type":"Feature","id":"121_61","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.54343234],[-77.43673225,37.54343234],[-77.43673225,37.54186977],[-77.438080125,37.54186977],[-77.438080125,37.54343234]]]},"properties":{"name":"500-BLK E BROAD ST; N 5TH ST/E BROAD ST RICH; 400-BLK E BROAD ST; E BROAD ST/N 5TH ST RICH","total":24,"Crime":13,"Discretionary":6,"Emergency":3,"Traffic":1,"Mental":1}}
 ,
-{"type":"Feature","id":"122_61","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.54343234],[-77.435384375,37.54343234],[-77.435384375,37.54186977],[-77.43673225,37.54186977],[-77.43673225,37.54343234]]]},"properties":{"name":"600-BLK E BROAD ST; 600-BLK BROAD ST RICHMOND A; N 6TH ST/E BROAD ST RICH; N 7TH ST/E BROAD ST RICH; 600-BLK E MARSHALL ST","total":14,"Emergency":7,"Crime":5,"Traffic":2}}
+{"type":"Feature","id":"122_61","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.54343234],[-77.435384375,37.54343234],[-77.435384375,37.54186977],[-77.43673225,37.54186977],[-77.43673225,37.54343234]]]},"properties":{"name":"600-BLK E BROAD ST; 600-BLK BROAD ST RICHMOND A; N 6TH ST/E BROAD ST RICH; N 7TH ST/E BROAD ST RICH; 600-BLK E MARSHALL ST","total":16,"Emergency":9,"Crime":5,"Traffic":2}}
 ,
-{"type":"Feature","id":"123_61","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.54343234],[-77.4340365,37.54343234],[-77.4340365,37.54186977],[-77.435384375,37.54186977],[-77.435384375,37.54343234]]]},"properties":{"name":"700-BLK E BROAD ST; 00-BLK E MARSHALL ST; N 7TH ST/E MARSHALL ST RICH","total":10,"Crime":7,"Emergency":3}}
+{"type":"Feature","id":"123_61","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.54343234],[-77.4340365,37.54343234],[-77.4340365,37.54186977],[-77.435384375,37.54186977],[-77.435384375,37.54343234]]]},"properties":{"name":"700-BLK E BROAD ST; 00-BLK E MARSHALL ST; N 7TH ST/E MARSHALL ST RICH","total":12,"Crime":9,"Emergency":3}}
 ,
 {"type":"Feature","id":"124_61","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.54343234],[-77.432688625,37.54343234],[-77.432688625,37.54186977],[-77.4340365,37.54186977],[-77.4340365,37.54343234]]]},"properties":{"name":"N 8TH ST/E MARSHALL ST RICH; 800-BLK E CLAY ST; E MARSHALL ST/N 8TH ST RICH; 400-BLK N 8TH ST","total":17,"Crime":9,"Emergency":6,"Traffic":2}}
 ,
@@ -3291,17 +3380,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"132_61","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.54343234],[-77.42190562500001,37.54343234],[-77.42190562500001,37.54186977],[-77.4232535,37.54186977],[-77.4232535,37.54343234]]]},"properties":{"name":"00-BLK N 18TH ST; 0-BLK N 18TH ST","total":12,"Crime":6,"Emergency":2,"Discretionary":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"134_61","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.54343234],[-77.419209875,37.54343234],[-77.419209875,37.54186977],[-77.42055775,37.54186977],[-77.42055775,37.54343234]]]},"properties":{"name":"1000-BLK MOSBY ST","total":7,"Crime":5,"Mental":1,"Emergency":1}}
+{"type":"Feature","id":"134_61","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.54343234],[-77.419209875,37.54343234],[-77.419209875,37.54186977],[-77.42055775,37.54186977],[-77.42055775,37.54343234]]]},"properties":{"name":"1000-BLK MOSBY ST","total":18,"Crime":14,"Emergency":3,"Mental":1}}
 ,
-{"type":"Feature","id":"135_61","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54343234],[-77.417862,37.54343234],[-77.417862,37.54186977],[-77.419209875,37.54186977],[-77.419209875,37.54343234]]]},"properties":{"name":"1800-BLK Q ST; 1200-BLK MOSBY ST; 1100-BLK MOSBY ST","total":17,"Crime":12,"Emergency":3,"Discretionary":2}}
+{"type":"Feature","id":"135_61","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54343234],[-77.417862,37.54343234],[-77.417862,37.54186977],[-77.419209875,37.54186977],[-77.419209875,37.54343234]]]},"properties":{"name":"1800-BLK Q ST; 1200-BLK MOSBY ST; 1100-BLK MOSBY ST","total":24,"Crime":18,"Emergency":4,"Discretionary":2}}
 ,
-{"type":"Feature","id":"136_61","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54343234],[-77.416514125,37.54343234],[-77.416514125,37.54186977],[-77.417862,37.54186977],[-77.417862,37.54343234]]]},"properties":{"name":"1900-BLK Q ST; 1200-BLK N 19TH ST","total":6,"Crime":5,"Emergency":1}}
+{"type":"Feature","id":"136_61","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54343234],[-77.416514125,37.54343234],[-77.416514125,37.54186977],[-77.417862,37.54186977],[-77.417862,37.54343234]]]},"properties":{"name":"1900-BLK Q ST; 1200-BLK N 19TH ST","total":8,"Crime":5,"Mental":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"137_61","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54343234],[-77.41516625,37.54343234],[-77.41516625,37.54186977],[-77.416514125,37.54186977],[-77.416514125,37.54343234]]]},"properties":{"name":"2000-BLK R ST; LL(-77:24:55.9694,37:32:32.9387): EST 1207 N 20TH ST RICH","total":5,"Crime":4,"Emergency":1}}
+{"type":"Feature","id":"137_61","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54343234],[-77.41516625,37.54343234],[-77.41516625,37.54186977],[-77.416514125,37.54186977],[-77.416514125,37.54343234]]]},"properties":{"name":"2000-BLK R ST; LL(-77:24:55.9694,37:32:32.9387): EST 1207 N 20TH ST RICH","total":6,"Crime":4,"Emergency":2}}
 ,
 {"type":"Feature","id":"138_61","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.54343234],[-77.413818375,37.54343234],[-77.413818375,37.54186977],[-77.41516625,37.54186977],[-77.41516625,37.54343234]]]},"properties":{"name":"2000-BLK FAIRMOUNT AVE; FAIRMOUNT AVE/N 20TH ST RICH; N 20TH ST/FAIRMOUNT AVE RICH; 1200-BLK N 21ST ST; LL(-77:24:54.2317,37:32:35.2937): LITTLE PAIGE/COALTER; FAIRMOUNT AVE/N 21ST ST RICH; N 21ST ST/FAIRMOUNT AVE RICH","total":11,"Crime":3,"Traffic":3,"Emergency":2,"Discretionary":2,"Mental":1}}
 ,
-{"type":"Feature","id":"139_61","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.54343234],[-77.4124705,37.54343234],[-77.4124705,37.54186977],[-77.413818375,37.54186977],[-77.413818375,37.54343234]]]},"properties":{"name":"1400-BLK N 22ND ST; N 22ND ST/FAIRMOUNT AVE RICH; 1300-BLK N 22ND ST; N 21ST ST/T ST RICH; 2200-BLK FAIRMOUNT AVE; T ST/N 21ST ST RICH; 2101-BLK T ST; FAIRMOUNT AVE/N 22ND ST RICH","total":62,"Crime":44,"Emergency":6,"Discretionary":6,"Mental":4,"Traffic":2}}
+{"type":"Feature","id":"139_61","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.54343234],[-77.4124705,37.54343234],[-77.4124705,37.54186977],[-77.413818375,37.54186977],[-77.413818375,37.54343234]]]},"properties":{"name":"1400-BLK N 22ND ST; N 22ND ST/FAIRMOUNT AVE RICH; 1300-BLK N 22ND ST; N 21ST ST/T ST RICH; 2200-BLK FAIRMOUNT AVE; T ST/N 21ST ST RICH; 2101-BLK T ST; FAIRMOUNT AVE/N 22ND ST RICH","total":64,"Crime":46,"Emergency":6,"Discretionary":6,"Mental":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"140_61","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.54343234],[-77.411122625,37.54343234],[-77.411122625,37.54186977],[-77.4124705,37.54186977],[-77.4124705,37.54343234]]]},"properties":{"name":"T ST/N 22ND ST RICH; N 22ND ST/T ST RICH; T ST/N 23RD ST RICH; 1400-BLK N 23RD ST","total":22,"Crime":19,"Emergency":3}}
 ,
@@ -3317,9 +3406,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"147_61","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.54343234],[-77.40168750000001,37.54343234],[-77.40168750000001,37.54186977],[-77.403035375,37.54186977],[-77.403035375,37.54343234]]]},"properties":{"name":"1800-BLK N 30TH ST","total":3,"Emergency":3}}
 ,
-{"type":"Feature","id":"148_61","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.54343234],[-77.400339625,37.54343234],[-77.400339625,37.54186977],[-77.40168750000001,37.54186977],[-77.40168750000001,37.54343234]]]},"properties":{"name":"3000-BLK NINE MILE RD; 1800-BLK CREIGHTON RD; LL(-77:24:03.7070,37:32:31.8094); LL(-77:24:03.6559,37:32:31.8455); LL(-77:24:03.6332,37:32:31.7922)","total":46,"Discretionary":36,"Crime":8,"Traffic":2}}
+{"type":"Feature","id":"148_61","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.54343234],[-77.400339625,37.54343234],[-77.400339625,37.54186977],[-77.40168750000001,37.54186977],[-77.40168750000001,37.54343234]]]},"properties":{"name":"3000-BLK NINE MILE RD; 1800-BLK CREIGHTON RD; LL(-77:24:03.7070,37:32:31.8094); LL(-77:24:03.6559,37:32:31.8455); LL(-77:24:03.6332,37:32:31.7922)","total":48,"Discretionary":38,"Crime":8,"Traffic":2}}
 ,
-{"type":"Feature","id":"149_61","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.54343234],[-77.39899175000001,37.54343234],[-77.39899175000001,37.54186977],[-77.400339625,37.54186977],[-77.400339625,37.54343234]]]},"properties":{"name":"N 31ST ST/NINE MILE RD RICH; 1900-BLK CREIGHTON RD; 3100-BLK NINE MILE RD","total":27,"Discretionary":24,"Traffic":2,"Crime":1}}
+{"type":"Feature","id":"149_61","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.54343234],[-77.39899175000001,37.54343234],[-77.39899175000001,37.54186977],[-77.400339625,37.54186977],[-77.400339625,37.54343234]]]},"properties":{"name":"N 31ST ST/NINE MILE RD RICH; 1900-BLK CREIGHTON RD; 3100-BLK NINE MILE RD","total":28,"Discretionary":24,"Crime":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"153_61","geometry":{"type":"Polygon","coordinates":[[[-77.394948125,37.54343234],[-77.39360025,37.54343234],[-77.39360025,37.54186977],[-77.394948125,37.54186977],[-77.394948125,37.54343234]]]},"properties":{"name":"3300-BLK TUXEDO BLVD","total":5,"Emergency":2,"Crime":1,"Traffic":1,"Mental":1}}
 ,
@@ -3329,7 +3418,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"42_62","geometry":{"type":"Polygon","coordinates":[[[-77.54456225,37.54499491],[-77.543214375,37.54499491],[-77.543214375,37.54343234],[-77.54456225,37.54343234],[-77.54456225,37.54499491]]]},"properties":{"name":"8100-BLK CHIPPENHAM PKWY","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"46_62","geometry":{"type":"Polygon","coordinates":[[[-77.53917075,37.54499491],[-77.537822875,37.54499491],[-77.537822875,37.54343234],[-77.53917075,37.54343234],[-77.53917075,37.54499491]]]},"properties":{"name":"3400-BLK CUSTIS RD","total":4,"Crime":3,"Emergency":1}}
+{"type":"Feature","id":"46_62","geometry":{"type":"Polygon","coordinates":[[[-77.53917075,37.54499491],[-77.537822875,37.54499491],[-77.537822875,37.54343234],[-77.53917075,37.54343234],[-77.53917075,37.54499491]]]},"properties":{"name":"3400-BLK CUSTIS RD","total":6,"Crime":3,"Emergency":3}}
 ,
 {"type":"Feature","id":"52_62","geometry":{"type":"Polygon","coordinates":[[[-77.53108350000001,37.54499491],[-77.529735625,37.54499491],[-77.529735625,37.54343234],[-77.53108350000001,37.54343234],[-77.53108350000001,37.54499491]]]},"properties":{"name":"7500-BLK PRAIRIE RD","total":1,"Emergency":1}}
 ,
@@ -3341,13 +3430,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"86_62","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.54499491],[-77.483907875,37.54499491],[-77.483907875,37.54343234],[-77.48525575000001,37.54343234],[-77.48525575000001,37.54499491]]]},"properties":{"name":"1100-BLK SUNSET AVE","total":2,"Traffic":2}}
 ,
+{"type":"Feature","id":"88_62","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.54499491],[-77.481212125,37.54499491],[-77.481212125,37.54343234],[-77.48256,37.54343234],[-77.48256,37.54499491]]]},"properties":{"name":"BLANTON AVE/POLICE MEMORIAL WAY RICH","total":3,"Discretionary":3}}
+,
+{"type":"Feature","id":"95_62","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.54499491],[-77.471777,37.54499491],[-77.471777,37.54343234],[-77.473124875,37.54343234],[-77.473124875,37.54499491]]]},"properties":{"name":"S ADDISON ST/SWAN LAKE DR RICH","total":1,"Emergency":1}}
+,
 {"type":"Feature","id":"97_62","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.54499491],[-77.46908125,37.54499491],[-77.46908125,37.54343234],[-77.47042912500001,37.54343234],[-77.47042912500001,37.54499491]]]},"properties":{"name":"2000-BLK LAKEVIEW AVE; 2100-BLK LAKEVIEW AVE; 2100-BLK MAPLEWOOD AVE","total":18,"Emergency":9,"Crime":7,"Mental":2}}
 ,
 {"type":"Feature","id":"98_62","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.54499491],[-77.46773337500001,37.54499491],[-77.46773337500001,37.54343234],[-77.46908125,37.54343234],[-77.46908125,37.54499491]]]},"properties":{"name":"2000-BLK MAPLEWOOD AVE","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"99_62","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54499491],[-77.4663855,37.54499491],[-77.4663855,37.54343234],[-77.46773337500001,37.54343234],[-77.46773337500001,37.54499491]]]},"properties":{"name":"0-BLK S GRANBY ST; 1900-BLK MAPLEWOOD AVE","total":5,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"99_62","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54499491],[-77.4663855,37.54499491],[-77.4663855,37.54343234],[-77.46773337500001,37.54343234],[-77.46773337500001,37.54499491]]]},"properties":{"name":"0-BLK S GRANBY ST; 1900-BLK MAPLEWOOD AVE","total":7,"Traffic":4,"Crime":3}}
 ,
-{"type":"Feature","id":"100_62","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.54499491],[-77.46503762500001,37.54499491],[-77.46503762500001,37.54343234],[-77.4663855,37.54343234],[-77.4663855,37.54499491]]]},"properties":{"name":"1800-BLK ROSEWOOD AVE; 1800-BLK IDLEWOOD AVE; 00-BLK S ALLEN AVE; ROSEWOOD AVE/S ALLEN AVE RICH","total":16,"Crime":8,"Traffic":8}}
+{"type":"Feature","id":"100_62","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.54499491],[-77.46503762500001,37.54499491],[-77.46503762500001,37.54343234],[-77.4663855,37.54343234],[-77.4663855,37.54499491]]]},"properties":{"name":"1800-BLK ROSEWOOD AVE; 1800-BLK IDLEWOOD AVE; 00-BLK S ALLEN AVE; ROSEWOOD AVE/S ALLEN AVE RICH; 400-BLK S ALLEN AVE","total":18,"Crime":10,"Traffic":8}}
 ,
 {"type":"Feature","id":"102_62","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.54499491],[-77.462341875,37.54499491],[-77.462341875,37.54343234],[-77.46368975,37.54343234],[-77.46368975,37.54499491]]]},"properties":{"name":"S LOMBARDY ST/IDLEWOOD AVE RICH; 1600-BLK WALLACE ST; IDLEWOOD AVE/S LOMBARDY ST RICH","total":6,"Discretionary":4,"Crime":2}}
 ,
@@ -3359,7 +3452,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"106_62","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.54499491],[-77.456950375,37.54499491],[-77.456950375,37.54343234],[-77.45829825,37.54343234],[-77.45829825,37.54499491]]]},"properties":{"name":"1300-BLK PARKWOOD AVE; 1200-BLK PARKWOOD AVE","total":15,"Crime":6,"Traffic":5,"Emergency":3,"Discretionary":1}}
 ,
-{"type":"Feature","id":"107_62","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54499491],[-77.4556025,37.54499491],[-77.4556025,37.54343234],[-77.456950375,37.54343234],[-77.456950375,37.54499491]]]},"properties":{"name":"1212-100-BLK W CARY ST; 1200-BLK W CARY ST; W CARY ST/S MORRIS ST RICH; 1100-BLK W CARY ST; S HARRISON ST/W CARY ST RICH; S MORRIS ST/W CARY ST RICH; LL(-77:27:20.2213,37:32:41.6225): @7-11; 1200BLK PARKWOOD AVE","total":32,"Crime":17,"Traffic":10,"Emergency":5}}
+{"type":"Feature","id":"107_62","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54499491],[-77.4556025,37.54499491],[-77.4556025,37.54343234],[-77.456950375,37.54343234],[-77.456950375,37.54499491]]]},"properties":{"name":"1212-100-BLK W CARY ST; 1200-BLK W CARY ST; W CARY ST/S MORRIS ST RICH; 1100-BLK W CARY ST; S HARRISON ST/W CARY ST RICH; S MORRIS ST/W CARY ST RICH; LL(-77:27:20.2213,37:32:41.6225): @7-11; 1200BLK PARKWOOD AVE","total":34,"Crime":19,"Traffic":10,"Emergency":5}}
 ,
 {"type":"Feature","id":"109_62","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.54499491],[-77.45290675,37.54499491],[-77.45290675,37.54343234],[-77.454254625,37.54343234],[-77.454254625,37.54499491]]]},"properties":{"name":"W CARY ST/S LINDEN ST RICH; 100-BLK S LINDEN ST; 100-BLK S CHERRY ST","total":5,"Emergency":3,"Traffic":1,"Crime":1}}
 ,
@@ -3369,31 +3462,31 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"112_62","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54499491],[-77.448863125,37.54499491],[-77.448863125,37.54343234],[-77.450211,37.54343234],[-77.450211,37.54499491]]]},"properties":{"name":"100-BLK S BELVIDERE ST; W CARY ST/S BELVIDERE ST RICH; S BELVIDERE ST/W CARY ST RICH","total":28,"Crime":12,"Traffic":9,"Emergency":4,"Mental":3}}
 ,
-{"type":"Feature","id":"113_62","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.54499491],[-77.44751525000001,37.54499491],[-77.44751525000001,37.54343234],[-77.448863125,37.54343234],[-77.448863125,37.54499491]]]},"properties":{"name":"300-BLK W CARY ST; S MADISON ST/W CARY ST RICH","total":6,"Emergency":3,"Crime":2,"Mental":1}}
+{"type":"Feature","id":"113_62","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.54499491],[-77.44751525000001,37.54499491],[-77.44751525000001,37.54343234],[-77.448863125,37.54343234],[-77.448863125,37.54499491]]]},"properties":{"name":"300-BLK W CARY ST; S MADISON ST/W CARY ST RICH; W CARY ST/S MADISON ST RICH","total":8,"Emergency":3,"Crime":2,"Traffic":2,"Mental":1}}
 ,
-{"type":"Feature","id":"114_62","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54499491],[-77.446167375,37.54499491],[-77.446167375,37.54343234],[-77.44751525000001,37.54343234],[-77.44751525000001,37.54499491]]]},"properties":{"name":"200-BLK W MAIN ST; W MAIN ST/N MADISON ST RICH","total":43,"Crime":31,"Traffic":7,"Emergency":3,"Discretionary":2}}
+{"type":"Feature","id":"114_62","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54499491],[-77.446167375,37.54499491],[-77.446167375,37.54343234],[-77.44751525000001,37.54343234],[-77.44751525000001,37.54499491]]]},"properties":{"name":"200-BLK W MAIN ST; W MAIN ST/N MADISON ST RICH","total":47,"Crime":35,"Traffic":7,"Emergency":3,"Discretionary":2}}
 ,
 {"type":"Feature","id":"115_62","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.54499491],[-77.44481950000001,37.54499491],[-77.44481950000001,37.54343234],[-77.446167375,37.54343234],[-77.446167375,37.54499491]]]},"properties":{"name":"W FRANKLIN ST/N JEFFERSON ST RICH","total":3,"Traffic":3}}
 ,
 {"type":"Feature","id":"116_62","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54499491],[-77.443471625,37.54499491],[-77.443471625,37.54343234],[-77.44481950000001,37.54343234],[-77.44481950000001,37.54499491]]]},"properties":{"name":"100-BLK W FRANKLIN ST; N FOUSHEE ST/E FRANKLIN ST RICH","total":15,"Emergency":8,"Crime":5,"Mental":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"118_62","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.54499491],[-77.440775875,37.54499491],[-77.440775875,37.54343234],[-77.44212375000001,37.54343234],[-77.44212375000001,37.54499491]]]},"properties":{"name":"N 1ST ST/E GRACE ST RICH; 100-BLK E GRACE ST; 200-BLK N 2ND ST; E GRACE ST/N 2ND ST RICH; N 2ND ST/E GRACE ST RICH","total":22,"Crime":16,"Traffic":2,"Discretionary":2,"Emergency":2}}
+{"type":"Feature","id":"118_62","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.54499491],[-77.440775875,37.54499491],[-77.440775875,37.54343234],[-77.44212375000001,37.54343234],[-77.44212375000001,37.54499491]]]},"properties":{"name":"N 1ST ST/E GRACE ST RICH; 100-BLK E GRACE ST; 200-BLK N 2ND ST; E GRACE ST/N 2ND ST RICH; N 2ND ST/E GRACE ST RICH","total":27,"Crime":20,"Emergency":3,"Traffic":2,"Discretionary":2}}
 ,
-{"type":"Feature","id":"119_62","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.54499491],[-77.439428,37.54499491],[-77.439428,37.54343234],[-77.440775875,37.54343234],[-77.440775875,37.54499491]]]},"properties":{"name":"200-BLK E GRACE ST; 200-BLK E BROAD ST; N 2ND ST/E BROAD ST RICH","total":35,"Crime":21,"Traffic":5,"Emergency":4,"Mental":3,"Discretionary":2}}
+{"type":"Feature","id":"119_62","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.54499491],[-77.439428,37.54499491],[-77.439428,37.54343234],[-77.440775875,37.54343234],[-77.440775875,37.54499491]]]},"properties":{"name":"200-BLK E GRACE ST; 200-BLK E BROAD ST; N 2ND ST/E BROAD ST RICH","total":38,"Crime":24,"Traffic":5,"Emergency":4,"Mental":3,"Discretionary":2}}
 ,
-{"type":"Feature","id":"120_62","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54499491],[-77.438080125,37.54499491],[-77.438080125,37.54343234],[-77.439428,37.54343234],[-77.439428,37.54499491]]]},"properties":{"name":"300-BLK E BROAD ST; E BROAD ST/N 3RD ST RICH; N 4TH ST/E BROAD ST RICH; E BROAD ST/N 4TH ST RICH","total":50,"Crime":44,"Emergency":4,"Traffic":1,"Mental":1}}
+{"type":"Feature","id":"120_62","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54499491],[-77.438080125,37.54499491],[-77.438080125,37.54343234],[-77.439428,37.54343234],[-77.439428,37.54499491]]]},"properties":{"name":"300-BLK E BROAD ST; E BROAD ST/N 3RD ST RICH; N 4TH ST/E BROAD ST RICH; E BROAD ST/N 4TH ST RICH; 300-BLK E MARSHALL ST","total":55,"Crime":44,"Emergency":6,"Mental":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"122_62","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.54499491],[-77.435384375,37.54499491],[-77.435384375,37.54343234],[-77.43673225,37.54343234],[-77.43673225,37.54499491]]]},"properties":{"name":"N 5TH ST/E MARSHALL ST RICH; E MARSHALL ST/N 5TH ST RICH","total":3,"Traffic":1,"Crime":1,"Mental":1}}
 ,
 {"type":"Feature","id":"124_62","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.54499491],[-77.432688625,37.54499491],[-77.432688625,37.54343234],[-77.4340365,37.54343234],[-77.4340365,37.54499491]]]},"properties":{"name":"E CLAY ST/N 7TH ST RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"126_62","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.54499491],[-77.429992875,37.54499491],[-77.429992875,37.54343234],[-77.43134075,37.54343234],[-77.43134075,37.54499491]]]},"properties":{"name":"1000-BLK E LEIGH ST; N 9TH ST/E LEIGH ST RICH; 900-BLK E LEIGH ST","total":22,"Emergency":11,"Traffic":7,"Crime":4}}
+{"type":"Feature","id":"126_62","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.54499491],[-77.429992875,37.54499491],[-77.429992875,37.54343234],[-77.43134075,37.54343234],[-77.43134075,37.54499491]]]},"properties":{"name":"1000-BLK E LEIGH ST; N 9TH ST/E LEIGH ST RICH; 900-BLK E LEIGH ST","total":25,"Emergency":12,"Traffic":7,"Crime":4,"Mental":2}}
 ,
-{"type":"Feature","id":"132_62","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.54499491],[-77.42190562500001,37.54499491],[-77.42190562500001,37.54343234],[-77.4232535,37.54343234],[-77.4232535,37.54499491]]]},"properties":{"name":"1300-BLK COALTER ST","total":115,"Crime":67,"Discretionary":22,"Emergency":20,"Mental":3,"Traffic":3}}
+{"type":"Feature","id":"132_62","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.54499491],[-77.42190562500001,37.54499491],[-77.42190562500001,37.54343234],[-77.4232535,37.54343234],[-77.4232535,37.54499491]]]},"properties":{"name":"1300-BLK COALTER ST","total":120,"Crime":69,"Emergency":23,"Discretionary":22,"Mental":3,"Traffic":3}}
 ,
 {"type":"Feature","id":"133_62","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.54499491],[-77.42055775,37.54499491],[-77.42055775,37.54343234],[-77.42190562500001,37.54343234],[-77.42190562500001,37.54499491]]]},"properties":{"name":"1900-BLK COALTER ST","total":2,"Discretionary":2}}
 ,
-{"type":"Feature","id":"135_62","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54499491],[-77.417862,37.54499491],[-77.417862,37.54343234],[-77.419209875,37.54343234],[-77.419209875,37.54499491]]]},"properties":{"name":"1600-BLK LITTLEPAGE ST; LL(-77:25:07.9970,37:32:41.2806): LITTLEPAGE/COALTER; LL(-77:25:07.9747,37:32:41.5349): LITTLEPAGE/COALTER","total":6,"Discretionary":6}}
+{"type":"Feature","id":"135_62","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54499491],[-77.417862,37.54499491],[-77.417862,37.54343234],[-77.419209875,37.54343234],[-77.419209875,37.54499491]]]},"properties":{"name":"1600-BLK LITTLEPAGE ST; LL(-77:25:07.9970,37:32:41.2806): LITTLEPAGE/COALTER; LL(-77:25:07.9747,37:32:41.5349): LITTLEPAGE/COALTER","total":9,"Discretionary":6,"Crime":3}}
 ,
 {"type":"Feature","id":"136_62","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54499491],[-77.416514125,37.54499491],[-77.416514125,37.54343234],[-77.417862,37.54343234],[-77.417862,37.54499491]]]},"properties":{"name":"MECHANICSVILLE TPKE/FAIRMOUNT AVE RICH; MOSBY ST/FAIRMOUNT AVE RICH; LL(-77:24:59.8729,37:32:38.1637): LITTLEPAGE/COALTER","total":7,"Traffic":4,"Discretionary":2,"Crime":1}}
 ,
@@ -3405,27 +3498,27 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"141_62","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.54499491],[-77.40977475,37.54499491],[-77.40977475,37.54343234],[-77.411122625,37.54343234],[-77.411122625,37.54499491]]]},"properties":{"name":"1600-BLK N 23RD ST","total":13,"Crime":10,"Emergency":3}}
 ,
-{"type":"Feature","id":"142_62","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.54499491],[-77.408426875,37.54499491],[-77.408426875,37.54343234],[-77.40977475,37.54343234],[-77.40977475,37.54499491]]]},"properties":{"name":"1600-BLK N 24TH ST; W ST/N 23RD ST RICH","total":4,"Emergency":3,"Crime":1}}
+{"type":"Feature","id":"142_62","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.54499491],[-77.408426875,37.54499491],[-77.408426875,37.54343234],[-77.40977475,37.54343234],[-77.40977475,37.54499491]]]},"properties":{"name":"1600-BLK N 24TH ST; W ST/N 23RD ST RICH","total":6,"Emergency":3,"Traffic":2,"Crime":1}}
 ,
-{"type":"Feature","id":"143_62","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.54499491],[-77.40707900000001,37.54499491],[-77.40707900000001,37.54343234],[-77.408426875,37.54343234],[-77.408426875,37.54499491]]]},"properties":{"name":"1700-BLK N 25TH ST; 1700-BLK N 24TH ST","total":5,"Emergency":3,"Mental":2}}
+{"type":"Feature","id":"143_62","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.54499491],[-77.40707900000001,37.54499491],[-77.40707900000001,37.54343234],[-77.408426875,37.54343234],[-77.408426875,37.54499491]]]},"properties":{"name":"1700-BLK N 25TH ST; 1700-BLK N 24TH ST; LL(-77:24:27.3889,37:32:37.3775): EST 1608 N 25TH ST RICH","total":7,"Emergency":3,"Mental":2,"Crime":2}}
 ,
 {"type":"Feature","id":"144_62","geometry":{"type":"Polygon","coordinates":[[[-77.40707900000001,37.54499491],[-77.405731125,37.54499491],[-77.405731125,37.54343234],[-77.40707900000001,37.54343234],[-77.40707900000001,37.54499491]]]},"properties":{"name":"1700-BLK PETER PAUL BLVD; 1800-BLK N 25TH ST","total":6,"Crime":5,"Emergency":1}}
 ,
 {"type":"Feature","id":"145_62","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.54499491],[-77.40438325000001,37.54499491],[-77.40438325000001,37.54343234],[-77.405731125,37.54343234],[-77.405731125,37.54499491]]]},"properties":{"name":"1800-BLK PETER PAUL BLVD","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"146_62","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.54499491],[-77.403035375,37.54499491],[-77.403035375,37.54343234],[-77.40438325000001,37.54343234],[-77.40438325000001,37.54499491]]]},"properties":{"name":"2700-BLK X ST; 1900-BLK N 27TH ST","total":3,"Discretionary":2,"Emergency":1}}
+{"type":"Feature","id":"146_62","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.54499491],[-77.403035375,37.54499491],[-77.403035375,37.54343234],[-77.40438325000001,37.54343234],[-77.40438325000001,37.54499491]]]},"properties":{"name":"2700-BLK X ST; 1900-BLK N 27TH ST; 2700-BLK Y ST","total":5,"Discretionary":2,"Traffic":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"147_62","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.54499491],[-77.40168750000001,37.54499491],[-77.40168750000001,37.54343234],[-77.403035375,37.54343234],[-77.403035375,37.54499491]]]},"properties":{"name":"1900-BLK N 29TH ST; 1800-BLK N 28TH ST","total":8,"Crime":5,"Discretionary":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"148_62","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.54499491],[-77.400339625,37.54499491],[-77.400339625,37.54343234],[-77.40168750000001,37.54343234],[-77.40168750000001,37.54499491]]]},"properties":{"name":"N 29TH ST/TATE ST RICH; 2000-BLK N 29TH ST","total":5,"Emergency":2,"Discretionary":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"149_62","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.54499491],[-77.39899175000001,37.54499491],[-77.39899175000001,37.54343234],[-77.400339625,37.54343234],[-77.400339625,37.54499491]]]},"properties":{"name":"2000-BLK CREIGHTON RD; 2000-BLK CREIGHTON ROAD; N 29TH ST/PURCELL ST RICH","total":131,"Discretionary":100,"Crime":18,"Emergency":8,"Mental":3,"Traffic":2}}
+{"type":"Feature","id":"149_62","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.54499491],[-77.39899175000001,37.54499491],[-77.39899175000001,37.54343234],[-77.400339625,37.54343234],[-77.400339625,37.54499491]]]},"properties":{"name":"2000-BLK CREIGHTON RD; 2000-BLK CREIGHTON ROAD; N 29TH ST/PURCELL ST RICH","total":133,"Discretionary":102,"Crime":18,"Emergency":8,"Mental":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"150_62","geometry":{"type":"Polygon","coordinates":[[[-77.39899175000001,37.54499491],[-77.397643875,37.54499491],[-77.397643875,37.54343234],[-77.39899175000001,37.54343234],[-77.39899175000001,37.54499491]]]},"properties":{"name":"2100-BLK CREIGHTON RD","total":37,"Crime":17,"Discretionary":14,"Emergency":6}}
 ,
-{"type":"Feature","id":"152_62","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.54499491],[-77.394948125,37.54499491],[-77.394948125,37.54343234],[-77.396296,37.54343234],[-77.396296,37.54499491]]]},"properties":{"name":"NINE MILE RD/TUXEDO BLVD RICH; TUXEDO BLVD/NINE MILE RD RICH","total":5,"Crime":4,"Traffic":1}}
+{"type":"Feature","id":"152_62","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.54499491],[-77.394948125,37.54499491],[-77.394948125,37.54343234],[-77.396296,37.54343234],[-77.396296,37.54499491]]]},"properties":{"name":"NINE MILE RD/TUXEDO BLVD RICH; TUXEDO BLVD/NINE MILE RD RICH","total":6,"Crime":5,"Traffic":1}}
 ,
-{"type":"Feature","id":"156_62","geometry":{"type":"Polygon","coordinates":[[[-77.3909045,37.54499491],[-77.389556625,37.54499491],[-77.389556625,37.54343234],[-77.3909045,37.54343234],[-77.3909045,37.54499491]]]},"properties":{"name":"NINE MILE RD/GORDONS LN HENR; GORDONS LN/NINE MILE RD HENR","total":6,"Crime":6}}
+{"type":"Feature","id":"156_62","geometry":{"type":"Polygon","coordinates":[[[-77.3909045,37.54499491],[-77.389556625,37.54499491],[-77.389556625,37.54343234],[-77.3909045,37.54343234],[-77.3909045,37.54499491]]]},"properties":{"name":"NINE MILE RD/GORDONS LN HENR; GORDONS LN/NINE MILE RD HENR","total":8,"Crime":8}}
 ,
 {"type":"Feature","id":"12_63","geometry":{"type":"Polygon","coordinates":[[[-77.5849985,37.54655748],[-77.583650625,37.54655748],[-77.583650625,37.54499491],[-77.5849985,37.54499491],[-77.5849985,37.54655748]]]},"properties":{"name":"3700-BLK GARDEN RD","total":7,"Emergency":5,"Crime":2}}
 ,
@@ -3461,21 +3554,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"98_63","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.54655748],[-77.46773337500001,37.54655748],[-77.46773337500001,37.54499491],[-77.46908125,37.54499491],[-77.46908125,37.54655748]]]},"properties":{"name":"2000-BLK IDLEWOOD AVE; 2000-BLK ROSEWOOD AVE","total":6,"Traffic":4,"Emergency":2}}
 ,
-{"type":"Feature","id":"99_63","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54655748],[-77.4663855,37.54655748],[-77.4663855,37.54499491],[-77.46773337500001,37.54499491],[-77.46773337500001,37.54655748]]]},"properties":{"name":"IDLEWOOD AVE/S MEADOW ST RICH; S MEADOW ST/IDLEWOOD AVE RICH; LL(-77:28:01.0742,37:32:46.2580): @FORES; 1900-BLK IDLEWOOD AVE; LL(-77:28:01.0742,37:32:46.2580): @WALMART","total":12,"Crime":5,"Traffic":2,"Mental":2,"Discretionary":2,"Emergency":1}}
+{"type":"Feature","id":"99_63","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54655748],[-77.4663855,37.54655748],[-77.4663855,37.54499491],[-77.46773337500001,37.54499491],[-77.46773337500001,37.54655748]]]},"properties":{"name":"IDLEWOOD AVE/S MEADOW ST RICH; S MEADOW ST/IDLEWOOD AVE RICH; LL(-77:28:01.0742,37:32:46.2580): @FORES; 1900-BLK IDLEWOOD AVE; LL(-77:28:01.0742,37:32:46.2580): @WALMART; IDLEWOOD AVE/S GRANBY ST RICH","total":13,"Crime":6,"Traffic":2,"Mental":2,"Discretionary":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"100_63","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.54655748],[-77.46503762500001,37.54655748],[-77.46503762500001,37.54499491],[-77.4663855,37.54499491],[-77.4663855,37.54655748]]]},"properties":{"name":"300-BLK S GRANBY ST","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"101_63","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.54655748],[-77.46368975,37.54655748],[-77.46368975,37.54499491],[-77.46503762500001,37.54499491],[-77.46503762500001,37.54655748]]]},"properties":{"name":"300-BLK S ALLEN AVE","total":4,"Emergency":4}}
+{"type":"Feature","id":"101_63","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.54655748],[-77.46368975,37.54655748],[-77.46368975,37.54499491],[-77.46503762500001,37.54499491],[-77.46503762500001,37.54655748]]]},"properties":{"name":"300-BLK S ALLEN AVE; S ALLEN AVE/GRAYLAND AVE RICH","total":7,"Emergency":4,"Traffic":3}}
 ,
 {"type":"Feature","id":"103_63","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.54655748],[-77.460994,37.54655748],[-77.460994,37.54499491],[-77.462341875,37.54499491],[-77.462341875,37.54655748]]]},"properties":{"name":"W CARY ST/S LOMBARDY ST RICH; DOWNTOWN EXPY / 12TH / BYRD/CANAL RICH; RICH: @DOWNTOWN EXPY WB - TOLL PLAZA; RICH: @DOWNTOWN EXPY EB - TOLL PLAZA; 100-BLK S LOMBARDY ST","total":11,"Traffic":6,"Crime":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"104_63","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.54655748],[-77.459646125,37.54655748],[-77.459646125,37.54499491],[-77.460994,37.54499491],[-77.460994,37.54655748]]]},"properties":{"name":"1500-BLK W CARY ST","total":2,"Emergency":2}}
+{"type":"Feature","id":"104_63","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.54655748],[-77.459646125,37.54655748],[-77.459646125,37.54499491],[-77.460994,37.54499491],[-77.460994,37.54655748]]]},"properties":{"name":"1500-BLK W CARY ST","total":3,"Emergency":2,"Crime":1}}
 ,
-{"type":"Feature","id":"105_63","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.54655748],[-77.45829825,37.54655748],[-77.45829825,37.54499491],[-77.459646125,37.54499491],[-77.459646125,37.54655748]]]},"properties":{"name":"0-BLK S HARVIE ST; S HARVIE ST/W CARY ST RICH; RANDOLPH ST/W CARY ST RICH; W CARY ST/RANDOLPH ST RICH","total":22,"Traffic":20,"Emergency":2}}
+{"type":"Feature","id":"105_63","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.54655748],[-77.45829825,37.54655748],[-77.45829825,37.54499491],[-77.459646125,37.54499491],[-77.459646125,37.54655748]]]},"properties":{"name":"0-BLK S HARVIE ST; S HARVIE ST/W CARY ST RICH; RANDOLPH ST/W CARY ST RICH; W CARY ST/RANDOLPH ST RICH","total":23,"Traffic":21,"Emergency":2}}
 ,
 {"type":"Feature","id":"106_63","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.54655748],[-77.456950375,37.54655748],[-77.456950375,37.54499491],[-77.45829825,37.54499491],[-77.45829825,37.54655748]]]},"properties":{"name":"W MAIN ST/N BRUNSWICK ST RICH; W CARY ST/S BRUNSWICK ST RICH; 0-BLK S BRUNSWICK ST; 00-BLK S BRUNSWICK ST; S BRUNSWICK ST/W CARY ST RICH","total":8,"Traffic":6,"Emergency":2}}
 ,
-{"type":"Feature","id":"107_63","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54655748],[-77.4556025,37.54655748],[-77.4556025,37.54499491],[-77.456950375,37.54499491],[-77.456950375,37.54655748]]]},"properties":{"name":"00-BLK S MORRIS ST","total":2,"Crime":2}}
+{"type":"Feature","id":"107_63","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54655748],[-77.4556025,37.54655748],[-77.4556025,37.54499491],[-77.456950375,37.54499491],[-77.456950375,37.54655748]]]},"properties":{"name":"00-BLK S MORRIS ST; 1200-BLK W MAIN ST","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"108_63","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.54655748],[-77.454254625,37.54655748],[-77.454254625,37.54499491],[-77.4556025,37.54499491],[-77.4556025,37.54655748]]]},"properties":{"name":"W MAIN ST/N HARRISON ST RICH; 1100-BLK W MAIN ST; 1000-BLK W CARY ST; N HARRISON ST/W MAIN ST RICH","total":27,"Crime":14,"Emergency":9,"Traffic":2,"Discretionary":2}}
 ,
@@ -3485,17 +3578,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"111_63","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.54655748],[-77.450211,37.54655748],[-77.450211,37.54499491],[-77.451558875,37.54499491],[-77.451558875,37.54655748]]]},"properties":{"name":"700-BLK W MAIN ST; W MAIN ST/S PINE ST RICH","total":6,"Emergency":6}}
 ,
-{"type":"Feature","id":"112_63","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54655748],[-77.448863125,37.54655748],[-77.448863125,37.54499491],[-77.450211,37.54499491],[-77.450211,37.54655748]]]},"properties":{"name":"N BELVIDERE ST/W MAIN ST RICH; RICH: @I95 SB BETWEEN EXIT 78 (BOULEVARD) &amp; EXIT 76B (BELVIDERE ST)","total":3,"Traffic":3}}
+{"type":"Feature","id":"112_63","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54655748],[-77.448863125,37.54655748],[-77.448863125,37.54499491],[-77.450211,37.54499491],[-77.450211,37.54655748]]]},"properties":{"name":"N BELVIDERE ST/W MAIN ST RICH; RICH: @I95 SB BETWEEN EXIT 78 (BOULEVARD) &amp; EXIT 76B (BELVIDERE ST); W MAIN ST/N BELVIDERE ST RICH","total":5,"Traffic":5}}
 ,
 {"type":"Feature","id":"114_63","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54655748],[-77.446167375,37.54655748],[-77.446167375,37.54499491],[-77.44751525000001,37.54499491],[-77.44751525000001,37.54655748]]]},"properties":{"name":"300-BLK W FRANKLIN ST; W FRANKLIN ST/N MONROE ST RICH; N MONROE ST/W FRANKLIN ST RICH; 400-BLK W FRANKLIN ST","total":29,"Crime":14,"Emergency":8,"Traffic":4,"Mental":3}}
 ,
 {"type":"Feature","id":"115_63","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.54655748],[-77.44481950000001,37.54655748],[-77.44481950000001,37.54499491],[-77.446167375,37.54499491],[-77.446167375,37.54655748]]]},"properties":{"name":"N MADISON ST/W GRACE ST RICH; 300-BLK W GRACE ST; 200-BLK W FRANKLIN ST; W GRACE ST/N MADISON ST RICH; LL(-77:26:41.4848,37:32:46.3835): 25/ACC; LL(-77:26:41.4848,37:32:46.3835): ADAMS/BROAD","total":22,"Crime":9,"Emergency":5,"Discretionary":4,"Traffic":4}}
 ,
-{"type":"Feature","id":"116_63","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54655748],[-77.443471625,37.54655748],[-77.443471625,37.54499491],[-77.44481950000001,37.54499491],[-77.44481950000001,37.54655748]]]},"properties":{"name":"200-BLK W GRACE ST; W GRACE ST/N JEFFERSON ST RICH; 100-BLK W GRACE ST; W GRACE ST/N ADAMS ST RICH; N JEFFERSON ST/W GRACE ST RICH","total":110,"Discretionary":45,"Crime":33,"Emergency":18,"Traffic":10,"Mental":4}}
+{"type":"Feature","id":"116_63","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54655748],[-77.443471625,37.54655748],[-77.443471625,37.54499491],[-77.44481950000001,37.54499491],[-77.44481950000001,37.54655748]]]},"properties":{"name":"200-BLK W GRACE ST; W GRACE ST/N JEFFERSON ST RICH; 100-BLK W GRACE ST; W GRACE ST/N ADAMS ST RICH; N JEFFERSON ST/W GRACE ST RICH","total":117,"Discretionary":45,"Crime":37,"Emergency":21,"Traffic":10,"Mental":4}}
 ,
-{"type":"Feature","id":"117_63","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.54655748],[-77.44212375000001,37.54655748],[-77.44212375000001,37.54499491],[-77.443471625,37.54499491],[-77.443471625,37.54655748]]]},"properties":{"name":"300-BLK N ADAMS ST; 100-BLK W BROAD ST; W BROAD ST/N ADAMS ST RICH; N ADAMS ST/W BROAD ST RICH; LL(-77:26:31.6788,37:32:45.0275): EST 8 W BROAD ST RICH; LL(-77:26:34.2813,37:32:46.0467): BROAD/FOUSHEE; 200-BLK N FOUSHEE ST; 100-BLK W BROAD","total":52,"Crime":39,"Traffic":10,"Mental":1,"Discretionary":1,"Emergency":1}}
+{"type":"Feature","id":"117_63","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.54655748],[-77.44212375000001,37.54655748],[-77.44212375000001,37.54499491],[-77.443471625,37.54499491],[-77.443471625,37.54655748]]]},"properties":{"name":"300-BLK N ADAMS ST; 100-BLK W BROAD ST; W BROAD ST/N ADAMS ST RICH; N ADAMS ST/W BROAD ST RICH; LL(-77:26:31.6788,37:32:45.0275): EST 8 W BROAD ST RICH; LL(-77:26:34.2813,37:32:46.0467): BROAD/FOUSHEE; 200-BLK N FOUSHEE ST; 100-BLK W BROAD","total":58,"Crime":45,"Traffic":10,"Mental":1,"Discretionary":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_63","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.54655748],[-77.440775875,37.54655748],[-77.440775875,37.54499491],[-77.44212375000001,37.54499491],[-77.44212375000001,37.54655748]]]},"properties":{"name":"N FOUSHEE ST/W BROAD ST RICH; 100-BLK E BROAD ST; N 1ST ST/E BROAD ST RICH; E BROAD ST/N 1ST ST RICH; 300-BLK N 1ST ST; E BROAD ST/N FOUSHEE ST RICH; N FOUSHEE ST/E BROAD ST RICH","total":30,"Crime":16,"Traffic":10,"Emergency":2,"Mental":2}}
+{"type":"Feature","id":"118_63","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.54655748],[-77.440775875,37.54655748],[-77.440775875,37.54499491],[-77.44212375000001,37.54499491],[-77.44212375000001,37.54655748]]]},"properties":{"name":"N FOUSHEE ST/W BROAD ST RICH; 100-BLK E BROAD ST; N 1ST ST/E BROAD ST RICH; E BROAD ST/N 1ST ST RICH; 300-BLK N 1ST ST; E BROAD ST/N FOUSHEE ST RICH; N FOUSHEE ST/E BROAD ST RICH","total":32,"Crime":16,"Traffic":12,"Emergency":2,"Mental":2}}
 ,
 {"type":"Feature","id":"119_63","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.54655748],[-77.439428,37.54655748],[-77.439428,37.54499491],[-77.440775875,37.54499491],[-77.440775875,37.54655748]]]},"properties":{"name":"N 1ST ST/E MARSHALL ST RICH; E MARSHALL ST/N 1ST ST RICH; 400-BLK N 1ST ST","total":5,"Traffic":4,"Crime":1}}
 ,
@@ -3509,13 +3602,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"128_63","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.54655748],[-77.42729712500001,37.54655748],[-77.42729712500001,37.54499491],[-77.428645,37.54499491],[-77.428645,37.54655748]]]},"properties":{"name":"LL(-77:25:42.0404,37:32:43.6470): @EXIT 75 - I95 NB (I64 EB / 7TH ST)","total":6,"Traffic":6}}
 ,
-{"type":"Feature","id":"134_63","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.54655748],[-77.419209875,37.54655748],[-77.419209875,37.54499491],[-77.42055775,37.54499491],[-77.42055775,37.54655748]]]},"properties":{"name":"COALTER ST/LITTLEPAGE ST RICH; COALTER/LITTLEPAGE; LITTLEPAGE ST/COALTER ST RICH; LITTLEPAGE ST/COALTER ST; 1400-BLK COALTER ST; 1500-BLK COALTER ST; COALTER ST/LITTLE SPAGE ST; COALTER ST/LITTLE PAGE; REDD ST/COALTER ST RICH; COALTER ST/REDD ST RICH; COALTER ST/LITTLEPAGE; LITTLEPAGE/COALTER","total":148,"Discretionary":126,"Crime":13,"Traffic":4,"Emergency":4,"Mental":1}}
+{"type":"Feature","id":"134_63","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.54655748],[-77.419209875,37.54655748],[-77.419209875,37.54499491],[-77.42055775,37.54499491],[-77.42055775,37.54655748]]]},"properties":{"name":"COALTER ST/LITTLEPAGE ST RICH; COALTER/LITTLEPAGE; LITTLEPAGE ST/COALTER ST RICH; LITTLEPAGE ST/COALTER ST; 1400-BLK COALTER ST; 1500-BLK COALTER ST; COALTER ST/LITTLE SPAGE ST; COALTER ST/LITTLE PAGE; REDD ST/COALTER ST RICH; COALTER ST/REDD ST RICH; COALTER ST/LITTLEPAGE; LITTLEPAGE/COALTER","total":150,"Discretionary":128,"Crime":13,"Traffic":4,"Emergency":4,"Mental":1}}
 ,
 {"type":"Feature","id":"135_63","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54655748],[-77.417862,37.54655748],[-77.417862,37.54499491],[-77.419209875,37.54499491],[-77.419209875,37.54655748]]]},"properties":{"name":"2100-BLK REDD ST; BRYAN ST/LITTLEPAGE ST RICH; 2200-BLK REDD ST","total":21,"Crime":19,"Traffic":2}}
 ,
 {"type":"Feature","id":"136_63","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54655748],[-77.416514125,37.54655748],[-77.416514125,37.54499491],[-77.417862,37.54499491],[-77.417862,37.54655748]]]},"properties":{"name":"1400-BLK MECHANICSVILLE TPKE; MECHANICSVILLE TPKE/T ST RICH; 1500-BLK SPOTSYLVANIA ST; REDD ST/SPOTSYLVANIA ST RICH; REDD ST/MECHANICSVILLE TPKE RICH; 1300-BLK MECHANICSVILLE TPKE","total":25,"Discretionary":10,"Traffic":9,"Crime":4,"Emergency":2}}
 ,
-{"type":"Feature","id":"137_63","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54655748],[-77.41516625,37.54655748],[-77.41516625,37.54499491],[-77.416514125,37.54499491],[-77.416514125,37.54655748]]]},"properties":{"name":"1400-BLK ROGERS ST; LL(-77:24:58.7939,37:32:45.4083): LITTLEPAGE/COALTER; 1800-BLK T ST","total":11,"Crime":6,"Emergency":3,"Discretionary":2}}
+{"type":"Feature","id":"137_63","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54655748],[-77.41516625,37.54655748],[-77.41516625,37.54499491],[-77.416514125,37.54499491],[-77.416514125,37.54655748]]]},"properties":{"name":"1400-BLK ROGERS ST; LL(-77:24:58.7939,37:32:45.4083): LITTLEPAGE/COALTER; 1800-BLK T ST","total":16,"Crime":10,"Emergency":4,"Discretionary":2}}
 ,
 {"type":"Feature","id":"138_63","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.54655748],[-77.413818375,37.54655748],[-77.413818375,37.54499491],[-77.41516625,37.54499491],[-77.41516625,37.54655748]]]},"properties":{"name":"1400-BLK N 19TH ST","total":2,"Emergency":2}}
 ,
@@ -3535,11 +3628,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"149_63","geometry":{"type":"Polygon","coordinates":[[[-77.400339625,37.54655748],[-77.39899175000001,37.54655748],[-77.39899175000001,37.54499491],[-77.400339625,37.54499491],[-77.400339625,37.54655748]]]},"properties":{"name":"2100-BLK N 29TH ST","total":69,"Discretionary":64,"Crime":5}}
 ,
-{"type":"Feature","id":"150_63","geometry":{"type":"Polygon","coordinates":[[[-77.39899175000001,37.54655748],[-77.397643875,37.54655748],[-77.397643875,37.54499491],[-77.39899175000001,37.54499491],[-77.39899175000001,37.54655748]]]},"properties":{"name":"2200-BLK CREIGHTON RD; 2200-BLK WALCOTT PL","total":25,"Crime":19,"Discretionary":4,"Emergency":2}}
+{"type":"Feature","id":"150_63","geometry":{"type":"Polygon","coordinates":[[[-77.39899175000001,37.54655748],[-77.397643875,37.54655748],[-77.397643875,37.54499491],[-77.39899175000001,37.54499491],[-77.39899175000001,37.54655748]]]},"properties":{"name":"2200-BLK CREIGHTON RD; 2200-BLK WALCOTT PL","total":31,"Crime":25,"Discretionary":4,"Emergency":2}}
 ,
 {"type":"Feature","id":"151_63","geometry":{"type":"Polygon","coordinates":[[[-77.397643875,37.54655748],[-77.396296,37.54655748],[-77.396296,37.54499491],[-77.397643875,37.54499491],[-77.397643875,37.54655748]]]},"properties":{"name":"2300-BLK CREIGHTON RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"152_63","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.54655748],[-77.394948125,37.54655748],[-77.394948125,37.54499491],[-77.396296,37.54499491],[-77.396296,37.54655748]]]},"properties":{"name":"LL(-77:23:45.9109,37:32:47.5649): @EXIT 193 - 164 EB (NINE MILE RD)","total":2,"Traffic":2}}
+{"type":"Feature","id":"152_63","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.54655748],[-77.394948125,37.54655748],[-77.394948125,37.54499491],[-77.396296,37.54499491],[-77.396296,37.54655748]]]},"properties":{"name":"LL(-77:23:45.9109,37:32:47.5649): @EXIT 193 - 164 EB (NINE MILE RD)","total":5,"Emergency":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"11_64","geometry":{"type":"Polygon","coordinates":[[[-77.586346375,37.54812005],[-77.5849985,37.54812005],[-77.5849985,37.54655748],[-77.586346375,37.54655748],[-77.586346375,37.54812005]]]},"properties":{"name":"TRAYLOR DR/MARGATE DR RICH","total":3,"Traffic":3}}
 ,
@@ -3549,7 +3642,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"32_64","geometry":{"type":"Polygon","coordinates":[[[-77.558041,37.54812005],[-77.55669312500001,37.54812005],[-77.55669312500001,37.54655748],[-77.558041,37.54655748],[-77.558041,37.54812005]]]},"properties":{"name":"3600-BLK TANBY RD","total":4,"Emergency":2,"Crime":2}}
 ,
-{"type":"Feature","id":"36_64","geometry":{"type":"Polygon","coordinates":[[[-77.5526495,37.54812005],[-77.55130162500001,37.54812005],[-77.55130162500001,37.54655748],[-77.5526495,37.54655748],[-77.5526495,37.54812005]]]},"properties":{"name":"8500-BLK CHIPPENHAM RD; CHIPPENHAM/N HUGUENOT RD RICH; HUGUENOT/CHIPPENHAM PKWY RICH; LL(ERROR!): CHIPPENHAM/HUGUENOT; CHIPPENHAM PKWY/HUGUENOT RICH; N HUGUENOT RD/CHIPPENHAM RICH","total":45,"Traffic":30,"Crime":12,"Emergency":3}}
+{"type":"Feature","id":"36_64","geometry":{"type":"Polygon","coordinates":[[[-77.5526495,37.54812005],[-77.55130162500001,37.54812005],[-77.55130162500001,37.54655748],[-77.5526495,37.54655748],[-77.5526495,37.54812005]]]},"properties":{"name":"8500-BLK CHIPPENHAM RD; CHIPPENHAM/N HUGUENOT RD RICH; HUGUENOT/CHIPPENHAM PKWY RICH; LL(ERROR!): CHIPPENHAM/HUGUENOT; CHIPPENHAM PKWY/HUGUENOT RICH; N HUGUENOT RD/CHIPPENHAM RICH","total":46,"Traffic":31,"Crime":12,"Emergency":3}}
 ,
 {"type":"Feature","id":"43_64","geometry":{"type":"Polygon","coordinates":[[[-77.543214375,37.54812005],[-77.5418665,37.54812005],[-77.5418665,37.54655748],[-77.543214375,37.54655748],[-77.543214375,37.54812005]]]},"properties":{"name":"3700-BLK WAKEFIELD RD","total":2,"Crime":2}}
 ,
@@ -3563,13 +3656,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"82_64","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.54812005],[-77.489299375,37.54812005],[-77.489299375,37.54655748],[-77.49064725000001,37.54655748],[-77.49064725000001,37.54812005]]]},"properties":{"name":"DOUGLASDALE RD/MCCLOY ST RICH","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"86_64","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.54812005],[-77.483907875,37.54812005],[-77.483907875,37.54655748],[-77.48525575000001,37.54655748],[-77.48525575000001,37.54812005]]]},"properties":{"name":"3200-BLK GRANT ST","total":3,"Crime":3}}
+{"type":"Feature","id":"86_64","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.54812005],[-77.483907875,37.54812005],[-77.483907875,37.54655748],[-77.48525575000001,37.54655748],[-77.48525575000001,37.54812005]]]},"properties":{"name":"3200-BLK GRANT ST; 3200-BLK FRENCH ST","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"87_64","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.54812005],[-77.48256,37.54812005],[-77.48256,37.54655748],[-77.483907875,37.54655748],[-77.483907875,37.54812005]]]},"properties":{"name":"3100-BLK FRENCH ST","total":5,"Crime":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"88_64","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.54812005],[-77.481212125,37.54812005],[-77.481212125,37.54655748],[-77.48256,37.54655748],[-77.48256,37.54812005]]]},"properties":{"name":"3000-BLK GRANT ST","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"90_64","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.54812005],[-77.478516375,37.54812005],[-77.478516375,37.54655748],[-77.47986425,37.54655748],[-77.47986425,37.54812005]]]},"properties":{"name":"00-BLK S ARTHUR ASHE BLVD; 200-BLK S ARTHUR ASHE BLVD","total":16,"Emergency":8,"Mental":4,"Crime":2,"Traffic":2}}
+{"type":"Feature","id":"90_64","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.54812005],[-77.478516375,37.54812005],[-77.478516375,37.54655748],[-77.47986425,37.54655748],[-77.47986425,37.54812005]]]},"properties":{"name":"00-BLK S ARTHUR ASHE BLVD; 200-BLK S ARTHUR ASHE BLVD","total":18,"Emergency":8,"Crime":4,"Mental":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"93_64","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.54812005],[-77.47447275,37.54812005],[-77.47447275,37.54655748],[-77.475820625,37.54655748],[-77.475820625,37.54812005]]]},"properties":{"name":"S ROBINSON ST/BOAT LAKE DR RICH; 00-BLK S ROBINSON ST","total":4,"Traffic":2,"Emergency":2}}
 ,
@@ -3579,7 +3672,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"98_64","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.54812005],[-77.46773337500001,37.54812005],[-77.46773337500001,37.54655748],[-77.46908125,37.54655748],[-77.46908125,37.54812005]]]},"properties":{"name":"2100-BLK PARKWOOD AVE","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"99_64","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54812005],[-77.4663855,37.54812005],[-77.4663855,37.54655748],[-77.46773337500001,37.54655748],[-77.46773337500001,37.54812005]]]},"properties":{"name":"300-BLK S MEADOW ST; 100-BLK S MEADOW ST; PARKWOOD AVE/S MEADOW ST RICH; S MEADOW ST/PARKWOOD AVE RICH; S MEADOW ST/GRAYLAND AVE RICH; 00-BLK S MEADOW ST","total":58,"Crime":25,"Emergency":19,"Traffic":11,"Discretionary":2,"Mental":1}}
+{"type":"Feature","id":"99_64","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54812005],[-77.4663855,37.54812005],[-77.4663855,37.54655748],[-77.46773337500001,37.54655748],[-77.46773337500001,37.54812005]]]},"properties":{"name":"300-BLK S MEADOW ST; 100-BLK S MEADOW ST; PARKWOOD AVE/S MEADOW ST RICH; S MEADOW ST/PARKWOOD AVE RICH; S MEADOW ST/GRAYLAND AVE RICH; 00-BLK S MEADOW ST","total":64,"Crime":27,"Emergency":21,"Traffic":13,"Discretionary":2,"Mental":1}}
 ,
 {"type":"Feature","id":"100_64","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.54812005],[-77.46503762500001,37.54812005],[-77.46503762500001,37.54655748],[-77.4663855,37.54655748],[-77.4663855,37.54812005]]]},"properties":{"name":"1900-BLK W CARY ST","total":19,"Discretionary":12,"Traffic":4,"Crime":3}}
 ,
@@ -3587,7 +3680,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"102_64","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.54812005],[-77.462341875,37.54812005],[-77.462341875,37.54655748],[-77.46368975,37.54655748],[-77.46368975,37.54812005]]]},"properties":{"name":"1700-BLK W CARY ST; 0-BLK S VINE ST","total":9,"Mental":4,"Crime":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"103_64","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.54812005],[-77.460994,37.54812005],[-77.460994,37.54655748],[-77.462341875,37.54655748],[-77.462341875,37.54812005]]]},"properties":{"name":"1600-BLK W CARY ST","total":18,"Crime":13,"Emergency":5}}
+{"type":"Feature","id":"103_64","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.54812005],[-77.460994,37.54812005],[-77.460994,37.54655748],[-77.462341875,37.54655748],[-77.462341875,37.54812005]]]},"properties":{"name":"1600-BLK W CARY ST","total":19,"Crime":14,"Emergency":5}}
 ,
 {"type":"Feature","id":"104_64","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.54812005],[-77.459646125,37.54812005],[-77.459646125,37.54655748],[-77.460994,37.54655748],[-77.460994,37.54812005]]]},"properties":{"name":"1500-BLK W MAIN ST","total":9,"Crime":6,"Emergency":3}}
 ,
@@ -3595,9 +3688,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"106_64","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.54812005],[-77.456950375,37.54812005],[-77.456950375,37.54655748],[-77.45829825,37.54655748],[-77.45829825,37.54812005]]]},"properties":{"name":"1400-BLK FLOYD AVE; FLOYD AVE/N HARVIE ST RICH; 1300-BLK FLOYD AVE","total":12,"Traffic":7,"Crime":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"107_64","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54812005],[-77.4556025,37.54812005],[-77.4556025,37.54655748],[-77.456950375,37.54655748],[-77.456950375,37.54812005]]]},"properties":{"name":"0-BLK N MORRIS ST; 00-BLK N MORRIS ST","total":2,"Traffic":1,"Emergency":1}}
+{"type":"Feature","id":"107_64","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54812005],[-77.4556025,37.54812005],[-77.4556025,37.54655748],[-77.456950375,37.54655748],[-77.456950375,37.54812005]]]},"properties":{"name":"0-BLK N MORRIS ST; 00-BLK N MORRIS ST; PARK AVE/N MORRIS ST RICH; 100-BLK N MORRIS ST","total":5,"Traffic":3,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"108_64","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.54812005],[-77.454254625,37.54812005],[-77.454254625,37.54655748],[-77.4556025,37.54655748],[-77.4556025,37.54812005]]]},"properties":{"name":"100-BLK N HARRISON ST; FLOYD AVE/N HARRISON ST RICH; 1100-BLK FLOYD AVE; N HARRISON ST/FLOYD AVE RICH","total":18,"Traffic":13,"Mental":3,"Crime":1,"Emergency":1}}
+{"type":"Feature","id":"108_64","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.54812005],[-77.454254625,37.54812005],[-77.454254625,37.54655748],[-77.4556025,37.54655748],[-77.4556025,37.54812005]]]},"properties":{"name":"100-BLK N HARRISON ST; FLOYD AVE/N HARRISON ST RICH; 1100-BLK FLOYD AVE; N HARRISON ST/FLOYD AVE RICH","total":20,"Traffic":13,"Mental":3,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"109_64","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.54812005],[-77.45290675,37.54812005],[-77.45290675,37.54655748],[-77.454254625,37.54655748],[-77.454254625,37.54812005]]]},"properties":{"name":"LL(-77:27:12.5462,37:32:49.8551): EST 952 FLOYD AVE RICH; 900-BLK FLOYD AVE","total":3,"Emergency":2,"Crime":1}}
 ,
@@ -3605,15 +3698,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"112_64","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54812005],[-77.448863125,37.54812005],[-77.448863125,37.54655748],[-77.450211,37.54655748],[-77.450211,37.54812005]]]},"properties":{"name":"700-BLK W FRANKLIN ST","total":3,"Emergency":3}}
 ,
-{"type":"Feature","id":"113_64","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.54812005],[-77.44751525000001,37.54812005],[-77.44751525000001,37.54655748],[-77.448863125,37.54655748],[-77.448863125,37.54812005]]]},"properties":{"name":"500-BLK W FRANKLIN ST; 500-BLK W FRANKLIN APT 1608; 200-BLK N BELVIDERE ST; N BELVIDERE ST/W FRANKLIN ST RICH; 100-BLK N BELVIDERE ST; N BELVIDERE ST/W GRACE ST RICH; 800-BLK W FRANKLIN ST; W GRACE ST/N BELVIDERE ST RICH; W FRANKLIN ST/N BELVIDERE ST RICH; 1000-BLK BELVIDERE; 00-BLK N BELVIDERE ST; 0-BLK W FRANKLIN ST","total":88,"Crime":39,"Emergency":26,"Traffic":20,"Discretionary":3}}
+{"type":"Feature","id":"113_64","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.54812005],[-77.44751525000001,37.54812005],[-77.44751525000001,37.54655748],[-77.448863125,37.54655748],[-77.448863125,37.54812005]]]},"properties":{"name":"500-BLK W FRANKLIN ST; 500-BLK W FRANKLIN APT 1608; 200-BLK N BELVIDERE ST; N BELVIDERE ST/W FRANKLIN ST RICH; 100-BLK N BELVIDERE ST; N BELVIDERE ST/W GRACE ST RICH; 800-BLK W FRANKLIN ST; W GRACE ST/N BELVIDERE ST RICH; W FRANKLIN ST/N BELVIDERE ST RICH; 1000-BLK BELVIDERE; 00-BLK N BELVIDERE ST; 0-BLK W FRANKLIN ST; 601-BLK N BELVIDERE ST","total":95,"Crime":43,"Emergency":26,"Traffic":23,"Discretionary":3}}
 ,
-{"type":"Feature","id":"114_64","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54812005],[-77.446167375,37.54812005],[-77.446167375,37.54655748],[-77.44751525000001,37.54655748],[-77.44751525000001,37.54812005]]]},"properties":{"name":"500-BLK W GRACE ST; N MONROE ST/W GRACE ST RICH; 200-BLK N HENRY ST; 400-BLK W GRACE ST; N HENRY ST/W GRACE ST RICH","total":27,"Crime":11,"Mental":6,"Traffic":4,"Emergency":4,"Discretionary":2}}
+{"type":"Feature","id":"114_64","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54812005],[-77.446167375,37.54812005],[-77.446167375,37.54655748],[-77.44751525000001,37.54655748],[-77.44751525000001,37.54812005]]]},"properties":{"name":"500-BLK W GRACE ST; N MONROE ST/W GRACE ST RICH; 200-BLK N HENRY ST; 400-BLK W GRACE ST; N HENRY ST/W GRACE ST RICH","total":29,"Crime":11,"Emergency":6,"Mental":6,"Traffic":4,"Discretionary":2}}
 ,
-{"type":"Feature","id":"115_64","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.54812005],[-77.44481950000001,37.54812005],[-77.44481950000001,37.54655748],[-77.446167375,37.54655748],[-77.446167375,37.54812005]]]},"properties":{"name":"400-BLK W BROAD ST; 300-BLK N MONROE ST; W BROAD ST/N MONROE ST RICH; N MONROE ST/W BROAD ST RICH","total":14,"Traffic":6,"Crime":4,"Discretionary":2,"Mental":2}}
+{"type":"Feature","id":"115_64","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.54812005],[-77.44481950000001,37.54812005],[-77.44481950000001,37.54655748],[-77.446167375,37.54655748],[-77.446167375,37.54812005]]]},"properties":{"name":"400-BLK W BROAD ST; 300-BLK N MONROE ST; W BROAD ST/N MONROE ST RICH; N MONROE ST/W BROAD ST RICH","total":15,"Traffic":6,"Crime":5,"Discretionary":2,"Mental":2}}
 ,
-{"type":"Feature","id":"116_64","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54812005],[-77.443471625,37.54812005],[-77.443471625,37.54655748],[-77.44481950000001,37.54655748],[-77.44481950000001,37.54812005]]]},"properties":{"name":"200BLK W BROAD ST; 200-BLK W BROAD ST; W MARSHALL ST/N MADISON ST RICH; 2000-BLK W MARSHALL ST; 300-BLK W BROAD ST; 0-BLK W MARSHALL ST; N MADISON ST/W BROAD ST RICH; 1800-BLK W MARSHALL ST","total":37,"Crime":27,"Traffic":6,"Emergency":4}}
+{"type":"Feature","id":"116_64","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54812005],[-77.443471625,37.54812005],[-77.443471625,37.54655748],[-77.44481950000001,37.54655748],[-77.44481950000001,37.54812005]]]},"properties":{"name":"200BLK W BROAD ST; 200-BLK W BROAD ST; W MARSHALL ST/N MADISON ST RICH; 2000-BLK W MARSHALL ST; 300-BLK W BROAD ST; 0-BLK W MARSHALL ST; N MADISON ST/W BROAD ST RICH; 1800-BLK W MARSHALL ST","total":42,"Crime":32,"Traffic":6,"Emergency":4}}
 ,
-{"type":"Feature","id":"117_64","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.54812005],[-77.44212375000001,37.54812005],[-77.44212375000001,37.54655748],[-77.443471625,37.54655748],[-77.443471625,37.54812005]]]},"properties":{"name":"200-BLK W MARSHALL ST; 300-BLK BROOK RD; 400-BLK BROOK RD","total":40,"Crime":19,"Emergency":16,"Traffic":5}}
+{"type":"Feature","id":"117_64","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.54812005],[-77.44212375000001,37.54812005],[-77.44212375000001,37.54655748],[-77.443471625,37.54655748],[-77.443471625,37.54812005]]]},"properties":{"name":"200-BLK W MARSHALL ST; 300-BLK BROOK RD; 400-BLK BROOK RD","total":43,"Crime":21,"Emergency":17,"Traffic":5}}
 ,
 {"type":"Feature","id":"118_64","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.54812005],[-77.440775875,37.54812005],[-77.440775875,37.54655748],[-77.44212375000001,37.54655748],[-77.44212375000001,37.54812005]]]},"properties":{"name":"100-BLK W MARSHALL ST; 100-BLK W CLAY ST; N ADAMS ST/W MARSHALL ST RICH; W MARSHALL ST/N ADAMS ST RICH","total":36,"Crime":21,"Mental":10,"Emergency":4,"Traffic":1}}
 ,
@@ -3629,21 +3722,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"124_64","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.54812005],[-77.432688625,37.54812005],[-77.432688625,37.54655748],[-77.4340365,37.54655748],[-77.4340365,37.54812005]]]},"properties":{"name":"N 5TH ST/E JACKSON ST RICH; E JACKSON ST/N 5TH ST RICH","total":3,"Traffic":3}}
 ,
-{"type":"Feature","id":"133_64","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.54812005],[-77.42055775,37.54812005],[-77.42055775,37.54655748],[-77.42190562500001,37.54655748],[-77.42190562500001,37.54812005]]]},"properties":{"name":"1900-BLK REDD ST; ACCOMMODATION ST/REDD ST RICH; 1900-BLK ACCOMMODATION ST","total":98,"Discretionary":53,"Crime":33,"Emergency":6,"Mental":5,"Traffic":1}}
+{"type":"Feature","id":"133_64","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.54812005],[-77.42055775,37.54812005],[-77.42055775,37.54655748],[-77.42190562500001,37.54655748],[-77.42190562500001,37.54812005]]]},"properties":{"name":"1900-BLK REDD ST; ACCOMMODATION ST/REDD ST RICH; 1900-BLK ACCOMMODATION ST","total":106,"Discretionary":53,"Crime":37,"Emergency":8,"Mental":7,"Traffic":1}}
 ,
 {"type":"Feature","id":"135_64","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54812005],[-77.417862,37.54812005],[-77.417862,37.54655748],[-77.419209875,37.54655748],[-77.419209875,37.54812005]]]},"properties":{"name":"COALTER ST/RICHMOND ST RICH; 1600-BLK GAY ST; 2100-BLK RICHMOND ST","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"136_64","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54812005],[-77.416514125,37.54812005],[-77.416514125,37.54655748],[-77.417862,37.54655748],[-77.417862,37.54812005]]]},"properties":{"name":"1600-BLK SPOTSYLVANIA ST","total":10,"Crime":7,"Emergency":3}}
 ,
-{"type":"Feature","id":"137_64","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54812005],[-77.41516625,37.54812005],[-77.41516625,37.54655748],[-77.416514125,37.54655748],[-77.416514125,37.54812005]]]},"properties":{"name":"1500-BLK MECHANICSVILLE TPKE","total":10,"Crime":3,"Traffic":3,"Discretionary":3,"Emergency":1}}
+{"type":"Feature","id":"137_64","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.54812005],[-77.41516625,37.54812005],[-77.41516625,37.54655748],[-77.416514125,37.54655748],[-77.416514125,37.54812005]]]},"properties":{"name":"1500-BLK MECHANICSVILLE TPKE","total":12,"Discretionary":5,"Crime":3,"Traffic":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"138_64","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.54812005],[-77.413818375,37.54812005],[-77.413818375,37.54655748],[-77.41516625,37.54655748],[-77.41516625,37.54812005]]]},"properties":{"name":"1500-BLK ROGERS ST","total":3,"Crime":2,"Mental":1}}
 ,
 {"type":"Feature","id":"139_64","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.54812005],[-77.4124705,37.54812005],[-77.4124705,37.54655748],[-77.413818375,37.54655748],[-77.413818375,37.54812005]]]},"properties":{"name":"1500-BLK N 19TH ST","total":7,"Crime":3,"Emergency":3,"Mental":1}}
 ,
-{"type":"Feature","id":"140_64","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.54812005],[-77.411122625,37.54812005],[-77.411122625,37.54655748],[-77.4124705,37.54655748],[-77.4124705,37.54812005]]]},"properties":{"name":"2000-BLK X ST; X ST/N 20TH ST RICH","total":3,"Crime":3}}
+{"type":"Feature","id":"140_64","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.54812005],[-77.411122625,37.54812005],[-77.411122625,37.54655748],[-77.4124705,37.54655748],[-77.4124705,37.54812005]]]},"properties":{"name":"2000-BLK X ST; X ST/N 20TH ST RICH","total":11,"Emergency":8,"Crime":3}}
 ,
-{"type":"Feature","id":"141_64","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.54812005],[-77.40977475,37.54812005],[-77.40977475,37.54655748],[-77.411122625,37.54655748],[-77.411122625,37.54812005]]]},"properties":{"name":"1800-BLK N 21ST ST","total":4,"Crime":4}}
+{"type":"Feature","id":"141_64","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.54812005],[-77.40977475,37.54812005],[-77.40977475,37.54655748],[-77.411122625,37.54655748],[-77.411122625,37.54812005]]]},"properties":{"name":"1800-BLK N 21ST ST","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"142_64","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.54812005],[-77.408426875,37.54812005],[-77.408426875,37.54655748],[-77.40977475,37.54655748],[-77.40977475,37.54812005]]]},"properties":{"name":"1800-BLK N 22ND ST; N 21ST ST/FAIRFIELD AVE RICH","total":23,"Crime":11,"Mental":5,"Traffic":4,"Emergency":3}}
 ,
@@ -3653,7 +3746,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"146_64","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.54812005],[-77.403035375,37.54812005],[-77.403035375,37.54655748],[-77.40438325000001,37.54655748],[-77.40438325000001,37.54812005]]]},"properties":{"name":"2500-BLK PETER PAUL BLVD","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"147_64","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.54812005],[-77.40168750000001,37.54812005],[-77.40168750000001,37.54655748],[-77.403035375,37.54655748],[-77.403035375,37.54812005]]]},"properties":{"name":"2200-BLK N 26TH ST; N 26TH ST/FAIRFIELD AVE RICH","total":10,"Crime":4,"Traffic":4,"Emergency":2}}
+{"type":"Feature","id":"147_64","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.54812005],[-77.40168750000001,37.54812005],[-77.40168750000001,37.54655748],[-77.403035375,37.54655748],[-77.403035375,37.54812005]]]},"properties":{"name":"2200-BLK N 26TH ST; N 26TH ST/FAIRFIELD AVE RICH","total":11,"Traffic":5,"Crime":4,"Emergency":2}}
 ,
 {"type":"Feature","id":"148_64","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.54812005],[-77.400339625,37.54812005],[-77.400339625,37.54655748],[-77.40168750000001,37.54655748],[-77.40168750000001,37.54812005]]]},"properties":{"name":"SELDEN ST/FAIRFIELD AVE RICH","total":2,"Crime":2}}
 ,
@@ -3663,7 +3756,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"11_65","geometry":{"type":"Polygon","coordinates":[[[-77.586346375,37.54968262],[-77.5849985,37.54968262],[-77.5849985,37.54812005],[-77.586346375,37.54812005],[-77.586346375,37.54968262]]]},"properties":{"name":"3900-BLK TRAYLOR DR","total":6,"Crime":4,"Emergency":2}}
 ,
-{"type":"Feature","id":"20_65","geometry":{"type":"Polygon","coordinates":[[[-77.57421550000001,37.54968262],[-77.572867625,37.54968262],[-77.572867625,37.54812005],[-77.57421550000001,37.54812005],[-77.57421550000001,37.54968262]]]},"properties":{"name":"3700-BLK STONY POINT PKWY; 9100-BLK STONY POINT PKWY","total":10,"Crime":6,"Traffic":2,"Emergency":2}}
+{"type":"Feature","id":"20_65","geometry":{"type":"Polygon","coordinates":[[[-77.57421550000001,37.54968262],[-77.572867625,37.54968262],[-77.572867625,37.54812005],[-77.57421550000001,37.54812005],[-77.57421550000001,37.54968262]]]},"properties":{"name":"3700-BLK STONY POINT PKWY; 9100-BLK STONY POINT PKWY","total":11,"Crime":6,"Emergency":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"24_65","geometry":{"type":"Polygon","coordinates":[[[-77.568824,37.54968262],[-77.567476125,37.54968262],[-77.567476125,37.54812005],[-77.568824,37.54812005],[-77.568824,37.54968262]]]},"properties":{"name":"600-BLK JAHN; 9100-BLK STONY POINT DR","total":9,"Crime":5,"Emergency":3,"Discretionary":1}}
 ,
@@ -3677,7 +3770,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"89_65","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.54968262],[-77.47986425,37.54968262],[-77.47986425,37.54812005],[-77.481212125,37.54812005],[-77.481212125,37.54968262]]]},"properties":{"name":"3000-BLK MAPLEWOOD AVE","total":7,"Traffic":5,"Crime":2}}
 ,
-{"type":"Feature","id":"91_65","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.54968262],[-77.4771685,37.54968262],[-77.4771685,37.54812005],[-77.478516375,37.54812005],[-77.478516375,37.54968262]]]},"properties":{"name":"600-BLK S ARTHUR ASHE BLVD","total":11,"Crime":6,"Traffic":2,"Discretionary":2,"Emergency":1}}
+{"type":"Feature","id":"91_65","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.54968262],[-77.4771685,37.54968262],[-77.4771685,37.54812005],[-77.478516375,37.54812005],[-77.478516375,37.54968262]]]},"properties":{"name":"600-BLK S ARTHUR ASHE BLVD","total":12,"Crime":6,"Traffic":2,"Discretionary":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"92_65","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.54968262],[-77.475820625,37.54968262],[-77.475820625,37.54812005],[-77.4771685,37.54812005],[-77.4771685,37.54968262]]]},"properties":{"name":"S MULBERRY ST/IDLEWOOD AVE RICH","total":1,"Traffic":1}}
 ,
@@ -3691,47 +3784,47 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"97_65","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.54968262],[-77.46908125,37.54968262],[-77.46908125,37.54812005],[-77.47042912500001,37.54812005],[-77.47042912500001,37.54968262]]]},"properties":{"name":"PARKWOOD AVE/S SHIELDS AVE RICH; 2300-BLK W CARY ST","total":5,"Emergency":3,"Crime":2}}
 ,
-{"type":"Feature","id":"98_65","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.54968262],[-77.46773337500001,37.54968262],[-77.46773337500001,37.54812005],[-77.46908125,37.54812005],[-77.46908125,37.54968262]]]},"properties":{"name":"2100-BLK W CARY ST; 00-BLK S SHIELDS AVE; W CARY ST/S SHIELDS AVE RICH; TEMPLE ST/W CARY ST RICH; I-195/W CARY ST RICH; 2200-BLK W CARY ST","total":16,"Traffic":8,"Crime":6,"Emergency":2}}
+{"type":"Feature","id":"98_65","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.54968262],[-77.46773337500001,37.54968262],[-77.46773337500001,37.54812005],[-77.46908125,37.54812005],[-77.46908125,37.54968262]]]},"properties":{"name":"2100-BLK W CARY ST; 00-BLK S SHIELDS AVE; W CARY ST/S SHIELDS AVE RICH; TEMPLE ST/W CARY ST RICH; I-195/W CARY ST RICH; 2200-BLK W CARY ST; RICH: @I195 SB BETWEEN MONUMENT AVE &amp; W CARY ST","total":19,"Traffic":8,"Crime":6,"Mental":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"99_65","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54968262],[-77.4663855,37.54968262],[-77.4663855,37.54812005],[-77.46773337500001,37.54812005],[-77.46773337500001,37.54968262]]]},"properties":{"name":"S MEADOW ST/W CARY ST RICH; N ROWLAND ST/W MAIN ST RICH; W CARY ST/S MEADOW ST RICH; 2000-BLK W CARY ST; LL(-77:28:01.0410,37:32:53.8769): MEAD/CAR; W MAIN ST/N ROWLAND ST RICH; 2000-BLK CARY ST","total":91,"Discretionary":58,"Emergency":13,"Crime":12,"Traffic":6,"Mental":2}}
+{"type":"Feature","id":"99_65","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.54968262],[-77.4663855,37.54968262],[-77.4663855,37.54812005],[-77.46773337500001,37.54812005],[-77.46773337500001,37.54968262]]]},"properties":{"name":"S MEADOW ST/W CARY ST RICH; N ROWLAND ST/W MAIN ST RICH; W CARY ST/S MEADOW ST RICH; 2000-BLK W CARY ST; LL(-77:28:01.0410,37:32:53.8769): MEAD/CAR; W MAIN ST/N ROWLAND ST RICH; 2000-BLK CARY ST","total":99,"Discretionary":66,"Emergency":13,"Crime":12,"Traffic":6,"Mental":2}}
 ,
 {"type":"Feature","id":"100_65","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.54968262],[-77.46503762500001,37.54968262],[-77.46503762500001,37.54812005],[-77.4663855,37.54812005],[-77.4663855,37.54968262]]]},"properties":{"name":"2000-BLK W MAIN ST; N MEADOW ST/W MAIN ST RICH; W MAIN ST/N MEADOW ST RICH","total":12,"Traffic":5,"Emergency":4,"Crime":3}}
 ,
-{"type":"Feature","id":"101_65","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.54968262],[-77.46368975,37.54968262],[-77.46368975,37.54812005],[-77.46503762500001,37.54812005],[-77.46503762500001,37.54968262]]]},"properties":{"name":"1900-BLK W MAIN ST; W MAIN ST/N GRANBY ST RICH; N GRANBY ST/W MAIN ST RICH","total":19,"Crime":15,"Discretionary":4}}
+{"type":"Feature","id":"101_65","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.54968262],[-77.46368975,37.54968262],[-77.46368975,37.54812005],[-77.46503762500001,37.54812005],[-77.46503762500001,37.54968262]]]},"properties":{"name":"1900-BLK W MAIN ST; W MAIN ST/N GRANBY ST RICH; N GRANBY ST/W MAIN ST RICH","total":20,"Crime":16,"Discretionary":4}}
 ,
 {"type":"Feature","id":"102_65","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.54968262],[-77.462341875,37.54968262],[-77.462341875,37.54812005],[-77.46368975,37.54812005],[-77.46368975,37.54968262]]]},"properties":{"name":"W MAIN ST/N ALLEN AVE RICH; 1800-BLK W MAIN ST; 1800-BLK FLOYD AVE","total":8,"Traffic":4,"Crime":4}}
 ,
-{"type":"Feature","id":"103_65","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.54968262],[-77.460994,37.54968262],[-77.460994,37.54812005],[-77.462341875,37.54812005],[-77.462341875,37.54968262]]]},"properties":{"name":"N VINE ST/FLOYD AVE RICH; 1700-BLK FLOYD AVE; 1700-BLK W MAIN ST","total":13,"Crime":7,"Emergency":6}}
+{"type":"Feature","id":"103_65","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.54968262],[-77.460994,37.54968262],[-77.460994,37.54812005],[-77.462341875,37.54812005],[-77.462341875,37.54968262]]]},"properties":{"name":"N VINE ST/FLOYD AVE RICH; 1700-BLK FLOYD AVE; 1700-BLK W MAIN ST","total":15,"Crime":7,"Emergency":6,"Traffic":2}}
 ,
 {"type":"Feature","id":"104_65","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.54968262],[-77.459646125,37.54968262],[-77.459646125,37.54812005],[-77.460994,37.54812005],[-77.460994,37.54968262]]]},"properties":{"name":"1600-BLK FLOYD AVE; GROVE AVE/N LOMBARDY ST RICH","total":3,"Traffic":2,"Crime":1}}
 ,
-{"type":"Feature","id":"105_65","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.54968262],[-77.45829825,37.54968262],[-77.45829825,37.54812005],[-77.459646125,37.54812005],[-77.459646125,37.54968262]]]},"properties":{"name":"200-BLK N PLUM ST","total":2,"Mental":1,"Traffic":1}}
+{"type":"Feature","id":"105_65","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.54968262],[-77.45829825,37.54968262],[-77.45829825,37.54812005],[-77.459646125,37.54812005],[-77.459646125,37.54968262]]]},"properties":{"name":"200-BLK N PLUM ST; 1500-BLK GROVE AVE","total":8,"Mental":7,"Traffic":1}}
 ,
-{"type":"Feature","id":"107_65","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54968262],[-77.4556025,37.54968262],[-77.4556025,37.54812005],[-77.456950375,37.54812005],[-77.456950375,37.54968262]]]},"properties":{"name":"LL(-77:27:23.8235,37:32:54.8797): HARRISON/FOYD; GROVE AVE/N MORRIS ST RICH; N HARVIE ST/PARK AVE RICH; 300-BLK BOYD ST; 1200-BLK PARK AVE","total":5,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"107_65","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.54968262],[-77.4556025,37.54968262],[-77.4556025,37.54812005],[-77.456950375,37.54812005],[-77.456950375,37.54968262]]]},"properties":{"name":"LL(-77:27:23.8235,37:32:54.8797): HARRISON/FOYD; GROVE AVE/N MORRIS ST RICH; N HARVIE ST/PARK AVE RICH; 300-BLK BOYD ST; 1200-BLK PARK AVE","total":8,"Crime":3,"Emergency":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"108_65","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.54968262],[-77.454254625,37.54968262],[-77.454254625,37.54812005],[-77.4556025,37.54812005],[-77.4556025,37.54968262]]]},"properties":{"name":"N HARRISON ST/PARK AVE RICH; 1000-BLK PARK AVE; 300-BLK N HARRISON ST","total":10,"Traffic":9,"Crime":1}}
 ,
 {"type":"Feature","id":"109_65","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.54968262],[-77.45290675,37.54968262],[-77.45290675,37.54812005],[-77.454254625,37.54812005],[-77.454254625,37.54968262]]]},"properties":{"name":"900-BLK PARK AVE","total":5,"Crime":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"112_65","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54968262],[-77.448863125,37.54968262],[-77.448863125,37.54812005],[-77.450211,37.54812005],[-77.450211,37.54968262]]]},"properties":{"name":"800-BLK W GRACE ST; W GRACE ST/N PINE ST RICH; 700-BLK W GRACE ST; W GRACE ST/N LAUREL ST RICH","total":24,"Crime":11,"Emergency":7,"Traffic":6}}
+{"type":"Feature","id":"112_65","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.54968262],[-77.448863125,37.54968262],[-77.448863125,37.54812005],[-77.450211,37.54812005],[-77.450211,37.54968262]]]},"properties":{"name":"800-BLK W GRACE ST; W GRACE ST/N PINE ST RICH; 700-BLK W GRACE ST; W GRACE ST/N LAUREL ST RICH","total":30,"Crime":13,"Emergency":9,"Traffic":8}}
 ,
-{"type":"Feature","id":"113_65","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.54968262],[-77.44751525000001,37.54968262],[-77.44751525000001,37.54812005],[-77.448863125,37.54812005],[-77.448863125,37.54968262]]]},"properties":{"name":"00-BLK W GRACE ST","total":9,"Crime":9}}
+{"type":"Feature","id":"113_65","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.54968262],[-77.44751525000001,37.54968262],[-77.44751525000001,37.54812005],[-77.448863125,37.54812005],[-77.448863125,37.54968262]]]},"properties":{"name":"00-BLK W GRACE ST","total":11,"Crime":11}}
 ,
-{"type":"Feature","id":"114_65","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54968262],[-77.446167375,37.54968262],[-77.446167375,37.54812005],[-77.44751525000001,37.54812005],[-77.44751525000001,37.54968262]]]},"properties":{"name":"W BROAD ST/N BELVIDERE ST RICH; 500-BLK W BROAD ST; N BELVIDERE ST/W BROAD ST RICH; 600-BLK W BROAD ST","total":59,"Crime":35,"Traffic":12,"Emergency":11,"Mental":1}}
+{"type":"Feature","id":"114_65","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.54968262],[-77.446167375,37.54968262],[-77.446167375,37.54812005],[-77.44751525000001,37.54812005],[-77.44751525000001,37.54968262]]]},"properties":{"name":"W BROAD ST/N BELVIDERE ST RICH; 500-BLK W BROAD ST; N BELVIDERE ST/W BROAD ST RICH; 600-BLK W BROAD ST","total":60,"Crime":36,"Traffic":12,"Emergency":11,"Mental":1}}
 ,
 {"type":"Feature","id":"115_65","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.54968262],[-77.44481950000001,37.54968262],[-77.44481950000001,37.54812005],[-77.446167375,37.54812005],[-77.446167375,37.54968262]]]},"properties":{"name":"500-BLK W MARSHALL ST; N HENRY ST/W MARSHALL ST RICH","total":6,"Crime":4,"Traffic":2}}
 ,
-{"type":"Feature","id":"116_65","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54968262],[-77.443471625,37.54968262],[-77.443471625,37.54812005],[-77.44481950000001,37.54812005],[-77.44481950000001,37.54968262]]]},"properties":{"name":"400-BLK W MARSHALL ST; 300-BLK W MARSHALL ST","total":5,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"116_65","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.54968262],[-77.443471625,37.54968262],[-77.443471625,37.54812005],[-77.44481950000001,37.54812005],[-77.44481950000001,37.54968262]]]},"properties":{"name":"400-BLK W MARSHALL ST; 300-BLK W MARSHALL ST","total":7,"Crime":5,"Traffic":2}}
 ,
 {"type":"Feature","id":"117_65","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.54968262],[-77.44212375000001,37.54968262],[-77.44212375000001,37.54812005],[-77.443471625,37.54812005],[-77.443471625,37.54968262]]]},"properties":{"name":"500-BLK BROOK RD; 200-BLK W CLAY ST; 300-BLK W CLAY ST","total":13,"Crime":9,"Emergency":3,"Traffic":1}}
 ,
 {"type":"Feature","id":"119_65","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.54968262],[-77.439428,37.54968262],[-77.439428,37.54812005],[-77.440775875,37.54812005],[-77.440775875,37.54968262]]]},"properties":{"name":"CHAMBERLAYNE PKWY/W LEIGH ST RICH; N ADAMS ST/W LEIGH ST RICH; 100-BLK W LEIGH ST","total":10,"Crime":5,"Traffic":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"120_65","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54968262],[-77.438080125,37.54968262],[-77.438080125,37.54812005],[-77.439428,37.54812005],[-77.439428,37.54968262]]]},"properties":{"name":"600-BLK ST JAMES ST; ST JAMES ST/E LEIGH ST RICH; 600-BLK N 1ST ST; ST JAMES ST/E JACKSON ST RICH","total":19,"Traffic":12,"Crime":7}}
+{"type":"Feature","id":"120_65","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.54968262],[-77.438080125,37.54968262],[-77.438080125,37.54812005],[-77.439428,37.54812005],[-77.439428,37.54968262]]]},"properties":{"name":"600-BLK ST JAMES ST; ST JAMES ST/E LEIGH ST RICH; 600-BLK N 1ST ST; ST JAMES ST/E JACKSON ST RICH; E LEIGH ST/ST JAMES ST RICH","total":21,"Traffic":14,"Crime":7}}
 ,
 {"type":"Feature","id":"121_65","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.54968262],[-77.43673225,37.54968262],[-77.43673225,37.54812005],[-77.438080125,37.54812005],[-77.438080125,37.54968262]]]},"properties":{"name":"700-BLK N 1ST ST; N 1ST ST/E JACKSON ST RICH","total":11,"Crime":8,"Emergency":1,"Mental":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"122_65","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.54968262],[-77.435384375,37.54968262],[-77.435384375,37.54812005],[-77.43673225,37.54812005],[-77.43673225,37.54968262]]]},"properties":{"name":"700-BLK N 2ND ST","total":35,"Crime":17,"Emergency":16,"Mental":2}}
+{"type":"Feature","id":"122_65","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.54968262],[-77.435384375,37.54968262],[-77.435384375,37.54812005],[-77.43673225,37.54812005],[-77.43673225,37.54968262]]]},"properties":{"name":"700-BLK N 2ND ST","total":39,"Emergency":20,"Crime":17,"Mental":2}}
 ,
 {"type":"Feature","id":"124_65","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.54968262],[-77.432688625,37.54968262],[-77.432688625,37.54812005],[-77.4340365,37.54812005],[-77.4340365,37.54968262]]]},"properties":{"name":"900-BLK N 5TH ST; 0-BLK N 5TH ST","total":4,"Emergency":2,"Crime":2}}
 ,
@@ -3743,7 +3836,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"131_65","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.54968262],[-77.4232535,37.54968262],[-77.4232535,37.54812005],[-77.42460137500001,37.54812005],[-77.42460137500001,37.54968262]]]},"properties":{"name":"OLIVER HILL WAY/FAIRFIELD WAY RICH","total":3,"Traffic":3}}
 ,
-{"type":"Feature","id":"135_65","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54968262],[-77.417862,37.54968262],[-77.417862,37.54812005],[-77.419209875,37.54812005],[-77.419209875,37.54968262]]]},"properties":{"name":"1700-BLK FAIRFIELD WAY; 2000-BLK ACCOMMODATION ST; 2000-BLK ACCOMODATION; 2000-BLK ACCOMODATION ST; 2000-BLK ACCOMADATION; 2600-BLK FAIRFIELD WAY","total":102,"Discretionary":52,"Emergency":31,"Crime":7,"Traffic":7,"Mental":5}}
+{"type":"Feature","id":"135_65","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.54968262],[-77.417862,37.54968262],[-77.417862,37.54812005],[-77.419209875,37.54812005],[-77.419209875,37.54968262]]]},"properties":{"name":"1700-BLK FAIRFIELD WAY; 2000-BLK ACCOMMODATION ST; 2000-BLK ACCOMODATION; 2000-BLK ACCOMODATION ST; 2000-BLK ACCOMADATION; 2600-BLK FAIRFIELD WAY","total":108,"Discretionary":52,"Emergency":35,"Crime":9,"Traffic":7,"Mental":5}}
 ,
 {"type":"Feature","id":"136_65","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.54968262],[-77.416514125,37.54968262],[-77.416514125,37.54812005],[-77.417862,37.54812005],[-77.417862,37.54968262]]]},"properties":{"name":"2100-BLK ACCOMMODATION ST; 2100-BLK ACCOM","total":17,"Crime":9,"Discretionary":6,"Emergency":2}}
 ,
@@ -3753,7 +3846,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"139_65","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.54968262],[-77.4124705,37.54968262],[-77.4124705,37.54812005],[-77.413818375,37.54812005],[-77.413818375,37.54968262]]]},"properties":{"name":"1600-BLK ROGERS ST","total":7,"Crime":5,"Emergency":2}}
 ,
-{"type":"Feature","id":"141_65","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.54968262],[-77.40977475,37.54968262],[-77.40977475,37.54812005],[-77.411122625,37.54812005],[-77.411122625,37.54968262]]]},"properties":{"name":"1800-BLK N 20TH ST; 2000-BLK FAIRFIELD AVE; 1400-BLK N 20TH ST; 00-BLK N 20TH ST; 1900-BLK N 20TH ST","total":16,"Crime":7,"Traffic":4,"Emergency":3,"Mental":2}}
+{"type":"Feature","id":"141_65","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.54968262],[-77.40977475,37.54968262],[-77.40977475,37.54812005],[-77.411122625,37.54812005],[-77.411122625,37.54968262]]]},"properties":{"name":"1800-BLK N 20TH ST; 2000-BLK FAIRFIELD AVE; 1400-BLK N 20TH ST; 00-BLK N 20TH ST; 1900-BLK N 20TH ST","total":19,"Crime":10,"Traffic":4,"Emergency":3,"Mental":2}}
 ,
 {"type":"Feature","id":"142_65","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.54968262],[-77.408426875,37.54968262],[-77.408426875,37.54812005],[-77.40977475,37.54812005],[-77.40977475,37.54968262]]]},"properties":{"name":"N 21ST ST/CARVER ST RICH; 2100-BLK FAIRFIELD AVE; 2000-BLK NEWBOURNE ST","total":15,"Crime":9,"Emergency":6}}
 ,
@@ -3763,7 +3856,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"146_65","geometry":{"type":"Polygon","coordinates":[[[-77.40438325000001,37.54968262],[-77.403035375,37.54968262],[-77.403035375,37.54812005],[-77.40438325000001,37.54812005],[-77.40438325000001,37.54968262]]]},"properties":{"name":"SELDEN ST/N 25TH ST RICH; 2300-BLK N 25TH ST; ROSETTA ST/N 25TH ST RICH; N 25TH ST/ROSETTA ST RICH; 2200-BLK N 25TH ST","total":21,"Mental":11,"Discretionary":7,"Emergency":2,"Crime":1}}
 ,
-{"type":"Feature","id":"147_65","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.54968262],[-77.40168750000001,37.54968262],[-77.40168750000001,37.54812005],[-77.403035375,37.54812005],[-77.403035375,37.54968262]]]},"properties":{"name":"2500-BLK ROSETTA ST","total":79,"Discretionary":58,"Crime":14,"Mental":3,"Emergency":2,"Traffic":2}}
+{"type":"Feature","id":"147_65","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.54968262],[-77.40168750000001,37.54968262],[-77.40168750000001,37.54812005],[-77.403035375,37.54812005],[-77.403035375,37.54968262]]]},"properties":{"name":"2500-BLK ROSETTA ST","total":80,"Discretionary":58,"Crime":15,"Mental":3,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"148_65","geometry":{"type":"Polygon","coordinates":[[[-77.40168750000001,37.54968262],[-77.400339625,37.54968262],[-77.400339625,37.54812005],[-77.40168750000001,37.54812005],[-77.40168750000001,37.54968262]]]},"properties":{"name":"N 26TH ST/PHAUP ST RICH","total":2,"Crime":2}}
 ,
@@ -3813,17 +3906,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"93_66","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.551245189999996],[-77.47447275,37.551245189999996],[-77.47447275,37.54968262],[-77.475820625,37.54968262],[-77.475820625,37.551245189999996]]]},"properties":{"name":"0-BLK S MULBERRY ST; 200-BLK S MULBERRY ST; W CARY ST/S MULBERRY ST RICH","total":6,"Traffic":4,"Crime":2}}
 ,
-{"type":"Feature","id":"94_66","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.551245189999996],[-77.473124875,37.551245189999996],[-77.473124875,37.54968262],[-77.47447275,37.54968262],[-77.47447275,37.551245189999996]]]},"properties":{"name":"S ROBINSON ST/W CARY ST RICH; W CARY ST/S ROBINSON ST RICH","total":8,"Crime":5,"Emergency":2,"Traffic":1}}
+{"type":"Feature","id":"94_66","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.551245189999996],[-77.473124875,37.551245189999996],[-77.473124875,37.54968262],[-77.47447275,37.54968262],[-77.47447275,37.551245189999996]]]},"properties":{"name":"S ROBINSON ST/W CARY ST RICH; W CARY ST/S ROBINSON ST RICH","total":10,"Crime":6,"Emergency":3,"Traffic":1}}
 ,
 {"type":"Feature","id":"95_66","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.551245189999996],[-77.471777,37.551245189999996],[-77.471777,37.54968262],[-77.473124875,37.54968262],[-77.473124875,37.551245189999996]]]},"properties":{"name":"100-BLK S DAVIS AVE; 00-BLK S DAVIS AVE; 500-BLK S DAVIS AVE; 2500-BLK W CARY ST","total":13,"Crime":7,"Emergency":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"96_66","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.551245189999996],[-77.47042912500001,37.551245189999996],[-77.47042912500001,37.54968262],[-77.471777,37.54968262],[-77.471777,37.551245189999996]]]},"properties":{"name":"N STAFFORD AVE/W MAIN ST RICH; W CARY ST/S STAFFORD AVE RICH; 2400-BLK W CARY ST; 2400-BLK W MAIN ST","total":19,"Crime":16,"Traffic":3}}
 ,
-{"type":"Feature","id":"97_66","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.551245189999996],[-77.46908125,37.551245189999996],[-77.46908125,37.54968262],[-77.47042912500001,37.54968262],[-77.47042912500001,37.551245189999996]]]},"properties":{"name":"2300-BLK W MAIN ST","total":4,"Crime":2,"Traffic":2}}
+{"type":"Feature","id":"97_66","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.551245189999996],[-77.46908125,37.551245189999996],[-77.46908125,37.54968262],[-77.47042912500001,37.54968262],[-77.47042912500001,37.551245189999996]]]},"properties":{"name":"2300-BLK W MAIN ST; W MAIN ST/S ADDISON ST RICH","total":6,"Crime":4,"Traffic":2}}
 ,
-{"type":"Feature","id":"98_66","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.551245189999996],[-77.46773337500001,37.551245189999996],[-77.46773337500001,37.54968262],[-77.46908125,37.54968262],[-77.46908125,37.551245189999996]]]},"properties":{"name":"2200-BLK W MAIN ST; W MAIN ST/N SHIELDS AVE RICH","total":28,"Discretionary":12,"Crime":11,"Emergency":5}}
+{"type":"Feature","id":"98_66","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.551245189999996],[-77.46773337500001,37.551245189999996],[-77.46773337500001,37.54968262],[-77.46908125,37.54968262],[-77.46908125,37.551245189999996]]]},"properties":{"name":"2200-BLK W MAIN ST; W MAIN ST/N SHIELDS AVE RICH","total":30,"Discretionary":14,"Crime":11,"Emergency":5}}
 ,
-{"type":"Feature","id":"99_66","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.551245189999996],[-77.4663855,37.551245189999996],[-77.4663855,37.54968262],[-77.46773337500001,37.54968262],[-77.46773337500001,37.551245189999996]]]},"properties":{"name":"2100-BLK W MAIN ST; 2100-BLK FLOYD AVE; FLOYD AVE/N SHIELDS AVE RICH; N SHIELDS AVE/FLOYD AVE RICH","total":21,"Crime":9,"Traffic":6,"Mental":4,"Emergency":2}}
+{"type":"Feature","id":"99_66","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.551245189999996],[-77.4663855,37.551245189999996],[-77.4663855,37.54968262],[-77.46773337500001,37.54968262],[-77.46773337500001,37.551245189999996]]]},"properties":{"name":"2100-BLK W MAIN ST; 2100-BLK FLOYD AVE; FLOYD AVE/N SHIELDS AVE RICH; N SHIELDS AVE/FLOYD AVE RICH","total":25,"Crime":9,"Traffic":8,"Mental":4,"Emergency":4}}
 ,
 {"type":"Feature","id":"100_66","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.551245189999996],[-77.46503762500001,37.551245189999996],[-77.46503762500001,37.54968262],[-77.4663855,37.54968262],[-77.4663855,37.551245189999996]]]},"properties":{"name":"2000-BLK FLOYD AVE","total":1,"Crime":1}}
 ,
@@ -3835,23 +3928,23 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"105_66","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.551245189999996],[-77.45829825,37.551245189999996],[-77.45829825,37.54968262],[-77.459646125,37.54968262],[-77.459646125,37.551245189999996]]]},"properties":{"name":"300-BLK N LOMBARDY ST; N LOMBARDY ST/HANOVER AVE RICH; 1600-BLK HANOVER AVE","total":8,"Crime":6,"Traffic":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"106_66","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.551245189999996],[-77.456950375,37.551245189999996],[-77.456950375,37.54968262],[-77.45829825,37.54968262],[-77.45829825,37.551245189999996]]]},"properties":{"name":"1400-BLK PARK AVE; 300-BLK BIRCH ST","total":3,"Traffic":3}}
+{"type":"Feature","id":"106_66","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.551245189999996],[-77.456950375,37.551245189999996],[-77.456950375,37.54968262],[-77.45829825,37.54968262],[-77.45829825,37.551245189999996]]]},"properties":{"name":"1400-BLK PARK AVE; 300-BLK BIRCH ST; 1500-BLK WEST AVE","total":4,"Traffic":3,"Crime":1}}
 ,
 {"type":"Feature","id":"107_66","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.551245189999996],[-77.4556025,37.551245189999996],[-77.4556025,37.54968262],[-77.456950375,37.54968262],[-77.456950375,37.551245189999996]]]},"properties":{"name":"BOYD ST/WEST AVE RICH","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"108_66","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.551245189999996],[-77.454254625,37.551245189999996],[-77.454254625,37.54968262],[-77.4556025,37.54968262],[-77.4556025,37.551245189999996]]]},"properties":{"name":"1100-BLK WEST AVE; 1100-BLK W FRANKLIN ST; 500-BLK RYLAND ST; RYLAND ST/W FRANKLIN ST RICH","total":9,"Traffic":4,"Crime":3,"Emergency":2}}
+{"type":"Feature","id":"108_66","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.551245189999996],[-77.454254625,37.551245189999996],[-77.454254625,37.54968262],[-77.4556025,37.54968262],[-77.4556025,37.551245189999996]]]},"properties":{"name":"1100-BLK WEST AVE; 1100-BLK W FRANKLIN ST; 500-BLK RYLAND ST; RYLAND ST/W FRANKLIN ST RICH","total":11,"Traffic":6,"Crime":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"109_66","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.551245189999996],[-77.45290675,37.551245189999996],[-77.45290675,37.54968262],[-77.454254625,37.54968262],[-77.454254625,37.551245189999996]]]},"properties":{"name":"1000-BLK W GRACE ST; 400-BLK N HARRISON ST; 1000-BLK W FRANKLIN ST; W FRANKLIN ST/N HARRISON ST RICH; W GRACE ST/N HARRISON ST RICH; N HARRISON ST/W GRACE ST RICH","total":135,"Crime":64,"Emergency":40,"Discretionary":16,"Traffic":10,"Mental":5}}
+{"type":"Feature","id":"109_66","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.551245189999996],[-77.45290675,37.551245189999996],[-77.45290675,37.54968262],[-77.454254625,37.54968262],[-77.454254625,37.551245189999996]]]},"properties":{"name":"1000-BLK W GRACE ST; 400-BLK N HARRISON ST; 1000-BLK W FRANKLIN ST; W FRANKLIN ST/N HARRISON ST RICH; W GRACE ST/N HARRISON ST RICH; N HARRISON ST/W GRACE ST RICH","total":150,"Crime":69,"Emergency":46,"Discretionary":20,"Traffic":10,"Mental":5}}
 ,
-{"type":"Feature","id":"111_66","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.551245189999996],[-77.450211,37.551245189999996],[-77.450211,37.54968262],[-77.451558875,37.54968262],[-77.451558875,37.551245189999996]]]},"properties":{"name":"900-BLK W GRACE ST; LL(-77:27:03.8161,37:33:02.9879): EST 1039 W BROAD ST RICH; 400-BLK SHAFER ST; W BROAD ST/SHAFER ST RICH; SHAFER ST/W BROAD ST RICH","total":21,"Crime":10,"Emergency":8,"Traffic":2,"Mental":1}}
+{"type":"Feature","id":"111_66","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.551245189999996],[-77.450211,37.551245189999996],[-77.450211,37.54968262],[-77.451558875,37.54968262],[-77.451558875,37.551245189999996]]]},"properties":{"name":"900-BLK W GRACE ST; LL(-77:27:03.8161,37:33:02.9879): EST 1039 W BROAD ST RICH; 400-BLK SHAFER ST; W BROAD ST/SHAFER ST RICH; SHAFER ST/W BROAD ST RICH","total":22,"Crime":11,"Emergency":8,"Traffic":2,"Mental":1}}
 ,
-{"type":"Feature","id":"112_66","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.551245189999996],[-77.448863125,37.551245189999996],[-77.448863125,37.54968262],[-77.450211,37.54968262],[-77.450211,37.551245189999996]]]},"properties":{"name":"900-BLK W BROAD ST; W BROAD ST/N LAUREL ST RICH; GOSHEN ST/W BROAD ST RICH; 300-BLK GOSHEN ST; W BROAD ST/GOSHEN ST RICH; 1000-BLK W BROAD ST","total":45,"Traffic":23,"Crime":16,"Emergency":6}}
+{"type":"Feature","id":"112_66","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.551245189999996],[-77.448863125,37.551245189999996],[-77.448863125,37.54968262],[-77.450211,37.54968262],[-77.450211,37.551245189999996]]]},"properties":{"name":"900-BLK W BROAD ST; W BROAD ST/N LAUREL ST RICH; GOSHEN ST/W BROAD ST RICH; 300-BLK GOSHEN ST; W BROAD ST/GOSHEN ST RICH; 1000-BLK W BROAD ST","total":49,"Traffic":27,"Crime":16,"Emergency":6}}
 ,
 {"type":"Feature","id":"113_66","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.551245189999996],[-77.44751525000001,37.551245189999996],[-77.44751525000001,37.54968262],[-77.448863125,37.54968262],[-77.448863125,37.551245189999996]]]},"properties":{"name":"400-BLK GILMER ST; 900-BLK W MARSHALL ST; W MARSHALL ST/GOSHEN ST RICH; 800-BLK W BROAD ST; 400-BLK GOSHEN ST; GOSHEN ST/W MARSHALL ST RICH; GILMER ST/W MARSHALL ST RICH; W MARSHALL ST/GILMER ST RICH","total":30,"Crime":16,"Traffic":12,"Mental":2}}
 ,
-{"type":"Feature","id":"114_66","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.551245189999996],[-77.446167375,37.551245189999996],[-77.446167375,37.54968262],[-77.44751525000001,37.54968262],[-77.44751525000001,37.551245189999996]]]},"properties":{"name":"700-BLK W MARSHALL ST; MITCHELL ST/N BELVIDERE ST RICH; CATHERINE ST/GILMER ST RICH; N BELVIDERE ST/W MARSHALL ST RICH","total":20,"Traffic":6,"Crime":6,"Mental":5,"Emergency":3}}
+{"type":"Feature","id":"114_66","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.551245189999996],[-77.446167375,37.551245189999996],[-77.446167375,37.54968262],[-77.44751525000001,37.54968262],[-77.44751525000001,37.551245189999996]]]},"properties":{"name":"700-BLK W MARSHALL ST; MITCHELL ST/N BELVIDERE ST RICH; CATHERINE ST/GILMER ST RICH; N BELVIDERE ST/W MARSHALL ST RICH; W MARSHALL ST/N BELVIDERE ST RICH","total":21,"Traffic":6,"Crime":6,"Mental":5,"Emergency":4}}
 ,
-{"type":"Feature","id":"115_66","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.551245189999996],[-77.44481950000001,37.551245189999996],[-77.44481950000001,37.54968262],[-77.446167375,37.54968262],[-77.446167375,37.551245189999996]]]},"properties":{"name":"700-BLK W CLAY ST; W CLAY ST/N BELVIDERE ST RICH; N BELVIDERE ST/W CLAY ST RICH; CATHERINE ST/SMITH ST RICH","total":12,"Traffic":12}}
+{"type":"Feature","id":"115_66","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.551245189999996],[-77.44481950000001,37.551245189999996],[-77.44481950000001,37.54968262],[-77.446167375,37.54968262],[-77.446167375,37.551245189999996]]]},"properties":{"name":"700-BLK W CLAY ST; W CLAY ST/N BELVIDERE ST RICH; N BELVIDERE ST/W CLAY ST RICH; CATHERINE ST/SMITH ST RICH; 400-BLK SMITH ST","total":14,"Traffic":12,"Crime":2}}
 ,
 {"type":"Feature","id":"116_66","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.551245189999996],[-77.443471625,37.551245189999996],[-77.443471625,37.54968262],[-77.44481950000001,37.54968262],[-77.44481950000001,37.551245189999996]]]},"properties":{"name":"500-BLK W CLAY ST; N HENRY ST/W CLAY ST RICH","total":3,"Crime":3}}
 ,
@@ -3859,7 +3952,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"118_66","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.551245189999996],[-77.440775875,37.551245189999996],[-77.440775875,37.54968262],[-77.44212375000001,37.54968262],[-77.44212375000001,37.551245189999996]]]},"properties":{"name":"200-BLK W LEIGH ST; W LEIGH ST/ST PETER ST RICH; ST PETER ST/W LEIGH ST RICH; JUDAH ST/W DUVAL ST RICH; 700-BLK CHAMBERLAYNE PKWY","total":10,"Traffic":6,"Crime":4}}
 ,
-{"type":"Feature","id":"119_66","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.551245189999996],[-77.439428,37.551245189999996],[-77.439428,37.54968262],[-77.440775875,37.54968262],[-77.440775875,37.551245189999996]]]},"properties":{"name":"100-BLK W JACKSON ST; 2200-BLK CHAMBERLAYNE PKWY; 1300-BLK CHAMBERLAYNE PKWY; 0-BLK W JACKSON ST; W JACKSON ST/PRICE ST RICH; W DUVAL ST/CHAMBERLAYNE PKWY RICH; 1000-BLK CHAMBERLAYNE PKWY; 2000-BLK CHAMBERLAYNE PKWY; W DUVAL ST/ST PETER ST RICH; 203000-BLK CHAMBERLAYNE PKWY; 2100-BLK CHAMBERLAYNE PKWY; 1200-BLK CHAMBERLAYNE PKWY","total":120,"Emergency":38,"Crime":36,"Traffic":24,"Discretionary":20,"Mental":2}}
+{"type":"Feature","id":"119_66","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.551245189999996],[-77.439428,37.551245189999996],[-77.439428,37.54968262],[-77.440775875,37.54968262],[-77.440775875,37.551245189999996]]]},"properties":{"name":"100-BLK W JACKSON ST; 2200-BLK CHAMBERLAYNE PKWY; 1300-BLK CHAMBERLAYNE PKWY; 0-BLK W JACKSON ST; W JACKSON ST/PRICE ST RICH; W DUVAL ST/CHAMBERLAYNE PKWY RICH; 1000-BLK CHAMBERLAYNE PKWY; 2000-BLK CHAMBERLAYNE PKWY; W DUVAL ST/ST PETER ST RICH; 203000-BLK CHAMBERLAYNE PKWY; 2100-BLK CHAMBERLAYNE PKWY; 1200-BLK CHAMBERLAYNE PKWY","total":128,"Emergency":42,"Crime":38,"Traffic":26,"Discretionary":20,"Mental":2}}
 ,
 {"type":"Feature","id":"121_66","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.551245189999996],[-77.43673225,37.551245189999996],[-77.43673225,37.54968262],[-77.438080125,37.54968262],[-77.438080125,37.551245189999996]]]},"properties":{"name":"900-BLK ST JAMES ST; ST JAMES ST/E BAKER ST RICH; E BAKER ST/ST JAMES ST RICH","total":9,"Emergency":6,"Traffic":3}}
 ,
@@ -3869,9 +3962,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"129_66","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.551245189999996],[-77.42594925,37.551245189999996],[-77.42594925,37.54968262],[-77.42729712500001,37.54968262],[-77.42729712500001,37.551245189999996]]]},"properties":{"name":"700-BLK HOSPITAL ST; N 7TH ST/HOSPITAL ST RICH","total":7,"Traffic":4,"Emergency":2,"Crime":1}}
 ,
-{"type":"Feature","id":"131_66","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.551245189999996],[-77.4232535,37.551245189999996],[-77.4232535,37.54968262],[-77.42460137500001,37.54968262],[-77.42460137500001,37.551245189999996]]]},"properties":{"name":"OLIVER HILL WAY/HOSPITAL ST RICH; VALLEY RD/HOSPITAL ST RICH; BOWLING GREEN RD/OLIVER HILL WAY RICH; OLIVER HILL WAY/BOWLING GREEN RD RICH; 1800-BLK BOWLING GREEN RD","total":9,"Traffic":6,"Discretionary":2,"Crime":1}}
+{"type":"Feature","id":"131_66","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.551245189999996],[-77.4232535,37.551245189999996],[-77.4232535,37.54968262],[-77.42460137500001,37.54968262],[-77.42460137500001,37.551245189999996]]]},"properties":{"name":"OLIVER HILL WAY/HOSPITAL ST RICH; VALLEY RD/HOSPITAL ST RICH; BOWLING GREEN RD/OLIVER HILL WAY RICH; OLIVER HILL WAY/BOWLING GREEN RD RICH; 1800-BLK BOWLING GREEN RD; OLIVER HILL WAY/N 17TH ST RICH","total":11,"Traffic":6,"Crime":2,"Discretionary":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"133_66","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.551245189999996],[-77.42055775,37.551245189999996],[-77.42055775,37.54968262],[-77.42190562500001,37.54968262],[-77.42190562500001,37.551245189999996]]]},"properties":{"name":"1900-BLK RAVEN ST; LL(-77:25:15.1286,37:33:01.5191): EST 1966 RAVEN ST RICH","total":40,"Crime":29,"Emergency":6,"Discretionary":5}}
+{"type":"Feature","id":"133_66","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.551245189999996],[-77.42055775,37.551245189999996],[-77.42055775,37.54968262],[-77.42190562500001,37.54968262],[-77.42190562500001,37.551245189999996]]]},"properties":{"name":"1900-BLK RAVEN ST; LL(-77:25:15.1286,37:33:01.5191): EST 1966 RAVEN ST RICH","total":41,"Crime":29,"Emergency":6,"Discretionary":5,"Mental":1}}
 ,
 {"type":"Feature","id":"134_66","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.551245189999996],[-77.419209875,37.551245189999996],[-77.419209875,37.54968262],[-77.42055775,37.54968262],[-77.42055775,37.551245189999996]]]},"properties":{"name":"2200-BLK HILDRETH ST","total":6,"Crime":3,"Traffic":2,"Emergency":1}}
 ,
@@ -3885,7 +3978,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"141_66","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.551245189999996],[-77.40977475,37.551245189999996],[-77.40977475,37.54968262],[-77.411122625,37.54968262],[-77.411122625,37.551245189999996]]]},"properties":{"name":"2000-BLK N 20TH ST; 1800-BLK N 19TH ST","total":4,"Crime":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"142_66","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.551245189999996],[-77.408426875,37.551245189999996],[-77.408426875,37.54968262],[-77.40977475,37.54968262],[-77.40977475,37.551245189999996]]]},"properties":{"name":"2000-BLK SELDEN ST","total":20,"Crime":15,"Emergency":5}}
+{"type":"Feature","id":"142_66","geometry":{"type":"Polygon","coordinates":[[[-77.40977475,37.551245189999996],[-77.408426875,37.551245189999996],[-77.408426875,37.54968262],[-77.40977475,37.54968262],[-77.40977475,37.551245189999996]]]},"properties":{"name":"2000-BLK SELDEN ST","total":21,"Crime":15,"Emergency":6}}
 ,
 {"type":"Feature","id":"143_66","geometry":{"type":"Polygon","coordinates":[[[-77.408426875,37.551245189999996],[-77.40707900000001,37.551245189999996],[-77.40707900000001,37.54968262],[-77.408426875,37.54968262],[-77.408426875,37.551245189999996]]]},"properties":{"name":"2100-BLK SELDEN ST; N 21ST ST/PHAUP ST RICH","total":10,"Crime":9,"Emergency":1}}
 ,
@@ -3893,13 +3986,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"145_66","geometry":{"type":"Polygon","coordinates":[[[-77.405731125,37.551245189999996],[-77.40438325000001,37.551245189999996],[-77.40438325000001,37.54968262],[-77.405731125,37.54968262],[-77.405731125,37.551245189999996]]]},"properties":{"name":"2300-BLK PHAUP ST; 2400-BLK PHAUP ST","total":3,"Emergency":2,"Crime":1}}
 ,
-{"type":"Feature","id":"147_66","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.551245189999996],[-77.40168750000001,37.551245189999996],[-77.40168750000001,37.54968262],[-77.403035375,37.54968262],[-77.403035375,37.551245189999996]]]},"properties":{"name":"2500-BLK PHAUP ST","total":24,"Discretionary":12,"Crime":11,"Mental":1}}
+{"type":"Feature","id":"147_66","geometry":{"type":"Polygon","coordinates":[[[-77.403035375,37.551245189999996],[-77.40168750000001,37.551245189999996],[-77.40168750000001,37.54968262],[-77.403035375,37.54968262],[-77.403035375,37.551245189999996]]]},"properties":{"name":"2500-BLK PHAUP ST","total":25,"Discretionary":13,"Crime":11,"Mental":1}}
 ,
 {"type":"Feature","id":"152_66","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.551245189999996],[-77.394948125,37.551245189999996],[-77.394948125,37.54968262],[-77.396296,37.54968262],[-77.396296,37.551245189999996]]]},"properties":{"name":"2300-BLK COOL LN","total":8,"Crime":4,"Emergency":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"7_67","geometry":{"type":"Polygon","coordinates":[[[-77.591737875,37.55280776],[-77.59039,37.55280776],[-77.59039,37.551245189999996],[-77.591737875,37.551245189999996],[-77.591737875,37.55280776]]]},"properties":{"name":"4200-BLK DENBIGH DR","total":3,"Emergency":3}}
 ,
-{"type":"Feature","id":"28_67","geometry":{"type":"Polygon","coordinates":[[[-77.5634325,37.55280776],[-77.562084625,37.55280776],[-77.562084625,37.551245189999996],[-77.5634325,37.551245189999996],[-77.5634325,37.55280776]]]},"properties":{"name":"8700-BLK STONY POINT PKWY","total":3,"Emergency":3}}
+{"type":"Feature","id":"28_67","geometry":{"type":"Polygon","coordinates":[[[-77.5634325,37.55280776],[-77.562084625,37.55280776],[-77.562084625,37.551245189999996],[-77.5634325,37.551245189999996],[-77.5634325,37.55280776]]]},"properties":{"name":"8700-BLK STONY POINT PKWY","total":5,"Emergency":3,"Crime":2}}
 ,
 {"type":"Feature","id":"39_67","geometry":{"type":"Polygon","coordinates":[[[-77.548605875,37.55280776],[-77.547258,37.55280776],[-77.547258,37.551245189999996],[-77.548605875,37.551245189999996],[-77.548605875,37.55280776]]]},"properties":{"name":"N HUGUENOT RD/CHEROKEE RD RICH","total":3,"Crime":3}}
 ,
@@ -3915,7 +4008,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"85_67","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.55280776],[-77.48525575000001,37.55280776],[-77.48525575000001,37.551245189999996],[-77.486603625,37.551245189999996],[-77.486603625,37.55280776]]]},"properties":{"name":"3400-BLK IDLEWOOD AVE","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"87_67","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.55280776],[-77.48256,37.55280776],[-77.48256,37.551245189999996],[-77.483907875,37.551245189999996],[-77.483907875,37.55280776]]]},"properties":{"name":"3200-BLK GRAYLAND AVE; IDLEWOOD AVE/MCCLOY ST RICH","total":3,"Traffic":3}}
+{"type":"Feature","id":"87_67","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.55280776],[-77.48256,37.55280776],[-77.48256,37.551245189999996],[-77.483907875,37.551245189999996],[-77.483907875,37.55280776]]]},"properties":{"name":"3200-BLK GRAYLAND AVE; IDLEWOOD AVE/MCCLOY ST RICH; 400-BLK MCCLOY ST","total":4,"Traffic":3,"Crime":1}}
 ,
 {"type":"Feature","id":"88_67","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.55280776],[-77.481212125,37.55280776],[-77.481212125,37.551245189999996],[-77.48256,37.551245189999996],[-77.48256,37.55280776]]]},"properties":{"name":"3100-BLK GRAYLAND AVE","total":2,"Emergency":1,"Traffic":1}}
 ,
@@ -3939,23 +4032,23 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"98_67","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.55280776],[-77.46773337500001,37.55280776],[-77.46773337500001,37.551245189999996],[-77.46908125,37.551245189999996],[-77.46908125,37.55280776]]]},"properties":{"name":"2300-BLK FLOYD AVE","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"99_67","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.55280776],[-77.4663855,37.55280776],[-77.4663855,37.551245189999996],[-77.46773337500001,37.551245189999996],[-77.46773337500001,37.55280776]]]},"properties":{"name":"200-BLK N SHIELDS AVE; 100-BLK N SHIELDS AVE","total":7,"Emergency":3,"Crime":3,"Traffic":1}}
+{"type":"Feature","id":"99_67","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.55280776],[-77.4663855,37.55280776],[-77.4663855,37.551245189999996],[-77.46773337500001,37.551245189999996],[-77.46773337500001,37.55280776]]]},"properties":{"name":"200-BLK N SHIELDS AVE; 100-BLK N SHIELDS AVE","total":10,"Crime":6,"Emergency":3,"Traffic":1}}
 ,
 {"type":"Feature","id":"100_67","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.55280776],[-77.46503762500001,37.55280776],[-77.46503762500001,37.551245189999996],[-77.4663855,37.551245189999996],[-77.4663855,37.55280776]]]},"properties":{"name":"2100-BLK GROVE AVE; 00-BLK N ROWLAND ST","total":6,"Crime":6}}
 ,
-{"type":"Feature","id":"101_67","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.55280776],[-77.46368975,37.55280776],[-77.46368975,37.551245189999996],[-77.46503762500001,37.551245189999996],[-77.46503762500001,37.55280776]]]},"properties":{"name":"2000-BLK HANOVER AVE; 2000-BLK GROVE AVE","total":3,"Crime":3}}
+{"type":"Feature","id":"101_67","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.55280776],[-77.46368975,37.55280776],[-77.46368975,37.551245189999996],[-77.46503762500001,37.551245189999996],[-77.46503762500001,37.55280776]]]},"properties":{"name":"2000-BLK HANOVER AVE; 2000-BLK GROVE AVE; GROVE AVE/N MEADOW ST RICH","total":4,"Crime":3,"Traffic":1}}
 ,
-{"type":"Feature","id":"103_67","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.55280776],[-77.460994,37.55280776],[-77.460994,37.551245189999996],[-77.462341875,37.551245189999996],[-77.462341875,37.55280776]]]},"properties":{"name":"1800-BLK HANOVER AVE","total":1,"Crime":1}}
+{"type":"Feature","id":"103_67","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.55280776],[-77.460994,37.55280776],[-77.460994,37.551245189999996],[-77.462341875,37.551245189999996],[-77.462341875,37.55280776]]]},"properties":{"name":"1800-BLK HANOVER AVE; 300-BLK N ALLEN AVE","total":3,"Traffic":2,"Crime":1}}
 ,
 {"type":"Feature","id":"104_67","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.55280776],[-77.459646125,37.55280776],[-77.459646125,37.551245189999996],[-77.460994,37.551245189999996],[-77.460994,37.55280776]]]},"properties":{"name":"1700-BLK HANOVER AVE","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"105_67","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.55280776],[-77.45829825,37.55280776],[-77.45829825,37.551245189999996],[-77.459646125,37.551245189999996],[-77.459646125,37.55280776]]]},"properties":{"name":"400-BLK STUART CIR","total":7,"Emergency":5,"Traffic":2}}
 ,
-{"type":"Feature","id":"106_67","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.55280776],[-77.456950375,37.55280776],[-77.456950375,37.551245189999996],[-77.45829825,37.551245189999996],[-77.45829825,37.55280776]]]},"properties":{"name":"1600-BLK MONUMENT AVE; MONUMENT AVE/STUART CIR RICH","total":11,"Traffic":6,"Crime":4,"Emergency":1}}
+{"type":"Feature","id":"106_67","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.55280776],[-77.456950375,37.55280776],[-77.456950375,37.551245189999996],[-77.45829825,37.551245189999996],[-77.45829825,37.55280776]]]},"properties":{"name":"1600-BLK MONUMENT AVE; MONUMENT AVE/STUART CIR RICH","total":13,"Traffic":6,"Crime":6,"Emergency":1}}
 ,
 {"type":"Feature","id":"107_67","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.55280776],[-77.4556025,37.55280776],[-77.4556025,37.551245189999996],[-77.456950375,37.551245189999996],[-77.456950375,37.55280776]]]},"properties":{"name":"1200-BLK W FRANKLIN ST","total":6,"Emergency":5,"Crime":1}}
 ,
-{"type":"Feature","id":"108_67","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.55280776],[-77.454254625,37.55280776],[-77.454254625,37.551245189999996],[-77.4556025,37.551245189999996],[-77.4556025,37.55280776]]]},"properties":{"name":"1100-BLK W GRACE ST; RYLAND ST/W GRACE ST RICH","total":15,"Traffic":7,"Crime":6,"Emergency":2}}
+{"type":"Feature","id":"108_67","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.55280776],[-77.454254625,37.55280776],[-77.454254625,37.551245189999996],[-77.4556025,37.551245189999996],[-77.4556025,37.55280776]]]},"properties":{"name":"1100-BLK W GRACE ST; RYLAND ST/W GRACE ST RICH","total":20,"Crime":11,"Traffic":7,"Emergency":2}}
 ,
 {"type":"Feature","id":"109_67","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.55280776],[-77.45290675,37.55280776],[-77.45290675,37.551245189999996],[-77.454254625,37.551245189999996],[-77.454254625,37.55280776]]]},"properties":{"name":"W BROAD ST/RYLAND ST RICH","total":1,"Traffic":1}}
 ,
@@ -3971,17 +4064,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"115_67","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.55280776],[-77.44481950000001,37.55280776],[-77.44481950000001,37.551245189999996],[-77.446167375,37.551245189999996],[-77.446167375,37.55280776]]]},"properties":{"name":"700-BLK CATHERINE ST; W LEIGH ST/GILMER ST RICH; 00-BLK W LEIGH ST; MUNFORD ST/W LEIGH ST RICH; GILMER ST/W LEIGH ST RICH; 300-BLK GILMER ST; 0-BLK W LEIGH ST","total":21,"Crime":11,"Traffic":5,"Emergency":5}}
 ,
-{"type":"Feature","id":"116_67","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.55280776],[-77.443471625,37.55280776],[-77.443471625,37.551245189999996],[-77.44481950000001,37.551245189999996],[-77.44481950000001,37.55280776]]]},"properties":{"name":"N BELVIDERE ST/W LEIGH ST RICH; W LEIGH ST/N BELVIDERE ST RICH","total":15,"Traffic":9,"Crime":5,"Emergency":1}}
+{"type":"Feature","id":"116_67","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.55280776],[-77.443471625,37.55280776],[-77.443471625,37.551245189999996],[-77.44481950000001,37.551245189999996],[-77.44481950000001,37.55280776]]]},"properties":{"name":"N BELVIDERE ST/W LEIGH ST RICH; W LEIGH ST/N BELVIDERE ST RICH; 500-BLK W LEIGH ST","total":17,"Traffic":9,"Crime":7,"Emergency":1}}
 ,
 {"type":"Feature","id":"117_67","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.55280776],[-77.44212375000001,37.55280776],[-77.44212375000001,37.551245189999996],[-77.443471625,37.551245189999996],[-77.443471625,37.55280776]]]},"properties":{"name":"200-BLK W DUVAL ST; 100-BLK W DUVAL ST","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"118_67","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.55280776],[-77.440775875,37.55280776],[-77.440775875,37.551245189999996],[-77.44212375000001,37.551245189999996],[-77.44212375000001,37.55280776]]]},"properties":{"name":"W BAKER ST/CHAMBERLAYNE PKWY RICH; CHAMBERLAYNE PKWY/W BAKER ST RICH; CHAMBERLAYNE PKWY/I-95 / I-64 RICH; W CHARITY ST/CHAMBERLAYNE PKWY RICH; BROOK RD/CHAMBERLAYNE PKWY RICH; 400-BLK W DUVAL ST","total":20,"Traffic":10,"Mental":4,"Emergency":3,"Crime":3}}
+{"type":"Feature","id":"118_67","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.55280776],[-77.440775875,37.55280776],[-77.440775875,37.551245189999996],[-77.44212375000001,37.551245189999996],[-77.44212375000001,37.55280776]]]},"properties":{"name":"W BAKER ST/CHAMBERLAYNE PKWY RICH; CHAMBERLAYNE PKWY/W BAKER ST RICH; CHAMBERLAYNE PKWY/I-95 / I-64 RICH; W CHARITY ST/CHAMBERLAYNE PKWY RICH; BROOK RD/CHAMBERLAYNE PKWY RICH; 400-BLK W DUVAL ST; CHAMBERLAYNE PKWY/W CHARITY ST RICH","total":22,"Traffic":10,"Emergency":5,"Mental":4,"Crime":3}}
 ,
 {"type":"Feature","id":"119_67","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.55280776],[-77.439428,37.55280776],[-77.439428,37.551245189999996],[-77.440775875,37.551245189999996],[-77.440775875,37.55280776]]]},"properties":{"name":"1000-BLK HICKORY ST; W CHARITY ST/HICKORY ST RICH; 400-BLK W CHARITY ST; 0-BLK W CHARITY ST; 300-BLK W BAKER ST; 00-BLK W CHARITY ST","total":29,"Crime":19,"Traffic":6,"Emergency":4}}
 ,
-{"type":"Feature","id":"120_67","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.55280776],[-77.438080125,37.55280776],[-77.438080125,37.551245189999996],[-77.439428,37.551245189999996],[-77.439428,37.55280776]]]},"properties":{"name":"ST PETER ST/CHAMBERLAYNE PKWY RICH; 300-BLK W CHARITY ST; 100-BLK W BAKER ST; 1000-BLK ST PAUL ST; 900-BLK ST PAUL ST; 200-BLK W BAKER ST; W CHARITY ST/ST PETER ST RICH; 200-BLK W CHARITY ST; CHAMBERLAYNE PKWY/ST PETER ST RICH; ST PAUL ST/W CHARITY ST RICH; W CHARITY ST/ST PAUL ST RICH; ST PAUL ST/W BAKER ST RICH; 1100-BLK ST PETER ST","total":107,"Crime":53,"Emergency":18,"Traffic":17,"Mental":17,"Discretionary":2}}
+{"type":"Feature","id":"120_67","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.55280776],[-77.438080125,37.55280776],[-77.438080125,37.551245189999996],[-77.439428,37.551245189999996],[-77.439428,37.55280776]]]},"properties":{"name":"ST PETER ST/CHAMBERLAYNE PKWY RICH; 300-BLK W CHARITY ST; 100-BLK W BAKER ST; 1000-BLK ST PAUL ST; 900-BLK ST PAUL ST; 200-BLK W BAKER ST; W CHARITY ST/ST PETER ST RICH; 200-BLK W CHARITY ST; CHAMBERLAYNE PKWY/ST PETER ST RICH; ST PAUL ST/W CHARITY ST RICH; W CHARITY ST/ST PAUL ST RICH; ST PAUL ST/W BAKER ST RICH; 1100-BLK ST PETER ST","total":112,"Crime":56,"Traffic":19,"Emergency":18,"Mental":17,"Discretionary":2}}
 ,
-{"type":"Feature","id":"121_67","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.55280776],[-77.43673225,37.55280776],[-77.43673225,37.551245189999996],[-77.438080125,37.551245189999996],[-77.438080125,37.55280776]]]},"properties":{"name":"1000-BLK ST JOHN ST; 1100-BLK ST PAUL ST; ST JOHN ST/W CHARITY ST RICH; 900-BLK ST JOHN ST","total":25,"Crime":12,"Emergency":10,"Traffic":3}}
+{"type":"Feature","id":"121_67","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.55280776],[-77.43673225,37.55280776],[-77.43673225,37.551245189999996],[-77.438080125,37.551245189999996],[-77.438080125,37.55280776]]]},"properties":{"name":"1000-BLK ST JOHN ST; 1100-BLK ST PAUL ST; ST JOHN ST/W CHARITY ST RICH; 900-BLK ST JOHN ST","total":30,"Emergency":14,"Crime":13,"Traffic":3}}
 ,
 {"type":"Feature","id":"122_67","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.55280776],[-77.435384375,37.55280776],[-77.435384375,37.551245189999996],[-77.43673225,37.551245189999996],[-77.43673225,37.55280776]]]},"properties":{"name":"1000-BLK ST JAMES ST; 100-BLK W FEDERAL ST; ST JOHN ST/W FEDERAL ST RICH; 1100-BLK ST JOHN ST; 1100-BLK ST JAMES ST; ST JAMES ST/E CHARITY ST RICH; 1000-BLK ST JAMES","total":47,"Crime":34,"Emergency":8,"Discretionary":4,"Mental":1}}
 ,
@@ -3991,11 +4084,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"126_67","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.55280776],[-77.429992875,37.55280776],[-77.429992875,37.551245189999996],[-77.43134075,37.551245189999996],[-77.43134075,37.55280776]]]},"properties":{"name":"N 4TH ST/HOSPITAL ST RICH","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"127_67","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.55280776],[-77.428645,37.55280776],[-77.428645,37.551245189999996],[-77.429992875,37.551245189999996],[-77.429992875,37.55280776]]]},"properties":{"name":"N 5TH ST/HOSPITAL ST RICH; 500-BLK HOSPITAL ST","total":9,"Traffic":5,"Crime":3,"Mental":1}}
+{"type":"Feature","id":"127_67","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.55280776],[-77.428645,37.55280776],[-77.428645,37.551245189999996],[-77.429992875,37.551245189999996],[-77.429992875,37.55280776]]]},"properties":{"name":"N 5TH ST/HOSPITAL ST RICH; 500-BLK HOSPITAL ST","total":11,"Traffic":5,"Crime":5,"Mental":1}}
 ,
 {"type":"Feature","id":"128_67","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.55280776],[-77.42729712500001,37.55280776],[-77.42729712500001,37.551245189999996],[-77.428645,37.551245189999996],[-77.428645,37.55280776]]]},"properties":{"name":"LL(-77:25:41.8615,37:33:09.6368): @5TH STREET BRIDGE","total":3,"Traffic":3}}
 ,
-{"type":"Feature","id":"132_67","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.55280776],[-77.42190562500001,37.55280776],[-77.42190562500001,37.551245189999996],[-77.4232535,37.551245189999996],[-77.4232535,37.55280776]]]},"properties":{"name":"MECKLENBURG ST/BOWLING GREEN RD RICH; MECKLENBURG ST/WOOD ST RICH","total":11,"Traffic":11}}
+{"type":"Feature","id":"132_67","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.55280776],[-77.42190562500001,37.55280776],[-77.42190562500001,37.551245189999996],[-77.4232535,37.551245189999996],[-77.4232535,37.55280776]]]},"properties":{"name":"MECKLENBURG ST/BOWLING GREEN RD RICH; MECKLENBURG ST/WOOD ST RICH; 2000-BLK MECKLENBURG ST","total":12,"Traffic":11,"Crime":1}}
 ,
 {"type":"Feature","id":"133_67","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.55280776],[-77.42055775,37.55280776],[-77.42055775,37.551245189999996],[-77.42190562500001,37.551245189999996],[-77.42190562500001,37.55280776]]]},"properties":{"name":"1900-BLK WOOD ST; 1900-BLK CHELSEA ST","total":6,"Emergency":3,"Mental":2,"Crime":1}}
 ,
@@ -4021,11 +4114,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"152_67","geometry":{"type":"Polygon","coordinates":[[[-77.396296,37.55280776],[-77.394948125,37.55280776],[-77.394948125,37.551245189999996],[-77.396296,37.551245189999996],[-77.396296,37.55280776]]]},"properties":{"name":"COOL LN/BECK DR HENR","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"26_68","geometry":{"type":"Polygon","coordinates":[[[-77.56612825,37.55437033],[-77.564780375,37.55437033],[-77.564780375,37.55280776],[-77.56612825,37.55280776],[-77.56612825,37.55437033]]]},"properties":{"name":"9000-BLK STONY POINT PKWY","total":12,"Crime":12}}
+{"type":"Feature","id":"26_68","geometry":{"type":"Polygon","coordinates":[[[-77.56612825,37.55437033],[-77.564780375,37.55437033],[-77.564780375,37.55280776],[-77.56612825,37.55280776],[-77.56612825,37.55437033]]]},"properties":{"name":"9000-BLK STONY POINT PKWY","total":16,"Crime":16}}
 ,
 {"type":"Feature","id":"28_68","geometry":{"type":"Polygon","coordinates":[[[-77.5634325,37.55437033],[-77.562084625,37.55437033],[-77.562084625,37.55280776],[-77.5634325,37.55280776],[-77.5634325,37.55437033]]]},"properties":{"name":"9100-BLK JAMES RIVERWATCH DR","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"33_68","geometry":{"type":"Polygon","coordinates":[[[-77.55669312500001,37.55437033],[-77.55534525,37.55437033],[-77.55534525,37.55280776],[-77.55669312500001,37.55280776],[-77.55669312500001,37.55437033]]]},"properties":{"name":"8900-BLK CHEROKEE RD","total":1,"Crime":1}}
+{"type":"Feature","id":"33_68","geometry":{"type":"Polygon","coordinates":[[[-77.55669312500001,37.55437033],[-77.55534525,37.55437033],[-77.55534525,37.55280776],[-77.55669312500001,37.55280776],[-77.55669312500001,37.55437033]]]},"properties":{"name":"8900-BLK CHEROKEE RD","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"45_68","geometry":{"type":"Polygon","coordinates":[[[-77.540518625,37.55437033],[-77.53917075,37.55437033],[-77.53917075,37.55280776],[-77.540518625,37.55280776],[-77.540518625,37.55437033]]]},"properties":{"name":"4300-BLK STRATFORD RD","total":2,"Crime":2}}
 ,
@@ -4049,21 +4142,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"90_68","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.55437033],[-77.478516375,37.55437033],[-77.478516375,37.55280776],[-77.47986425,37.55280776],[-77.47986425,37.55437033]]]},"properties":{"name":"ELLWOOD AVE/N BELMONT AVE RICH; 3100-BLK ELLWOOD AVE","total":11,"Traffic":5,"Crime":5,"Emergency":1}}
 ,
-{"type":"Feature","id":"91_68","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.55437033],[-77.4771685,37.55437033],[-77.4771685,37.55280776],[-77.478516375,37.55280776],[-77.478516375,37.55437033]]]},"properties":{"name":"3000-BLK ELLWOOD AVE","total":4,"Mental":3,"Crime":1}}
+{"type":"Feature","id":"91_68","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.55437033],[-77.4771685,37.55437033],[-77.4771685,37.55280776],[-77.478516375,37.55280776],[-77.478516375,37.55437033]]]},"properties":{"name":"3000-BLK ELLWOOD AVE","total":5,"Mental":3,"Crime":2}}
 ,
-{"type":"Feature","id":"92_68","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.55437033],[-77.475820625,37.55437033],[-77.475820625,37.55280776],[-77.4771685,37.55280776],[-77.4771685,37.55437033]]]},"properties":{"name":"ELLWOOD AVE/N COLONIAL AVE RICH; N COLONIAL AVE/FLOYD AVE RICH; N COLONIAL AVE/ELLWOOD AVE RICH; 2800-BLK ELLWOOD AVE","total":9,"Traffic":8,"Crime":1}}
+{"type":"Feature","id":"92_68","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.55437033],[-77.475820625,37.55437033],[-77.475820625,37.55280776],[-77.4771685,37.55280776],[-77.4771685,37.55437033]]]},"properties":{"name":"ELLWOOD AVE/N COLONIAL AVE RICH; N COLONIAL AVE/FLOYD AVE RICH; N COLONIAL AVE/ELLWOOD AVE RICH; 2800-BLK ELLWOOD AVE","total":10,"Traffic":8,"Crime":2}}
 ,
 {"type":"Feature","id":"93_68","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.55437033],[-77.47447275,37.55437033],[-77.47447275,37.55280776],[-77.475820625,37.55280776],[-77.475820625,37.55437033]]]},"properties":{"name":"100-BLK N ARTHUR ASHE BLVD; 2800-BLK FLOYD AVE; FLOYD AVE/N ARTHUR ASHE BLVD RICH","total":11,"Emergency":4,"Mental":4,"Traffic":2,"Crime":1}}
 ,
 {"type":"Feature","id":"94_68","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.55437033],[-77.473124875,37.55437033],[-77.473124875,37.55280776],[-77.47447275,37.55280776],[-77.47447275,37.55437033]]]},"properties":{"name":"100-BLK N MULBERRY ST; FLOYD AVE/N MULBERRY ST RICH","total":6,"Mental":4,"Traffic":2}}
 ,
-{"type":"Feature","id":"95_68","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.55437033],[-77.471777,37.55437033],[-77.471777,37.55280776],[-77.473124875,37.55280776],[-77.473124875,37.55437033]]]},"properties":{"name":"2600-BLK GROVE AVE; GROVE AVE/N ROBINSON ST RICH; 2600-BLK FLOYD AVE; 100-BLK N ROBINSON ST; RICH: @DOWNTOWN EXPY WB / I195 BETWEEN IDLEWOOD AVE &amp; FLOYD AVE / CARY ST","total":87,"Mental":45,"Crime":28,"Traffic":7,"Emergency":7}}
+{"type":"Feature","id":"95_68","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.55437033],[-77.471777,37.55437033],[-77.471777,37.55280776],[-77.473124875,37.55280776],[-77.473124875,37.55437033]]]},"properties":{"name":"2600-BLK GROVE AVE; GROVE AVE/N ROBINSON ST RICH; 2600-BLK FLOYD AVE; 100-BLK N ROBINSON ST; RICH: @DOWNTOWN EXPY WB / I195 BETWEEN IDLEWOOD AVE &amp; FLOYD AVE / CARY ST","total":91,"Mental":49,"Crime":28,"Traffic":7,"Emergency":7}}
 ,
 {"type":"Feature","id":"97_68","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.55437033],[-77.46908125,37.55437033],[-77.46908125,37.55280776],[-77.47042912500001,37.55280776],[-77.47042912500001,37.55437033]]]},"properties":{"name":"2400-BLK GROVE AVE; N STAFFORD AVE/GROVE AVE RICH","total":2,"Traffic":1,"Crime":1}}
 ,
 {"type":"Feature","id":"98_68","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.55437033],[-77.46773337500001,37.55437033],[-77.46773337500001,37.55280776],[-77.46908125,37.55280776],[-77.46908125,37.55437033]]]},"properties":{"name":"200-BLK STRAWBERRY ST; 2300-BLK GROVE AVE; 2300-BLK HANOVER AVE","total":9,"Crime":5,"Emergency":4}}
 ,
-{"type":"Feature","id":"99_68","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.55437033],[-77.4663855,37.55437033],[-77.4663855,37.55280776],[-77.46773337500001,37.55280776],[-77.46773337500001,37.55437033]]]},"properties":{"name":"2200-BLK HANOVER AVE","total":2,"Crime":2}}
+{"type":"Feature","id":"99_68","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.55437033],[-77.4663855,37.55437033],[-77.4663855,37.55280776],[-77.46773337500001,37.55280776],[-77.46773337500001,37.55437033]]]},"properties":{"name":"2200-BLK HANOVER AVE; PARK AVE/N SHIELDS AVE RICH","total":4,"Crime":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"100_68","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.55437033],[-77.46503762500001,37.55437033],[-77.46503762500001,37.55280776],[-77.4663855,37.55280776],[-77.4663855,37.55437033]]]},"properties":{"name":"2100-BLK HANOVER AVE","total":2,"Emergency":2}}
 ,
@@ -4075,41 +4168,41 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"106_68","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.55437033],[-77.456950375,37.55437033],[-77.456950375,37.55280776],[-77.45829825,37.55280776],[-77.45829825,37.55437033]]]},"properties":{"name":"1600-BLK W GRACE ST","total":13,"Crime":5,"Emergency":5,"Traffic":3}}
 ,
-{"type":"Feature","id":"107_68","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.55437033],[-77.4556025,37.55437033],[-77.4556025,37.55280776],[-77.456950375,37.55280776],[-77.456950375,37.55437033]]]},"properties":{"name":"W BROAD ST/N LOMBARDY ST RICH; N LOMBARDY ST/W BROAD ST RICH; 600-BLK N LOMBARDY ST; 1500-BLK W BROAD ST; W GRACE ST/N LOMBARDY ST RICH; N LOMBARDY ST/W GRACE ST RICH","total":30,"Traffic":18,"Crime":10,"Emergency":2}}
+{"type":"Feature","id":"107_68","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.55437033],[-77.4556025,37.55437033],[-77.4556025,37.55280776],[-77.456950375,37.55280776],[-77.456950375,37.55437033]]]},"properties":{"name":"W BROAD ST/N LOMBARDY ST RICH; N LOMBARDY ST/W BROAD ST RICH; 600-BLK N LOMBARDY ST; 1500-BLK W BROAD ST; W GRACE ST/N LOMBARDY ST RICH; N LOMBARDY ST/W GRACE ST RICH","total":33,"Traffic":21,"Crime":10,"Emergency":2}}
 ,
-{"type":"Feature","id":"108_68","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.55437033],[-77.454254625,37.55437033],[-77.454254625,37.55280776],[-77.4556025,37.55280776],[-77.4556025,37.55437033]]]},"properties":{"name":"1300-BLK W BROAD ST; 600-BLK BOWE ST","total":25,"Crime":10,"Emergency":8,"Traffic":5,"Mental":2}}
+{"type":"Feature","id":"108_68","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.55437033],[-77.454254625,37.55437033],[-77.454254625,37.55280776],[-77.4556025,37.55280776],[-77.4556025,37.55437033]]]},"properties":{"name":"1300-BLK W BROAD ST; 600-BLK BOWE ST","total":29,"Crime":14,"Emergency":8,"Traffic":5,"Mental":2}}
 ,
 {"type":"Feature","id":"109_68","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.55437033],[-77.45290675,37.55437033],[-77.45290675,37.55280776],[-77.454254625,37.55280776],[-77.454254625,37.55437033]]]},"properties":{"name":"1400-BLK W MARSHALL ST","total":10,"Crime":10}}
 ,
-{"type":"Feature","id":"110_68","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.55437033],[-77.451558875,37.55437033],[-77.451558875,37.55280776],[-77.45290675,37.55280776],[-77.45290675,37.55437033]]]},"properties":{"name":"1200-BLK W BROAD ST; 1200-BLK W MARSHALL ST; CATHERINE ST/NORTON ST RICH","total":32,"Crime":17,"Discretionary":8,"Emergency":5,"Traffic":2}}
+{"type":"Feature","id":"110_68","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.55437033],[-77.451558875,37.55437033],[-77.451558875,37.55280776],[-77.45290675,37.55280776],[-77.45290675,37.55437033]]]},"properties":{"name":"1200-BLK W BROAD ST; 1200-BLK W MARSHALL ST; CATHERINE ST/NORTON ST RICH","total":37,"Crime":22,"Discretionary":8,"Emergency":5,"Traffic":2}}
 ,
 {"type":"Feature","id":"111_68","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.55437033],[-77.450211,37.55437033],[-77.450211,37.55280776],[-77.451558875,37.55280776],[-77.451558875,37.55437033]]]},"properties":{"name":"700-BLK N HARRISON ST; W CLAY ST/N HARRISON ST RICH; 1200-BLK W CLAY ST; 800-BLK N HARRISON ST","total":33,"Crime":19,"Emergency":12,"Traffic":2}}
 ,
-{"type":"Feature","id":"112_68","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.55437033],[-77.448863125,37.55437033],[-77.448863125,37.55280776],[-77.450211,37.55280776],[-77.450211,37.55437033]]]},"properties":{"name":"1100-BLK CATHERINE ST; 600-BLK HANCOCK ST; HANCOCK ST/W CLAY ST RICH; 1100-BLK W CLAY ST; N HARRISON ST/CATHERINE ST RICH; 500-BLK HANCOCK ST","total":11,"Traffic":8,"Crime":3}}
+{"type":"Feature","id":"112_68","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.55437033],[-77.448863125,37.55437033],[-77.448863125,37.55280776],[-77.450211,37.55280776],[-77.450211,37.55437033]]]},"properties":{"name":"1100-BLK CATHERINE ST; 600-BLK HANCOCK ST; HANCOCK ST/W CLAY ST RICH; 1100-BLK W CLAY ST; N HARRISON ST/CATHERINE ST RICH; 500-BLK HANCOCK ST","total":13,"Traffic":8,"Crime":5}}
 ,
-{"type":"Feature","id":"113_68","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.55437033],[-77.44751525000001,37.55437033],[-77.44751525000001,37.55280776],[-77.448863125,37.55280776],[-77.448863125,37.55437033]]]},"properties":{"name":"LL(-77:26:52.6130,37:33:11.2139): EST 902 CATHERINE ST RICH; 1100-BLK W LEIGH ST; OAK ST","total":11,"Traffic":7,"Crime":3,"Emergency":1}}
+{"type":"Feature","id":"113_68","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.55437033],[-77.44751525000001,37.55437033],[-77.44751525000001,37.55280776],[-77.448863125,37.55280776],[-77.448863125,37.55437033]]]},"properties":{"name":"LL(-77:26:52.6130,37:33:11.2139): EST 902 CATHERINE ST RICH; 1100-BLK W LEIGH ST; OAK ST","total":12,"Traffic":8,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"114_68","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.55437033],[-77.446167375,37.55437033],[-77.446167375,37.55280776],[-77.44751525000001,37.55280776],[-77.44751525000001,37.55437033]]]},"properties":{"name":"900-BLK W LEIGH ST","total":6,"Crime":3,"Emergency":3}}
 ,
 {"type":"Feature","id":"118_68","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.55437033],[-77.440775875,37.55437033],[-77.440775875,37.55280776],[-77.44212375000001,37.55280776],[-77.44212375000001,37.55437033]]]},"properties":{"name":"CALHOUN ST/CHAMBERLAYNE PKWY RICH; CHAMBERLAYNE PKWY/CALHOUN ST RICH","total":4,"Crime":2,"Traffic":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"119_68","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.55437033],[-77.439428,37.55437033],[-77.439428,37.55280776],[-77.440775875,37.55280776],[-77.440775875,37.55437033]]]},"properties":{"name":"400-BLK CALHOUN ST; 1200-BLK HICKORY ST; 1100-BLK HICKORY ST; CALHOUN ST/HICKORY ST RICH","total":39,"Crime":27,"Emergency":11,"Discretionary":1}}
+{"type":"Feature","id":"119_68","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.55437033],[-77.439428,37.55437033],[-77.439428,37.55280776],[-77.440775875,37.55280776],[-77.440775875,37.55437033]]]},"properties":{"name":"400-BLK CALHOUN ST; 1200-BLK HICKORY ST; 1100-BLK HICKORY ST; CALHOUN ST/HICKORY ST RICH","total":42,"Crime":27,"Emergency":13,"Discretionary":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"120_68","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.55437033],[-77.438080125,37.55437033],[-77.438080125,37.55280776],[-77.439428,37.55280776],[-77.439428,37.55437033]]]},"properties":{"name":"1400-BLK ST PETER ST; 300-BLK CALHOUN ST; 1300-BLK ST PETER ST; 1200-BLK ST PETER ST; HICKORY ST/CALHOUN ST RICH","total":33,"Crime":24,"Mental":4,"Emergency":3,"Traffic":2}}
+{"type":"Feature","id":"120_68","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.55437033],[-77.438080125,37.55437033],[-77.438080125,37.55280776],[-77.439428,37.55280776],[-77.439428,37.55437033]]]},"properties":{"name":"1400-BLK ST PETER ST; 300-BLK CALHOUN ST; 1300-BLK ST PETER ST; 1200-BLK ST PETER ST; HICKORY ST/CALHOUN ST RICH","total":41,"Crime":31,"Mental":5,"Emergency":3,"Traffic":2}}
 ,
-{"type":"Feature","id":"121_68","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.55437033],[-77.43673225,37.55437033],[-77.43673225,37.55280776],[-77.438080125,37.55280776],[-77.438080125,37.55437033]]]},"properties":{"name":"ST PETER ST/CALHOUN ST RICH; 1100-BLK ST JOHN; 200-BLK W COUTTS ST; 1200-BLK ST PAUL ST; ST PAUL ST/W COUTTS ST RICH; ST PAUL ST/W FEDERAL ST RICH","total":17,"Crime":12,"Emergency":4,"Traffic":1}}
+{"type":"Feature","id":"121_68","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.55437033],[-77.43673225,37.55437033],[-77.43673225,37.55280776],[-77.438080125,37.55280776],[-77.438080125,37.55437033]]]},"properties":{"name":"ST PETER ST/CALHOUN ST RICH; 1100-BLK ST JOHN; 200-BLK W COUTTS ST; 1200-BLK ST PAUL ST; ST PAUL ST/W COUTTS ST RICH; ST PAUL ST/W FEDERAL ST RICH","total":20,"Crime":14,"Emergency":5,"Traffic":1}}
 ,
-{"type":"Feature","id":"122_68","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.55437033],[-77.435384375,37.55437033],[-77.435384375,37.55280776],[-77.43673225,37.55280776],[-77.43673225,37.55437033]]]},"properties":{"name":"100-BLK W HILL ST; 1200-BLK ST JOHN ST","total":10,"Emergency":4,"Traffic":4,"Crime":2}}
+{"type":"Feature","id":"122_68","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.55437033],[-77.435384375,37.55437033],[-77.435384375,37.55280776],[-77.43673225,37.55280776],[-77.43673225,37.55437033]]]},"properties":{"name":"100-BLK W HILL ST; 1200-BLK ST JOHN ST","total":12,"Emergency":4,"Traffic":4,"Crime":2,"Discretionary":2}}
 ,
-{"type":"Feature","id":"123_68","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.55437033],[-77.4340365,37.55437033],[-77.4340365,37.55280776],[-77.435384375,37.55280776],[-77.435384375,37.55437033]]]},"properties":{"name":"E HILL ST/ST JAMES ST RICH; 1200-BLK ST JAMES ST; ST JAMES ST/E HILL ST RICH; 1300-BLK ST JOHN ST; 1300-BLK ST JAMES ST; LL(-77:26:07.2709,37:33:15.2315): EST 1320 ST JOHN ST RICH","total":41,"Crime":27,"Emergency":9,"Traffic":4,"Discretionary":1}}
+{"type":"Feature","id":"123_68","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.55437033],[-77.4340365,37.55437033],[-77.4340365,37.55280776],[-77.435384375,37.55280776],[-77.435384375,37.55437033]]]},"properties":{"name":"E HILL ST/ST JAMES ST RICH; 1200-BLK ST JAMES ST; ST JAMES ST/E HILL ST RICH; 1300-BLK ST JOHN ST; 1300-BLK ST JAMES ST; LL(-77:26:07.2709,37:33:15.2315): EST 1320 ST JOHN ST RICH","total":43,"Crime":29,"Emergency":9,"Traffic":4,"Discretionary":1}}
 ,
-{"type":"Feature","id":"124_68","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.55437033],[-77.432688625,37.55437033],[-77.432688625,37.55280776],[-77.4340365,37.55280776],[-77.4340365,37.55437033]]]},"properties":{"name":"1300-BLK N 1ST ST; 1200-BLK N 1ST ST; LL(-77:26:00.5497,37:33:11.9483): EST 1226 N 1ST ST RICH; N 1ST ST/E HILL ST RICH; 100-BLK E HILL ST","total":21,"Crime":9,"Emergency":8,"Traffic":4}}
+{"type":"Feature","id":"124_68","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.55437033],[-77.432688625,37.55437033],[-77.432688625,37.55280776],[-77.4340365,37.55280776],[-77.4340365,37.55437033]]]},"properties":{"name":"1300-BLK N 1ST ST; 1200-BLK N 1ST ST; LL(-77:26:00.5497,37:33:11.9483): EST 1226 N 1ST ST RICH; N 1ST ST/E HILL ST RICH; 100-BLK E HILL ST","total":22,"Crime":9,"Emergency":9,"Traffic":4}}
 ,
-{"type":"Feature","id":"125_68","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.55437033],[-77.43134075,37.55437033],[-77.43134075,37.55280776],[-77.432688625,37.55280776],[-77.432688625,37.55437033]]]},"properties":{"name":"200-BLK HOSPITAL ST; 1400-BLK N 1ST ST; HOSPITAL ST/N 2ND ST RICH","total":69,"Emergency":33,"Crime":29,"Traffic":3,"Mental":2,"Discretionary":2}}
+{"type":"Feature","id":"125_68","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.55437033],[-77.43134075,37.55437033],[-77.43134075,37.55280776],[-77.432688625,37.55280776],[-77.432688625,37.55437033]]]},"properties":{"name":"200-BLK HOSPITAL ST; 1400-BLK N 1ST ST; HOSPITAL ST/N 2ND ST RICH","total":76,"Emergency":40,"Crime":29,"Traffic":3,"Mental":2,"Discretionary":2}}
 ,
-{"type":"Feature","id":"130_68","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.55437033],[-77.42460137500001,37.55437033],[-77.42460137500001,37.55280776],[-77.42594925,37.55280776],[-77.42594925,37.55437033]]]},"properties":{"name":"LL(-77:25:30.3458,37:33:13.0680): EST 1618 VALLEY RD RICH","total":4,"Crime":4}}
+{"type":"Feature","id":"130_68","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.55437033],[-77.42460137500001,37.55437033],[-77.42460137500001,37.55280776],[-77.42594925,37.55280776],[-77.42594925,37.55437033]]]},"properties":{"name":"LL(-77:25:30.3458,37:33:13.0680): EST 1618 VALLEY RD RICH; 1600-BLK VALLEY RD","total":5,"Crime":4,"Traffic":1}}
 ,
-{"type":"Feature","id":"132_68","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.55437033],[-77.42190562500001,37.55437033],[-77.42190562500001,37.55280776],[-77.4232535,37.55280776],[-77.4232535,37.55437033]]]},"properties":{"name":"1900-BLK WHITCOMB ST; 1900-BLK WHITCOMB CT","total":13,"Emergency":3,"Crime":3,"Traffic":3,"Discretionary":2,"Mental":2}}
+{"type":"Feature","id":"132_68","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.55437033],[-77.42190562500001,37.55437033],[-77.42190562500001,37.55280776],[-77.4232535,37.55280776],[-77.4232535,37.55437033]]]},"properties":{"name":"1900-BLK WHITCOMB ST; 1900-BLK WHITCOMB CT","total":28,"Crime":15,"Emergency":6,"Traffic":3,"Discretionary":2,"Mental":2}}
 ,
 {"type":"Feature","id":"134_68","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.55437033],[-77.419209875,37.55437033],[-77.419209875,37.55280776],[-77.42055775,37.55280776],[-77.42055775,37.55437033]]]},"properties":{"name":"WOOD ST/LEBANON ST RICH; 2100-BLK WHITCOMB ST; LL(-77:25:12.5291,37:33:10.9706): SUSSEX/STOCKE","total":8,"Crime":5,"Discretionary":2,"Traffic":1}}
 ,
@@ -4117,13 +4210,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"136_68","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.55437033],[-77.416514125,37.55437033],[-77.416514125,37.55280776],[-77.417862,37.55280776],[-77.417862,37.55437033]]]},"properties":{"name":"2400-BLK WHITCOMB ST; WHITCOMB ST/REDWOOD AVE RICH; REDWOOD AVE/WHITCOMB ST RICH; 2300-BLK WHITCOMB ST","total":15,"Traffic":10,"Emergency":2,"Discretionary":2,"Crime":1}}
 ,
-{"type":"Feature","id":"137_68","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.55437033],[-77.41516625,37.55437033],[-77.41516625,37.55280776],[-77.416514125,37.55280776],[-77.416514125,37.55437033]]]},"properties":{"name":"2400-BLK WOOD ST; CONRAD ST/WHITCOMB ST RICH; 2000-BLK CONRAD ST; 2500-BLK WHITCOMB ST; 2000-BLK WHITCOMB","total":13,"Crime":8,"Traffic":5}}
+{"type":"Feature","id":"137_68","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.55437033],[-77.41516625,37.55437033],[-77.41516625,37.55280776],[-77.416514125,37.55280776],[-77.416514125,37.55437033]]]},"properties":{"name":"2400-BLK WOOD ST; CONRAD ST/WHITCOMB ST RICH; 2000-BLK CONRAD ST; 2500-BLK WHITCOMB ST; 2000-BLK WHITCOMB","total":14,"Crime":9,"Traffic":5}}
 ,
 {"type":"Feature","id":"138_68","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.55437033],[-77.413818375,37.55437033],[-77.413818375,37.55280776],[-77.41516625,37.55280776],[-77.41516625,37.55437033]]]},"properties":{"name":"GLENLEA AVE/WOOD ST RICH","total":3,"Traffic":3}}
 ,
-{"type":"Feature","id":"139_68","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.55437033],[-77.4124705,37.55437033],[-77.4124705,37.55280776],[-77.413818375,37.55280776],[-77.413818375,37.55437033]]]},"properties":{"name":"1900-BLK MADDOX ST; GLENLEA AVE/WHITCOMB ST RICH; GLENLEA AVE/MADDOX ST RICH; WOOD ST/MADDOX ST RICH","total":10,"Traffic":6,"Emergency":2,"Mental":1,"Crime":1}}
+{"type":"Feature","id":"139_68","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.55437033],[-77.4124705,37.55437033],[-77.4124705,37.55280776],[-77.413818375,37.55280776],[-77.413818375,37.55437033]]]},"properties":{"name":"1900-BLK MADDOX ST; GLENLEA AVE/WHITCOMB ST RICH; GLENLEA AVE/MADDOX ST RICH; WOOD ST/MADDOX ST RICH; WHITCOMB ST/GLENLEA AVE RICH","total":12,"Traffic":6,"Emergency":3,"Crime":2,"Mental":1}}
 ,
-{"type":"Feature","id":"140_68","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.55437033],[-77.411122625,37.55437033],[-77.411122625,37.55280776],[-77.4124705,37.55280776],[-77.4124705,37.55437033]]]},"properties":{"name":"MECHANICSVILLE TPKE/COOL LN RICH; 1900-BLK MECHANICSVILLE TPKE; COOL LN/MECHANICSVILLE TPKE RICH; 2000-BLK MECHANICSVILLE TPKE; COOL LN/WHITCOMB ST RICH; WHITCOMB ST/MECHANICSVILLE TPKE RICH; LL(-77:24:42.1789,37:33:11.9112): @360 EXPRESS","total":99,"Discretionary":48,"Crime":29,"Traffic":17,"Emergency":5}}
+{"type":"Feature","id":"140_68","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.55437033],[-77.411122625,37.55437033],[-77.411122625,37.55280776],[-77.4124705,37.55280776],[-77.4124705,37.55437033]]]},"properties":{"name":"MECHANICSVILLE TPKE/COOL LN RICH; 1900-BLK MECHANICSVILLE TPKE; COOL LN/MECHANICSVILLE TPKE RICH; 2000-BLK MECHANICSVILLE TPKE; COOL LN/WHITCOMB ST RICH; WHITCOMB ST/MECHANICSVILLE TPKE RICH; LL(-77:24:42.1789,37:33:11.9112): @360 EXPRESS","total":104,"Discretionary":52,"Crime":30,"Traffic":17,"Emergency":5}}
 ,
 {"type":"Feature","id":"141_68","geometry":{"type":"Polygon","coordinates":[[[-77.411122625,37.55437033],[-77.40977475,37.55437033],[-77.40977475,37.55280776],[-77.411122625,37.55280776],[-77.411122625,37.55437033]]]},"properties":{"name":"1800-BLK COOL LN","total":2,"Discretionary":2}}
 ,
@@ -4139,6 +4232,8 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"47_69","geometry":{"type":"Polygon","coordinates":[[[-77.537822875,37.5559329],[-77.536475,37.5559329],[-77.536475,37.55437033],[-77.537822875,37.55437033],[-77.537822875,37.5559329]]]},"properties":{"name":"4400-BLK CUSTIS RD","total":3,"Crime":3}}
 ,
+{"type":"Feature","id":"51_69","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.5559329],[-77.53108350000001,37.5559329],[-77.53108350000001,37.55437033],[-77.532431375,37.55437033],[-77.532431375,37.5559329]]]},"properties":{"name":"7700-BLK ROCKFALLS DR","total":1,"Crime":1}}
+,
 {"type":"Feature","id":"62_69","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.5559329],[-77.516256875,37.5559329],[-77.516256875,37.55437033],[-77.51760475,37.55437033],[-77.51760475,37.5559329]]]},"properties":{"name":"1000-BLK OLD LOCKE LN","total":4,"Crime":4}}
 ,
 {"type":"Feature","id":"71_69","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.5559329],[-77.504126,37.5559329],[-77.504126,37.55437033],[-77.505473875,37.55437033],[-77.505473875,37.5559329]]]},"properties":{"name":"4500-BLK SULGRAVE RD","total":1,"Crime":1}}
@@ -4147,13 +4242,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"82_69","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.5559329],[-77.489299375,37.5559329],[-77.489299375,37.55437033],[-77.49064725000001,37.55437033],[-77.49064725000001,37.5559329]]]},"properties":{"name":"RICH: @EXIT 74A - I95 NB (DOWNTOWN EXPY WB/ NB I195 / POWHITE PKWY)","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"84_69","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.5559329],[-77.486603625,37.5559329],[-77.486603625,37.55437033],[-77.48795150000001,37.55437033],[-77.48795150000001,37.5559329]]]},"properties":{"name":"3500-BLK W CARY ST","total":31,"Crime":20,"Emergency":6,"Mental":4,"Discretionary":1}}
+{"type":"Feature","id":"84_69","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.5559329],[-77.486603625,37.5559329],[-77.486603625,37.55437033],[-77.48795150000001,37.55437033],[-77.48795150000001,37.5559329]]]},"properties":{"name":"3500-BLK W CARY ST","total":33,"Crime":22,"Emergency":6,"Mental":4,"Discretionary":1}}
 ,
 {"type":"Feature","id":"85_69","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.5559329],[-77.48525575000001,37.5559329],[-77.48525575000001,37.55437033],[-77.486603625,37.55437033],[-77.486603625,37.5559329]]]},"properties":{"name":"S NANSEMOND ST/W CARY ST RICH; W CARY ST/S NANSEMOND ST RICH","total":6,"Emergency":3,"Crime":3}}
 ,
-{"type":"Feature","id":"86_69","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.5559329],[-77.483907875,37.5559329],[-77.483907875,37.55437033],[-77.48525575000001,37.55437033],[-77.48525575000001,37.5559329]]]},"properties":{"name":"ELLWOOD AVE/N CRENSHAW AVE RICH; 3400-BLK W CARY ST; 3300-BLK W CARY ST; 3400-BLK ELLWOOD AVE; 00-BLK S CRENSHAW AVE","total":45,"Crime":28,"Traffic":13,"Emergency":2,"Mental":2}}
+{"type":"Feature","id":"86_69","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.5559329],[-77.483907875,37.5559329],[-77.483907875,37.55437033],[-77.48525575000001,37.55437033],[-77.48525575000001,37.5559329]]]},"properties":{"name":"ELLWOOD AVE/N CRENSHAW AVE RICH; 3400-BLK W CARY ST; 3300-BLK W CARY ST; 3400-BLK ELLWOOD AVE; 00-BLK S CRENSHAW AVE","total":47,"Crime":30,"Traffic":13,"Emergency":2,"Mental":2}}
 ,
-{"type":"Feature","id":"88_69","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.5559329],[-77.481212125,37.5559329],[-77.481212125,37.55437033],[-77.48256,37.55437033],[-77.48256,37.5559329]]]},"properties":{"name":"N AUBURN AVE/ELLWOOD AVE RICH; 3200-BLK ELLWOOD AVE","total":4,"Crime":4}}
+{"type":"Feature","id":"88_69","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.5559329],[-77.481212125,37.5559329],[-77.481212125,37.55437033],[-77.48256,37.55437033],[-77.48256,37.5559329]]]},"properties":{"name":"N AUBURN AVE/ELLWOOD AVE RICH; 3200-BLK ELLWOOD AVE","total":6,"Crime":6}}
 ,
 {"type":"Feature","id":"90_69","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.5559329],[-77.478516375,37.5559329],[-77.478516375,37.55437033],[-77.47986425,37.55437033],[-77.47986425,37.5559329]]]},"properties":{"name":"3100-BLK FLOYD AVE; N BELMONT AVE/FLOYD AVE RICH; 100-BLK N BELMONT AVE","total":6,"Traffic":5,"Crime":1}}
 ,
@@ -4177,11 +4272,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"100_69","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.5559329],[-77.46503762500001,37.5559329],[-77.46503762500001,37.55437033],[-77.4663855,37.55437033],[-77.4663855,37.5559329]]]},"properties":{"name":"2200-BLK STUART AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"101_69","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.5559329],[-77.46368975,37.5559329],[-77.46368975,37.55437033],[-77.46503762500001,37.55437033],[-77.46503762500001,37.5559329]]]},"properties":{"name":"2100-BLK PARK AVE","total":1,"Traffic":1}}
+{"type":"Feature","id":"101_69","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.5559329],[-77.46368975,37.5559329],[-77.46368975,37.55437033],[-77.46503762500001,37.55437033],[-77.46503762500001,37.5559329]]]},"properties":{"name":"2100-BLK PARK AVE; 2200-BLK PARK AVE","total":5,"Crime":2,"Discretionary":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"102_69","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.5559329],[-77.462341875,37.5559329],[-77.462341875,37.55437033],[-77.46368975,37.55437033],[-77.46368975,37.5559329]]]},"properties":{"name":"0-BLK N MEADOW ST","total":2,"Crime":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"103_69","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.5559329],[-77.460994,37.5559329],[-77.460994,37.55437033],[-77.462341875,37.55437033],[-77.462341875,37.5559329]]]},"properties":{"name":"2000-BLK MONUMENT AVE; N MEADOW ST/MONUMENT AVE RICH; LL(-77:27:43.6927,37:33:18.7934): BROAD/MEADOW","total":13,"Traffic":8,"Crime":5}}
+{"type":"Feature","id":"103_69","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.5559329],[-77.460994,37.5559329],[-77.460994,37.55437033],[-77.462341875,37.55437033],[-77.462341875,37.5559329]]]},"properties":{"name":"2000-BLK MONUMENT AVE; N MEADOW ST/MONUMENT AVE RICH; LL(-77:27:43.6927,37:33:18.7934): BROAD/MEADOW","total":14,"Traffic":8,"Crime":6}}
 ,
 {"type":"Feature","id":"105_69","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.5559329],[-77.45829825,37.5559329],[-77.45829825,37.55437033],[-77.459646125,37.55437033],[-77.459646125,37.5559329]]]},"properties":{"name":"1600-BLK W BROAD ST; W BROAD ST/N ALLEN AVE RICH; 1800-BLK W GRACE ST","total":51,"Crime":28,"Traffic":15,"Emergency":8}}
 ,
@@ -4197,7 +4292,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"113_69","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.5559329],[-77.44751525000001,37.5559329],[-77.44751525000001,37.55437033],[-77.448863125,37.55437033],[-77.448863125,37.5559329]]]},"properties":{"name":"1200-BLK MOORE ST","total":20,"Crime":12,"Traffic":5,"Emergency":3}}
 ,
-{"type":"Feature","id":"115_69","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.5559329],[-77.44481950000001,37.5559329],[-77.44481950000001,37.55437033],[-77.446167375,37.55437033],[-77.446167375,37.5559329]]]},"properties":{"name":"LL(-77:26:45.4309,37:33:19.9367): EST 900 OAK ST RICH","total":1,"Crime":1}}
+{"type":"Feature","id":"115_69","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.5559329],[-77.44481950000001,37.5559329],[-77.44481950000001,37.55437033],[-77.446167375,37.55437033],[-77.446167375,37.5559329]]]},"properties":{"name":"LL(-77:26:45.4309,37:33:19.9367): EST 900 OAK ST RICH; 1500-BLK WEBSTER ST","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"116_69","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.5559329],[-77.443471625,37.5559329],[-77.443471625,37.55437033],[-77.44481950000001,37.55437033],[-77.44481950000001,37.5559329]]]},"properties":{"name":"900-BLK BROOK RD; 1400-BLK BROOK RD","total":5,"Emergency":3,"Crime":2}}
 ,
@@ -4215,15 +4310,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"130_69","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.5559329],[-77.42460137500001,37.5559329],[-77.42460137500001,37.55437033],[-77.42594925,37.55437033],[-77.42594925,37.5559329]]]},"properties":{"name":"4TH AVE/COURT ST RICH; 1500-BLK N 5TH ST","total":6,"Traffic":5,"Crime":1}}
 ,
-{"type":"Feature","id":"135_69","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.5559329],[-77.417862,37.5559329],[-77.417862,37.55437033],[-77.419209875,37.55437033],[-77.419209875,37.5559329]]]},"properties":{"name":"2300-BLK SUSSEX ST; 2300-BLK CARMINE ST; 2300-BLK AMBROSE ST; 2300-BLK BETHEL ST; 2200-BLK SUSSEX ST","total":171,"Discretionary":131,"Crime":24,"Emergency":9,"Mental":7}}
+{"type":"Feature","id":"135_69","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.5559329],[-77.417862,37.5559329],[-77.417862,37.55437033],[-77.419209875,37.55437033],[-77.419209875,37.5559329]]]},"properties":{"name":"2300-BLK SUSSEX ST; 2300-BLK CARMINE ST; 2300-BLK AMBROSE ST; 2300-BLK BETHEL ST; 2200-BLK SUSSEX ST","total":180,"Discretionary":134,"Crime":24,"Emergency":15,"Mental":7}}
 ,
 {"type":"Feature","id":"136_69","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.5559329],[-77.416514125,37.5559329],[-77.416514125,37.55437033],[-77.417862,37.55437033],[-77.417862,37.5559329]]]},"properties":{"name":"220-BLK AMBROSE","total":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"138_69","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.5559329],[-77.413818375,37.5559329],[-77.413818375,37.55437033],[-77.41516625,37.55437033],[-77.41516625,37.5559329]]]},"properties":{"name":"2200-BLK DEFORREST ST; 2100-BLK DEFORREST ST; DEFORREST ST/WHITCOMB ST RICH; WHITCOMB ST/DEFORREST ST RICH","total":38,"Crime":19,"Traffic":9,"Emergency":8,"Mental":2}}
 ,
-{"type":"Feature","id":"139_69","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.5559329],[-77.4124705,37.5559329],[-77.4124705,37.55437033],[-77.413818375,37.55437033],[-77.413818375,37.5559329]]]},"properties":{"name":"2600-BLK WHITCOMB ST; ANNISTON ST/WHITCOMB ST RICH","total":8,"Crime":4,"Traffic":3,"Emergency":1}}
+{"type":"Feature","id":"139_69","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.5559329],[-77.4124705,37.5559329],[-77.4124705,37.55437033],[-77.413818375,37.55437033],[-77.413818375,37.5559329]]]},"properties":{"name":"2600-BLK WHITCOMB ST; ANNISTON ST/WHITCOMB ST RICH; WHITCOMB ST/ANNISTON ST RICH","total":10,"Crime":5,"Traffic":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"140_69","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.5559329],[-77.411122625,37.5559329],[-77.411122625,37.55437033],[-77.4124705,37.55437033],[-77.4124705,37.5559329]]]},"properties":{"name":"2700-BLK MAGNOLIA ST","total":1,"Emergency":1}}
+,
+{"type":"Feature","id":"15_70","geometry":{"type":"Polygon","coordinates":[[[-77.580954875,37.55749547],[-77.57960700000001,37.55749547],[-77.57960700000001,37.5559329],[-77.580954875,37.5559329],[-77.580954875,37.55749547]]]},"properties":{"name":"10200-BLK CHEROKEE RD","total":3,"Crime":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"20_70","geometry":{"type":"Polygon","coordinates":[[[-77.57421550000001,37.55749547],[-77.572867625,37.55749547],[-77.572867625,37.5559329],[-77.57421550000001,37.5559329],[-77.57421550000001,37.55749547]]]},"properties":{"name":"9800-BLK CHEROKEE RD","total":8,"Traffic":4,"Emergency":3,"Crime":1}}
 ,
@@ -4233,13 +4330,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"81_70","geometry":{"type":"Polygon","coordinates":[[[-77.491995125,37.55749547],[-77.49064725000001,37.55749547],[-77.49064725000001,37.5559329],[-77.491995125,37.5559329],[-77.491995125,37.55749547]]]},"properties":{"name":"CARY/CAMERON ST RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"83_70","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.55749547],[-77.48795150000001,37.55749547],[-77.48795150000001,37.5559329],[-77.489299375,37.5559329],[-77.489299375,37.55749547]]]},"properties":{"name":"3600-BLK W CARY ST; ELLWOOD AVE/N THOMPSON ST RICH; 00-BLK W CARY ST; S THOMPSON ST/W CARY ST RICH; N THOMPSON ST/ELLWOOD AVE RICH","total":13,"Crime":5,"Traffic":5,"Emergency":3}}
+{"type":"Feature","id":"83_70","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.55749547],[-77.48795150000001,37.55749547],[-77.48795150000001,37.5559329],[-77.489299375,37.5559329],[-77.489299375,37.55749547]]]},"properties":{"name":"3600-BLK W CARY ST; ELLWOOD AVE/N THOMPSON ST RICH; 00-BLK W CARY ST; S THOMPSON ST/W CARY ST RICH; N THOMPSON ST/ELLWOOD AVE RICH; W CARY ST/S THOMPSON ST RICH","total":17,"Crime":7,"Traffic":7,"Emergency":3}}
 ,
 {"type":"Feature","id":"85_70","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.55749547],[-77.48525575000001,37.55749547],[-77.48525575000001,37.5559329],[-77.486603625,37.5559329],[-77.486603625,37.55749547]]]},"properties":{"name":"3500-BLK ELLWOOD AVE","total":8,"Traffic":6,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"86_70","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.55749547],[-77.483907875,37.55749547],[-77.483907875,37.5559329],[-77.48525575000001,37.5559329],[-77.48525575000001,37.55749547]]]},"properties":{"name":"3400-BLK FLOYD AVE","total":10,"Discretionary":10}}
+{"type":"Feature","id":"86_70","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.55749547],[-77.483907875,37.55749547],[-77.483907875,37.5559329],[-77.48525575000001,37.5559329],[-77.48525575000001,37.55749547]]]},"properties":{"name":"3400-BLK FLOYD AVE","total":16,"Discretionary":16}}
 ,
-{"type":"Feature","id":"87_70","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.55749547],[-77.48256,37.55749547],[-77.48256,37.5559329],[-77.483907875,37.5559329],[-77.483907875,37.55749547]]]},"properties":{"name":"100-BLK N DOOLEY AVE","total":3,"Crime":3}}
+{"type":"Feature","id":"87_70","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.55749547],[-77.48256,37.55749547],[-77.48256,37.5559329],[-77.483907875,37.5559329],[-77.483907875,37.55749547]]]},"properties":{"name":"100-BLK N DOOLEY AVE; N DOOLEY AVE/FLOYD AVE RICH","total":4,"Crime":4}}
 ,
 {"type":"Feature","id":"88_70","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.55749547],[-77.481212125,37.55749547],[-77.481212125,37.5559329],[-77.48256,37.5559329],[-77.48256,37.55749547]]]},"properties":{"name":"0-BLK N AUBURN AVE; 3200-BLK FLOYD AVE; 00-BLK AUBURN; 3300-BLK GROVE AVE","total":11,"Crime":9,"Traffic":2}}
 ,
@@ -4259,21 +4356,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"100_70","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.55749547],[-77.46503762500001,37.55749547],[-77.46503762500001,37.5559329],[-77.4663855,37.5559329],[-77.4663855,37.55749547]]]},"properties":{"name":"2300-BLK MONUMENT AVE; MONUMENT AVE/STRAWBERRY ST RICH","total":3,"Emergency":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"101_70","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.55749547],[-77.46368975,37.55749547],[-77.46368975,37.5559329],[-77.46503762500001,37.5559329],[-77.46503762500001,37.55749547]]]},"properties":{"name":"2200-BLK MONUMENT AVE","total":2,"Traffic":2}}
+{"type":"Feature","id":"101_70","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.55749547],[-77.46368975,37.55749547],[-77.46368975,37.5559329],[-77.46503762500001,37.5559329],[-77.46503762500001,37.55749547]]]},"properties":{"name":"2200-BLK MONUMENT AVE","total":6,"Emergency":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"103_70","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.55749547],[-77.460994,37.55749547],[-77.460994,37.5559329],[-77.462341875,37.5559329],[-77.462341875,37.55749547]]]},"properties":{"name":"2000-BLK W GRACE ST; 2100-BLK W BROAD ST","total":22,"Crime":8,"Mental":7,"Emergency":6,"Traffic":1}}
 ,
-{"type":"Feature","id":"104_70","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.55749547],[-77.459646125,37.55749547],[-77.459646125,37.5559329],[-77.460994,37.5559329],[-77.460994,37.55749547]]]},"properties":{"name":"N MEADOW ST/W BROAD ST RICH; MEADOW &amp; BROAD; W BROAD ST/N MEADOW ST RICH","total":65,"Discretionary":55,"Emergency":6,"Crime":4}}
+{"type":"Feature","id":"104_70","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.55749547],[-77.459646125,37.55749547],[-77.459646125,37.5559329],[-77.460994,37.5559329],[-77.460994,37.55749547]]]},"properties":{"name":"N MEADOW ST/W BROAD ST RICH; MEADOW &amp; BROAD; W BROAD ST/N MEADOW ST RICH","total":69,"Discretionary":59,"Emergency":6,"Crime":4}}
 ,
 {"type":"Feature","id":"105_70","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.55749547],[-77.45829825,37.55749547],[-77.45829825,37.5559329],[-77.459646125,37.5559329],[-77.459646125,37.55749547]]]},"properties":{"name":"W BROAD ST/LODGE ST RICH; 1800-BLK W BROAD ST; W MARSHALL ST/LODGE ST RICH","total":12,"Traffic":6,"Emergency":4,"Crime":2}}
 ,
-{"type":"Feature","id":"108_70","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.55749547],[-77.454254625,37.55749547],[-77.454254625,37.5559329],[-77.4556025,37.5559329],[-77.4556025,37.55749547]]]},"properties":{"name":"900-BLK N LOMBARDY ST","total":43,"Emergency":17,"Crime":17,"Traffic":7,"Discretionary":2}}
+{"type":"Feature","id":"108_70","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.55749547],[-77.454254625,37.55749547],[-77.454254625,37.5559329],[-77.4556025,37.5559329],[-77.4556025,37.55749547]]]},"properties":{"name":"900-BLK N LOMBARDY ST","total":47,"Crime":21,"Emergency":17,"Traffic":7,"Discretionary":2}}
 ,
 {"type":"Feature","id":"109_70","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.55749547],[-77.45290675,37.55749547],[-77.45290675,37.5559329],[-77.454254625,37.5559329],[-77.454254625,37.55749547]]]},"properties":{"name":"N LOMBARDY ST/W LEIGH ST RICH","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"110_70","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.55749547],[-77.451558875,37.55749547],[-77.451558875,37.5559329],[-77.45290675,37.5559329],[-77.45290675,37.55749547]]]},"properties":{"name":"3400-BLK MOORE ST; 2900-BLK MOORE ST; 1500-BLK W LEIGH ST; 1000-BLK BOWE ST; 1400-BLK W LEIGH ST; 1000-BLK KINNEY ST; W LEIGH ST/BOWE ST RICH; 3300-BLK MOORE ST; 3200-BLK MOORE ST","total":27,"Crime":19,"Traffic":7,"Emergency":1}}
 ,
-{"type":"Feature","id":"114_70","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.55749547],[-77.446167375,37.55749547],[-77.446167375,37.5559329],[-77.44751525000001,37.5559329],[-77.44751525000001,37.55749547]]]},"properties":{"name":"900-BLK SLEDD ST","total":35,"Crime":28,"Emergency":7}}
+{"type":"Feature","id":"114_70","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.55749547],[-77.446167375,37.55749547],[-77.446167375,37.5559329],[-77.44751525000001,37.5559329],[-77.44751525000001,37.55749547]]]},"properties":{"name":"900-BLK SLEDD ST","total":45,"Crime":35,"Emergency":9,"Traffic":1}}
 ,
 {"type":"Feature","id":"115_70","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.55749547],[-77.44481950000001,37.55749547],[-77.44481950000001,37.5559329],[-77.446167375,37.5559329],[-77.446167375,37.55749547]]]},"properties":{"name":"1500-BLK BROOK RD","total":2,"Emergency":2}}
 ,
@@ -4281,9 +4378,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"117_70","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.55749547],[-77.44212375000001,37.55749547],[-77.44212375000001,37.5559329],[-77.443471625,37.5559329],[-77.443471625,37.55749547]]]},"properties":{"name":"LL(-77:26:32.3693,37:33:23.4049): CHAMB/BELV; 1500-BLK CHAMBERLAYNE PKWY; CHAMBERLAYNE PKWY/OAK ST RICH","total":17,"Traffic":10,"Crime":7}}
 ,
-{"type":"Feature","id":"118_70","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.55749547],[-77.440775875,37.55749547],[-77.440775875,37.5559329],[-77.44212375000001,37.5559329],[-77.44212375000001,37.55749547]]]},"properties":{"name":"600-BLK W BACON ST; 1500-BLK ROANE ST; LL(-77:26:31.4592,37:33:22.8021): CHAMBERLAYNE/FRITZ; W FRITZ ST/ROANE ST RICH","total":46,"Crime":35,"Emergency":5,"Traffic":4,"Mental":2}}
+{"type":"Feature","id":"118_70","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.55749547],[-77.440775875,37.55749547],[-77.440775875,37.5559329],[-77.44212375000001,37.5559329],[-77.44212375000001,37.55749547]]]},"properties":{"name":"600-BLK W BACON ST; 1500-BLK ROANE ST; LL(-77:26:31.4592,37:33:22.8021): CHAMBERLAYNE/FRITZ; W FRITZ ST/ROANE ST RICH","total":47,"Crime":35,"Emergency":5,"Traffic":5,"Mental":2}}
 ,
-{"type":"Feature","id":"119_70","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.55749547],[-77.439428,37.55749547],[-77.439428,37.5559329],[-77.440775875,37.5559329],[-77.440775875,37.55749547]]]},"properties":{"name":"W BACON ST/CHAMBERLAYNE PKWY RICH; 1600-BLK TYLER ST","total":11,"Traffic":6,"Crime":4,"Mental":1}}
+{"type":"Feature","id":"119_70","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.55749547],[-77.439428,37.55749547],[-77.439428,37.5559329],[-77.440775875,37.5559329],[-77.440775875,37.55749547]]]},"properties":{"name":"W BACON ST/CHAMBERLAYNE PKWY RICH; 1600-BLK TYLER ST","total":12,"Traffic":6,"Crime":5,"Mental":1}}
 ,
 {"type":"Feature","id":"120_70","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.55749547],[-77.438080125,37.55749547],[-77.438080125,37.5559329],[-77.439428,37.5559329],[-77.439428,37.55749547]]]},"properties":{"name":"500-BLK W BACON ST; 1600-BLK HICKORY ST; 1500-BLK HICKORY ST","total":25,"Crime":17,"Mental":4,"Emergency":3,"Traffic":1}}
 ,
@@ -4299,7 +4396,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"136_70","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.55749547],[-77.416514125,37.55749547],[-77.416514125,37.5559329],[-77.417862,37.5559329],[-77.417862,37.55749547]]]},"properties":{"name":"2400-BLK CARMINE ST","total":2,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"138_70","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.55749547],[-77.413818375,37.55749547],[-77.413818375,37.5559329],[-77.41516625,37.5559329],[-77.41516625,37.55749547]]]},"properties":{"name":"2500-BLK BETHEL ST; CARMINE ST/BETHEL ST RICH","total":23,"Crime":13,"Discretionary":4,"Mental":2,"Emergency":2,"Traffic":2}}
+{"type":"Feature","id":"138_70","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.55749547],[-77.413818375,37.55749547],[-77.413818375,37.5559329],[-77.41516625,37.5559329],[-77.41516625,37.55749547]]]},"properties":{"name":"2500-BLK BETHEL ST; CARMINE ST/BETHEL ST RICH","total":24,"Crime":13,"Discretionary":4,"Emergency":3,"Mental":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"139_70","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.55749547],[-77.4124705,37.55749547],[-77.4124705,37.5559329],[-77.413818375,37.5559329],[-77.413818375,37.55749547]]]},"properties":{"name":"MAGNOLIA ST/BETHEL ST RICH","total":2,"Crime":2}}
 ,
@@ -4314,6 +4411,8 @@ var rvaData = {"type":"FeatureCollection","features":[
 {"type":"Feature","id":"71_71","geometry":{"type":"Polygon","coordinates":[[[-77.505473875,37.55905804],[-77.504126,37.55905804],[-77.504126,37.55749547],[-77.505473875,37.55749547],[-77.505473875,37.55905804]]]},"properties":{"name":"4500-BLK DOVER RD","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"78_71","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.55905804],[-77.494690875,37.55905804],[-77.494690875,37.55749547],[-77.49603875,37.55749547],[-77.49603875,37.55905804]]]},"properties":{"name":"4100-BLK CARY STREET RD; CARY STREET RD/MALVERN AVE RICH","total":4,"Traffic":3,"Emergency":1}}
+,
+{"type":"Feature","id":"79_71","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.55905804],[-77.49334300000001,37.55905804],[-77.49334300000001,37.55749547],[-77.494690875,37.55749547],[-77.494690875,37.55905804]]]},"properties":{"name":"4000-BLK CARY STREET RD","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"80_71","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.55905804],[-77.491995125,37.55905804],[-77.491995125,37.55749547],[-77.49334300000001,37.55749547],[-77.49334300000001,37.55905804]]]},"properties":{"name":"3900-BLK CARY STREET RD","total":1,"Emergency":1}}
 ,
@@ -4335,7 +4434,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"93_71","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.55905804],[-77.47447275,37.55905804],[-77.47447275,37.55749547],[-77.475820625,37.55749547],[-77.475820625,37.55905804]]]},"properties":{"name":"3000-BLK STUART AVE; 400-BLK N SHEPPARD ST","total":3,"Traffic":2,"Crime":1}}
 ,
-{"type":"Feature","id":"94_71","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.55905804],[-77.473124875,37.55905804],[-77.473124875,37.55749547],[-77.47447275,37.55749547],[-77.47447275,37.55905804]]]},"properties":{"name":"2900-BLK KENSINGTON AVE","total":9,"Crime":9}}
+{"type":"Feature","id":"94_71","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.55905804],[-77.473124875,37.55905804],[-77.473124875,37.55749547],[-77.47447275,37.55749547],[-77.47447275,37.55905804]]]},"properties":{"name":"2900-BLK KENSINGTON AVE","total":11,"Crime":9,"Emergency":2}}
 ,
 {"type":"Feature","id":"95_71","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.55905804],[-77.471777,37.55905804],[-77.471777,37.55749547],[-77.473124875,37.55749547],[-77.473124875,37.55905804]]]},"properties":{"name":"KENSINGTON AVE/N ARTHUR ASHE BLVD RICH","total":3,"Traffic":3}}
 ,
@@ -4345,7 +4444,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"98_71","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.55905804],[-77.46773337500001,37.55905804],[-77.46773337500001,37.55749547],[-77.46908125,37.55749547],[-77.46908125,37.55905804]]]},"properties":{"name":"2500-BLK PARK AVE; MONUMENT AVE/N ROBINSON ST RICH; 2500-BLK MONUMENT AVE; N ROBINSON ST/MONUMENT AVE RICH","total":11,"Traffic":6,"Emergency":3,"Crime":2}}
 ,
-{"type":"Feature","id":"101_71","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.55905804],[-77.46368975,37.55905804],[-77.46368975,37.55749547],[-77.46503762500001,37.55749547],[-77.46503762500001,37.55905804]]]},"properties":{"name":"W BROAD ST/STRAWBERRY ST RICH; 2300-BLK W GRACE ST; 2200-BLK W GRACE ST; W GRACE ST/STRAWBERRY ST RICH","total":17,"Emergency":8,"Crime":6,"Traffic":3}}
+{"type":"Feature","id":"101_71","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.55905804],[-77.46368975,37.55905804],[-77.46368975,37.55749547],[-77.46503762500001,37.55749547],[-77.46503762500001,37.55905804]]]},"properties":{"name":"W BROAD ST/STRAWBERRY ST RICH; 2300-BLK W GRACE ST; 2200-BLK W GRACE ST; W GRACE ST/STRAWBERRY ST RICH; 0-BLK STRAWBERRY ST","total":19,"Emergency":8,"Crime":8,"Traffic":3}}
 ,
 {"type":"Feature","id":"102_71","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.55905804],[-77.462341875,37.55905804],[-77.462341875,37.55749547],[-77.46368975,37.55749547],[-77.46368975,37.55905804]]]},"properties":{"name":"W BROAD ST/ALLISON ST RICH; LL(-77:27:47.2285,37:33:29.5991): EST 2155 W BROAD ST RICH; ALLISON ST/W BROAD ST RICH","total":5,"Crime":4,"Emergency":1}}
 ,
@@ -4355,7 +4454,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"108_71","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.55905804],[-77.454254625,37.55905804],[-77.454254625,37.55749547],[-77.4556025,37.55749547],[-77.4556025,37.55905804]]]},"properties":{"name":"1700-BLK W LEIGH ST","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"109_71","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.55905804],[-77.45290675,37.55905804],[-77.45290675,37.55749547],[-77.454254625,37.55749547],[-77.454254625,37.55905804]]]},"properties":{"name":"1000-BLK N LOMBARDY ST","total":7,"Crime":4,"Traffic":3}}
+{"type":"Feature","id":"109_71","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.55905804],[-77.45290675,37.55905804],[-77.45290675,37.55749547],[-77.454254625,37.55749547],[-77.454254625,37.55905804]]]},"properties":{"name":"1000-BLK N LOMBARDY ST","total":9,"Crime":6,"Traffic":3}}
 ,
 {"type":"Feature","id":"112_71","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.55905804],[-77.448863125,37.55905804],[-77.448863125,37.55749547],[-77.450211,37.55749547],[-77.450211,37.55905804]]]},"properties":{"name":"1300-BLK SCHOOL ST","total":1,"Crime":1}}
 ,
@@ -4363,17 +4462,17 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"117_71","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.55905804],[-77.44212375000001,37.55905804],[-77.44212375000001,37.55749547],[-77.443471625,37.55749547],[-77.443471625,37.55905804]]]},"properties":{"name":"1700-BLK CHAMBERLAYNE PKWY","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"118_71","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.55905804],[-77.440775875,37.55905804],[-77.440775875,37.55749547],[-77.44212375000001,37.55749547],[-77.44212375000001,37.55905804]]]},"properties":{"name":"700-BLK W FELLS ST; 1600-BLK ROANE ST; 1700-BLK ROANE ST","total":45,"Emergency":21,"Crime":16,"Mental":5,"Traffic":3}}
+{"type":"Feature","id":"118_71","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.55905804],[-77.440775875,37.55905804],[-77.440775875,37.55749547],[-77.44212375000001,37.55749547],[-77.44212375000001,37.55905804]]]},"properties":{"name":"700-BLK W FELLS ST; 1600-BLK ROANE ST; 1700-BLK ROANE ST","total":46,"Emergency":21,"Crime":16,"Mental":6,"Traffic":3}}
 ,
-{"type":"Feature","id":"119_71","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.55905804],[-77.439428,37.55905804],[-77.439428,37.55749547],[-77.440775875,37.55749547],[-77.440775875,37.55905804]]]},"properties":{"name":"1600-BLK BROOKFIELD ST; 1700-BLK TYLER ST; 1700-BLK BROOKFIELD ST","total":14,"Crime":10,"Emergency":2,"Traffic":2}}
+{"type":"Feature","id":"119_71","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.55905804],[-77.439428,37.55905804],[-77.439428,37.55749547],[-77.440775875,37.55749547],[-77.440775875,37.55905804]]]},"properties":{"name":"1600-BLK BROOKFIELD ST; 1700-BLK TYLER ST; 1700-BLK BROOKFIELD ST","total":15,"Crime":11,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"120_71","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.55905804],[-77.438080125,37.55905804],[-77.438080125,37.55749547],[-77.439428,37.55749547],[-77.439428,37.55905804]]]},"properties":{"name":"1700-BLK HICKORY ST","total":7,"Crime":6,"Emergency":1}}
 ,
-{"type":"Feature","id":"121_71","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.55905804],[-77.43673225,37.55905804],[-77.43673225,37.55749547],[-77.438080125,37.55749547],[-77.438080125,37.55905804]]]},"properties":{"name":"0-BLK W FELLS ST","total":3,"Crime":1,"Emergency":1,"Traffic":1}}
+{"type":"Feature","id":"121_71","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.55905804],[-77.43673225,37.55905804],[-77.43673225,37.55749547],[-77.438080125,37.55749547],[-77.438080125,37.55905804]]]},"properties":{"name":"0-BLK W FELLS ST; HICKORY ST/W FELLS ST RICH","total":4,"Crime":2,"Emergency":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"123_71","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.55905804],[-77.4340365,37.55905804],[-77.4340365,37.55749547],[-77.435384375,37.55749547],[-77.435384375,37.55905804]]]},"properties":{"name":"1800-BLK ROSE AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"125_71","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.55905804],[-77.43134075,37.55905804],[-77.43134075,37.55749547],[-77.432688625,37.55749547],[-77.432688625,37.55905804]]]},"properties":{"name":"LAMB AVE/WELLFORD ST RICH; 1700-BLK LAMB AVE","total":5,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"125_71","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.55905804],[-77.43134075,37.55905804],[-77.43134075,37.55749547],[-77.432688625,37.55749547],[-77.432688625,37.55905804]]]},"properties":{"name":"LAMB AVE/WELLFORD ST RICH; 1700-BLK LAMB AVE","total":8,"Crime":4,"Traffic":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"126_71","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.55905804],[-77.429992875,37.55905804],[-77.429992875,37.55749547],[-77.43134075,37.55749547],[-77.43134075,37.55905804]]]},"properties":{"name":"1600-BLK LAMB AVE","total":2,"Crime":2}}
 ,
@@ -4409,7 +4508,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"75_72","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.56062061],[-77.4987345,37.56062061],[-77.4987345,37.55905804],[-77.500082375,37.55905804],[-77.500082375,37.56062061]]]},"properties":{"name":"4300-BLK CAMBRIDGE RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"77_72","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.56062061],[-77.49603875,37.56062061],[-77.49603875,37.55905804],[-77.497386625,37.55905804],[-77.497386625,37.56062061]]]},"properties":{"name":"4600-BLK CARY STREET RD","total":1,"Crime":1}}
+{"type":"Feature","id":"77_72","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.56062061],[-77.49603875,37.56062061],[-77.49603875,37.55905804],[-77.497386625,37.55905804],[-77.497386625,37.56062061]]]},"properties":{"name":"4600-BLK CARY STREET RD; 4200-BLK CARY STREET RD","total":5,"Crime":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"81_72","geometry":{"type":"Polygon","coordinates":[[[-77.491995125,37.56062061],[-77.49064725000001,37.56062061],[-77.49064725000001,37.55905804],[-77.491995125,37.55905804],[-77.491995125,37.56062061]]]},"properties":{"name":"200-BLK HAMILTON; 200-BLK N HAMILTON ST","total":12,"Discretionary":11,"Crime":1}}
 ,
@@ -4431,7 +4530,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"93_72","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.56062061],[-77.47447275,37.56062061],[-77.47447275,37.55905804],[-77.475820625,37.55905804],[-77.475820625,37.56062061]]]},"properties":{"name":"600-BLK N SHEPPARD ST; 500-BLK N SHEPPARD ST; 3000-BLK PATTERSON AVE; 3000-BLK KENSINGTON AVE","total":10,"Crime":4,"Traffic":4,"Emergency":2}}
 ,
-{"type":"Feature","id":"94_72","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.56062061],[-77.473124875,37.56062061],[-77.473124875,37.55905804],[-77.47447275,37.55905804],[-77.47447275,37.56062061]]]},"properties":{"name":"2900-BLK PATTERSON AVE; PATTERSON AVE/N SHEPPARD ST RICH","total":11,"Crime":8,"Mental":3}}
+{"type":"Feature","id":"94_72","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.56062061],[-77.473124875,37.56062061],[-77.473124875,37.55905804],[-77.47447275,37.55905804],[-77.47447275,37.56062061]]]},"properties":{"name":"2900-BLK PATTERSON AVE; PATTERSON AVE/N SHEPPARD ST RICH","total":24,"Crime":20,"Mental":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"95_72","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.56062061],[-77.471777,37.56062061],[-77.471777,37.55905804],[-77.473124875,37.55905804],[-77.473124875,37.56062061]]]},"properties":{"name":"600-BLK N ARTHUR ASHE BLVD; 700-BLK N COLONIAL AVE; 2900-BLK PARK AVE; 2800-BLK PATTERSON AVE; PATTERSON AVE/N ARTHUR ASHE BLVD RICH","total":15,"Traffic":9,"Crime":4,"Emergency":2}}
 ,
@@ -4439,7 +4538,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"97_72","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.56062061],[-77.46908125,37.56062061],[-77.46908125,37.55905804],[-77.47042912500001,37.55905804],[-77.47042912500001,37.56062061]]]},"properties":{"name":"2700-BLK MONUMENT AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"98_72","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.56062061],[-77.46773337500001,37.56062061],[-77.46773337500001,37.55905804],[-77.46908125,37.55905804],[-77.46908125,37.56062061]]]},"properties":{"name":"2600-BLK MONUMENT AVE; 2600-BLK W GRACE ST; 2700-BLK W GRACE ST; W GRACE ST/N MULBERRY ST RICH; 00-BLK N ROBINSON ST; N MULBERRY ST/W GRACE ST RICH","total":17,"Crime":9,"Traffic":8}}
+{"type":"Feature","id":"98_72","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.56062061],[-77.46773337500001,37.56062061],[-77.46773337500001,37.55905804],[-77.46908125,37.55905804],[-77.46908125,37.56062061]]]},"properties":{"name":"2600-BLK MONUMENT AVE; 2600-BLK W GRACE ST; 2700-BLK W GRACE ST; W GRACE ST/N MULBERRY ST RICH; 00-BLK N ROBINSON ST; N MULBERRY ST/W GRACE ST RICH; 0-BLK N ROBINSON ST","total":26,"Traffic":15,"Crime":11}}
 ,
 {"type":"Feature","id":"99_72","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.56062061],[-77.4663855,37.56062061],[-77.4663855,37.55905804],[-77.46773337500001,37.55905804],[-77.46773337500001,37.56062061]]]},"properties":{"name":"W GRACE ST/N DAVIS AVE RICH; 2500-BLK W GRACE ST; 2600-BLK W BROAD","total":6,"Crime":3,"Emergency":3}}
 ,
@@ -4447,7 +4546,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"102_72","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.56062061],[-77.462341875,37.56062061],[-77.462341875,37.55905804],[-77.46368975,37.55905804],[-77.46368975,37.56062061]]]},"properties":{"name":"2300-BLK W BROAD ST","total":12,"Crime":7,"Traffic":2,"Mental":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"106_72","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.56062061],[-77.456950375,37.56062061],[-77.456950375,37.55905804],[-77.45829825,37.55905804],[-77.45829825,37.56062061]]]},"properties":{"name":"131100-BLK W LEIGH ST","total":1,"Crime":1}}
+{"type":"Feature","id":"106_72","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.56062061],[-77.456950375,37.56062061],[-77.456950375,37.55905804],[-77.45829825,37.55905804],[-77.45829825,37.56062061]]]},"properties":{"name":"131100-BLK W LEIGH ST; W LEIGH ST/DINNEEN ST RICH","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"107_72","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.56062061],[-77.4556025,37.56062061],[-77.4556025,37.55905804],[-77.456950375,37.55905804],[-77.456950375,37.56062061]]]},"properties":{"name":"1100-BLK DINNEEN ST","total":2,"Traffic":2}}
 ,
@@ -4473,6 +4572,12 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"131_72","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.56062061],[-77.4232535,37.56062061],[-77.4232535,37.55905804],[-77.42460137500001,37.55905804],[-77.42460137500001,37.56062061]]]},"properties":{"name":"2000-BLK 3RD AVE; 2000-BLK 4TH AVE","total":4,"Traffic":3,"Crime":1}}
 ,
+{"type":"Feature","id":"132_72","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.56062061],[-77.42190562500001,37.56062061],[-77.42190562500001,37.55905804],[-77.4232535,37.55905804],[-77.4232535,37.56062061]]]},"properties":{"name":"2000-BLK 5TH AVE","total":4,"Crime":4}}
+,
+{"type":"Feature","id":"133_72","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.56062061],[-77.42055775,37.56062061],[-77.42055775,37.55905804],[-77.42190562500001,37.55905804],[-77.42190562500001,37.56062061]]]},"properties":{"name":"2100-BLK 5TH AVE","total":2,"Traffic":2}}
+,
+{"type":"Feature","id":"139_72","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.56062061],[-77.4124705,37.56062061],[-77.4124705,37.55905804],[-77.413818375,37.55905804],[-77.413818375,37.56062061]]]},"properties":{"name":"2200-BLK MAGNOLIA ST","total":7,"Traffic":7}}
+,
 {"type":"Feature","id":"20_73","geometry":{"type":"Polygon","coordinates":[[[-77.57421550000001,37.56218318],[-77.572867625,37.56218318],[-77.572867625,37.56062061],[-77.57421550000001,37.56062061],[-77.57421550000001,37.56218318]]]},"properties":{"name":"RICH: @WILLEY BRIDGE - NB; @WILLEY BRIDGE; @WILLEY","total":54,"Traffic":54}}
 ,
 {"type":"Feature","id":"64_73","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.56218318],[-77.51356112500001,37.56218318],[-77.51356112500001,37.56062061],[-77.514909,37.56062061],[-77.514909,37.56218318]]]},"properties":{"name":"300-BLK CHARMIAN RD","total":2,"Crime":2}}
@@ -4491,9 +4596,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"86_73","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.56218318],[-77.483907875,37.56218318],[-77.483907875,37.56062061],[-77.48525575000001,37.56062061],[-77.48525575000001,37.56218318]]]},"properties":{"name":"00-BLK N THOMPSON ST","total":9,"Crime":6,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"87_73","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.56218318],[-77.48256,37.56218318],[-77.48256,37.56062061],[-77.483907875,37.56062061],[-77.483907875,37.56218318]]]},"properties":{"name":"3500-BLK STUART AVE","total":1,"Crime":1}}
+{"type":"Feature","id":"87_73","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.56218318],[-77.48256,37.56218318],[-77.48256,37.56062061],[-77.483907875,37.56062061],[-77.483907875,37.56218318]]]},"properties":{"name":"3500-BLK STUART AVE; N NANSEMOND ST/KENSINGTON AVE RICH","total":4,"Traffic":3,"Crime":1}}
 ,
-{"type":"Feature","id":"89_73","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.56218318],[-77.47986425,37.56218318],[-77.47986425,37.56062061],[-77.481212125,37.56062061],[-77.481212125,37.56218318]]]},"properties":{"name":"3400-BLK PATTERSON AVE","total":8,"Traffic":6,"Crime":2}}
+{"type":"Feature","id":"89_73","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.56218318],[-77.47986425,37.56218318],[-77.47986425,37.56062061],[-77.481212125,37.56062061],[-77.481212125,37.56218318]]]},"properties":{"name":"3400-BLK PATTERSON AVE","total":11,"Traffic":9,"Crime":2}}
 ,
 {"type":"Feature","id":"90_73","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.56218318],[-77.478516375,37.56218318],[-77.478516375,37.56062061],[-77.47986425,37.56062061],[-77.47986425,37.56218318]]]},"properties":{"name":"3300-BLK KENSINGTON AVE; TILDEN ST/PATTERSON AVE RICH; 3300-BLK PATTERSON AVE","total":6,"Crime":3,"Traffic":2,"Emergency":1}}
 ,
@@ -4503,19 +4608,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"93_73","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.56218318],[-77.47447275,37.56218318],[-77.47447275,37.56062061],[-77.475820625,37.56062061],[-77.475820625,37.56218318]]]},"properties":{"name":"N BELMONT AVE/PARK AVE RICH; 700-BLK N BELMONT AVE; 3100-BLK PARK AVE; 600-BLK N BELMONT AVE; 0-BLK N BELMONT AVE","total":11,"Traffic":7,"Emergency":2,"Crime":2}}
 ,
-{"type":"Feature","id":"94_73","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.56218318],[-77.473124875,37.56218318],[-77.473124875,37.56062061],[-77.47447275,37.56062061],[-77.47447275,37.56218318]]]},"properties":{"name":"700-BLK N SHEPPARD ST; MONUMENT AVE/N SHEPPARD ST RICH; 3000-BLK PARK AVE","total":10,"Crime":6,"Traffic":2,"Discretionary":2}}
+{"type":"Feature","id":"94_73","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.56218318],[-77.473124875,37.56218318],[-77.473124875,37.56062061],[-77.47447275,37.56062061],[-77.47447275,37.56218318]]]},"properties":{"name":"700-BLK N SHEPPARD ST; MONUMENT AVE/N SHEPPARD ST RICH; 3000-BLK PARK AVE; 2900-BLK MONUMENT AVE","total":16,"Crime":9,"Traffic":4,"Discretionary":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"95_73","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.56218318],[-77.471777,37.56218318],[-77.471777,37.56062061],[-77.473124875,37.56062061],[-77.473124875,37.56218318]]]},"properties":{"name":"800-BLK N SHEPPARD ST","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"96_73","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.56218318],[-77.47042912500001,37.56218318],[-77.47042912500001,37.56062061],[-77.471777,37.56062061],[-77.471777,37.56218318]]]},"properties":{"name":"800-BLK N ARTHUR ASHE BLVD; 2800-BLK W GRACE ST; 2800-BLK MONUMENT AVE","total":24,"Crime":19,"Traffic":5}}
+{"type":"Feature","id":"96_73","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.56218318],[-77.47042912500001,37.56218318],[-77.47042912500001,37.56062061],[-77.471777,37.56062061],[-77.471777,37.56218318]]]},"properties":{"name":"800-BLK N ARTHUR ASHE BLVD; 2800-BLK W GRACE ST; 2800-BLK MONUMENT AVE","total":26,"Crime":21,"Traffic":5}}
 ,
 {"type":"Feature","id":"98_73","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.56218318],[-77.46773337500001,37.56218318],[-77.46773337500001,37.56062061],[-77.46908125,37.56062061],[-77.46908125,37.56218318]]]},"properties":{"name":"W BROAD ST/N MULBERRY ST RICH; 2700-BLK W BROAD ST; TERMINAL PL/W BROAD ST RICH; W BROAD ST/TERMINAL PL RICH; 2700-BLK W BROAD; LL(-77:28:07.0486,37:33:41.3730): BROAD/ROBINSON","total":69,"Crime":38,"Traffic":21,"Emergency":8,"Mental":2}}
 ,
 {"type":"Feature","id":"99_73","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.56218318],[-77.4663855,37.56218318],[-77.4663855,37.56062061],[-77.46773337500001,37.56062061],[-77.46773337500001,37.56218318]]]},"properties":{"name":"W BROAD ST/N ROBINSON ST RICH; N ROBINSON ST/W BROAD ST RICH","total":6,"Traffic":4,"Emergency":2}}
 ,
-{"type":"Feature","id":"101_73","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.56218318],[-77.46368975,37.56218318],[-77.46368975,37.56062061],[-77.46503762500001,37.56062061],[-77.46503762500001,37.56218318]]]},"properties":{"name":"2500-BLK W BROAD ST","total":16,"Emergency":11,"Crime":3,"Traffic":1,"Mental":1}}
+{"type":"Feature","id":"101_73","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.56218318],[-77.46368975,37.56218318],[-77.46368975,37.56062061],[-77.46503762500001,37.56062061],[-77.46503762500001,37.56218318]]]},"properties":{"name":"2500-BLK W BROAD ST; 1000-BLK DMV DR","total":19,"Emergency":12,"Crime":4,"Mental":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"102_73","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.56218318],[-77.462341875,37.56218318],[-77.462341875,37.56062061],[-77.46368975,37.56062061],[-77.46368975,37.56218318]]]},"properties":{"name":"W LEIGH ST/DMV DR RICH; DMV DR/W LEIGH ST RICH","total":3,"Traffic":3}}
+{"type":"Feature","id":"102_73","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.56218318],[-77.462341875,37.56218318],[-77.462341875,37.56062061],[-77.46368975,37.56062061],[-77.46368975,37.56218318]]]},"properties":{"name":"W LEIGH ST/DMV DR RICH; DMV DR/W LEIGH ST RICH","total":4,"Traffic":4}}
 ,
 {"type":"Feature","id":"104_73","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.56218318],[-77.459646125,37.56218318],[-77.459646125,37.56062061],[-77.460994,37.56062061],[-77.460994,37.56218318]]]},"properties":{"name":"1100-BLK HERMITAGE RD","total":9,"Traffic":5,"Crime":4}}
 ,
@@ -4535,13 +4640,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"126_73","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.56218318],[-77.429992875,37.56218318],[-77.429992875,37.56062061],[-77.43134075,37.56062061],[-77.43134075,37.56218318]]]},"properties":{"name":"E HOME ST/LAMB AVE RICH; LAMB AVE/VALE ST RICH","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"129_73","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.56218318],[-77.42594925,37.56218318],[-77.42594925,37.56062061],[-77.42729712500001,37.56062061],[-77.42729712500001,37.56218318]]]},"properties":{"name":"1100-BLK ALTHEA ST; 1100-BLK ALTHEA PKWY","total":4,"Emergency":3,"Crime":1}}
+{"type":"Feature","id":"129_73","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.56218318],[-77.42594925,37.56218318],[-77.42594925,37.56062061],[-77.42729712500001,37.56062061],[-77.42729712500001,37.56218318]]]},"properties":{"name":"1100-BLK ALTHEA ST; 1100-BLK ALTHEA PKWY","total":5,"Emergency":3,"Crime":2}}
 ,
 {"type":"Feature","id":"130_73","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.56218318],[-77.42460137500001,37.56218318],[-77.42460137500001,37.56062061],[-77.42594925,37.56062061],[-77.42594925,37.56218318]]]},"properties":{"name":"2000-BLK 2ND AVE; 2100-BLK 2ND AVE; 2ND AVE/ALTHEA ST RICH","total":6,"Crime":6}}
 ,
 {"type":"Feature","id":"131_73","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.56218318],[-77.4232535,37.56218318],[-77.4232535,37.56062061],[-77.42460137500001,37.56062061],[-77.42460137500001,37.56218318]]]},"properties":{"name":"2100-BLK 3RD AVE","total":6,"Traffic":5,"Crime":1}}
 ,
-{"type":"Feature","id":"132_73","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.56218318],[-77.42190562500001,37.56218318],[-77.42190562500001,37.56062061],[-77.4232535,37.56062061],[-77.4232535,37.56218318]]]},"properties":{"name":"2100-BLK 4TH AVE","total":13,"Crime":8,"Traffic":3,"Mental":2}}
+{"type":"Feature","id":"132_73","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.56218318],[-77.42190562500001,37.56218318],[-77.42190562500001,37.56062061],[-77.4232535,37.56062061],[-77.4232535,37.56218318]]]},"properties":{"name":"2100-BLK 4TH AVE; 2200-BLK 3RD AVE","total":16,"Crime":9,"Traffic":3,"Mental":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"133_73","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.56218318],[-77.42055775,37.56218318],[-77.42055775,37.56062061],[-77.42190562500001,37.56062061],[-77.42190562500001,37.56218318]]]},"properties":{"name":"2200-BLK 5TH AVE","total":20,"Crime":20}}
 ,
@@ -4581,11 +4686,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"95_74","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.563745749999995],[-77.471777,37.563745749999995],[-77.471777,37.56218318],[-77.473124875,37.56218318],[-77.473124875,37.563745749999995]]]},"properties":{"name":"W GRACE ST/N SHEPPARD ST RICH","total":1,"Mental":1}}
 ,
-{"type":"Feature","id":"96_74","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.563745749999995],[-77.47042912500001,37.563745749999995],[-77.47042912500001,37.56218318],[-77.471777,37.56218318],[-77.471777,37.563745749999995]]]},"properties":{"name":"2800-BLK W BROAD; N SHEPPARD ST/W BROAD ST RICH; W BROAD ST/N SHEPPARD ST RICH; 1000-BLK N SHEPPARD ST","total":11,"Crime":6,"Traffic":5}}
+{"type":"Feature","id":"96_74","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.563745749999995],[-77.47042912500001,37.563745749999995],[-77.47042912500001,37.56218318],[-77.471777,37.56218318],[-77.471777,37.563745749999995]]]},"properties":{"name":"2800-BLK W BROAD; N SHEPPARD ST/W BROAD ST RICH; W BROAD ST/N SHEPPARD ST RICH; 1000-BLK N SHEPPARD ST","total":14,"Crime":9,"Traffic":5}}
 ,
-{"type":"Feature","id":"97_74","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.563745749999995],[-77.46908125,37.563745749999995],[-77.46908125,37.56218318],[-77.47042912500001,37.56218318],[-77.47042912500001,37.563745749999995]]]},"properties":{"name":"N ARTHUR ASHE BLVD/W BROAD ST RICH; N ARTHUR ASHE BLVD/W BROAD ST RICH: alias N BOULEVARD/W BROAD ST RICH; 1000-BLK N ARTHUR ASHE BLVD; 900-BLK MYERS ST; 900-BLK N ARTHUR ASHE BLVD; W BROAD ST/N ARTHUR ASHE BLVD RICH; N ARTHUR ASHE BLVD/W MARSHALL ST RICH","total":65,"Traffic":30,"Crime":28,"Emergency":6,"Mental":1}}
+{"type":"Feature","id":"97_74","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.563745749999995],[-77.46908125,37.563745749999995],[-77.46908125,37.56218318],[-77.47042912500001,37.56218318],[-77.47042912500001,37.563745749999995]]]},"properties":{"name":"N ARTHUR ASHE BLVD/W BROAD ST RICH; N ARTHUR ASHE BLVD/W BROAD ST RICH: alias N BOULEVARD/W BROAD ST RICH; 1000-BLK N ARTHUR ASHE BLVD; 900-BLK MYERS ST; 900-BLK N ARTHUR ASHE BLVD; W BROAD ST/N ARTHUR ASHE BLVD RICH; N ARTHUR ASHE BLVD/W MARSHALL ST RICH","total":72,"Traffic":33,"Crime":32,"Emergency":6,"Mental":1}}
 ,
-{"type":"Feature","id":"98_74","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.563745749999995],[-77.46773337500001,37.563745749999995],[-77.46773337500001,37.56218318],[-77.46908125,37.56218318],[-77.46908125,37.563745749999995]]]},"properties":{"name":"900-BLK TERMINAL PL; LL(-77:28:04.3141,37:33:46.5948): EST 962 TERMINAL PL RICH","total":8,"Crime":8}}
+{"type":"Feature","id":"98_74","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.563745749999995],[-77.46773337500001,37.563745749999995],[-77.46773337500001,37.56218318],[-77.46908125,37.56218318],[-77.46908125,37.563745749999995]]]},"properties":{"name":"900-BLK TERMINAL PL; LL(-77:28:04.3141,37:33:46.5948): EST 962 TERMINAL PL RICH","total":9,"Crime":9}}
 ,
 {"type":"Feature","id":"104_74","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.563745749999995],[-77.459646125,37.563745749999995],[-77.459646125,37.56218318],[-77.460994,37.56218318],[-77.460994,37.563745749999995]]]},"properties":{"name":"2300-BLK HERMITAGE RD","total":1,"Crime":1}}
 ,
@@ -4595,7 +4700,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"114_74","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.563745749999995],[-77.446167375,37.563745749999995],[-77.446167375,37.56218318],[-77.44751525000001,37.56218318],[-77.44751525000001,37.563745749999995]]]},"properties":{"name":"WICKHAM ST/NORTHUMBERLAND AVE RICH; 2200-BLK NORTHUMBERLAND AVE","total":6,"Traffic":4,"Discretionary":2}}
 ,
-{"type":"Feature","id":"117_74","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.563745749999995],[-77.44212375000001,37.563745749999995],[-77.44212375000001,37.56218318],[-77.443471625,37.56218318],[-77.443471625,37.563745749999995]]]},"properties":{"name":"2200-BLK TAZEWELL ST; LL(-77:26:36.1145,37:33:48.6436): @DIAMIND INN; LL(-77:26:36.1145,37:33:48.6436): CHAMBERLAYNE/SCHOOL; LL(-77:26:36.1145,37:33:48.6436): @4TH","total":8,"Crime":4,"Emergency":2,"Traffic":2}}
+{"type":"Feature","id":"117_74","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.563745749999995],[-77.44212375000001,37.563745749999995],[-77.44212375000001,37.56218318],[-77.443471625,37.56218318],[-77.443471625,37.563745749999995]]]},"properties":{"name":"2200-BLK TAZEWELL ST; LL(-77:26:36.1145,37:33:48.6436): @DIAMIND INN; LL(-77:26:36.1145,37:33:48.6436): CHAMBERLAYNE/SCHOOL; LL(-77:26:36.1145,37:33:48.6436): @4TH; LL(-77:26:36.1145,37:33:48.6436): @DAILY PLANET","total":10,"Emergency":4,"Crime":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"120_74","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.563745749999995],[-77.438080125,37.563745749999995],[-77.438080125,37.56218318],[-77.439428,37.56218318],[-77.439428,37.563745749999995]]]},"properties":{"name":"2300-BLK HAWTHORNE AVE","total":1,"Crime":1}}
 ,
@@ -4605,17 +4710,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"124_74","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.563745749999995],[-77.432688625,37.563745749999995],[-77.432688625,37.56218318],[-77.4340365,37.56218318],[-77.4340365,37.563745749999995]]]},"properties":{"name":"2300-BLK NORTH AVE; 2200-BLK NORTH AVE","total":6,"Crime":3,"Discretionary":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"125_74","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.563745749999995],[-77.43134075,37.563745749999995],[-77.43134075,37.56218318],[-77.432688625,37.56218318],[-77.432688625,37.563745749999995]]]},"properties":{"name":"2300-BLK BARTON AVE","total":9,"Crime":9}}
+{"type":"Feature","id":"125_74","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.563745749999995],[-77.43134075,37.563745749999995],[-77.43134075,37.56218318],[-77.432688625,37.56218318],[-77.432688625,37.563745749999995]]]},"properties":{"name":"2300-BLK BARTON AVE","total":13,"Crime":13}}
 ,
 {"type":"Feature","id":"127_74","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.563745749999995],[-77.428645,37.563745749999995],[-77.428645,37.56218318],[-77.429992875,37.56218318],[-77.429992875,37.563745749999995]]]},"properties":{"name":"RICHMOND HENRICO TPKE/DOVE ST RICH","total":6,"Traffic":6}}
 ,
-{"type":"Feature","id":"129_74","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.563745749999995],[-77.42594925,37.563745749999995],[-77.42594925,37.56218318],[-77.42729712500001,37.56218318],[-77.42729712500001,37.563745749999995]]]},"properties":{"name":"1100-BLK CYPRESS ST","total":1,"Traffic":1}}
+{"type":"Feature","id":"129_74","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.563745749999995],[-77.42594925,37.563745749999995],[-77.42594925,37.56218318],[-77.42729712500001,37.56218318],[-77.42729712500001,37.563745749999995]]]},"properties":{"name":"1100-BLK CYPRESS ST; 1100-BLK DOVE ST","total":2,"Traffic":1,"Crime":1}}
 ,
 {"type":"Feature","id":"130_74","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.563745749999995],[-77.42460137500001,37.563745749999995],[-77.42460137500001,37.56218318],[-77.42594925,37.56218318],[-77.42594925,37.563745749999995]]]},"properties":{"name":"DOVE ST/1ST AVE RICH; 2200-BLK 1ST AVE","total":4,"Traffic":2,"Crime":2}}
 ,
-{"type":"Feature","id":"131_74","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.563745749999995],[-77.4232535,37.563745749999995],[-77.4232535,37.56218318],[-77.42460137500001,37.56218318],[-77.42460137500001,37.563745749999995]]]},"properties":{"name":"2300-BLK 2ND AVE; 2200-BLK 2ND AVE; 2300-BLK 1ST AVE","total":17,"Crime":9,"Mental":3,"Emergency":3,"Traffic":2}}
+{"type":"Feature","id":"131_74","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.563745749999995],[-77.4232535,37.563745749999995],[-77.4232535,37.56218318],[-77.42460137500001,37.56218318],[-77.42460137500001,37.563745749999995]]]},"properties":{"name":"2300-BLK 2ND AVE; 2200-BLK 2ND AVE; 2300-BLK 1ST AVE","total":18,"Crime":10,"Mental":3,"Emergency":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"133_74","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.563745749999995],[-77.42055775,37.563745749999995],[-77.42055775,37.56218318],[-77.42190562500001,37.56218318],[-77.42190562500001,37.563745749999995]]]},"properties":{"name":"2400-BLK 3RD AVE; 2300-BLK 4TH AVE; 2ND AVE/SPRUCE ST RICH; 2400-BLK 4TH AVE","total":6,"Emergency":2,"Traffic":2,"Crime":2}}
+,
+{"type":"Feature","id":"134_74","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.563745749999995],[-77.419209875,37.563745749999995],[-77.419209875,37.56218318],[-77.42055775,37.56218318],[-77.42055775,37.563745749999995]]]},"properties":{"name":"2400-BLK 5TH AVE","total":5,"Crime":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"135_74","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.563745749999995],[-77.417862,37.563745749999995],[-77.417862,37.56218318],[-77.419209875,37.56218318],[-77.419209875,37.563745749999995]]]},"properties":{"name":"2500-BLK 5TH AVE","total":6,"Crime":6}}
 ,
@@ -4637,7 +4744,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"82_75","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.56530832],[-77.489299375,37.56530832],[-77.489299375,37.563745749999995],[-77.49064725000001,37.563745749999995],[-77.49064725000001,37.56530832]]]},"properties":{"name":"4000-BLK STUART AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"83_75","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.56530832],[-77.48795150000001,37.56530832],[-77.48795150000001,37.563745749999995],[-77.489299375,37.563745749999995],[-77.489299375,37.56530832]]]},"properties":{"name":"4000-BLK KENSINGTON AVE","total":2,"Crime":2}}
+{"type":"Feature","id":"83_75","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.56530832],[-77.48795150000001,37.56530832],[-77.48795150000001,37.563745749999995],[-77.489299375,37.563745749999995],[-77.489299375,37.56530832]]]},"properties":{"name":"4000-BLK KENSINGTON AVE","total":4,"Crime":2,"Discretionary":2}}
 ,
 {"type":"Feature","id":"85_75","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.56530832],[-77.48525575000001,37.56530832],[-77.48525575000001,37.563745749999995],[-77.486603625,37.563745749999995],[-77.486603625,37.56530832]]]},"properties":{"name":"3900-BLK PATTERSON AVE; BIRCH ST/PARK AVE RICH; 800-BLK N HAMILTON ST","total":6,"Traffic":5,"Crime":1}}
 ,
@@ -4675,7 +4782,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"121_75","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.56530832],[-77.43673225,37.56530832],[-77.43673225,37.563745749999995],[-77.438080125,37.563745749999995],[-77.438080125,37.56530832]]]},"properties":{"name":"FENDALL AVE/OVERBROOK RD RICH; OVERBROOK RD/FENDALL AVE RICH","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"124_75","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.56530832],[-77.432688625,37.56530832],[-77.432688625,37.563745749999995],[-77.4340365,37.563745749999995],[-77.4340365,37.56530832]]]},"properties":{"name":"NORTH AVE/E GRAHAM RD RICH; 2400-BLK NORTH AVE; OVERBROOK RD/NORTH AVE RICH; NORTH AVE/OVERBROOK RD RICH","total":10,"Traffic":9,"Emergency":1}}
+{"type":"Feature","id":"124_75","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.56530832],[-77.432688625,37.56530832],[-77.432688625,37.563745749999995],[-77.4340365,37.563745749999995],[-77.4340365,37.56530832]]]},"properties":{"name":"NORTH AVE/E GRAHAM RD RICH; 2400-BLK NORTH AVE; OVERBROOK RD/NORTH AVE RICH; NORTH AVE/OVERBROOK RD RICH; E GRAHAM RD/NORTH AVE RICH","total":12,"Traffic":11,"Emergency":1}}
 ,
 {"type":"Feature","id":"125_75","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.56530832],[-77.43134075,37.56530832],[-77.43134075,37.563745749999995],[-77.432688625,37.563745749999995],[-77.432688625,37.56530832]]]},"properties":{"name":"2400-BLK BARTON AVE; 0-BLK E GRAHAM RD","total":5,"Crime":4,"Traffic":1}}
 ,
@@ -4685,7 +4792,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"133_75","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.56530832],[-77.42055775,37.56530832],[-77.42055775,37.563745749999995],[-77.42190562500001,37.563745749999995],[-77.42190562500001,37.56530832]]]},"properties":{"name":"2500-BLK 3RD AVE","total":11,"Crime":7,"Emergency":4}}
 ,
-{"type":"Feature","id":"134_75","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.56530832],[-77.419209875,37.56530832],[-77.419209875,37.563745749999995],[-77.42055775,37.563745749999995],[-77.42055775,37.56530832]]]},"properties":{"name":"2600-BLK 4TH AVE; MAGNOLIA ST/3RD AVE RICH","total":2,"Crime":1,"Traffic":1}}
+{"type":"Feature","id":"134_75","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.56530832],[-77.419209875,37.56530832],[-77.419209875,37.563745749999995],[-77.42055775,37.563745749999995],[-77.42055775,37.56530832]]]},"properties":{"name":"2600-BLK 4TH AVE; MAGNOLIA ST/3RD AVE RICH; 2500-BLK 4TH AVE","total":3,"Crime":2,"Traffic":1}}
 ,
 {"type":"Feature","id":"135_75","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.56530832],[-77.417862,37.56530832],[-77.417862,37.563745749999995],[-77.419209875,37.563745749999995],[-77.419209875,37.56530832]]]},"properties":{"name":"1600-BLK MAGNOLIA ST; 2600-BLK 5TH AVE","total":8,"Emergency":6,"Traffic":2}}
 ,
@@ -4699,17 +4806,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"74_76","geometry":{"type":"Polygon","coordinates":[[[-77.50143025,37.56687089],[-77.500082375,37.56687089],[-77.500082375,37.56530832],[-77.50143025,37.56530832],[-77.50143025,37.56687089]]]},"properties":{"name":"00-BLK WILLWAY AVE","total":4,"Emergency":2,"Crime":2}}
 ,
-{"type":"Feature","id":"75_76","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.56687089],[-77.4987345,37.56687089],[-77.4987345,37.56530832],[-77.500082375,37.56530832],[-77.500082375,37.56687089]]]},"properties":{"name":"4600-BLK GROVE AVE; GROVE AVE/WESTMORELAND ST RICH; WESTMORELAND ST/HANOVER AVE RICH; WESTMORELAND ST/GROVE AVE RICH","total":19,"Crime":15,"Traffic":3,"Emergency":1}}
+{"type":"Feature","id":"75_76","geometry":{"type":"Polygon","coordinates":[[[-77.500082375,37.56687089],[-77.4987345,37.56687089],[-77.4987345,37.56530832],[-77.500082375,37.56530832],[-77.500082375,37.56687089]]]},"properties":{"name":"4600-BLK GROVE AVE; GROVE AVE/WESTMORELAND ST RICH; WESTMORELAND ST/HANOVER AVE RICH; WESTMORELAND ST/GROVE AVE RICH","total":21,"Crime":17,"Traffic":3,"Emergency":1}}
+,
+{"type":"Feature","id":"78_76","geometry":{"type":"Polygon","coordinates":[[[-77.49603875,37.56687089],[-77.494690875,37.56687089],[-77.494690875,37.56530832],[-77.49603875,37.56530832],[-77.49603875,37.56687089]]]},"properties":{"name":"4400-BLK STUART AVE","total":3,"Traffic":3}}
 ,
 {"type":"Feature","id":"79_76","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.56687089],[-77.49334300000001,37.56687089],[-77.49334300000001,37.56530832],[-77.494690875,37.56530832],[-77.494690875,37.56687089]]]},"properties":{"name":"4300-BLK STUART AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"80_76","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.56687089],[-77.491995125,37.56687089],[-77.491995125,37.56530832],[-77.49334300000001,37.56530832],[-77.49334300000001,37.56687089]]]},"properties":{"name":"4300-BLK KENSINGTON AVE","total":4,"Crime":4}}
+{"type":"Feature","id":"80_76","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.56687089],[-77.491995125,37.56687089],[-77.491995125,37.56530832],[-77.49334300000001,37.56530832],[-77.49334300000001,37.56687089]]]},"properties":{"name":"4300-BLK KENSINGTON AVE","total":6,"Crime":6}}
+,
+{"type":"Feature","id":"82_76","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.56687089],[-77.489299375,37.56687089],[-77.489299375,37.56530832],[-77.49064725000001,37.56530832],[-77.49064725000001,37.56687089]]]},"properties":{"name":"4100-BLK PATTERSON AVE","total":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"85_76","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.56687089],[-77.48525575000001,37.56687089],[-77.48525575000001,37.56530832],[-77.486603625,37.56530832],[-77.486603625,37.56687089]]]},"properties":{"name":"3900-BLK PARK AVE","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"86_76","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.56687089],[-77.483907875,37.56687089],[-77.483907875,37.56530832],[-77.48525575000001,37.56530832],[-77.48525575000001,37.56687089]]]},"properties":{"name":"1000-BLK N HAMILTON ST","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"89_76","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.56687089],[-77.47986425,37.56687089],[-77.47986425,37.56530832],[-77.481212125,37.56530832],[-77.481212125,37.56687089]]]},"properties":{"name":"MONUMENT AVE/N THOMPSON ST RICH","total":8,"Traffic":8}}
+{"type":"Feature","id":"89_76","geometry":{"type":"Polygon","coordinates":[[[-77.481212125,37.56687089],[-77.47986425,37.56687089],[-77.47986425,37.56530832],[-77.481212125,37.56530832],[-77.481212125,37.56687089]]]},"properties":{"name":"MONUMENT AVE/N THOMPSON ST RICH","total":16,"Traffic":16}}
 ,
 {"type":"Feature","id":"90_76","geometry":{"type":"Polygon","coordinates":[[[-77.47986425,37.56687089],[-77.478516375,37.56687089],[-77.478516375,37.56530832],[-77.47986425,37.56530832],[-77.47986425,37.56687089]]]},"properties":{"name":"900-BLK ROSENEATH RD; 3400-BLK MONUMENT AVE","total":3,"Traffic":2,"Crime":1}}
 ,
@@ -4717,7 +4828,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"92_76","geometry":{"type":"Polygon","coordinates":[[[-77.4771685,37.56687089],[-77.475820625,37.56687089],[-77.475820625,37.56530832],[-77.4771685,37.56530832],[-77.4771685,37.56687089]]]},"properties":{"name":"CUTSHAW AVE/TILDEN ST RICH","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"93_76","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.56687089],[-77.47447275,37.56687089],[-77.47447275,37.56530832],[-77.475820625,37.56530832],[-77.475820625,37.56687089]]]},"properties":{"name":"3200-BLK W BROAD ST; LL(-77:28:31.4741,37:33:59.2399): S MEADOW/BROAD; LL(-77:28:32.6655,37:34:00.7094): N TH/BROAD; 3200-BLK CUTSHAW AVE","total":14,"Emergency":7,"Traffic":3,"Discretionary":2,"Crime":2}}
+{"type":"Feature","id":"93_76","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.56687089],[-77.47447275,37.56687089],[-77.47447275,37.56530832],[-77.475820625,37.56530832],[-77.475820625,37.56687089]]]},"properties":{"name":"3200-BLK W BROAD ST; LL(-77:28:31.4741,37:33:59.2399): S MEADOW/BROAD; LL(-77:28:32.6655,37:34:00.7094): N TH/BROAD; 3200-BLK CUTSHAW AVE","total":18,"Emergency":7,"Crime":6,"Traffic":3,"Discretionary":2}}
 ,
 {"type":"Feature","id":"94_76","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.56687089],[-77.473124875,37.56687089],[-77.473124875,37.56530832],[-77.47447275,37.56530832],[-77.47447275,37.56687089]]]},"properties":{"name":"1200-BLK SUMMIT AVE; W BROAD ST/CLEVELAND ST RICH; 3100-BLK W BROAD ST","total":13,"Crime":12,"Traffic":1}}
 ,
@@ -4727,7 +4838,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"97_76","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.56687089],[-77.46908125,37.56687089],[-77.46908125,37.56530832],[-77.47042912500001,37.56530832],[-77.47042912500001,37.56687089]]]},"properties":{"name":"2900-BLK W LEIGH ST; 1500-BLK ALTAMONT AVE; W LEIGH ST/ALTAMONT AVE RICH","total":7,"Crime":4,"Traffic":3}}
 ,
-{"type":"Feature","id":"98_76","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.56687089],[-77.46773337500001,37.56687089],[-77.46773337500001,37.56530832],[-77.46908125,37.56530832],[-77.46908125,37.56687089]]]},"properties":{"name":"1200-BLK N ARTHUR ASHE BLVD; N ARTHUR ASHE BLVD/W LEIGH ST RICH","total":13,"Traffic":12,"Crime":1}}
+{"type":"Feature","id":"98_76","geometry":{"type":"Polygon","coordinates":[[[-77.46908125,37.56687089],[-77.46773337500001,37.56687089],[-77.46773337500001,37.56530832],[-77.46908125,37.56530832],[-77.46908125,37.56687089]]]},"properties":{"name":"1200-BLK N ARTHUR ASHE BLVD; N ARTHUR ASHE BLVD/W LEIGH ST RICH; N ARTHUR ASHE BLVD / I-95/I-64 RICH","total":18,"Traffic":17,"Crime":1}}
 ,
 {"type":"Feature","id":"99_76","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.56687089],[-77.4663855,37.56687089],[-77.4663855,37.56530832],[-77.46773337500001,37.56530832],[-77.46773337500001,37.56687089]]]},"properties":{"name":"1300-BLK MYERS ST; MYERS ST/W LEIGH ST RICH","total":3,"Crime":3}}
 ,
@@ -4741,15 +4852,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"113_76","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.56687089],[-77.44751525000001,37.56687089],[-77.44751525000001,37.56530832],[-77.448863125,37.56530832],[-77.448863125,37.56687089]]]},"properties":{"name":"2600-BLK NORTHUMBERLAND AVE; BROOK RD/OVERBROOK RD RICH","total":4,"Crime":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"115_76","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.56687089],[-77.44481950000001,37.56687089],[-77.44481950000001,37.56530832],[-77.446167375,37.56530832],[-77.446167375,37.56687089]]]},"properties":{"name":"2600-BLK CHAMBERLAYNE AVE; OVERBROOK RD/N LOMBARDY ST RICH; 2500-BLK N LOMBARDY ST","total":75,"Crime":50,"Traffic":17,"Emergency":6,"Mental":2}}
+{"type":"Feature","id":"115_76","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.56687089],[-77.44481950000001,37.56687089],[-77.44481950000001,37.56530832],[-77.446167375,37.56530832],[-77.446167375,37.56687089]]]},"properties":{"name":"2600-BLK CHAMBERLAYNE AVE; OVERBROOK RD/N LOMBARDY ST RICH; 2500-BLK N LOMBARDY ST","total":84,"Crime":56,"Traffic":17,"Emergency":9,"Mental":2}}
 ,
 {"type":"Feature","id":"116_76","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.56687089],[-77.443471625,37.56687089],[-77.443471625,37.56530832],[-77.44481950000001,37.56530832],[-77.44481950000001,37.56687089]]]},"properties":{"name":"W LANCASTER RD/CHAMBERLAYNE AVE RICH; OVERBROOK RD/CHAMBERLAYNE AVE RICH; CHAMBERLAYNE AVE/OVERBROOK RD RICH; 1000-BLK OVERBROOK RD; N LOMBARDY ST/CHAMBERLAYNE AVE RICH; LL(-77:26:38.8327,37:33:57.4605): @BURGER KING","total":19,"Traffic":14,"Crime":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"117_76","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.56687089],[-77.44212375000001,37.56687089],[-77.44212375000001,37.56530832],[-77.443471625,37.56530832],[-77.443471625,37.56687089]]]},"properties":{"name":"800-BLK OVERBROOK RD","total":5,"Emergency":5}}
+{"type":"Feature","id":"117_76","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.56687089],[-77.44212375000001,37.56687089],[-77.44212375000001,37.56530832],[-77.443471625,37.56530832],[-77.443471625,37.56687089]]]},"properties":{"name":"800-BLK OVERBROOK RD","total":6,"Emergency":5,"Traffic":1}}
 ,
 {"type":"Feature","id":"118_76","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.56687089],[-77.440775875,37.56687089],[-77.440775875,37.56530832],[-77.44212375000001,37.56530832],[-77.44212375000001,37.56687089]]]},"properties":{"name":"800-BLK W LANCASTER RD","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"119_76","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.56687089],[-77.439428,37.56687089],[-77.439428,37.56530832],[-77.440775875,37.56530832],[-77.440775875,37.56687089]]]},"properties":{"name":"600-BLK OVERBROOK RD; 2500-BLK HAWTHORNE AVE","total":7,"Crime":4,"Traffic":2,"Mental":1}}
+{"type":"Feature","id":"119_76","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.56687089],[-77.439428,37.56687089],[-77.439428,37.56530832],[-77.440775875,37.56530832],[-77.440775875,37.56687089]]]},"properties":{"name":"600-BLK OVERBROOK RD; 2500-BLK HAWTHORNE AVE","total":12,"Crime":4,"Mental":3,"Emergency":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"120_76","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.56687089],[-77.438080125,37.56687089],[-77.438080125,37.56530832],[-77.439428,37.56530832],[-77.439428,37.56687089]]]},"properties":{"name":"2500-BLK THE TERRACE","total":2,"Crime":2}}
 ,
@@ -4781,13 +4892,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"51_77","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.56843346],[-77.53108350000001,37.56843346],[-77.53108350000001,37.56687089],[-77.532431375,37.56687089],[-77.532431375,37.56843346]]]},"properties":{"name":"RIVER RD/BRIDGEWAY RD RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"54_77","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.56843346],[-77.527039875,37.56843346],[-77.527039875,37.56687089],[-77.52838775000001,37.56687089],[-77.52838775000001,37.56843346]]]},"properties":{"name":"RIVER RD/KANAWHA RD HENR; 5900-BLK RIVER RD","total":5,"Traffic":5}}
+{"type":"Feature","id":"54_77","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.56843346],[-77.527039875,37.56843346],[-77.527039875,37.56687089],[-77.52838775000001,37.56687089],[-77.52838775000001,37.56843346]]]},"properties":{"name":"RIVER RD/KANAWHA RD HENR; 5900-BLK RIVER RD","total":7,"Traffic":7}}
+,
+{"type":"Feature","id":"56_77","geometry":{"type":"Polygon","coordinates":[[[-77.525692,37.56843346],[-77.524344125,37.56843346],[-77.524344125,37.56687089],[-77.525692,37.56687089],[-77.525692,37.56843346]]]},"properties":{"name":"CARY STREET RD/HAMPTON HILLS LN RICH","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"73_77","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.56843346],[-77.50143025,37.56843346],[-77.50143025,37.56687089],[-77.502778125,37.56687089],[-77.502778125,37.56843346]]]},"properties":{"name":"00-BLK W LOCKE LN","total":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"76_77","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.56843346],[-77.497386625,37.56843346],[-77.497386625,37.56687089],[-77.4987345,37.56687089],[-77.4987345,37.56843346]]]},"properties":{"name":"4600-BLK STUART AVE","total":5,"Crime":5}}
 ,
-{"type":"Feature","id":"79_77","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.56843346],[-77.49334300000001,37.56843346],[-77.49334300000001,37.56687089],[-77.494690875,37.56687089],[-77.494690875,37.56843346]]]},"properties":{"name":"4400-BLK LEONARD PKWY; KENSINGTON AVE/WOODLAWN AVE RICH","total":3,"Crime":3}}
+{"type":"Feature","id":"79_77","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.56843346],[-77.49334300000001,37.56843346],[-77.49334300000001,37.56687089],[-77.494690875,37.56687089],[-77.494690875,37.56843346]]]},"properties":{"name":"4400-BLK LEONARD PKWY; KENSINGTON AVE/WOODLAWN AVE RICH","total":4,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"83_77","geometry":{"type":"Polygon","coordinates":[[[-77.489299375,37.56843346],[-77.48795150000001,37.56843346],[-77.48795150000001,37.56687089],[-77.489299375,37.56687089],[-77.489299375,37.56843346]]]},"properties":{"name":"4100-BLK W FRANKLIN ST","total":1,"Emergency":1}}
 ,
@@ -4807,7 +4920,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"94_77","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.56843346],[-77.473124875,37.56843346],[-77.473124875,37.56687089],[-77.47447275,37.56687089],[-77.47447275,37.56843346]]]},"properties":{"name":"MACTAVISH AVE/W CLAY ST RICH; W CLAY ST/MACTAVISH AVE RICH","total":6,"Traffic":3,"Mental":2,"Crime":1}}
 ,
-{"type":"Feature","id":"95_77","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.56843346],[-77.471777,37.56843346],[-77.471777,37.56687089],[-77.473124875,37.56687089],[-77.473124875,37.56843346]]]},"properties":{"name":"HIGHPOINT AVE/W CLAY ST RICH","total":1,"Crime":1}}
+{"type":"Feature","id":"95_77","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.56843346],[-77.471777,37.56843346],[-77.471777,37.56687089],[-77.473124875,37.56687089],[-77.473124875,37.56843346]]]},"properties":{"name":"HIGHPOINT AVE/W CLAY ST RICH; HIGHPOINT AVE/W LEIGH ST RICH","total":2,"Crime":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"96_77","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.56843346],[-77.47042912500001,37.56843346],[-77.47042912500001,37.56687089],[-77.471777,37.56687089],[-77.471777,37.56843346]]]},"properties":{"name":"3100-BLK W LEIGH ST; W LEIGH ST/SUMMIT AVE RICH","total":8,"Emergency":3,"Crime":2,"Discretionary":2,"Traffic":1}}
 ,
@@ -4819,21 +4932,21 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"104_77","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.56843346],[-77.459646125,37.56843346],[-77.459646125,37.56687089],[-77.460994,37.56687089],[-77.460994,37.56843346]]]},"properties":{"name":"HERMITAGE RD/RHOADMILLER ST RICH; 1700-BLK RHOADMILLER ST","total":4,"Crime":3,"Mental":1}}
 ,
-{"type":"Feature","id":"105_77","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.56843346],[-77.45829825,37.56843346],[-77.45829825,37.56687089],[-77.459646125,37.56687089],[-77.459646125,37.56843346]]]},"properties":{"name":"1600-BLK RHOADMILLER ST","total":1,"Crime":1}}
+{"type":"Feature","id":"105_77","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.56843346],[-77.45829825,37.56843346],[-77.45829825,37.56687089],[-77.459646125,37.56687089],[-77.459646125,37.56843346]]]},"properties":{"name":"1600-BLK RHOADMILLER ST","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"106_77","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.56843346],[-77.456950375,37.56843346],[-77.456950375,37.56687089],[-77.45829825,37.56687089],[-77.45829825,37.56843346]]]},"properties":{"name":"1400-BLK RHOADMILLER ST","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"107_77","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.56843346],[-77.4556025,37.56843346],[-77.4556025,37.56687089],[-77.456950375,37.56687089],[-77.456950375,37.56843346]]]},"properties":{"name":"2600-BLK DURHAM ST","total":2,"Crime":2}}
+{"type":"Feature","id":"107_77","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.56843346],[-77.4556025,37.56843346],[-77.4556025,37.56687089],[-77.456950375,37.56687089],[-77.456950375,37.56843346]]]},"properties":{"name":"2600-BLK DURHAM ST","total":3,"Crime":3}}
 ,
 {"type":"Feature","id":"113_77","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.56843346],[-77.44751525000001,37.56843346],[-77.44751525000001,37.56687089],[-77.448863125,37.56687089],[-77.448863125,37.56843346]]]},"properties":{"name":"2700-BLK NORTHUMBERLAND AVE","total":5,"Crime":4,"Traffic":1}}
 ,
 {"type":"Feature","id":"114_77","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.56843346],[-77.446167375,37.56843346],[-77.446167375,37.56687089],[-77.44751525000001,37.56687089],[-77.44751525000001,37.56843346]]]},"properties":{"name":"2700-BLK SEMINARY AVE; EDGEHILL RD/SEMINARY AVE RICH","total":5,"Emergency":2,"Crime":2,"Mental":1}}
 ,
-{"type":"Feature","id":"115_77","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.56843346],[-77.44481950000001,37.56843346],[-77.44481950000001,37.56687089],[-77.446167375,37.56687089],[-77.446167375,37.56843346]]]},"properties":{"name":"2700-BLK CHAMBERLAYNE AVE","total":24,"Crime":22,"Mental":1,"Emergency":1}}
+{"type":"Feature","id":"115_77","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.56843346],[-77.44481950000001,37.56843346],[-77.44481950000001,37.56687089],[-77.446167375,37.56687089],[-77.446167375,37.56843346]]]},"properties":{"name":"2700-BLK CHAMBERLAYNE AVE","total":25,"Crime":23,"Mental":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"116_77","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.56843346],[-77.443471625,37.56843346],[-77.443471625,37.56687089],[-77.44481950000001,37.56687089],[-77.44481950000001,37.56843346]]]},"properties":{"name":"EDGEHILL RD/CHAMBERLAYNE AVE RICH; CHAMBERLAYNE AVE/EDGEHILL RD RICH","total":6,"Crime":4,"Traffic":2}}
+{"type":"Feature","id":"116_77","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.56843346],[-77.443471625,37.56843346],[-77.443471625,37.56687089],[-77.44481950000001,37.56687089],[-77.44481950000001,37.56843346]]]},"properties":{"name":"EDGEHILL RD/CHAMBERLAYNE AVE RICH; CHAMBERLAYNE AVE/EDGEHILL RD RICH; 1000-BLK EDGEHILL RD; LL(-77:26:38.6341,37:34:01.6175): EST 2605 CHAMBERLAYNE AVE RICH","total":9,"Crime":5,"Traffic":4}}
 ,
-{"type":"Feature","id":"118_77","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.56843346],[-77.440775875,37.56843346],[-77.440775875,37.56687089],[-77.44212375000001,37.56687089],[-77.44212375000001,37.56843346]]]},"properties":{"name":"600-BLK EDGEHILL RD; 800-BLK EDGEHILL RD","total":5,"Mental":3,"Crime":2}}
+{"type":"Feature","id":"118_77","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.56843346],[-77.440775875,37.56843346],[-77.440775875,37.56687089],[-77.44212375000001,37.56687089],[-77.44212375000001,37.56843346]]]},"properties":{"name":"600-BLK EDGEHILL RD; 800-BLK EDGEHILL RD; 2800-BLK HAWTHORNE AVE","total":8,"Crime":5,"Mental":3}}
 ,
 {"type":"Feature","id":"120_77","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.56843346],[-77.438080125,37.56843346],[-77.438080125,37.56687089],[-77.439428,37.56687089],[-77.439428,37.56843346]]]},"properties":{"name":"2700-BLK EDGEWOOD AVE","total":13,"Emergency":8,"Crime":3,"Mental":2}}
 ,
@@ -4843,13 +4956,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"124_77","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.56843346],[-77.432688625,37.56843346],[-77.432688625,37.56687089],[-77.4340365,37.56687089],[-77.4340365,37.56843346]]]},"properties":{"name":"2700-BLK NORTH AVE","total":6,"Crime":6}}
 ,
-{"type":"Feature","id":"126_77","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.56843346],[-77.429992875,37.56843346],[-77.429992875,37.56687089],[-77.43134075,37.56687089],[-77.43134075,37.56843346]]]},"properties":{"name":"2700-BLK WOODROW AVE","total":6,"Crime":5,"Traffic":1}}
+{"type":"Feature","id":"126_77","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.56843346],[-77.429992875,37.56843346],[-77.429992875,37.56687089],[-77.43134075,37.56687089],[-77.43134075,37.56843346]]]},"properties":{"name":"2700-BLK WOODROW AVE","total":12,"Crime":6,"Mental":5,"Traffic":1}}
+,
+{"type":"Feature","id":"129_77","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.56843346],[-77.42594925,37.56843346],[-77.42594925,37.56687089],[-77.42729712500001,37.56687089],[-77.42729712500001,37.56843346]]]},"properties":{"name":"2700-BLK WELLINGTON ST","total":4,"Traffic":2,"Crime":2}}
 ,
 {"type":"Feature","id":"130_77","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.56843346],[-77.42460137500001,37.56843346],[-77.42460137500001,37.56687089],[-77.42594925,37.56687089],[-77.42594925,37.56843346]]]},"properties":{"name":"1000-BLK CRAFTON LN","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"133_77","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.56843346],[-77.42055775,37.56843346],[-77.42055775,37.56687089],[-77.42190562500001,37.56687089],[-77.42190562500001,37.56843346]]]},"properties":{"name":"2800-BLK WOODCLIFF AVE; 2800-BLK GROVELAND AVE","total":2,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"134_77","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.56843346],[-77.419209875,37.56843346],[-77.419209875,37.56687089],[-77.42055775,37.56687089],[-77.42055775,37.56843346]]]},"properties":{"name":"2800-BLK 2ND AVE","total":1,"Traffic":1}}
+{"type":"Feature","id":"134_77","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.56843346],[-77.419209875,37.56843346],[-77.419209875,37.56687089],[-77.42055775,37.56687089],[-77.42055775,37.56843346]]]},"properties":{"name":"2800-BLK 2ND AVE; 1300-BLK VICTOR ST","total":2,"Traffic":1,"Crime":1}}
 ,
 {"type":"Feature","id":"135_77","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.56843346],[-77.417862,37.56843346],[-77.417862,37.56687089],[-77.419209875,37.56687089],[-77.419209875,37.56843346]]]},"properties":{"name":"4TH AVE/CUSTER ST RICH; LL(-77:25:06.4777,37:34:02.9316): EST 2811 3RD AVE RICH; 2900-BLK 3RD AVE; 2800-BLK 3RD AVE; 3RD AVE/CUSTER ST RICH; 2ND AVE/CUSTER ST RICH; 5TH AVE/CUSTER ST RICH","total":34,"Traffic":18,"Crime":9,"Emergency":7}}
 ,
@@ -4865,7 +4980,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"59_78","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.56999603],[-77.5203005,37.56999603],[-77.5203005,37.56843346],[-77.521648375,37.56843346],[-77.521648375,37.56999603]]]},"properties":{"name":"5600-BLK CARY STREET RD; CARY STREET RD/MAPLE AVE RICH","total":8,"Traffic":7,"Crime":1}}
 ,
-{"type":"Feature","id":"60_78","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.56999603],[-77.518952625,37.56999603],[-77.518952625,37.56843346],[-77.5203005,37.56843346],[-77.5203005,37.56999603]]]},"properties":{"name":"LIBBIE AVE/CARY STREET RD RICH; 5500-BLK CARY STREET RD","total":7,"Traffic":4,"Emergency":2,"Crime":1}}
+{"type":"Feature","id":"60_78","geometry":{"type":"Polygon","coordinates":[[[-77.5203005,37.56999603],[-77.518952625,37.56999603],[-77.518952625,37.56843346],[-77.5203005,37.56843346],[-77.5203005,37.56999603]]]},"properties":{"name":"LIBBIE AVE/CARY STREET RD RICH; 5500-BLK CARY STREET RD; CARY STREET RD/LIBBIE AVE RICH","total":9,"Traffic":6,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"63_78","geometry":{"type":"Polygon","coordinates":[[[-77.516256875,37.56999603],[-77.514909,37.56999603],[-77.514909,37.56843346],[-77.516256875,37.56843346],[-77.516256875,37.56999603]]]},"properties":{"name":"5400-BLK TUCKAHOE AVE; 5400-BLK CARY STREET RD","total":4,"Emergency":2,"Traffic":2}}
 ,
@@ -4881,7 +4996,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"85_78","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.56999603],[-77.48525575000001,37.56999603],[-77.48525575000001,37.56843346],[-77.486603625,37.56843346],[-77.486603625,37.56999603]]]},"properties":{"name":"00-BLK MALVERN AVE; MONUMENT AVE/MALVERN AVE RICH; MALVERN AVE/MONUMENT AVE RICH","total":9,"Traffic":4,"Crime":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"86_78","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.56999603],[-77.483907875,37.56999603],[-77.483907875,37.56843346],[-77.48525575000001,37.56843346],[-77.48525575000001,37.56999603]]]},"properties":{"name":"0-BLK W GRACE ST; 4000-BLK MONUMENT AVE","total":19,"Crime":13,"Emergency":6}}
+{"type":"Feature","id":"86_78","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.56999603],[-77.483907875,37.56999603],[-77.483907875,37.56843346],[-77.48525575000001,37.56843346],[-77.48525575000001,37.56999603]]]},"properties":{"name":"0-BLK W GRACE ST; 4000-BLK MONUMENT AVE","total":21,"Crime":13,"Emergency":8}}
 ,
 {"type":"Feature","id":"87_78","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.56999603],[-77.48256,37.56999603],[-77.48256,37.56843346],[-77.483907875,37.56843346],[-77.483907875,37.56999603]]]},"properties":{"name":"3900-BLK W GRACE ST","total":1,"Crime":1}}
 ,
@@ -4895,11 +5010,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"94_78","geometry":{"type":"Polygon","coordinates":[[[-77.47447275,37.56999603],[-77.473124875,37.56999603],[-77.473124875,37.56843346],[-77.47447275,37.56843346],[-77.47447275,37.56999603]]]},"properties":{"name":"1500-BLK ROSENEATH RD; 3300-BLK W CLAY ST; 3400-BLK W LEIGH ST","total":11,"Crime":9,"Discretionary":2}}
 ,
-{"type":"Feature","id":"95_78","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.56999603],[-77.471777,37.56999603],[-77.471777,37.56843346],[-77.473124875,37.56843346],[-77.473124875,37.56999603]]]},"properties":{"name":"1600-BLK MACTAVISH AVE; 1200-BLK MACTAVISH AVE","total":3,"Emergency":2,"Crime":1}}
+{"type":"Feature","id":"95_78","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.56999603],[-77.471777,37.56999603],[-77.471777,37.56843346],[-77.473124875,37.56843346],[-77.473124875,37.56999603]]]},"properties":{"name":"1600-BLK MACTAVISH AVE; 1200-BLK MACTAVISH AVE","total":7,"Crime":5,"Emergency":2}}
 ,
 {"type":"Feature","id":"97_78","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.56999603],[-77.46908125,37.56999603],[-77.46908125,37.56843346],[-77.47042912500001,37.56843346],[-77.47042912500001,37.56999603]]]},"properties":{"name":"1700-BLK SUMMIT AVE; HIGHPOINT AVE/NORFOLK ST RICH","total":3,"Traffic":2,"Crime":1}}
 ,
-{"type":"Feature","id":"99_78","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.56999603],[-77.4663855,37.56999603],[-77.4663855,37.56843346],[-77.46773337500001,37.56843346],[-77.46773337500001,37.56999603]]]},"properties":{"name":"2900-BLK N ARTHUR ASHE BLVD","total":75,"Crime":38,"Emergency":19,"Mental":11,"Traffic":7}}
+{"type":"Feature","id":"99_78","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.56999603],[-77.4663855,37.56999603],[-77.4663855,37.56843346],[-77.46773337500001,37.56843346],[-77.46773337500001,37.56999603]]]},"properties":{"name":"2900-BLK N ARTHUR ASHE BLVD","total":80,"Crime":42,"Emergency":19,"Mental":12,"Traffic":7}}
 ,
 {"type":"Feature","id":"107_78","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.56999603],[-77.4556025,37.56999603],[-77.4556025,37.56843346],[-77.456950375,37.56843346],[-77.456950375,37.56999603]]]},"properties":{"name":"1500-BLK CUMMINGS DR","total":1,"Crime":1}}
 ,
@@ -4911,11 +5026,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"114_78","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.56999603],[-77.446167375,37.56999603],[-77.446167375,37.56843346],[-77.44751525000001,37.56843346],[-77.44751525000001,37.56999603]]]},"properties":{"name":"2900-BLK SEMINARY AVE; SEMINARY AVE/HAMMOND AVE RICH","total":7,"Crime":6,"Emergency":1}}
 ,
-{"type":"Feature","id":"115_78","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.56999603],[-77.44481950000001,37.56999603],[-77.44481950000001,37.56843346],[-77.446167375,37.56843346],[-77.446167375,37.56999603]]]},"properties":{"name":"2900-BLK CHAMBERLAYNE AVE","total":167,"Crime":141,"Emergency":13,"Discretionary":11,"Traffic":2}}
+{"type":"Feature","id":"115_78","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.56999603],[-77.44481950000001,37.56999603],[-77.44481950000001,37.56843346],[-77.446167375,37.56843346],[-77.446167375,37.56999603]]]},"properties":{"name":"2900-BLK CHAMBERLAYNE AVE","total":176,"Crime":150,"Emergency":13,"Discretionary":11,"Traffic":2}}
 ,
-{"type":"Feature","id":"116_78","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.56999603],[-77.443471625,37.56999603],[-77.443471625,37.56843346],[-77.44481950000001,37.56843346],[-77.44481950000001,37.56999603]]]},"properties":{"name":"CHAMBERLAYNE AVE/HAMMOND AVE RICH; HAMMOND AVE/CHAMBERLAYNE AVE RICH","total":9,"Crime":5,"Traffic":4}}
+{"type":"Feature","id":"116_78","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.56999603],[-77.443471625,37.56999603],[-77.443471625,37.56843346],[-77.44481950000001,37.56843346],[-77.44481950000001,37.56999603]]]},"properties":{"name":"CHAMBERLAYNE AVE/HAMMOND AVE RICH; HAMMOND AVE/CHAMBERLAYNE AVE RICH","total":10,"Crime":6,"Traffic":4}}
 ,
-{"type":"Feature","id":"117_78","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.56999603],[-77.44212375000001,37.56999603],[-77.44212375000001,37.56843346],[-77.443471625,37.56843346],[-77.443471625,37.56999603]]]},"properties":{"name":"2900-BLK HAWTHORNE AVE; HAMMOND AVE/HAWTHORNE AVE RICH","total":14,"Crime":12,"Traffic":2}}
+{"type":"Feature","id":"117_78","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.56999603],[-77.44212375000001,37.56999603],[-77.44212375000001,37.56843346],[-77.443471625,37.56843346],[-77.443471625,37.56999603]]]},"properties":{"name":"2900-BLK HAWTHORNE AVE; HAMMOND AVE/HAWTHORNE AVE RICH","total":19,"Crime":16,"Traffic":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"118_78","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.56999603],[-77.440775875,37.56999603],[-77.440775875,37.56843346],[-77.44212375000001,37.56843346],[-77.44212375000001,37.56999603]]]},"properties":{"name":"2800-BLK DUPONT CIR; 2800-BLK MOSS SIDE AVE","total":3,"Crime":2,"Emergency":1}}
 ,
@@ -4923,9 +5038,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"120_78","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.56999603],[-77.438080125,37.56999603],[-77.438080125,37.56843346],[-77.439428,37.56843346],[-77.439428,37.56999603]]]},"properties":{"name":"2800-BLK EDGEWOOD AVE","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"121_78","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.56999603],[-77.43673225,37.56999603],[-77.43673225,37.56843346],[-77.438080125,37.56843346],[-77.438080125,37.56999603]]]},"properties":{"name":"2800-BLK FENDALL AVE","total":3,"Crime":3}}
+{"type":"Feature","id":"121_78","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.56999603],[-77.43673225,37.56999603],[-77.43673225,37.56843346],[-77.438080125,37.56843346],[-77.438080125,37.56999603]]]},"properties":{"name":"2800-BLK FENDALL AVE; 2800-BLK GRIFFIN AVE","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"124_78","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.56999603],[-77.432688625,37.56999603],[-77.432688625,37.56843346],[-77.4340365,37.56843346],[-77.4340365,37.56999603]]]},"properties":{"name":"2800-BLK NORTH AVE; NORTH AVE/E HOOPER ST RICH","total":5,"Crime":3,"Emergency":2}}
+{"type":"Feature","id":"124_78","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.56999603],[-77.432688625,37.56999603],[-77.432688625,37.56843346],[-77.4340365,37.56843346],[-77.4340365,37.56999603]]]},"properties":{"name":"2800-BLK NORTH AVE; NORTH AVE/E HOOPER ST RICH","total":10,"Crime":6,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"125_78","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.56999603],[-77.43134075,37.56999603],[-77.43134075,37.56843346],[-77.432688625,37.56843346],[-77.432688625,37.56999603]]]},"properties":{"name":"2800-BLK BARTON AVE","total":7,"Crime":6,"Emergency":1}}
 ,
@@ -4935,9 +5050,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"133_78","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.56999603],[-77.42055775,37.56999603],[-77.42055775,37.56843346],[-77.42190562500001,37.56843346],[-77.42190562500001,37.56999603]]]},"properties":{"name":"2900-BLK GROVELAND AVE","total":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"134_78","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.56999603],[-77.419209875,37.56999603],[-77.419209875,37.56843346],[-77.42055775,37.56843346],[-77.42055775,37.56999603]]]},"properties":{"name":"2900-BLK WOODCLIFF AVE","total":6,"Crime":4,"Emergency":2}}
+{"type":"Feature","id":"134_78","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.56999603],[-77.419209875,37.56999603],[-77.419209875,37.56843346],[-77.42055775,37.56843346],[-77.42055775,37.56999603]]]},"properties":{"name":"2900-BLK WOODCLIFF AVE; WILLOW ST/2ND AVE RICH","total":9,"Crime":6,"Emergency":3}}
 ,
-{"type":"Feature","id":"135_78","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.56999603],[-77.417862,37.56999603],[-77.417862,37.56843346],[-77.419209875,37.56843346],[-77.419209875,37.56999603]]]},"properties":{"name":"1300-BLK E BROOKLAND PARK BLVD; 2900-BLK 2ND AVE","total":15,"Crime":12,"Mental":2,"Emergency":1}}
+{"type":"Feature","id":"135_78","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.56999603],[-77.417862,37.56999603],[-77.417862,37.56843346],[-77.419209875,37.56843346],[-77.419209875,37.56999603]]]},"properties":{"name":"1300-BLK E BROOKLAND PARK BLVD; 2900-BLK 2ND AVE","total":17,"Crime":14,"Mental":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"136_78","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.56999603],[-77.416514125,37.56999603],[-77.416514125,37.56843346],[-77.417862,37.56843346],[-77.417862,37.56999603]]]},"properties":{"name":"1400-BLK E BROOKLAND PARK BLVD; 1500-BLK RADY ST; E BROOKLAND PARK BLVD/3RD AVE RICH; 3000-BLK 3RD AVE","total":26,"Crime":14,"Traffic":6,"Emergency":6}}
 ,
@@ -4947,6 +5062,8 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"139_78","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.56999603],[-77.4124705,37.56999603],[-77.4124705,37.56843346],[-77.413818375,37.56843346],[-77.413818375,37.56999603]]]},"properties":{"name":"3200-BLK 5TH AVE","total":5,"Emergency":2,"Traffic":2,"Mental":1}}
 ,
+{"type":"Feature","id":"140_78","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.56999603],[-77.411122625,37.56999603],[-77.411122625,37.56843346],[-77.4124705,37.56843346],[-77.4124705,37.56999603]]]},"properties":{"name":"3200-BLK DETROIT AVE","total":1,"Emergency":1}}
+,
 {"type":"Feature","id":"57_79","geometry":{"type":"Polygon","coordinates":[[[-77.524344125,37.571558599999996],[-77.52299625,37.571558599999996],[-77.52299625,37.56999603],[-77.524344125,37.56999603],[-77.524344125,37.571558599999996]]]},"properties":{"name":"5900-BLK THREE CHOPT RD","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"61_79","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.571558599999996],[-77.51760475,37.571558599999996],[-77.51760475,37.56999603],[-77.518952625,37.56999603],[-77.518952625,37.571558599999996]]]},"properties":{"name":"100-BLK GRANITE AVE","total":1,"Emergency":1}}
@@ -4955,7 +5072,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"64_79","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.571558599999996],[-77.51356112500001,37.571558599999996],[-77.51356112500001,37.56999603],[-77.514909,37.56999603],[-77.514909,37.571558599999996]]]},"properties":{"name":"5300-BLK MATOAKA RD","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"67_79","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.571558599999996],[-77.5095175,37.571558599999996],[-77.5095175,37.56999603],[-77.51086537500001,37.56999603],[-77.51086537500001,37.571558599999996]]]},"properties":{"name":"GROVE AVE/GREENWAY LN RICH","total":3,"Crime":3}}
+{"type":"Feature","id":"66_79","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.571558599999996],[-77.51086537500001,37.571558599999996],[-77.51086537500001,37.56999603],[-77.51221325,37.56999603],[-77.51221325,37.571558599999996]]]},"properties":{"name":"TUCKAHOE BLVD/GROVE AVE RICH","total":2,"Crime":2}}
+,
+{"type":"Feature","id":"67_79","geometry":{"type":"Polygon","coordinates":[[[-77.51086537500001,37.571558599999996],[-77.5095175,37.571558599999996],[-77.5095175,37.56999603],[-77.51086537500001,37.56999603],[-77.51086537500001,37.571558599999996]]]},"properties":{"name":"GROVE AVE/GREENWAY LN RICH; 0-BLK GREENWAY LN","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"70_79","geometry":{"type":"Polygon","coordinates":[[[-77.50682175,37.571558599999996],[-77.505473875,37.571558599999996],[-77.505473875,37.56999603],[-77.50682175,37.56999603],[-77.50682175,37.571558599999996]]]},"properties":{"name":"00-BLK ALBEMARLE AVE; 0-BLK ALBEMARLE AVE","total":3,"Crime":2,"Emergency":1}}
 ,
@@ -4981,23 +5100,23 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"95_79","geometry":{"type":"Polygon","coordinates":[[[-77.473124875,37.571558599999996],[-77.471777,37.571558599999996],[-77.471777,37.56999603],[-77.473124875,37.56999603],[-77.473124875,37.571558599999996]]]},"properties":{"name":"1600-BLK ROSENEATH RD; 3400-BLK NORFOLK ST; NORFOLK ST/ROSENEATH RD RICH; ROSENEATH RD/NORFOLK ST RICH","total":7,"Crime":4,"Emergency":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"96_79","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.571558599999996],[-77.47042912500001,37.571558599999996],[-77.47042912500001,37.56999603],[-77.471777,37.56999603],[-77.471777,37.571558599999996]]]},"properties":{"name":"3300-BLK NORFOLK ST","total":4,"Crime":4}}
+{"type":"Feature","id":"96_79","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.571558599999996],[-77.47042912500001,37.571558599999996],[-77.47042912500001,37.56999603],[-77.471777,37.56999603],[-77.471777,37.571558599999996]]]},"properties":{"name":"3300-BLK NORFOLK ST; 1700-BLK MACTAVISH AVE","total":6,"Crime":6}}
 ,
 {"type":"Feature","id":"97_79","geometry":{"type":"Polygon","coordinates":[[[-77.47042912500001,37.571558599999996],[-77.46908125,37.571558599999996],[-77.46908125,37.56999603],[-77.47042912500001,37.56999603],[-77.47042912500001,37.571558599999996]]]},"properties":{"name":"3200-BLK NORFOLK ST; 1800-BLK MACTAVISH AVE; MACTAVISH AVE/ROCKBRIDGE ST RICH; 1800-BLK HIGHPOINT AVE","total":19,"Crime":11,"Traffic":3,"Mental":3,"Emergency":2}}
 ,
-{"type":"Feature","id":"100_79","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.571558599999996],[-77.46503762500001,37.571558599999996],[-77.46503762500001,37.56999603],[-77.4663855,37.56999603],[-77.4663855,37.571558599999996]]]},"properties":{"name":"3000-BLK N ARTHUR ASHE BLVD; 1800-BLK BOULEVARD WEST","total":37,"Crime":16,"Emergency":11,"Mental":5,"Discretionary":4,"Traffic":1}}
+{"type":"Feature","id":"100_79","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.571558599999996],[-77.46503762500001,37.571558599999996],[-77.46503762500001,37.56999603],[-77.4663855,37.56999603],[-77.4663855,37.571558599999996]]]},"properties":{"name":"3000-BLK N ARTHUR ASHE BLVD; 1800-BLK BOULEVARD WEST","total":38,"Crime":16,"Emergency":11,"Mental":5,"Discretionary":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"104_79","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.571558599999996],[-77.459646125,37.571558599999996],[-77.459646125,37.56999603],[-77.460994,37.56999603],[-77.460994,37.571558599999996]]]},"properties":{"name":"SHERWOOD AVE/HERMITAGE RD RICH","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"106_79","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.571558599999996],[-77.456950375,37.571558599999996],[-77.456950375,37.56999603],[-77.45829825,37.56999603],[-77.45829825,37.571558599999996]]]},"properties":{"name":"LL(-77:27:26.0532,37:34:13.2491): EST 1610 SHERWOOD AVE RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"108_79","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.571558599999996],[-77.454254625,37.571558599999996],[-77.454254625,37.56999603],[-77.4556025,37.56999603],[-77.4556025,37.571558599999996]]]},"properties":{"name":"1400-BLK SHERWOOD AVE","total":2,"Mental":2}}
+{"type":"Feature","id":"108_79","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.571558599999996],[-77.454254625,37.571558599999996],[-77.454254625,37.56999603],[-77.4556025,37.56999603],[-77.4556025,37.571558599999996]]]},"properties":{"name":"1400-BLK SHERWOOD AVE; 1600-BLK SHERWOOD AVE","total":3,"Mental":2,"Crime":1}}
 ,
 {"type":"Feature","id":"109_79","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.571558599999996],[-77.45290675,37.571558599999996],[-77.45290675,37.56999603],[-77.454254625,37.56999603],[-77.454254625,37.571558599999996]]]},"properties":{"name":"1500-BLK SHERWOOD AVE","total":4,"Crime":3,"Traffic":1}}
 ,
 {"type":"Feature","id":"111_79","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.571558599999996],[-77.450211,37.571558599999996],[-77.450211,37.56999603],[-77.451558875,37.56999603],[-77.451558875,37.571558599999996]]]},"properties":{"name":"1200-BLK SHERWOOD AVE","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"112_79","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.571558599999996],[-77.448863125,37.571558599999996],[-77.448863125,37.56999603],[-77.450211,37.56999603],[-77.450211,37.571558599999996]]]},"properties":{"name":"BROOK RD/SHERWOOD AVE RICH; 2900-BLK BROOK RD","total":6,"Crime":6}}
+{"type":"Feature","id":"112_79","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.571558599999996],[-77.448863125,37.571558599999996],[-77.448863125,37.56999603],[-77.450211,37.56999603],[-77.450211,37.571558599999996]]]},"properties":{"name":"BROOK RD/SHERWOOD AVE RICH; 2900-BLK BROOK RD; SHERWOOD AVE/BROOK RD RICH","total":7,"Crime":7}}
 ,
 {"type":"Feature","id":"114_79","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.571558599999996],[-77.446167375,37.571558599999996],[-77.446167375,37.56999603],[-77.44751525000001,37.56999603],[-77.44751525000001,37.571558599999996]]]},"properties":{"name":"SEMINARY AVE/SHERWOOD AVE RICH","total":1,"Traffic":1}}
 ,
@@ -5019,33 +5138,33 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"127_79","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.571558599999996],[-77.428645,37.571558599999996],[-77.428645,37.56999603],[-77.429992875,37.56999603],[-77.429992875,37.571558599999996]]]},"properties":{"name":"2900-BLK WOODROW AVE; 300-BLK E BROOKLAND PARK BLVD; E BROOKLAND PARK BLVD/WOODROW AVE RICH","total":4,"Crime":3,"Traffic":1}}
 ,
-{"type":"Feature","id":"128_79","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.571558599999996],[-77.42729712500001,37.571558599999996],[-77.42729712500001,37.56999603],[-77.428645,37.56999603],[-77.428645,37.571558599999996]]]},"properties":{"name":"3000-BLK CLIFF AVE; 400-BLK E BROOKLAND PARK BLVD","total":3,"Mental":2,"Crime":1}}
+{"type":"Feature","id":"128_79","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.571558599999996],[-77.42729712500001,37.571558599999996],[-77.42729712500001,37.56999603],[-77.428645,37.56999603],[-77.428645,37.571558599999996]]]},"properties":{"name":"3000-BLK CLIFF AVE; 400-BLK E BROOKLAND PARK BLVD","total":6,"Crime":3,"Mental":3}}
 ,
 {"type":"Feature","id":"129_79","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.571558599999996],[-77.42594925,37.571558599999996],[-77.42594925,37.56999603],[-77.42729712500001,37.56999603],[-77.42729712500001,37.571558599999996]]]},"properties":{"name":"E BROOKLAND PARK BLVD/RICHMOND HENRICO TPKE RICH; LL(-77:25:37.4590,37:34:15.7758): BROOKLAND PARK/RICHMOND-HENRICO; 500-BLK E BROOKLAND PARK BLVD","total":3,"Traffic":3}}
 ,
-{"type":"Feature","id":"130_79","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.571558599999996],[-77.42460137500001,37.571558599999996],[-77.42460137500001,37.56999603],[-77.42594925,37.56999603],[-77.42594925,37.571558599999996]]]},"properties":{"name":"E BROOKLAND PARK BLVD/WELLINGTON ST RICH; 600-BLK E BROOKLAND PARK BLVD","total":6,"Crime":4,"Traffic":2}}
+{"type":"Feature","id":"130_79","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.571558599999996],[-77.42460137500001,37.571558599999996],[-77.42460137500001,37.56999603],[-77.42594925,37.56999603],[-77.42594925,37.571558599999996]]]},"properties":{"name":"E BROOKLAND PARK BLVD/WELLINGTON ST RICH; 600-BLK E BROOKLAND PARK BLVD","total":8,"Crime":6,"Traffic":2}}
 ,
 {"type":"Feature","id":"131_79","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.571558599999996],[-77.4232535,37.571558599999996],[-77.4232535,37.56999603],[-77.42460137500001,37.56999603],[-77.42460137500001,37.571558599999996]]]},"properties":{"name":"700-BLK E BROOKLAND PARK BLVD; E BROOKLAND PARK BLVD/MEADOW BRIDGE RD RICH; 3RD AVE/E BROOKLAND PARK BLVD RICH","total":19,"Crime":10,"Emergency":5,"Traffic":4}}
 ,
-{"type":"Feature","id":"132_79","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.571558599999996],[-77.42190562500001,37.571558599999996],[-77.42190562500001,37.56999603],[-77.4232535,37.56999603],[-77.4232535,37.571558599999996]]]},"properties":{"name":"3000-BLK LETCHER AVE; 800-BLK E BROOKLAND PARK BLVD; 3000-BLK VERANDA AVE; 3100-BLK LETCHER AVE","total":14,"Crime":8,"Emergency":5,"Traffic":1}}
+{"type":"Feature","id":"132_79","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.571558599999996],[-77.42190562500001,37.571558599999996],[-77.42190562500001,37.56999603],[-77.4232535,37.56999603],[-77.4232535,37.571558599999996]]]},"properties":{"name":"3000-BLK LETCHER AVE; 800-BLK E BROOKLAND PARK BLVD; 3000-BLK VERANDA AVE; 3100-BLK LETCHER AVE","total":15,"Crime":8,"Emergency":6,"Traffic":1}}
 ,
 {"type":"Feature","id":"133_79","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.571558599999996],[-77.42055775,37.571558599999996],[-77.42055775,37.56999603],[-77.42190562500001,37.56999603],[-77.42190562500001,37.571558599999996]]]},"properties":{"name":"1100-BLK E BROOKLAND PARK BLVD; WOODCLIFF AVE/E BROOKLAND PARK BLVD RICH; E BROOKLAND PARK BLVD/WOODCLIFF AVE RICH","total":8,"Traffic":8}}
 ,
-{"type":"Feature","id":"134_79","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.571558599999996],[-77.419209875,37.571558599999996],[-77.419209875,37.56999603],[-77.42055775,37.56999603],[-77.42055775,37.571558599999996]]]},"properties":{"name":"1200-BLK E BROOKLAND PARK BLVD; 1200-BLK HIGHLAND VIEW AVE","total":32,"Crime":22,"Emergency":8,"Traffic":2}}
+{"type":"Feature","id":"134_79","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.571558599999996],[-77.419209875,37.571558599999996],[-77.419209875,37.56999603],[-77.42055775,37.56999603],[-77.42055775,37.571558599999996]]]},"properties":{"name":"1200-BLK E BROOKLAND PARK BLVD; 1200-BLK HIGHLAND VIEW AVE","total":35,"Crime":25,"Emergency":8,"Traffic":2}}
 ,
 {"type":"Feature","id":"135_79","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.571558599999996],[-77.417862,37.571558599999996],[-77.417862,37.56999603],[-77.419209875,37.56999603],[-77.419209875,37.571558599999996]]]},"properties":{"name":"MEADOW BRIDGE RD/1ST AVE RICH; 3000-BLK MEADOW BRIDGE RD; 1300-BLK MEADOWBRIDGE; 3000-BLK 2ND AVE; HIGHLAND VIEW AVE/MEADOW BRIDGE RD RICH; MEADOW BRIDGE RD/HIGHLAND VIEW AVE RICH; 8200-BLK MEADOWBRIDGE RD; 3000-BLK 1ST AVE","total":26,"Crime":9,"Emergency":8,"Traffic":5,"Mental":4}}
 ,
-{"type":"Feature","id":"136_79","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.571558599999996],[-77.416514125,37.571558599999996],[-77.416514125,37.56999603],[-77.417862,37.56999603],[-77.417862,37.571558599999996]]]},"properties":{"name":"5TH AVE/FRONT ST RICH; 3100-BLK 2ND AVE; 3RD AVE/FRONT ST RICH; 4TH AVE/FRONT ST RICH","total":9,"Crime":5,"Traffic":2,"Emergency":2}}
+{"type":"Feature","id":"136_79","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.571558599999996],[-77.416514125,37.571558599999996],[-77.416514125,37.56999603],[-77.417862,37.56999603],[-77.417862,37.571558599999996]]]},"properties":{"name":"5TH AVE/FRONT ST RICH; 3100-BLK 2ND AVE; 3RD AVE/FRONT ST RICH; 4TH AVE/FRONT ST RICH","total":14,"Emergency":7,"Crime":5,"Traffic":2}}
 ,
-{"type":"Feature","id":"137_79","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.571558599999996],[-77.41516625,37.571558599999996],[-77.41516625,37.56999603],[-77.416514125,37.56999603],[-77.416514125,37.571558599999996]]]},"properties":{"name":"3100-BLK 3RD AVE","total":26,"Mental":12,"Crime":11,"Emergency":3}}
+{"type":"Feature","id":"137_79","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.571558599999996],[-77.41516625,37.571558599999996],[-77.41516625,37.56999603],[-77.416514125,37.56999603],[-77.416514125,37.571558599999996]]]},"properties":{"name":"3100-BLK 3RD AVE","total":28,"Mental":12,"Crime":11,"Emergency":5}}
 ,
-{"type":"Feature","id":"138_79","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.571558599999996],[-77.413818375,37.571558599999996],[-77.413818375,37.56999603],[-77.41516625,37.56999603],[-77.41516625,37.571558599999996]]]},"properties":{"name":"3100-BLK UTAH PL; 3100-BLK DILL AVE","total":2,"Emergency":1,"Traffic":1}}
+{"type":"Feature","id":"138_79","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.571558599999996],[-77.413818375,37.571558599999996],[-77.413818375,37.56999603],[-77.41516625,37.56999603],[-77.41516625,37.571558599999996]]]},"properties":{"name":"3100-BLK UTAH PL; 3100-BLK DILL AVE; RADY ST/DILL AVE RICH","total":3,"Emergency":1,"Traffic":1,"Crime":1}}
 ,
 {"type":"Feature","id":"139_79","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.571558599999996],[-77.4124705,37.571558599999996],[-77.4124705,37.56999603],[-77.413818375,37.56999603],[-77.413818375,37.571558599999996]]]},"properties":{"name":"3200-BLK 4TH AVE","total":6,"Emergency":4,"Crime":2}}
 ,
 {"type":"Feature","id":"54_80","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.57312117],[-77.527039875,37.57312117],[-77.527039875,37.571558599999996],[-77.52838775000001,37.571558599999996],[-77.52838775000001,37.57312117]]]},"properties":{"name":"6100-BLK ST ANDREWS LN","total":4,"Crime":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"57_80","geometry":{"type":"Polygon","coordinates":[[[-77.524344125,37.57312117],[-77.52299625,37.57312117],[-77.52299625,37.571558599999996],[-77.524344125,37.571558599999996],[-77.524344125,37.57312117]]]},"properties":{"name":"6000-BLK ST ANDREWS LN; THREE CHOPT RD/GROVE AVE RICH","total":12,"Crime":7,"Emergency":3,"Traffic":2}}
+{"type":"Feature","id":"57_80","geometry":{"type":"Polygon","coordinates":[[[-77.524344125,37.57312117],[-77.52299625,37.57312117],[-77.52299625,37.571558599999996],[-77.524344125,37.571558599999996],[-77.524344125,37.57312117]]]},"properties":{"name":"6000-BLK ST ANDREWS LN; THREE CHOPT RD/GROVE AVE RICH","total":14,"Crime":7,"Traffic":4,"Emergency":3}}
 ,
 {"type":"Feature","id":"58_80","geometry":{"type":"Polygon","coordinates":[[[-77.52299625,37.57312117],[-77.521648375,37.57312117],[-77.521648375,37.571558599999996],[-77.52299625,37.571558599999996],[-77.52299625,37.57312117]]]},"properties":{"name":"300-BLK SOMERSET AVE; 6000-BLK GROVE AVE","total":16,"Crime":9,"Emergency":5,"Traffic":2}}
 ,
@@ -5057,7 +5176,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"77_80","geometry":{"type":"Polygon","coordinates":[[[-77.497386625,37.57312117],[-77.49603875,37.57312117],[-77.49603875,37.571558599999996],[-77.497386625,37.571558599999996],[-77.497386625,37.57312117]]]},"properties":{"name":"BROMLEY LN/BLACKER ST RICH; 4700-BLK BROMLEY LN","total":4,"Crime":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"80_80","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.57312117],[-77.491995125,37.57312117],[-77.491995125,37.571558599999996],[-77.49334300000001,37.571558599999996],[-77.49334300000001,37.57312117]]]},"properties":{"name":"4500-BLK WYTHE AVE","total":4,"Crime":4}}
+{"type":"Feature","id":"80_80","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.57312117],[-77.491995125,37.57312117],[-77.491995125,37.571558599999996],[-77.49334300000001,37.571558599999996],[-77.49334300000001,37.57312117]]]},"properties":{"name":"4500-BLK WYTHE AVE","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"82_80","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.57312117],[-77.489299375,37.57312117],[-77.489299375,37.571558599999996],[-77.49064725000001,37.571558599999996],[-77.49064725000001,37.57312117]]]},"properties":{"name":"4400-BLK MONUMENT AVE","total":2,"Traffic":2}}
 ,
@@ -5065,7 +5184,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"86_80","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.57312117],[-77.483907875,37.57312117],[-77.483907875,37.571558599999996],[-77.48525575000001,37.571558599999996],[-77.48525575000001,37.57312117]]]},"properties":{"name":"FITZHUGH AVE/MALVERN AVE RICH; 4100-BLK FITZHUGH AVE","total":4,"Traffic":2,"Crime":2}}
 ,
-{"type":"Feature","id":"88_80","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.57312117],[-77.481212125,37.57312117],[-77.481212125,37.571558599999996],[-77.48256,37.571558599999996],[-77.48256,37.57312117]]]},"properties":{"name":"3900-BLK W BROAD ST; 4000-BLK W BROAD ST","total":21,"Crime":15,"Mental":6}}
+{"type":"Feature","id":"88_80","geometry":{"type":"Polygon","coordinates":[[[-77.48256,37.57312117],[-77.481212125,37.57312117],[-77.481212125,37.571558599999996],[-77.48256,37.571558599999996],[-77.48256,37.57312117]]]},"properties":{"name":"3900-BLK W BROAD ST; 4000-BLK W BROAD ST","total":24,"Crime":15,"Mental":9}}
 ,
 {"type":"Feature","id":"91_80","geometry":{"type":"Polygon","coordinates":[[[-77.478516375,37.57312117],[-77.4771685,37.57312117],[-77.4771685,37.571558599999996],[-77.478516375,37.571558599999996],[-77.478516375,37.57312117]]]},"properties":{"name":"LL(-77:28:40.3753,37:34:19.2287): EST 1696 N HAMILTON ST RICH","total":2,"Crime":2}}
 ,
@@ -5081,25 +5200,29 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"109_80","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.57312117],[-77.45290675,37.57312117],[-77.45290675,37.571558599999996],[-77.454254625,37.571558599999996],[-77.454254625,37.57312117]]]},"properties":{"name":"BROOKLAND PKWY/ROBIN HOOD RD RICH","total":5,"Traffic":5}}
 ,
-{"type":"Feature","id":"112_80","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.57312117],[-77.448863125,37.57312117],[-77.448863125,37.571558599999996],[-77.450211,37.571558599999996],[-77.450211,37.57312117]]]},"properties":{"name":"BROOK RD/BROOKLAND PKWY RICH; 3000-BLK BROOK RD","total":4,"Crime":3,"Traffic":1}}
+{"type":"Feature","id":"110_80","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.57312117],[-77.451558875,37.57312117],[-77.451558875,37.571558599999996],[-77.45290675,37.571558599999996],[-77.45290675,37.57312117]]]},"properties":{"name":"1300-BLK BROOKLAND PKWY","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"114_80","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.57312117],[-77.446167375,37.57312117],[-77.446167375,37.571558599999996],[-77.44751525000001,37.571558599999996],[-77.44751525000001,37.57312117]]]},"properties":{"name":"800-BLK W BROOKLAND PARK BLVD; 200-BLK W BROOKLAND PARK BLVD","total":5,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"112_80","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.57312117],[-77.448863125,37.57312117],[-77.448863125,37.571558599999996],[-77.450211,37.571558599999996],[-77.450211,37.57312117]]]},"properties":{"name":"BROOK RD/BROOKLAND PKWY RICH; 3000-BLK BROOK RD; BROOK RD/W BROOKLAND PARK BLVD RICH","total":7,"Traffic":4,"Crime":3}}
 ,
-{"type":"Feature","id":"115_80","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.57312117],[-77.44481950000001,37.57312117],[-77.44481950000001,37.571558599999996],[-77.446167375,37.571558599999996],[-77.446167375,37.57312117]]]},"properties":{"name":"CHAMBERLAYNE AVE/W BROOKLAND PARK BLVD RICH; 3000-BLK CHAMBERLAYNE AVE; W BROOKLAND PARK BLVD/CHAMBERLAYNE AVE RICH; LL(-77:26:43.1125,37:34:18.4980): EST 2922 CHAMBERLAYNE AVE RICH","total":51,"Crime":29,"Emergency":11,"Traffic":11}}
+{"type":"Feature","id":"114_80","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.57312117],[-77.446167375,37.57312117],[-77.446167375,37.571558599999996],[-77.44751525000001,37.571558599999996],[-77.44751525000001,37.57312117]]]},"properties":{"name":"800-BLK W BROOKLAND PARK BLVD; 200-BLK W BROOKLAND PARK BLVD; 600-BLK W BROOKLAND PARK BLVD","total":8,"Crime":5,"Traffic":2,"Emergency":1}}
+,
+{"type":"Feature","id":"115_80","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.57312117],[-77.44481950000001,37.57312117],[-77.44481950000001,37.571558599999996],[-77.446167375,37.571558599999996],[-77.446167375,37.57312117]]]},"properties":{"name":"CHAMBERLAYNE AVE/W BROOKLAND PARK BLVD RICH; 3000-BLK CHAMBERLAYNE AVE; W BROOKLAND PARK BLVD/CHAMBERLAYNE AVE RICH; LL(-77:26:43.1125,37:34:18.4980): EST 2922 CHAMBERLAYNE AVE RICH","total":62,"Crime":35,"Traffic":15,"Emergency":11,"Mental":1}}
+,
+{"type":"Feature","id":"116_80","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.57312117],[-77.443471625,37.57312117],[-77.443471625,37.571558599999996],[-77.44481950000001,37.571558599999996],[-77.44481950000001,37.57312117]]]},"properties":{"name":"3000-BLK HAWTHORNE AVE","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"117_80","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.57312117],[-77.44212375000001,37.57312117],[-77.44212375000001,37.571558599999996],[-77.443471625,37.571558599999996],[-77.443471625,37.57312117]]]},"properties":{"name":"3000-BLK NOBLE AVE; W BROOKLAND PARK BLVD/NOBLE AVE RICH; 0000-BLK W BROOKLAND PARK","total":7,"Crime":5,"Emergency":2}}
 ,
-{"type":"Feature","id":"118_80","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.57312117],[-77.440775875,37.57312117],[-77.440775875,37.571558599999996],[-77.44212375000001,37.571558599999996],[-77.44212375000001,37.57312117]]]},"properties":{"name":"W BROOKLAND PARK BLVD/MOSS SIDE AVE RICH; 3000-BLK MOSS SIDE AVE","total":8,"Emergency":3,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"118_80","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.57312117],[-77.440775875,37.57312117],[-77.440775875,37.571558599999996],[-77.44212375000001,37.571558599999996],[-77.44212375000001,37.57312117]]]},"properties":{"name":"W BROOKLAND PARK BLVD/MOSS SIDE AVE RICH; 3000-BLK MOSS SIDE AVE; 7500-BLK NOBLE AVE","total":10,"Emergency":5,"Crime":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"119_80","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.57312117],[-77.439428,37.57312117],[-77.439428,37.571558599999996],[-77.440775875,37.571558599999996],[-77.440775875,37.57312117]]]},"properties":{"name":"W BROOKLAND PARK BLVD/MONTROSE AVE RICH; 3000-BLK MONTROSE AVE; MONTROSE AVE/W BROOKLAND PARK BLVD RICH","total":5,"Traffic":4,"Crime":1}}
 ,
 {"type":"Feature","id":"120_80","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.57312117],[-77.438080125,37.57312117],[-77.438080125,37.571558599999996],[-77.439428,37.571558599999996],[-77.439428,37.57312117]]]},"properties":{"name":"3000-BLK EDGEWOOD AVE; W BROOKLAND PARK BLVD/EDGEWOOD AVE RICH","total":9,"Traffic":4,"Mental":3,"Crime":2}}
 ,
-{"type":"Feature","id":"122_80","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.57312117],[-77.435384375,37.57312117],[-77.435384375,37.571558599999996],[-77.43673225,37.571558599999996],[-77.43673225,37.57312117]]]},"properties":{"name":"3000-BLK HANES AVE; FENDALL AVE/W BROOKLAND PARK BLVD RICH; 300-BLK W BROOKLAND PARK BLVD; 3000-BLK FENDALL AVE","total":21,"Crime":18,"Emergency":3}}
+{"type":"Feature","id":"122_80","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.57312117],[-77.435384375,37.57312117],[-77.435384375,37.571558599999996],[-77.43673225,37.571558599999996],[-77.43673225,37.57312117]]]},"properties":{"name":"3000-BLK HANES AVE; FENDALL AVE/W BROOKLAND PARK BLVD RICH; 300-BLK W BROOKLAND PARK BLVD; 3000-BLK FENDALL AVE","total":25,"Crime":21,"Emergency":4}}
 ,
 {"type":"Feature","id":"123_80","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.57312117],[-77.4340365,37.57312117],[-77.4340365,37.571558599999996],[-77.435384375,37.571558599999996],[-77.435384375,37.57312117]]]},"properties":{"name":"W BROOKLAND PARK BLVD/HANES AVE RICH; HANES AVE/W BROOKLAND PARK BLVD RICH","total":7,"Crime":6,"Traffic":1}}
 ,
-{"type":"Feature","id":"124_80","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57312117],[-77.432688625,37.57312117],[-77.432688625,37.571558599999996],[-77.4340365,37.571558599999996],[-77.4340365,37.57312117]]]},"properties":{"name":"3100-BLK NORTH AVE; 100-BLK W BROOKLAND PARK BLVD; 3000-BLK NORTH AVE; 3000-BLK GARLAND AVE","total":30,"Crime":22,"Traffic":4,"Emergency":3,"Mental":1}}
+{"type":"Feature","id":"124_80","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57312117],[-77.432688625,37.57312117],[-77.432688625,37.571558599999996],[-77.4340365,37.571558599999996],[-77.4340365,37.57312117]]]},"properties":{"name":"3100-BLK NORTH AVE; 100-BLK W BROOKLAND PARK BLVD; 3000-BLK NORTH AVE; 3000-BLK GARLAND AVE","total":31,"Crime":22,"Traffic":5,"Emergency":3,"Mental":1}}
 ,
 {"type":"Feature","id":"125_80","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.57312117],[-77.43134075,37.57312117],[-77.43134075,37.571558599999996],[-77.432688625,37.571558599999996],[-77.432688625,37.57312117]]]},"properties":{"name":"3100-BLK BARTON AVE","total":1,"Emergency":1}}
 ,
@@ -5115,11 +5238,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"133_80","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.57312117],[-77.42055775,37.57312117],[-77.42055775,37.571558599999996],[-77.42190562500001,37.571558599999996],[-77.42190562500001,37.57312117]]]},"properties":{"name":"WOODCLIFF AVE/GILES AVE RICH","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"134_80","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.57312117],[-77.419209875,37.57312117],[-77.419209875,37.571558599999996],[-77.42055775,37.571558599999996],[-77.42055775,37.57312117]]]},"properties":{"name":"3100-BLK ENSLOW AVE; CRAIGIE AVE/MEADOWBRIDGE","total":4,"Emergency":2,"Crime":1,"Traffic":1}}
+{"type":"Feature","id":"134_80","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.57312117],[-77.419209875,37.57312117],[-77.419209875,37.571558599999996],[-77.42055775,37.571558599999996],[-77.42055775,37.57312117]]]},"properties":{"name":"3100-BLK ENSLOW AVE; CRAIGIE AVE/MEADOWBRIDGE; MEADOW BRIDGE RD/CAROLINA AVE RICH; ENSLOW AVE/MEADOW BRIDGE RD RICH","total":7,"Crime":3,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"137_80","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.57312117],[-77.41516625,37.57312117],[-77.41516625,37.571558599999996],[-77.416514125,37.571558599999996],[-77.416514125,37.57312117]]]},"properties":{"name":"3200-BLK 3RD AVE; 3200-BLK 2ND AVE","total":5,"Crime":4,"Mental":1}}
 ,
-{"type":"Feature","id":"138_80","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.57312117],[-77.413818375,37.57312117],[-77.413818375,37.571558599999996],[-77.41516625,37.571558599999996],[-77.41516625,37.57312117]]]},"properties":{"name":"3200-BLK UTAH PL","total":4,"Emergency":4}}
+{"type":"Feature","id":"138_80","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.57312117],[-77.413818375,37.57312117],[-77.413818375,37.571558599999996],[-77.41516625,37.571558599999996],[-77.41516625,37.57312117]]]},"properties":{"name":"3200-BLK UTAH PL","total":5,"Emergency":4,"Crime":1}}
 ,
 {"type":"Feature","id":"140_80","geometry":{"type":"Polygon","coordinates":[[[-77.4124705,37.57312117],[-77.411122625,37.57312117],[-77.411122625,37.571558599999996],[-77.4124705,37.571558599999996],[-77.4124705,37.57312117]]]},"properties":{"name":"3300-BLK DILL AVE","total":11,"Crime":11}}
 ,
@@ -5137,7 +5260,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"76_81","geometry":{"type":"Polygon","coordinates":[[[-77.4987345,37.57468374],[-77.497386625,37.57468374],[-77.497386625,37.57312117],[-77.4987345,37.57312117],[-77.4987345,37.57468374]]]},"properties":{"name":"BROMLEY LN/CHANTILLY ST RICH; 4800-BLK W FRANKLIN ST; 4800-BLK BROMLEY LN","total":14,"Discretionary":11,"Emergency":2,"Crime":1}}
 ,
-{"type":"Feature","id":"80_81","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.57468374],[-77.491995125,37.57468374],[-77.491995125,37.57312117],[-77.49334300000001,37.57312117],[-77.49334300000001,37.57468374]]]},"properties":{"name":"4600-BLK W GRACE ST; 1300-BLK WESTMORELAND ST; MONUMENT AVE/WESTMORELAND ST RICH","total":11,"Traffic":6,"Emergency":3,"Crime":2}}
+{"type":"Feature","id":"80_81","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.57468374],[-77.491995125,37.57468374],[-77.491995125,37.57312117],[-77.49334300000001,37.57312117],[-77.49334300000001,37.57468374]]]},"properties":{"name":"4600-BLK W GRACE ST; 1300-BLK WESTMORELAND ST; MONUMENT AVE/WESTMORELAND ST RICH","total":15,"Traffic":10,"Emergency":3,"Crime":2}}
 ,
 {"type":"Feature","id":"82_81","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.57468374],[-77.489299375,37.57468374],[-77.489299375,37.57312117],[-77.49064725000001,37.57312117],[-77.49064725000001,37.57468374]]]},"properties":{"name":"4500-BLK CUTSHAW AVE","total":2,"Emergency":2}}
 ,
@@ -5147,15 +5270,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"86_81","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.57468374],[-77.483907875,37.57468374],[-77.483907875,37.57312117],[-77.48525575000001,37.57312117],[-77.48525575000001,37.57468374]]]},"properties":{"name":"LL(-77:29:04.9130,37:34:28.1358): MAL/BR","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"87_81","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.57468374],[-77.48256,37.57468374],[-77.48256,37.57312117],[-77.483907875,37.57312117],[-77.483907875,37.57468374]]]},"properties":{"name":"4100-BLK W BROAD ST; MALVERN AVE/W BROAD ST RICH; W BROAD ST/WESTWOOD AVE RICH; WESTWOOD AVE/W BROAD ST RICH","total":29,"Traffic":23,"Crime":5,"Emergency":1}}
+{"type":"Feature","id":"87_81","geometry":{"type":"Polygon","coordinates":[[[-77.483907875,37.57468374],[-77.48256,37.57468374],[-77.48256,37.57312117],[-77.483907875,37.57312117],[-77.483907875,37.57468374]]]},"properties":{"name":"4100-BLK W BROAD ST; MALVERN AVE/W BROAD ST RICH; W BROAD ST/WESTWOOD AVE RICH; WESTWOOD AVE/W BROAD ST RICH","total":35,"Traffic":23,"Crime":11,"Emergency":1}}
 ,
 {"type":"Feature","id":"99_81","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.57468374],[-77.4663855,37.57468374],[-77.4663855,37.57312117],[-77.46773337500001,37.57312117],[-77.46773337500001,37.57468374]]]},"properties":{"name":"1900-BLK ELLEN RD","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"101_81","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.57468374],[-77.46368975,37.57468374],[-77.46368975,37.57312117],[-77.46503762500001,37.57312117],[-77.46503762500001,37.57468374]]]},"properties":{"name":"N ARTHUR ASHE BLVD/ROBIN HOOD RD RICH; 3100-BLK N ARTHUR ASHE BLVD; ROBIN HOOD RD/N ARTHUR ASHE BLVD RICH; N ARTHUR ASHE BLVD/ELLEN RD RICH; 1800-BLK ELLEN RD","total":131,"Crime":68,"Emergency":32,"Mental":17,"Traffic":12,"Discretionary":2}}
+{"type":"Feature","id":"101_81","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.57468374],[-77.46368975,37.57468374],[-77.46368975,37.57312117],[-77.46503762500001,37.57312117],[-77.46503762500001,37.57468374]]]},"properties":{"name":"N ARTHUR ASHE BLVD/ROBIN HOOD RD RICH; 3100-BLK N ARTHUR ASHE BLVD; ROBIN HOOD RD/N ARTHUR ASHE BLVD RICH; N ARTHUR ASHE BLVD/ELLEN RD RICH; 1800-BLK ELLEN RD","total":147,"Crime":75,"Emergency":35,"Mental":19,"Traffic":16,"Discretionary":2}}
 ,
 {"type":"Feature","id":"102_81","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.57468374],[-77.462341875,37.57468374],[-77.462341875,37.57312117],[-77.46368975,37.57312117],[-77.46368975,37.57468374]]]},"properties":{"name":"1300-BLK ROBIN HOOD RD; 1500-BLK ROBIN HOOD RD; 1700-BLK ROBIN HOOD RD","total":25,"Emergency":11,"Crime":8,"Mental":6}}
 ,
-{"type":"Feature","id":"104_81","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.57468374],[-77.459646125,37.57468374],[-77.459646125,37.57312117],[-77.460994,37.57312117],[-77.460994,37.57468374]]]},"properties":{"name":"1600-BLK ROBIN HOOD RD; LL(-77:27:36.6445,37:34:25.1399): EST I-95 / I-64 RICH; ROBIN HOOD RD/HERMITAGE RD RICH; HERMITAGE RD/ROBIN HOOD RD RICH","total":56,"Crime":35,"Emergency":16,"Mental":4,"Traffic":1}}
+{"type":"Feature","id":"104_81","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.57468374],[-77.459646125,37.57468374],[-77.459646125,37.57312117],[-77.460994,37.57312117],[-77.460994,37.57468374]]]},"properties":{"name":"1600-BLK ROBIN HOOD RD; LL(-77:27:36.6445,37:34:25.1399): EST I-95 / I-64 RICH; ROBIN HOOD RD/HERMITAGE RD RICH; HERMITAGE RD/ROBIN HOOD RD RICH","total":57,"Crime":35,"Emergency":16,"Mental":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"106_81","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.57468374],[-77.456950375,37.57468374],[-77.456950375,37.57312117],[-77.45829825,37.57312117],[-77.45829825,37.57468374]]]},"properties":{"name":"1400-BLK LITTLE JOHN RD","total":7,"Mental":4,"Emergency":2,"Crime":1}}
 ,
@@ -5171,17 +5294,19 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"124_81","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57468374],[-77.432688625,37.57468374],[-77.432688625,37.57312117],[-77.4340365,37.57312117],[-77.4340365,37.57468374]]]},"properties":{"name":"3200-BLK GARLAND AVE; 3100-BLK GARLAND AVE","total":5,"Crime":4,"Emergency":1}}
 ,
+{"type":"Feature","id":"129_81","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.57468374],[-77.42594925,37.57468374],[-77.42594925,37.57312117],[-77.42729712500001,37.57312117],[-77.42729712500001,37.57468374]]]},"properties":{"name":"500-BLK ARNOLD AVE","total":1,"Emergency":1}}
+,
 {"type":"Feature","id":"130_81","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.57468374],[-77.42460137500001,37.57468374],[-77.42460137500001,37.57312117],[-77.42594925,37.57312117],[-77.42594925,37.57468374]]]},"properties":{"name":"500-BLK NORTHSIDE AVE","total":4,"Crime":4}}
 ,
 {"type":"Feature","id":"131_81","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.57468374],[-77.4232535,37.57468374],[-77.4232535,37.57312117],[-77.42460137500001,37.57312117],[-77.42460137500001,37.57468374]]]},"properties":{"name":"600-BLK NORTHSIDE AVE; 600-BLK ARNOLD AVE","total":9,"Crime":8,"Emergency":1}}
 ,
-{"type":"Feature","id":"132_81","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.57468374],[-77.42190562500001,37.57468374],[-77.42190562500001,37.57312117],[-77.4232535,37.57312117],[-77.4232535,37.57468374]]]},"properties":{"name":"700-BLK ARNOLD AVE; 700-BLK NORTHSIDE AVE","total":10,"Crime":6,"Emergency":2,"Traffic":2}}
+{"type":"Feature","id":"132_81","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.57468374],[-77.42190562500001,37.57468374],[-77.42190562500001,37.57312117],[-77.4232535,37.57312117],[-77.4232535,37.57468374]]]},"properties":{"name":"700-BLK ARNOLD AVE; 700-BLK NORTHSIDE AVE; NORTHSIDE AVE/NAPOLEON ST RICH","total":15,"Crime":8,"Traffic":4,"Emergency":3}}
 ,
 {"type":"Feature","id":"133_81","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.57468374],[-77.42055775,37.57468374],[-77.42055775,37.57312117],[-77.42190562500001,37.57312117],[-77.42190562500001,37.57468374]]]},"properties":{"name":"MEADOW BRIDGE RD/MARYLAND AVE RICH; LL(-77:25:16.3634,37:34:28.7688): EST 780 E GLADSTONE AVE RICH; E GLADSTONE AVE/MEADOW BRIDGE RD RICH","total":8,"Crime":8}}
 ,
-{"type":"Feature","id":"134_81","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.57468374],[-77.419209875,37.57468374],[-77.419209875,37.57312117],[-77.42055775,37.57312117],[-77.42055775,37.57468374]]]},"properties":{"name":"3100-BLK MEADOW BRIDGE RD; 3100-BLK CAROLINA AVE; NORTHSIDE AVE/MEADOW BRIDGE RD RICH; 900-BLK BURNS ST; MEADOW BRIDGE RD/NORTHSIDE AVE RICH; 3200-BLK CAROLINA AVE; LL(-77:25:12.6685,37:34:23.9658): MEADOWBRIRDGE/NEWBOURNE; MEADOWBRIDGE RD/NORTHSIDE","total":81,"Crime":49,"Discretionary":17,"Emergency":10,"Traffic":3,"Mental":2}}
+{"type":"Feature","id":"134_81","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.57468374],[-77.419209875,37.57468374],[-77.419209875,37.57312117],[-77.42055775,37.57312117],[-77.42055775,37.57468374]]]},"properties":{"name":"3100-BLK MEADOW BRIDGE RD; 3100-BLK CAROLINA AVE; NORTHSIDE AVE/MEADOW BRIDGE RD RICH; 900-BLK BURNS ST; MEADOW BRIDGE RD/NORTHSIDE AVE RICH; 3200-BLK CAROLINA AVE; LL(-77:25:12.6685,37:34:23.9658): MEADOWBRIRDGE/NEWBOURNE; MEADOWBRIDGE RD/NORTHSIDE","total":84,"Crime":51,"Discretionary":17,"Emergency":11,"Traffic":3,"Mental":2}}
 ,
-{"type":"Feature","id":"135_81","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.57468374],[-77.417862,37.57468374],[-77.417862,37.57312117],[-77.419209875,37.57312117],[-77.419209875,37.57468374]]]},"properties":{"name":"3200-BLK ENSLOW AVE","total":2,"Mental":2}}
+{"type":"Feature","id":"135_81","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.57468374],[-77.417862,37.57468374],[-77.417862,37.57312117],[-77.419209875,37.57312117],[-77.419209875,37.57468374]]]},"properties":{"name":"3200-BLK ENSLOW AVE","total":4,"Mental":2,"Crime":2}}
 ,
 {"type":"Feature","id":"136_81","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.57468374],[-77.416514125,37.57468374],[-77.416514125,37.57312117],[-77.417862,37.57312117],[-77.417862,37.57468374]]]},"properties":{"name":"3200-BLK 1ST AVE","total":1,"Emergency":1}}
 ,
@@ -5199,7 +5324,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"61_82","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.57624631],[-77.51760475,37.57624631],[-77.51760475,37.57468374],[-77.518952625,37.57468374],[-77.518952625,37.57624631]]]},"properties":{"name":"00-BLK LIBBIE AVE; 1900-BLK LIBBIE AVE; 500-BLK LIBBIE AVE","total":6,"Crime":2,"Discretionary":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"68_82","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.57624631],[-77.50816962500001,37.57624631],[-77.50816962500001,37.57468374],[-77.5095175,37.57468374],[-77.5095175,37.57624631]]]},"properties":{"name":"5300-BLK PATTERSON AVE","total":6,"Mental":3,"Crime":3}}
+{"type":"Feature","id":"68_82","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.57624631],[-77.50816962500001,37.57624631],[-77.50816962500001,37.57468374],[-77.5095175,37.57468374],[-77.5095175,37.57624631]]]},"properties":{"name":"5300-BLK PATTERSON AVE","total":7,"Mental":3,"Crime":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"73_82","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.57624631],[-77.50143025,37.57624631],[-77.50143025,37.57468374],[-77.502778125,37.57468374],[-77.502778125,37.57624631]]]},"properties":{"name":"5000-BLK W FRANKLIN ST","total":1,"Crime":1}}
 ,
@@ -5217,9 +5342,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"85_82","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.57624631],[-77.48525575000001,37.57624631],[-77.48525575000001,37.57468374],[-77.486603625,37.57468374],[-77.486603625,37.57624631]]]},"properties":{"name":"4300-BLK W BROAD ST","total":2,"Emergency":2}}
 ,
-{"type":"Feature","id":"86_82","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.57624631],[-77.483907875,37.57624631],[-77.483907875,37.57468374],[-77.48525575000001,37.57468374],[-77.48525575000001,37.57624631]]]},"properties":{"name":"4200-BLK W BROAD ST","total":11,"Emergency":5,"Crime":4,"Discretionary":2}}
+{"type":"Feature","id":"86_82","geometry":{"type":"Polygon","coordinates":[[[-77.48525575000001,37.57624631],[-77.483907875,37.57624631],[-77.483907875,37.57468374],[-77.48525575000001,37.57468374],[-77.48525575000001,37.57624631]]]},"properties":{"name":"4200-BLK W BROAD ST","total":13,"Crime":6,"Emergency":5,"Discretionary":2}}
 ,
-{"type":"Feature","id":"93_82","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.57624631],[-77.47447275,37.57624631],[-77.47447275,37.57468374],[-77.475820625,37.57468374],[-77.475820625,37.57624631]]]},"properties":{"name":"2100-BLK N HAMILTON ST","total":9,"Crime":7,"Traffic":2}}
+{"type":"Feature","id":"93_82","geometry":{"type":"Polygon","coordinates":[[[-77.475820625,37.57624631],[-77.47447275,37.57624631],[-77.47447275,37.57468374],[-77.475820625,37.57468374],[-77.475820625,37.57624631]]]},"properties":{"name":"2100-BLK N HAMILTON ST","total":11,"Crime":9,"Traffic":2}}
 ,
 {"type":"Feature","id":"102_82","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.57624631],[-77.462341875,37.57624631],[-77.462341875,37.57468374],[-77.46368975,37.57468374],[-77.46368975,37.57624631]]]},"properties":{"name":"3200-BLK N ARTHUR ASHE BLVD","total":28,"Crime":19,"Emergency":5,"Mental":4}}
 ,
@@ -5243,7 +5368,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"122_82","geometry":{"type":"Polygon","coordinates":[[[-77.43673225,37.57624631],[-77.435384375,37.57624631],[-77.435384375,37.57468374],[-77.43673225,37.57468374],[-77.43673225,37.57624631]]]},"properties":{"name":"3200-BLK FENDALL AVE","total":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"124_82","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57624631],[-77.432688625,37.57624631],[-77.432688625,37.57468374],[-77.4340365,37.57468374],[-77.4340365,37.57624631]]]},"properties":{"name":"3200-BLK NORTH AVE","total":5,"Crime":3,"Traffic":2}}
+{"type":"Feature","id":"124_82","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57624631],[-77.432688625,37.57624631],[-77.432688625,37.57468374],[-77.4340365,37.57468374],[-77.4340365,37.57624631]]]},"properties":{"name":"3200-BLK NORTH AVE","total":6,"Crime":4,"Traffic":2}}
 ,
 {"type":"Feature","id":"125_82","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.57624631],[-77.43134075,37.57624631],[-77.43134075,37.57468374],[-77.432688625,37.57468374],[-77.432688625,37.57624631]]]},"properties":{"name":"LL(-77:25:53.2622,37:34:33.4850): LAMB/WOODROW; 3200-BLK BARTON AVE","total":2,"Traffic":1,"Emergency":1}}
 ,
@@ -5253,9 +5378,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"129_82","geometry":{"type":"Polygon","coordinates":[[[-77.42729712500001,37.57624631],[-77.42594925,37.57624631],[-77.42594925,37.57468374],[-77.42729712500001,37.57468374],[-77.42729712500001,37.57624631]]]},"properties":{"name":"400-BLK E GLADSTONE AVE; 00-BLK E GLADSTONE AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"130_82","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.57624631],[-77.42460137500001,37.57624631],[-77.42460137500001,37.57468374],[-77.42594925,37.57468374],[-77.42594925,37.57624631]]]},"properties":{"name":"500-BLK BANCROFT AVE","total":2,"Traffic":2}}
+{"type":"Feature","id":"130_82","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.57624631],[-77.42460137500001,37.57624631],[-77.42460137500001,37.57468374],[-77.42594925,37.57468374],[-77.42594925,37.57624631]]]},"properties":{"name":"500-BLK BANCROFT AVE; 3200-BLK RICHMOND HENRICO TPKE","total":4,"Traffic":2,"Crime":2}}
 ,
-{"type":"Feature","id":"131_82","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.57624631],[-77.4232535,37.57624631],[-77.4232535,37.57468374],[-77.42460137500001,37.57468374],[-77.42460137500001,37.57624631]]]},"properties":{"name":"600-BLK E GLADSTONE AVE; 600-BLK BANCROFT AVE","total":14,"Crime":14}}
+{"type":"Feature","id":"131_82","geometry":{"type":"Polygon","coordinates":[[[-77.42460137500001,37.57624631],[-77.4232535,37.57624631],[-77.4232535,37.57468374],[-77.42460137500001,37.57468374],[-77.42460137500001,37.57624631]]]},"properties":{"name":"600-BLK E GLADSTONE AVE; 600-BLK BANCROFT AVE","total":17,"Crime":17}}
 ,
 {"type":"Feature","id":"132_82","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.57624631],[-77.42190562500001,37.57624631],[-77.42190562500001,37.57468374],[-77.4232535,37.57468374],[-77.4232535,37.57624631]]]},"properties":{"name":"700-BLK BANCROFT AVE; 700-BLK E GLADSTONE AVE; BANCROFT AVE/NAPOLEON ST RICH","total":24,"Crime":16,"Emergency":6,"Traffic":2}}
 ,
@@ -5265,11 +5390,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"135_82","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.57624631],[-77.417862,37.57624631],[-77.417862,37.57468374],[-77.419209875,37.57468374],[-77.419209875,37.57624631]]]},"properties":{"name":"3300-BLK CAROLINA AVE; 1000-BLK POLLOCK ST","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"136_82","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.57624631],[-77.416514125,37.57624631],[-77.416514125,37.57468374],[-77.417862,37.57468374],[-77.417862,37.57624631]]]},"properties":{"name":"3400-BLK ENSLOW AVE; 3300-BLK 1ST AVE; 1ST AVE/MILTON ST RICH; 2ND AVE/MILTON ST RICH","total":26,"Crime":14,"Emergency":6,"Traffic":4,"Discretionary":2}}
+{"type":"Feature","id":"136_82","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.57624631],[-77.416514125,37.57624631],[-77.416514125,37.57468374],[-77.417862,37.57468374],[-77.417862,37.57624631]]]},"properties":{"name":"3400-BLK ENSLOW AVE; 3300-BLK 1ST AVE; 1ST AVE/MILTON ST RICH; 2ND AVE/MILTON ST RICH","total":46,"Crime":31,"Emergency":9,"Traffic":4,"Discretionary":2}}
 ,
 {"type":"Feature","id":"137_82","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.57624631],[-77.41516625,37.57624631],[-77.41516625,37.57468374],[-77.416514125,37.57468374],[-77.416514125,37.57624631]]]},"properties":{"name":"3400-BLK 1ST AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"138_82","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.57624631],[-77.413818375,37.57624631],[-77.413818375,37.57468374],[-77.41516625,37.57468374],[-77.41516625,37.57624631]]]},"properties":{"name":"3400-BLK 2ND AVE","total":4,"Crime":4}}
+{"type":"Feature","id":"138_82","geometry":{"type":"Polygon","coordinates":[[[-77.41516625,37.57624631],[-77.413818375,37.57624631],[-77.413818375,37.57468374],[-77.41516625,37.57468374],[-77.41516625,37.57624631]]]},"properties":{"name":"3400-BLK 2ND AVE","total":5,"Crime":5}}
 ,
 {"type":"Feature","id":"139_82","geometry":{"type":"Polygon","coordinates":[[[-77.413818375,37.57624631],[-77.4124705,37.57624631],[-77.4124705,37.57468374],[-77.413818375,37.57468374],[-77.413818375,37.57624631]]]},"properties":{"name":"3500-BLK 2ND AVE","total":1,"Emergency":1}}
 ,
@@ -5293,15 +5418,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"82_83","geometry":{"type":"Polygon","coordinates":[[[-77.49064725000001,37.57780888],[-77.489299375,37.57780888],[-77.489299375,37.57624631],[-77.49064725000001,37.57624631],[-77.49064725000001,37.57780888]]]},"properties":{"name":"4600-BLK RADFORD AVE","total":2,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"84_83","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.57780888],[-77.486603625,37.57780888],[-77.486603625,37.57624631],[-77.48795150000001,37.57624631],[-77.48795150000001,37.57780888]]]},"properties":{"name":"3300-BLK W BROAD ST; 2200-BLK W BROAD ST; 2800-BLK W BROAD ST; 2600-BLK W BROAD ST; 2900-BLK W BROAD ST; 31000-BLK W BROAD ST; 4500-BLK W BROAD ST; 2000-BLK W BROAD ST; 0-BLK W BROAD ST; 00-BLK W BROAD ST; 3500-BLK W BROAD ST; 3400-BLK W BROAD ST; 22200-BLK W BROAD ST","total":160,"Crime":122,"Emergency":18,"Discretionary":11,"Traffic":6,"Mental":3}}
+{"type":"Feature","id":"84_83","geometry":{"type":"Polygon","coordinates":[[[-77.48795150000001,37.57780888],[-77.486603625,37.57780888],[-77.486603625,37.57624631],[-77.48795150000001,37.57624631],[-77.48795150000001,37.57780888]]]},"properties":{"name":"3300-BLK W BROAD ST; 2200-BLK W BROAD ST; 2800-BLK W BROAD ST; 2600-BLK W BROAD ST; 2900-BLK W BROAD ST; 31000-BLK W BROAD ST; 4500-BLK W BROAD ST; 2000-BLK W BROAD ST; 0-BLK W BROAD ST; 00-BLK W BROAD ST; 3500-BLK W BROAD ST; 3400-BLK W BROAD ST; 22200-BLK W BROAD ST","total":172,"Crime":125,"Emergency":20,"Discretionary":15,"Traffic":8,"Mental":4}}
 ,
 {"type":"Feature","id":"85_83","geometry":{"type":"Polygon","coordinates":[[[-77.486603625,37.57780888],[-77.48525575000001,37.57780888],[-77.48525575000001,37.57624631],[-77.486603625,37.57624631],[-77.486603625,37.57780888]]]},"properties":{"name":"4400-BLK W BROAD ST","total":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"102_83","geometry":{"type":"Polygon","coordinates":[[[-77.46368975,37.57780888],[-77.462341875,37.57780888],[-77.462341875,37.57624631],[-77.46368975,37.57624631],[-77.46368975,37.57780888]]]},"properties":{"name":"3300-BLK N ARTHURASHE","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"103_83","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.57780888],[-77.460994,37.57780888],[-77.460994,37.57624631],[-77.462341875,37.57624631],[-77.462341875,37.57780888]]]},"properties":{"name":"3300-BLK N ARTHUR ASHE BLVD; 2700-BLK N ARTHUR ASHE BLVD; @CLARION","total":8,"Crime":7,"Traffic":1}}
+{"type":"Feature","id":"103_83","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.57780888],[-77.460994,37.57780888],[-77.460994,37.57624631],[-77.462341875,37.57624631],[-77.462341875,37.57780888]]]},"properties":{"name":"3300-BLK N ARTHUR ASHE BLVD; 2700-BLK N ARTHUR ASHE BLVD; @CLARION","total":10,"Crime":7,"Traffic":3}}
 ,
-{"type":"Feature","id":"105_83","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.57780888],[-77.45829825,37.57780888],[-77.45829825,37.57624631],[-77.459646125,37.57624631],[-77.459646125,37.57780888]]]},"properties":{"name":"1600-BLK BROOKLAND PKWY; 3300-BLK CHATHAM RD","total":2,"Crime":1,"Emergency":1}}
+{"type":"Feature","id":"105_83","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.57780888],[-77.45829825,37.57780888],[-77.45829825,37.57624631],[-77.459646125,37.57624631],[-77.459646125,37.57780888]]]},"properties":{"name":"1600-BLK BROOKLAND PKWY; 3300-BLK CHATHAM RD","total":5,"Crime":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"121_83","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.57780888],[-77.43673225,37.57780888],[-77.43673225,37.57624631],[-77.438080125,37.57624631],[-77.438080125,37.57780888]]]},"properties":{"name":"W LADIES MILE RD/GRIFFIN AVE RICH; 3200-BLK GRIFFIN AVE","total":11,"Crime":6,"Emergency":3,"Traffic":2}}
 ,
@@ -5309,9 +5434,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"123_83","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.57780888],[-77.4340365,37.57780888],[-77.4340365,37.57624631],[-77.435384375,37.57624631],[-77.435384375,37.57780888]]]},"properties":{"name":"3300-BLK HANES AVE","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"124_83","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57780888],[-77.432688625,37.57780888],[-77.432688625,37.57624631],[-77.4340365,37.57624631],[-77.4340365,37.57780888]]]},"properties":{"name":"3300-BLK NORTH AVE; 3300-BLK GARLAND AVE","total":11,"Crime":5,"Emergency":4,"Traffic":2}}
+{"type":"Feature","id":"124_83","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57780888],[-77.432688625,37.57780888],[-77.432688625,37.57624631],[-77.4340365,37.57624631],[-77.4340365,37.57780888]]]},"properties":{"name":"3300-BLK NORTH AVE; 3300-BLK GARLAND AVE","total":13,"Crime":5,"Emergency":4,"Traffic":2,"Mental":2}}
 ,
-{"type":"Feature","id":"126_83","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.57780888],[-77.429992875,37.57780888],[-77.429992875,37.57624631],[-77.43134075,37.57624631],[-77.43134075,37.57780888]]]},"properties":{"name":"LAMB AVE/WOODROW AVE RICH; 3300-BLK WOODROW AVE","total":8,"Traffic":3,"Mental":3,"Emergency":2}}
+{"type":"Feature","id":"125_83","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.57780888],[-77.43134075,37.57780888],[-77.43134075,37.57624631],[-77.432688625,37.57624631],[-77.432688625,37.57780888]]]},"properties":{"name":"100-BLK E MEREDITH ST","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"126_83","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.57780888],[-77.429992875,37.57780888],[-77.429992875,37.57624631],[-77.43134075,37.57624631],[-77.43134075,37.57780888]]]},"properties":{"name":"LAMB AVE/WOODROW AVE RICH; 3300-BLK WOODROW AVE; E MEREDITH ST/LAMB AVE RICH","total":9,"Traffic":3,"Mental":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"128_83","geometry":{"type":"Polygon","coordinates":[[[-77.428645,37.57780888],[-77.42729712500001,37.57780888],[-77.42729712500001,37.57624631],[-77.428645,37.57624631],[-77.428645,37.57780888]]]},"properties":{"name":"300-BLK BANCROFT AVE; 400-BLK POLLOCK ST","total":4,"Emergency":4}}
 ,
@@ -5325,6 +5452,8 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"134_83","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.57780888],[-77.419209875,37.57780888],[-77.419209875,37.57624631],[-77.42055775,37.57624631],[-77.42055775,37.57780888]]]},"properties":{"name":"3400-BLK DELAWARE AVE","total":6,"Crime":6}}
 ,
+{"type":"Feature","id":"135_83","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.57780888],[-77.417862,37.57780888],[-77.417862,37.57624631],[-77.419209875,37.57624631],[-77.419209875,37.57780888]]]},"properties":{"name":"MILTON ST/MARYLAND AVE RICH","total":2,"Emergency":2}}
+,
 {"type":"Feature","id":"136_83","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.57780888],[-77.416514125,37.57780888],[-77.416514125,37.57624631],[-77.417862,37.57624631],[-77.417862,37.57780888]]]},"properties":{"name":"3500-BLK CAROLINA AVE; 2200-BLK CAROLINA AVE; 3400-BLK CAROLINA AVE","total":8,"Crime":5,"Discretionary":2,"Mental":1}}
 ,
 {"type":"Feature","id":"137_83","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.57780888],[-77.41516625,37.57780888],[-77.41516625,37.57624631],[-77.416514125,37.57624631],[-77.416514125,37.57780888]]]},"properties":{"name":"3500-BLK ENSLOW AVE","total":2,"Traffic":2}}
@@ -5335,7 +5464,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"46_84","geometry":{"type":"Polygon","coordinates":[[[-77.53917075,37.57937145],[-77.537822875,37.57937145],[-77.537822875,37.57780888],[-77.53917075,37.57780888],[-77.53917075,37.57937145]]]},"properties":{"name":"200-BLK RICHMOND WAY","total":17,"Emergency":17}}
 ,
-{"type":"Feature","id":"54_84","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.57937145],[-77.527039875,37.57937145],[-77.527039875,37.57780888],[-77.52838775000001,37.57780888],[-77.52838775000001,37.57937145]]]},"properties":{"name":"6400-BLK ROSELAWN RD; 00-BLK TOWANA RD; 0-BLK TOWANA RD","total":6,"Emergency":3,"Traffic":2,"Crime":1}}
+{"type":"Feature","id":"54_84","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.57937145],[-77.527039875,37.57937145],[-77.527039875,37.57780888],[-77.52838775000001,37.57780888],[-77.52838775000001,37.57937145]]]},"properties":{"name":"6400-BLK ROSELAWN RD; 00-BLK TOWANA RD; 0-BLK TOWANA RD","total":9,"Emergency":6,"Traffic":2,"Crime":1}}
 ,
 {"type":"Feature","id":"55_84","geometry":{"type":"Polygon","coordinates":[[[-77.527039875,37.57937145],[-77.525692,37.57937145],[-77.525692,37.57780888],[-77.527039875,37.57780888],[-77.527039875,37.57937145]]]},"properties":{"name":"100-BLK PEPPER AVE","total":2,"Crime":2}}
 ,
@@ -5345,11 +5474,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"64_84","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.57937145],[-77.51356112500001,37.57937145],[-77.51356112500001,37.57780888],[-77.514909,37.57780888],[-77.514909,37.57937145]]]},"properties":{"name":"PATTERSON AVE/LIBBIE AVE RICH; LIBBIE AVE/PATTERSON AVE RICH","total":2,"Emergency":1,"Traffic":1}}
 ,
-{"type":"Feature","id":"65_84","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.57937145],[-77.51221325,37.57937145],[-77.51221325,37.57780888],[-77.51356112500001,37.57780888],[-77.51356112500001,37.57937145]]]},"properties":{"name":"5700-BLK PATTERSON AVE","total":5,"Crime":4,"Traffic":1}}
+{"type":"Feature","id":"65_84","geometry":{"type":"Polygon","coordinates":[[[-77.51356112500001,37.57937145],[-77.51221325,37.57937145],[-77.51221325,37.57780888],[-77.51356112500001,37.57780888],[-77.51356112500001,37.57937145]]]},"properties":{"name":"5700-BLK PATTERSON AVE","total":7,"Crime":6,"Traffic":1}}
 ,
-{"type":"Feature","id":"66_84","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.57937145],[-77.51086537500001,37.57937145],[-77.51086537500001,37.57780888],[-77.51221325,37.57780888],[-77.51221325,37.57937145]]]},"properties":{"name":"5700-BLK PARK AVE; 5600-BLK PATTERSON AVE; 800-BLK GLENBURNIE RD; 900-BLK GLENBURNIE RD","total":16,"Crime":8,"Traffic":4,"Emergency":4}}
+{"type":"Feature","id":"66_84","geometry":{"type":"Polygon","coordinates":[[[-77.51221325,37.57937145],[-77.51086537500001,37.57937145],[-77.51086537500001,37.57780888],[-77.51221325,37.57780888],[-77.51221325,37.57937145]]]},"properties":{"name":"5700-BLK PARK AVE; 5600-BLK PATTERSON AVE; 800-BLK GLENBURNIE RD; 900-BLK GLENBURNIE RD","total":19,"Crime":10,"Emergency":5,"Traffic":4}}
 ,
-{"type":"Feature","id":"68_84","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.57937145],[-77.50816962500001,37.57937145],[-77.50816962500001,37.57780888],[-77.5095175,37.57780888],[-77.5095175,37.57937145]]]},"properties":{"name":"5400-BLK PARK AVE","total":1,"Emergency":1}}
+{"type":"Feature","id":"68_84","geometry":{"type":"Polygon","coordinates":[[[-77.5095175,37.57937145],[-77.50816962500001,37.57937145],[-77.50816962500001,37.57780888],[-77.5095175,37.57780888],[-77.5095175,37.57937145]]]},"properties":{"name":"5400-BLK PARK AVE","total":4,"Traffic":3,"Emergency":1}}
 ,
 {"type":"Feature","id":"73_84","geometry":{"type":"Polygon","coordinates":[[[-77.502778125,37.57937145],[-77.50143025,37.57937145],[-77.50143025,37.57780888],[-77.502778125,37.57780888],[-77.502778125,37.57937145]]]},"properties":{"name":"WILLOW LAWN DR/MONUMENT AVE HENR","total":2,"Traffic":2}}
 ,
@@ -5363,7 +5492,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"99_84","geometry":{"type":"Polygon","coordinates":[[[-77.46773337500001,37.57937145],[-77.4663855,37.57937145],[-77.4663855,37.57780888],[-77.46773337500001,37.57780888],[-77.46773337500001,37.57937145]]]},"properties":{"name":"2000-BLK WESTWOOD AVE; 2000-BLK SEDDON WAY","total":11,"Crime":10,"Emergency":1}}
 ,
-{"type":"Feature","id":"101_84","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.57937145],[-77.46368975,37.57937145],[-77.46368975,37.57780888],[-77.46503762500001,37.57780888],[-77.46503762500001,37.57937145]]]},"properties":{"name":"WESTWOOD AVE/CATALPA AVE RICH; OAKDALE AVE/CATALPA AVE RICH","total":6,"Traffic":4,"Crime":2}}
+{"type":"Feature","id":"101_84","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.57937145],[-77.46368975,37.57937145],[-77.46368975,37.57780888],[-77.46503762500001,37.57780888],[-77.46503762500001,37.57937145]]]},"properties":{"name":"WESTWOOD AVE/CATALPA AVE RICH; OAKDALE AVE/CATALPA AVE RICH; 1800-BLK WESTWOOD AVE","total":10,"Traffic":8,"Crime":2}}
 ,
 {"type":"Feature","id":"103_84","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.57937145],[-77.460994,37.57937145],[-77.460994,37.57780888],[-77.462341875,37.57780888],[-77.462341875,37.57937145]]]},"properties":{"name":"HERMITAGE RD/WESTWOOD AVE RICH; BROOKLAND PKWY/N ARTHUR ASHE BLVD RICH; BROOKLAND PKWY/HERMITAGE RD RICH; HERMITAGE RD/N ARTHUR ASHE BLVD RICH; 1700-BLK WESTWOOD AVE","total":15,"Crime":9,"Traffic":5,"Emergency":1}}
 ,
@@ -5391,7 +5520,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"123_84","geometry":{"type":"Polygon","coordinates":[[[-77.435384375,37.57937145],[-77.4340365,37.57937145],[-77.4340365,37.57780888],[-77.435384375,37.57780888],[-77.435384375,37.57937145]]]},"properties":{"name":"3500-BLK GARLAND AVE","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"124_84","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57937145],[-77.432688625,37.57937145],[-77.432688625,37.57780888],[-77.4340365,37.57780888],[-77.4340365,37.57937145]]]},"properties":{"name":"3400-BLK NORTH AVE; NORTH AVE/E LADIES MILE RD RICH","total":3,"Traffic":2,"Crime":1}}
+{"type":"Feature","id":"124_84","geometry":{"type":"Polygon","coordinates":[[[-77.4340365,37.57937145],[-77.432688625,37.57937145],[-77.432688625,37.57780888],[-77.4340365,37.57780888],[-77.4340365,37.57937145]]]},"properties":{"name":"3400-BLK NORTH AVE; NORTH AVE/E LADIES MILE RD RICH","total":5,"Crime":3,"Traffic":2}}
 ,
 {"type":"Feature","id":"127_84","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.57937145],[-77.428645,37.57937145],[-77.428645,37.57780888],[-77.429992875,37.57780888],[-77.429992875,37.57937145]]]},"properties":{"name":"CLIFF AVE/IVANHOE ST RICH; 3300-BLK CLIFF AVE","total":3,"Crime":3}}
 ,
@@ -5404,6 +5533,8 @@ var rvaData = {"type":"FeatureCollection","features":[
 {"type":"Feature","id":"133_84","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.57937145],[-77.42055775,37.57937145],[-77.42055775,37.57780888],[-77.42190562500001,37.57780888],[-77.42190562500001,37.57937145]]]},"properties":{"name":"3400-BLK MISSOURI AVE; 3400-BLK FLORIDA AVE","total":3,"Emergency":2,"Crime":1}}
 ,
 {"type":"Feature","id":"135_84","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.57937145],[-77.417862,37.57937145],[-77.417862,37.57780888],[-77.419209875,37.57780888],[-77.419209875,37.57937145]]]},"properties":{"name":"3500-BLK DELAWARE AVE; 3500-BLK MARYLAND AVE","total":5,"Mental":2,"Crime":2,"Emergency":1}}
+,
+{"type":"Feature","id":"136_84","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.57937145],[-77.416514125,37.57937145],[-77.416514125,37.57780888],[-77.417862,37.57780888],[-77.417862,37.57937145]]]},"properties":{"name":"MARYLAND AVE/HIGHLAND ST RICH","total":2,"Emergency":2}}
 ,
 {"type":"Feature","id":"137_84","geometry":{"type":"Polygon","coordinates":[[[-77.416514125,37.57937145],[-77.41516625,37.57937145],[-77.41516625,37.57780888],[-77.416514125,37.57780888],[-77.416514125,37.57937145]]]},"properties":{"name":"CAROLINA AVE/BYRON ST RICH; 3600-BLK CAROLINA AVE","total":3,"Traffic":2,"Crime":1}}
 ,
@@ -5427,9 +5558,9 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"100_85","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.58093402],[-77.46503762500001,37.58093402],[-77.46503762500001,37.57937145],[-77.4663855,37.57937145],[-77.4663855,37.58093402]]]},"properties":{"name":"1900-BLK ELMSMERE AVE","total":6,"Crime":6}}
 ,
-{"type":"Feature","id":"103_85","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.58093402],[-77.460994,37.58093402],[-77.460994,37.57937145],[-77.462341875,37.57937145],[-77.462341875,37.58093402]]]},"properties":{"name":"1200-BLK HERMITAGE RD; 4300-BLK HERMITAGE RD; 1700-BLK ELMSMERE AVE","total":32,"Crime":26,"Emergency":4,"Discretionary":2}}
+{"type":"Feature","id":"103_85","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.58093402],[-77.460994,37.58093402],[-77.460994,37.57937145],[-77.462341875,37.57937145],[-77.462341875,37.58093402]]]},"properties":{"name":"1200-BLK HERMITAGE RD; 4300-BLK HERMITAGE RD; 1700-BLK ELMSMERE AVE","total":33,"Crime":27,"Emergency":4,"Discretionary":2}}
 ,
-{"type":"Feature","id":"107_85","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.58093402],[-77.4556025,37.58093402],[-77.4556025,37.57937145],[-77.456950375,37.57937145],[-77.456950375,37.58093402]]]},"properties":{"name":"1500-BLK PALMYRA AVE","total":1,"Traffic":1}}
+{"type":"Feature","id":"107_85","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.58093402],[-77.4556025,37.58093402],[-77.4556025,37.57937145],[-77.456950375,37.57937145],[-77.456950375,37.58093402]]]},"properties":{"name":"1500-BLK PALMYRA AVE; PALMYRA AVE/GLOUCESTER RD RICH","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"111_85","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.58093402],[-77.450211,37.58093402],[-77.450211,37.57937145],[-77.451558875,37.57937145],[-77.451558875,37.58093402]]]},"properties":{"name":"1200-BLK PALMYRA AVE","total":2,"Crime":2}}
 ,
@@ -5441,7 +5572,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"121_85","geometry":{"type":"Polygon","coordinates":[[[-77.438080125,37.58093402],[-77.43673225,37.58093402],[-77.43673225,37.57937145],[-77.438080125,37.57937145],[-77.438080125,37.58093402]]]},"properties":{"name":"3500-BLK GRIFFIN AVE","total":7,"Crime":5,"Mental":2}}
 ,
-{"type":"Feature","id":"125_85","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.58093402],[-77.43134075,37.58093402],[-77.43134075,37.57937145],[-77.432688625,37.57937145],[-77.432688625,37.58093402]]]},"properties":{"name":"3400-BLK CLIFF AVE","total":1,"Emergency":1}}
+{"type":"Feature","id":"125_85","geometry":{"type":"Polygon","coordinates":[[[-77.432688625,37.58093402],[-77.43134075,37.58093402],[-77.43134075,37.57937145],[-77.432688625,37.57937145],[-77.432688625,37.58093402]]]},"properties":{"name":"3400-BLK CLIFF AVE; E LADIES MILE RD/CLIFF AVE RICH","total":2,"Emergency":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"126_85","geometry":{"type":"Polygon","coordinates":[[[-77.43134075,37.58093402],[-77.429992875,37.58093402],[-77.429992875,37.57937145],[-77.43134075,37.57937145],[-77.43134075,37.58093402]]]},"properties":{"name":"200-BLK E LADIES MILE RD; E LADIES MILE RD/JETER AVE RICH; 100-BLK E LADIES MILE RD","total":17,"Crime":6,"Emergency":5,"Mental":5,"Traffic":1}}
 ,
@@ -5449,13 +5580,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"130_85","geometry":{"type":"Polygon","coordinates":[[[-77.42594925,37.58093402],[-77.42460137500001,37.58093402],[-77.42460137500001,37.57937145],[-77.42594925,37.57937145],[-77.42594925,37.58093402]]]},"properties":{"name":"500-BLK PATRICK AVE","total":10,"Crime":10}}
 ,
-{"type":"Feature","id":"132_85","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.58093402],[-77.42190562500001,37.58093402],[-77.42190562500001,37.57937145],[-77.4232535,37.57937145],[-77.4232535,37.58093402]]]},"properties":{"name":"3500-BLK PATRICK AVE; 3500-BLK MEADOW BRIDGE RD","total":3,"Crime":3}}
+{"type":"Feature","id":"132_85","geometry":{"type":"Polygon","coordinates":[[[-77.4232535,37.58093402],[-77.42190562500001,37.58093402],[-77.42190562500001,37.57937145],[-77.4232535,37.57937145],[-77.4232535,37.58093402]]]},"properties":{"name":"3500-BLK PATRICK AVE; 3500-BLK MEADOW BRIDGE RD","total":5,"Crime":3,"Emergency":2}}
 ,
 {"type":"Feature","id":"133_85","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.58093402],[-77.42055775,37.58093402],[-77.42055775,37.57937145],[-77.42190562500001,37.57937145],[-77.42190562500001,37.58093402]]]},"properties":{"name":"3500-BLK MISSOURI AVE","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"134_85","geometry":{"type":"Polygon","coordinates":[[[-77.42055775,37.58093402],[-77.419209875,37.58093402],[-77.419209875,37.57937145],[-77.42055775,37.57937145],[-77.42055775,37.58093402]]]},"properties":{"name":"3500-BLK FLA","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"135_85","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.58093402],[-77.417862,37.58093402],[-77.417862,37.57937145],[-77.419209875,37.57937145],[-77.419209875,37.58093402]]]},"properties":{"name":"3600-BLK DELAWARE AVE","total":9,"Crime":7,"Emergency":2}}
+{"type":"Feature","id":"135_85","geometry":{"type":"Polygon","coordinates":[[[-77.419209875,37.58093402],[-77.417862,37.58093402],[-77.417862,37.57937145],[-77.419209875,37.57937145],[-77.419209875,37.58093402]]]},"properties":{"name":"3600-BLK DELAWARE AVE; BYRON ST/FLORIDA AVE RICH","total":11,"Crime":7,"Emergency":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"136_85","geometry":{"type":"Polygon","coordinates":[[[-77.417862,37.58093402],[-77.416514125,37.58093402],[-77.416514125,37.57937145],[-77.417862,37.57937145],[-77.417862,37.58093402]]]},"properties":{"name":"3600-BLK MARYLAND AVE","total":5,"Traffic":3,"Crime":2}}
 ,
@@ -5467,15 +5598,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"59_86","geometry":{"type":"Polygon","coordinates":[[[-77.521648375,37.58249659],[-77.5203005,37.58249659],[-77.5203005,37.58093402],[-77.521648375,37.58093402],[-77.521648375,37.58249659]]]},"properties":{"name":"800-BLK HENRI RD; 800-BLK ST CHRISTOPHERS RD","total":3,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"61_86","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.58249659],[-77.51760475,37.58249659],[-77.51760475,37.58093402],[-77.518952625,37.58093402],[-77.518952625,37.58249659]]]},"properties":{"name":"900-BLK ALGOMA ST","total":2,"Traffic":2}}
+{"type":"Feature","id":"61_86","geometry":{"type":"Polygon","coordinates":[[[-77.518952625,37.58249659],[-77.51760475,37.58249659],[-77.51760475,37.58093402],[-77.518952625,37.58093402],[-77.518952625,37.58249659]]]},"properties":{"name":"900-BLK ALGOMA ST; PATTERSON AVE/ALGOMA ST RICH","total":3,"Traffic":2,"Mental":1}}
 ,
 {"type":"Feature","id":"62_86","geometry":{"type":"Polygon","coordinates":[[[-77.51760475,37.58249659],[-77.516256875,37.58249659],[-77.516256875,37.58093402],[-77.51760475,37.58093402],[-77.51760475,37.58249659]]]},"properties":{"name":"5900-BLK PATTERSON AVE; 900-BLK MAPLE AVE; 6000-BLK PATTERSON AVE; 900-BLK SABOT ST","total":53,"Traffic":50,"Crime":3}}
 ,
 {"type":"Feature","id":"64_86","geometry":{"type":"Polygon","coordinates":[[[-77.514909,37.58249659],[-77.51356112500001,37.58249659],[-77.51356112500001,37.58093402],[-77.514909,37.58093402],[-77.514909,37.58249659]]]},"properties":{"name":"5800-BLK PARK AVE","total":3,"Emergency":3}}
 ,
-{"type":"Feature","id":"79_86","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.58249659],[-77.49334300000001,37.58249659],[-77.49334300000001,37.58093402],[-77.494690875,37.58093402],[-77.494690875,37.58249659]]]},"properties":{"name":"4900-BLK W BROAD ST","total":9,"Crime":5,"Emergency":2,"Mental":2}}
+{"type":"Feature","id":"79_86","geometry":{"type":"Polygon","coordinates":[[[-77.494690875,37.58249659],[-77.49334300000001,37.58249659],[-77.49334300000001,37.58093402],[-77.494690875,37.58093402],[-77.494690875,37.58249659]]]},"properties":{"name":"4900-BLK W BROAD ST; 8500-BLK STAPLES MILL RD","total":12,"Crime":5,"Discretionary":3,"Emergency":2,"Mental":2}}
 ,
-{"type":"Feature","id":"80_86","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.58249659],[-77.491995125,37.58249659],[-77.491995125,37.58093402],[-77.49334300000001,37.58093402],[-77.49334300000001,37.58249659]]]},"properties":{"name":"STAPLES MILL RD/W BROAD ST RICH; W BROAD ST/STAPLES MILL RD RICH","total":26,"Crime":15,"Traffic":10,"Emergency":1}}
+{"type":"Feature","id":"80_86","geometry":{"type":"Polygon","coordinates":[[[-77.49334300000001,37.58249659],[-77.491995125,37.58249659],[-77.491995125,37.58093402],[-77.49334300000001,37.58093402],[-77.49334300000001,37.58249659]]]},"properties":{"name":"STAPLES MILL RD/W BROAD ST RICH; W BROAD ST/STAPLES MILL RD RICH","total":30,"Crime":17,"Traffic":10,"Mental":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"96_86","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.58249659],[-77.47042912500001,37.58249659],[-77.47042912500001,37.58093402],[-77.471777,37.58093402],[-77.471777,37.58249659]]]},"properties":{"name":"3607-3600-BLK SAUNDERS AVE","total":2,"Crime":2}}
 ,
@@ -5483,7 +5614,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"111_86","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.58249659],[-77.450211,37.58249659],[-77.450211,37.58093402],[-77.451558875,37.58093402],[-77.451558875,37.58249659]]]},"properties":{"name":"3600-BLK BROOK RD; 1200-BLK BROOK RD","total":7,"Traffic":5,"Emergency":1,"Crime":1}}
 ,
-{"type":"Feature","id":"114_86","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.58249659],[-77.446167375,37.58249659],[-77.446167375,37.58093402],[-77.44751525000001,37.58093402],[-77.44751525000001,37.58249659]]]},"properties":{"name":"3600-BLK CHAMBERLAYNE AVE; CHAMBERLAYNE AVE/WALTON AVE RICH; WALTON AVE/CHAMBERLAYNE AVE RICH","total":44,"Crime":30,"Emergency":7,"Traffic":4,"Mental":3}}
+{"type":"Feature","id":"114_86","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.58249659],[-77.446167375,37.58249659],[-77.446167375,37.58093402],[-77.44751525000001,37.58093402],[-77.44751525000001,37.58249659]]]},"properties":{"name":"3600-BLK CHAMBERLAYNE AVE; CHAMBERLAYNE AVE/WALTON AVE RICH; WALTON AVE/CHAMBERLAYNE AVE RICH","total":46,"Crime":32,"Emergency":7,"Traffic":4,"Mental":3}}
 ,
 {"type":"Feature","id":"116_86","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.58249659],[-77.443471625,37.58249659],[-77.443471625,37.58093402],[-77.44481950000001,37.58093402],[-77.44481950000001,37.58249659]]]},"properties":{"name":"WALTON AVE/HAWTHORNE AVE RICH","total":1,"Crime":1}}
 ,
@@ -5507,7 +5638,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"133_86","geometry":{"type":"Polygon","coordinates":[[[-77.42190562500001,37.58249659],[-77.42055775,37.58249659],[-77.42055775,37.58093402],[-77.42190562500001,37.58093402],[-77.42190562500001,37.58249659]]]},"properties":{"name":"700-BLK PENSACOLA AVE","total":4,"Crime":4}}
 ,
-{"type":"Feature","id":"51_87","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.584059159999995],[-77.53108350000001,37.584059159999995],[-77.53108350000001,37.58249659],[-77.532431375,37.58249659],[-77.532431375,37.584059159999995]]]},"properties":{"name":"THREE CHOPT RD/BOATWRIGHT DR RICH","total":1,"Traffic":1}}
+{"type":"Feature","id":"51_87","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.584059159999995],[-77.53108350000001,37.584059159999995],[-77.53108350000001,37.58249659],[-77.532431375,37.58249659],[-77.532431375,37.584059159999995]]]},"properties":{"name":"THREE CHOPT RD/BOATWRIGHT DR RICH; BOATWRIGHT DR/THREE CHOPT RD RICH","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"55_87","geometry":{"type":"Polygon","coordinates":[[[-77.527039875,37.584059159999995],[-77.525692,37.584059159999995],[-77.525692,37.58249659],[-77.527039875,37.58249659],[-77.527039875,37.584059159999995]]]},"properties":{"name":"6500-BLK HANOVER AVE","total":6,"Emergency":4,"Crime":2}}
 ,
@@ -5530,6 +5661,8 @@ var rvaData = {"type":"FeatureCollection","features":[
 {"type":"Feature","id":"103_87","geometry":{"type":"Polygon","coordinates":[[[-77.462341875,37.584059159999995],[-77.460994,37.584059159999995],[-77.460994,37.58249659],[-77.462341875,37.58249659],[-77.462341875,37.584059159999995]]]},"properties":{"name":"WILMINGTON AVE/HERMITAGE RD RICH; HERMITAGE RD/WILMINGTON AVE RICH","total":3,"Traffic":2,"Crime":1}}
 ,
 {"type":"Feature","id":"104_87","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.584059159999995],[-77.459646125,37.584059159999995],[-77.459646125,37.58249659],[-77.460994,37.58249659],[-77.460994,37.584059159999995]]]},"properties":{"name":"LL(-77:27:37.1881,37:34:58.6667): EST 1636 WILMINGTON AVE RICH","total":3,"Crime":3}}
+,
+{"type":"Feature","id":"105_87","geometry":{"type":"Polygon","coordinates":[[[-77.459646125,37.584059159999995],[-77.45829825,37.584059159999995],[-77.45829825,37.58249659],[-77.459646125,37.58249659],[-77.459646125,37.584059159999995]]]},"properties":{"name":"1600-BLK WILMINGTON AVE","total":2,"Crime":2}}
 ,
 {"type":"Feature","id":"113_87","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.584059159999995],[-77.44751525000001,37.584059159999995],[-77.44751525000001,37.58249659],[-77.448863125,37.58249659],[-77.448863125,37.584059159999995]]]},"properties":{"name":"LL(-77:26:53.3869,37:35:02.1803): EST 1045 W LABURNUM AVE RICH","total":1,"Crime":1}}
 ,
@@ -5567,33 +5700,37 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"104_88","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.58562173],[-77.459646125,37.58562173],[-77.459646125,37.584059159999995],[-77.460994,37.584059159999995],[-77.460994,37.58562173]]]},"properties":{"name":"MONTICELLO ST/W LABURNUM AVE RICH","total":2,"Traffic":2}}
 ,
-{"type":"Feature","id":"107_88","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.58562173],[-77.4556025,37.58562173],[-77.4556025,37.584059159999995],[-77.456950375,37.584059159999995],[-77.456950375,37.58562173]]]},"properties":{"name":"RICH: @I195 NB BETWEEN N HAMILTON ST &amp; W LABURNUM AVE; 1400-BLK AVONDALE AVE; NEWPORT DR/AVONDALE AVE RICH; 1400-BLK W LABURNUM AVE","total":9,"Traffic":4,"Crime":4,"Emergency":1}}
+{"type":"Feature","id":"106_88","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.58562173],[-77.456950375,37.58562173],[-77.456950375,37.584059159999995],[-77.45829825,37.584059159999995],[-77.45829825,37.58562173]]]},"properties":{"name":"1500-BLK AVONDALE AVE","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"107_88","geometry":{"type":"Polygon","coordinates":[[[-77.456950375,37.58562173],[-77.4556025,37.58562173],[-77.4556025,37.584059159999995],[-77.456950375,37.584059159999995],[-77.456950375,37.58562173]]]},"properties":{"name":"RICH: @I195 NB BETWEEN N HAMILTON ST &amp; W LABURNUM AVE; 1400-BLK AVONDALE AVE; NEWPORT DR/AVONDALE AVE RICH; 1400-BLK W LABURNUM AVE","total":11,"Crime":5,"Traffic":4,"Emergency":1,"Mental":1}}
 ,
 {"type":"Feature","id":"109_88","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.58562173],[-77.45290675,37.58562173],[-77.45290675,37.584059159999995],[-77.454254625,37.584059159999995],[-77.454254625,37.58562173]]]},"properties":{"name":"1300-BLK AVONDALE AVE; W LABURNUM AVE/LAMONT ST RICH","total":7,"Crime":3,"Traffic":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"110_88","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.58562173],[-77.451558875,37.58562173],[-77.451558875,37.584059159999995],[-77.45290675,37.584059159999995],[-77.45290675,37.58562173]]]},"properties":{"name":"3800-BLK BROOK RD","total":7,"Crime":4,"Emergency":3}}
+{"type":"Feature","id":"110_88","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.58562173],[-77.451558875,37.58562173],[-77.451558875,37.584059159999995],[-77.45290675,37.584059159999995],[-77.45290675,37.58562173]]]},"properties":{"name":"3800-BLK BROOK RD","total":8,"Crime":5,"Emergency":3}}
 ,
 {"type":"Feature","id":"111_88","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.58562173],[-77.450211,37.58562173],[-77.450211,37.584059159999995],[-77.451558875,37.584059159999995],[-77.451558875,37.58562173]]]},"properties":{"name":"BROOK RD/W LABURNUM AVE RICH; FAUQUIER AVE/BROOK RD RICH","total":8,"Traffic":4,"Mental":2,"Crime":1,"Emergency":1}}
 ,
 {"type":"Feature","id":"112_88","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.58562173],[-77.448863125,37.58562173],[-77.448863125,37.584059159999995],[-77.450211,37.584059159999995],[-77.450211,37.58562173]]]},"properties":{"name":"3800-BLK SEMINARY AVE","total":3,"Traffic":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"113_88","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.58562173],[-77.44751525000001,37.58562173],[-77.44751525000001,37.584059159999995],[-77.448863125,37.584059159999995],[-77.448863125,37.58562173]]]},"properties":{"name":"3800-BLK CHAMBERLAYNE AVE","total":37,"Crime":23,"Emergency":14}}
+{"type":"Feature","id":"113_88","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.58562173],[-77.44751525000001,37.58562173],[-77.44751525000001,37.584059159999995],[-77.448863125,37.584059159999995],[-77.448863125,37.58562173]]]},"properties":{"name":"3800-BLK CHAMBERLAYNE AVE","total":44,"Crime":24,"Emergency":14,"Traffic":4,"Mental":2}}
 ,
 {"type":"Feature","id":"114_88","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.58562173],[-77.446167375,37.58562173],[-77.446167375,37.584059159999995],[-77.44751525000001,37.584059159999995],[-77.44751525000001,37.58562173]]]},"properties":{"name":"CHAMBERLAYNE AVE/W LABURNUM AVE RICH; W LABURNUM AVE/CHAMBERLAYNE AVE RICH","total":9,"Traffic":2,"Crime":2,"Emergency":2,"Discretionary":2,"Mental":1}}
 ,
 {"type":"Feature","id":"115_88","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.58562173],[-77.44481950000001,37.58562173],[-77.44481950000001,37.584059159999995],[-77.446167375,37.584059159999995],[-77.446167375,37.58562173]]]},"properties":{"name":"3800-BLK HAWTHORNE AVE","total":3,"Crime":3}}
 ,
-{"type":"Feature","id":"116_88","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.58562173],[-77.443471625,37.58562173],[-77.443471625,37.584059159999995],[-77.44481950000001,37.584059159999995],[-77.44481950000001,37.58562173]]]},"properties":{"name":"3800-BLK NOBLE AVE","total":3,"Emergency":3}}
+{"type":"Feature","id":"116_88","geometry":{"type":"Polygon","coordinates":[[[-77.44481950000001,37.58562173],[-77.443471625,37.58562173],[-77.443471625,37.584059159999995],[-77.44481950000001,37.584059159999995],[-77.44481950000001,37.58562173]]]},"properties":{"name":"3800-BLK NOBLE AVE","total":5,"Emergency":3,"Crime":2}}
 ,
 {"type":"Feature","id":"117_88","geometry":{"type":"Polygon","coordinates":[[[-77.443471625,37.58562173],[-77.44212375000001,37.58562173],[-77.44212375000001,37.584059159999995],[-77.443471625,37.584059159999995],[-77.443471625,37.58562173]]]},"properties":{"name":"600-BLK W LABURNUM AVE; 2000-BLK W LABURNUM AVE; W LABURNUM AVE/NOBLE AVE RICH; 1900-BLK W LABURNUM AVE","total":8,"Crime":4,"Traffic":3,"Emergency":1}}
 ,
-{"type":"Feature","id":"118_88","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.58562173],[-77.440775875,37.58562173],[-77.440775875,37.584059159999995],[-77.44212375000001,37.584059159999995],[-77.44212375000001,37.58562173]]]},"properties":{"name":"W LABURNUM AVE/MOSS SIDE AVE RICH","total":2,"Traffic":2}}
+{"type":"Feature","id":"118_88","geometry":{"type":"Polygon","coordinates":[[[-77.44212375000001,37.58562173],[-77.440775875,37.58562173],[-77.440775875,37.584059159999995],[-77.44212375000001,37.584059159999995],[-77.44212375000001,37.58562173]]]},"properties":{"name":"W LABURNUM AVE/MOSS SIDE AVE RICH; 3800-BLK MONTROSE AVE","total":4,"Traffic":2,"Crime":2}}
 ,
 {"type":"Feature","id":"119_88","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.58562173],[-77.439428,37.58562173],[-77.439428,37.584059159999995],[-77.440775875,37.584059159999995],[-77.440775875,37.58562173]]]},"properties":{"name":"4100-BLK NORTH AVE; W LABURNUM AVE/MONTROSE AVE RICH","total":20,"Crime":9,"Traffic":6,"Mental":4,"Emergency":1}}
 ,
-{"type":"Feature","id":"120_88","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.58562173],[-77.438080125,37.58562173],[-77.438080125,37.584059159999995],[-77.439428,37.584059159999995],[-77.439428,37.58562173]]]},"properties":{"name":"W LABURNUM AVE/NORTH AVE RICH; 4000-BLK NORTH AVE; NORTH AVE/W LABURNUM AVE RICH","total":24,"Crime":9,"Traffic":7,"Emergency":6,"Mental":2}}
+{"type":"Feature","id":"120_88","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.58562173],[-77.438080125,37.58562173],[-77.438080125,37.584059159999995],[-77.439428,37.584059159999995],[-77.439428,37.58562173]]]},"properties":{"name":"W LABURNUM AVE/NORTH AVE RICH; 4000-BLK NORTH AVE; NORTH AVE/W LABURNUM AVE RICH","total":25,"Crime":9,"Traffic":7,"Emergency":7,"Mental":2}}
 ,
 {"type":"Feature","id":"127_88","geometry":{"type":"Polygon","coordinates":[[[-77.429992875,37.58562173],[-77.428645,37.58562173],[-77.428645,37.584059159999995],[-77.429992875,37.584059159999995],[-77.429992875,37.58562173]]]},"properties":{"name":"E LABURNUM AVE/DELMONT ST HENR","total":3,"Emergency":3}}
+,
+{"type":"Feature","id":"54_89","geometry":{"type":"Polygon","coordinates":[[[-77.52838775000001,37.5871843],[-77.527039875,37.5871843],[-77.527039875,37.58562173],[-77.52838775000001,37.58562173],[-77.52838775000001,37.5871843]]]},"properties":{"name":"6700-BLK STUART AVE","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"104_89","geometry":{"type":"Polygon","coordinates":[[[-77.460994,37.5871843],[-77.459646125,37.5871843],[-77.459646125,37.58562173],[-77.460994,37.58562173],[-77.460994,37.5871843]]]},"properties":{"name":"MONTICELLO ST/CLAREMONT AVE RICH","total":1,"Traffic":1}}
 ,
@@ -5617,13 +5754,15 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"110_90","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.58874687],[-77.451558875,37.58874687],[-77.451558875,37.5871843],[-77.45290675,37.5871843],[-77.45290675,37.58874687]]]},"properties":{"name":"BROOK RD/CLAREMONT AVE RICH","total":2,"Crime":1,"Emergency":1}}
 ,
-{"type":"Feature","id":"113_90","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.58874687],[-77.44751525000001,37.58874687],[-77.44751525000001,37.5871843],[-77.448863125,37.5871843],[-77.448863125,37.58874687]]]},"properties":{"name":"3900-BLK CHAMBERLAYNE AVE; CHAMBERLAYNE AVE/NORTH AVE RICH; NORTH AVE/CHAMBERLAYNE AVE RICH; CHAMBERLAYNE AVE/CLAREMONT AVE RICH; 4400-BLK NORTH AVE","total":80,"Crime":42,"Emergency":21,"Mental":13,"Traffic":4}}
+{"type":"Feature","id":"113_90","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.58874687],[-77.44751525000001,37.58874687],[-77.44751525000001,37.5871843],[-77.448863125,37.5871843],[-77.448863125,37.58874687]]]},"properties":{"name":"3900-BLK CHAMBERLAYNE AVE; CHAMBERLAYNE AVE/NORTH AVE RICH; NORTH AVE/CHAMBERLAYNE AVE RICH; CHAMBERLAYNE AVE/CLAREMONT AVE RICH; 4400-BLK NORTH AVE","total":86,"Crime":47,"Emergency":22,"Mental":13,"Traffic":4}}
 ,
-{"type":"Feature","id":"114_90","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.58874687],[-77.446167375,37.58874687],[-77.446167375,37.5871843],[-77.44751525000001,37.5871843],[-77.44751525000001,37.58874687]]]},"properties":{"name":"3900-BLK OLD BROOK CIR","total":1,"Emergency":1}}
+{"type":"Feature","id":"114_90","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.58874687],[-77.446167375,37.58874687],[-77.446167375,37.5871843],[-77.44751525000001,37.5871843],[-77.44751525000001,37.58874687]]]},"properties":{"name":"3900-BLK OLD BROOK CIR; 3900-BLK OLD BROOK RD","total":2,"Emergency":1,"Crime":1}}
 ,
 {"type":"Feature","id":"115_90","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.58874687],[-77.44481950000001,37.58874687],[-77.44481950000001,37.5871843],[-77.446167375,37.5871843],[-77.446167375,37.58874687]]]},"properties":{"name":"3900-BLK PINEY RD","total":3,"Traffic":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"119_90","geometry":{"type":"Polygon","coordinates":[[[-77.440775875,37.58874687],[-77.439428,37.58874687],[-77.439428,37.5871843],[-77.440775875,37.5871843],[-77.440775875,37.58874687]]]},"properties":{"name":"600-BLK REX AVE","total":1,"Crime":1}}
+,
+{"type":"Feature","id":"50_91","geometry":{"type":"Polygon","coordinates":[[[-77.53377925000001,37.59030944],[-77.532431375,37.59030944],[-77.532431375,37.58874687],[-77.53377925000001,37.58874687],[-77.53377925000001,37.59030944]]]},"properties":{"name":"RICH: @I195 NB BETWEEN W LABURNUM AVE &amp; CITY LIMITS","total":2,"Traffic":2}}
 ,
 {"type":"Feature","id":"51_91","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.59030944],[-77.53108350000001,37.59030944],[-77.53108350000001,37.58874687],[-77.532431375,37.58874687],[-77.532431375,37.59030944]]]},"properties":{"name":"7000-BLK THREE CHOPT RD; 6900-BLK EVERVIEW RD; THREE CHOPT RD/KENSINGTON AVE RICH","total":16,"Traffic":6,"Crime":6,"Discretionary":2,"Mental":2}}
 ,
@@ -5633,7 +5772,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"109_91","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.59030944],[-77.45290675,37.59030944],[-77.45290675,37.58874687],[-77.454254625,37.58874687],[-77.454254625,37.59030944]]]},"properties":{"name":"1300-BLK AMHERST AVE","total":1,"Crime":1}}
 ,
-{"type":"Feature","id":"110_91","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.59030944],[-77.451558875,37.59030944],[-77.451558875,37.58874687],[-77.45290675,37.58874687],[-77.45290675,37.59030944]]]},"properties":{"name":"1200-BLK AMHERST AVE; 4100-BLK BROOK RD","total":3,"Crime":3}}
+{"type":"Feature","id":"110_91","geometry":{"type":"Polygon","coordinates":[[[-77.45290675,37.59030944],[-77.451558875,37.59030944],[-77.451558875,37.58874687],[-77.45290675,37.58874687],[-77.45290675,37.59030944]]]},"properties":{"name":"1200-BLK AMHERST AVE; 4100-BLK BROOK RD","total":8,"Crime":8}}
 ,
 {"type":"Feature","id":"114_91","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.59030944],[-77.446167375,37.59030944],[-77.446167375,37.58874687],[-77.44751525000001,37.58874687],[-77.44751525000001,37.59030944]]]},"properties":{"name":"4000-BLK OLD BROOK RD","total":34,"Crime":26,"Emergency":5,"Discretionary":2,"Traffic":1}}
 ,
@@ -5645,11 +5784,11 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"120_91","geometry":{"type":"Polygon","coordinates":[[[-77.439428,37.59030944],[-77.438080125,37.59030944],[-77.438080125,37.58874687],[-77.439428,37.58874687],[-77.439428,37.59030944]]]},"properties":{"name":"500-BLK LINCOLN AVE","total":3,"Crime":2,"Traffic":1}}
 ,
-{"type":"Feature","id":"51_92","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.591872009999996],[-77.53108350000001,37.591872009999996],[-77.53108350000001,37.59030944],[-77.532431375,37.59030944],[-77.532431375,37.591872009999996]]]},"properties":{"name":"PATTERSON AVE/THREE CHOPT RD RICH; THREE CHOPT RD/PATTERSON AVE RICH; 7100-BLK THREE CHOPT RD","total":14,"Crime":10,"Mental":2,"Traffic":2}}
+{"type":"Feature","id":"51_92","geometry":{"type":"Polygon","coordinates":[[[-77.532431375,37.591872009999996],[-77.53108350000001,37.591872009999996],[-77.53108350000001,37.59030944],[-77.532431375,37.59030944],[-77.532431375,37.591872009999996]]]},"properties":{"name":"PATTERSON AVE/THREE CHOPT RD RICH; THREE CHOPT RD/PATTERSON AVE RICH; 7100-BLK THREE CHOPT RD","total":18,"Crime":11,"Traffic":4,"Mental":2,"Emergency":1}}
 ,
-{"type":"Feature","id":"101_92","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.591872009999996],[-77.46368975,37.591872009999996],[-77.46368975,37.59030944],[-77.46503762500001,37.59030944],[-77.46503762500001,37.591872009999996]]]},"properties":{"name":"1700-BLK BELLEVUE AVE; BELLEVUE AVE/HERMITAGE RD RICH; 4100-BLK HERMITAGE RD","total":97,"Emergency":64,"Crime":21,"Mental":10,"Traffic":2}}
+{"type":"Feature","id":"101_92","geometry":{"type":"Polygon","coordinates":[[[-77.46503762500001,37.591872009999996],[-77.46368975,37.591872009999996],[-77.46368975,37.59030944],[-77.46503762500001,37.59030944],[-77.46503762500001,37.591872009999996]]]},"properties":{"name":"1700-BLK BELLEVUE AVE; BELLEVUE AVE/HERMITAGE RD RICH; 4100-BLK HERMITAGE RD","total":108,"Emergency":71,"Crime":23,"Mental":12,"Traffic":2}}
 ,
-{"type":"Feature","id":"106_92","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.591872009999996],[-77.456950375,37.591872009999996],[-77.456950375,37.59030944],[-77.45829825,37.59030944],[-77.45829825,37.591872009999996]]]},"properties":{"name":"4200-BLK FAUQUIER AVE","total":1,"Emergency":1}}
+{"type":"Feature","id":"106_92","geometry":{"type":"Polygon","coordinates":[[[-77.45829825,37.591872009999996],[-77.456950375,37.591872009999996],[-77.456950375,37.59030944],[-77.45829825,37.59030944],[-77.45829825,37.591872009999996]]]},"properties":{"name":"4200-BLK FAUQUIER AVE; 1500-BLK BELLEVUE AVE","total":2,"Emergency":1,"Crime":1}}
 ,
 {"type":"Feature","id":"109_92","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.591872009999996],[-77.45290675,37.591872009999996],[-77.45290675,37.59030944],[-77.454254625,37.59030944],[-77.454254625,37.591872009999996]]]},"properties":{"name":"BELLEVUE AVE/LAMONT ST RICH","total":1,"Mental":1}}
 ,
@@ -5659,7 +5798,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"113_92","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.591872009999996],[-77.44751525000001,37.591872009999996],[-77.44751525000001,37.59030944],[-77.448863125,37.59030944],[-77.448863125,37.591872009999996]]]},"properties":{"name":"BELLEVUE AVE/CHAMBERLAYNE AVE RICH; LL(-77:26:53.9269,37:35:29.4467): EST BELLEVUE AVE/CHAMBERLAYNE AVE RICH","total":8,"Traffic":8}}
 ,
-{"type":"Feature","id":"114_92","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.591872009999996],[-77.446167375,37.591872009999996],[-77.446167375,37.59030944],[-77.44751525000001,37.59030944],[-77.44751525000001,37.591872009999996]]]},"properties":{"name":"4200-BLK OLD BROOK RD; 4100-BLK OLD BROOK RD","total":17,"Crime":11,"Emergency":4,"Mental":1,"Traffic":1}}
+{"type":"Feature","id":"114_92","geometry":{"type":"Polygon","coordinates":[[[-77.44751525000001,37.591872009999996],[-77.446167375,37.591872009999996],[-77.446167375,37.59030944],[-77.44751525000001,37.59030944],[-77.44751525000001,37.591872009999996]]]},"properties":{"name":"4200-BLK OLD BROOK RD; 4100-BLK OLD BROOK RD; OLD BROOK RD/OLD BROOK CIR RICH","total":21,"Crime":11,"Traffic":5,"Emergency":4,"Mental":1}}
 ,
 {"type":"Feature","id":"115_92","geometry":{"type":"Polygon","coordinates":[[[-77.446167375,37.591872009999996],[-77.44481950000001,37.591872009999996],[-77.44481950000001,37.59030944],[-77.446167375,37.59030944],[-77.446167375,37.591872009999996]]]},"properties":{"name":"1000-BLK CHEATWOOD AVE","total":1,"Crime":1}}
 ,
@@ -5693,7 +5832,7 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"112_94","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.59499715],[-77.448863125,37.59499715],[-77.448863125,37.59343458],[-77.450211,37.59343458],[-77.450211,37.59499715]]]},"properties":{"name":"4300-BLK CHAMBERLAYNE AVE; 3400-BLK CHAMBERLAYNE AVE; 2400-BLK CHAMBERLAYNE AVE; 5200-BLK CHAMBERLAYNE AVE; WESTMINSTER AVE/CHAMBERLAYNE AVE RICH","total":67,"Mental":27,"Emergency":21,"Crime":17,"Traffic":2}}
 ,
-{"type":"Feature","id":"113_94","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.59499715],[-77.44751525000001,37.59499715],[-77.44751525000001,37.59343458],[-77.448863125,37.59343458],[-77.448863125,37.59499715]]]},"properties":{"name":"4300-BLK OLD BROOK RD","total":7,"Crime":6,"Mental":1}}
+{"type":"Feature","id":"113_94","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.59499715],[-77.44751525000001,37.59499715],[-77.44751525000001,37.59343458],[-77.448863125,37.59343458],[-77.448863125,37.59499715]]]},"properties":{"name":"4300-BLK OLD BROOK RD","total":10,"Crime":9,"Mental":1}}
 ,
 {"type":"Feature","id":"100_95","geometry":{"type":"Polygon","coordinates":[[[-77.4663855,37.596559719999995],[-77.46503762500001,37.596559719999995],[-77.46503762500001,37.59499715],[-77.4663855,37.59499715],[-77.4663855,37.596559719999995]]]},"properties":{"name":"HERMITAGE RD/WESTBROOK AVE RICH; WESTBROOK AVE/HERMITAGE RD RICH","total":4,"Traffic":3,"Emergency":1}}
 ,
@@ -5719,13 +5858,13 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"113_97","geometry":{"type":"Polygon","coordinates":[[[-77.448863125,37.599684859999996],[-77.44751525000001,37.599684859999996],[-77.44751525000001,37.59812229],[-77.448863125,37.59812229],[-77.448863125,37.599684859999996]]]},"properties":{"name":"LL(-77:26:54.6217,37:35:54.8628): EST 4749 OLD BROOK RD RICH","total":2,"Crime":2}}
 ,
-{"type":"Feature","id":"108_98","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.60124743],[-77.454254625,37.60124743],[-77.454254625,37.599684859999996],[-77.4556025,37.599684859999996],[-77.4556025,37.60124743]]]},"properties":{"name":"5000-BLK BROOK RD","total":6,"Crime":2,"Emergency":2,"Mental":1,"Traffic":1}}
+{"type":"Feature","id":"108_98","geometry":{"type":"Polygon","coordinates":[[[-77.4556025,37.60124743],[-77.454254625,37.60124743],[-77.454254625,37.599684859999996],[-77.4556025,37.599684859999996],[-77.4556025,37.60124743]]]},"properties":{"name":"5000-BLK BROOK RD","total":9,"Crime":4,"Emergency":3,"Mental":1,"Traffic":1}}
 ,
 {"type":"Feature","id":"109_98","geometry":{"type":"Polygon","coordinates":[[[-77.454254625,37.60124743],[-77.45290675,37.60124743],[-77.45290675,37.599684859999996],[-77.454254625,37.599684859999996],[-77.454254625,37.60124743]]]},"properties":{"name":"LL(-77:27:11.1530,37:36:04.0535): EST 5022 W SEMINARY AVE RICH","total":1,"Crime":1}}
 ,
 {"type":"Feature","id":"111_98","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.60124743],[-77.450211,37.60124743],[-77.450211,37.599684859999996],[-77.451558875,37.599684859999996],[-77.451558875,37.60124743]]]},"properties":{"name":"4900-BLK CHAMBERLAYNE AVE","total":45,"Crime":32,"Emergency":9,"Traffic":2,"Discretionary":2}}
 ,
-{"type":"Feature","id":"112_98","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.60124743],[-77.448863125,37.60124743],[-77.448863125,37.599684859999996],[-77.450211,37.599684859999996],[-77.450211,37.60124743]]]},"properties":{"name":"4900-BLK OLD BROOK RD","total":10,"Crime":7,"Discretionary":2,"Emergency":1}}
+{"type":"Feature","id":"112_98","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.60124743],[-77.448863125,37.60124743],[-77.448863125,37.599684859999996],[-77.450211,37.599684859999996],[-77.450211,37.60124743]]]},"properties":{"name":"4900-BLK OLD BROOK RD","total":15,"Crime":12,"Discretionary":2,"Emergency":1}}
 ,
 {"type":"Feature","id":"96_99","geometry":{"type":"Polygon","coordinates":[[[-77.471777,37.60281],[-77.47042912500001,37.60281],[-77.47042912500001,37.60124743],[-77.471777,37.60124743],[-77.471777,37.60281]]]},"properties":{"name":"2300-BLK ESSEX RD","total":2,"Discretionary":2}}
 ,
@@ -5737,6 +5876,6 @@ var rvaData = {"type":"FeatureCollection","features":[
 ,
 {"type":"Feature","id":"111_99","geometry":{"type":"Polygon","coordinates":[[[-77.451558875,37.60281],[-77.450211,37.60281],[-77.450211,37.60124743],[-77.451558875,37.60124743],[-77.451558875,37.60281]]]},"properties":{"name":"1000-BLK AZALEA AVE","total":25,"Crime":20,"Emergency":4,"Mental":1}}
 ,
-{"type":"Feature","id":"112_99","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.60281],[-77.448863125,37.60281],[-77.448863125,37.60124743],[-77.450211,37.60124743],[-77.450211,37.60281]]]},"properties":{"name":"CHAMBERLAYNE AVE/AZALEA AVE RICH; AZALEA AVE/CHAMBERLAYNE AVE RICH; AZALEA AVE/OLD BROOK RD RICH","total":31,"Crime":23,"Traffic":6,"Emergency":2}}
+{"type":"Feature","id":"112_99","geometry":{"type":"Polygon","coordinates":[[[-77.450211,37.60281],[-77.448863125,37.60281],[-77.448863125,37.60124743],[-77.450211,37.60124743],[-77.450211,37.60281]]]},"properties":{"name":"CHAMBERLAYNE AVE/AZALEA AVE RICH; AZALEA AVE/CHAMBERLAYNE AVE RICH; AZALEA AVE/OLD BROOK RD RICH","total":32,"Crime":23,"Traffic":7,"Emergency":2}}
 ,
 ]}
