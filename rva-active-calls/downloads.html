@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>RVA Active Calls: Download Historic Data</title>
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+</head>
+<body>
+<h1>RVA Active Calls</h1>
+<h2>Download historic data</h2>
+
+<h3>Data description</h3>
+<p>These dumps are provided as gzip-compressed CSV files.
+The columns are described below.  Columns 1--7 are copied verbatim
+from the official active calls website.  Columns 8 and 9 represent
+a best-effort geolocation for the provided location.  Caution: geolocation
+is imperfect and contains both omissions and errors.
+</p>
+<ol>
+  <li><b>time_received<b> - <tt>YYYY-MM-DD HH:MM</tt> timestamp</li>
+  <li><b>agency</b></li>
+  <li><b>dispatch_area</b></li>
+  <li><b>unit</b></li>
+  <li><b>call_type</b></li>
+  <li><b>location</b></li>
+  <li><b>status</b></li>
+  <li><b>latitude</b> - Latitude of the <tt>location</tt> field, or empty.</li>
+  <li><b>longitude</b> - Longitude of the <tt>location</tt> field, or empty.</li>
+</ol>
+
+<h3>Data downloads</h3>
+<ul>
+  <li><a href="2023.csv.gz">2023.csv.gz</a></li>
+</ul>
+
+
+<a href="index.html">Return to interactive map view.</a>
+</body>
